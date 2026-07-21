@@ -1,0 +1,21 @@
+{
+  "id": "valerian",
+  "countryIds": [
+    "at",
+    "de",
+    "gb"
+  ],
+  "nameEn": "Valerian",
+  "nameDe": "Echter Baldrian",
+  "scientificName": "Valeriana officinalis",
+  "family": "Caprifoliaceae (formerly Valerianaceae)",
+  "partsUsed": "Root and rhizome (radix)",
+  "habitat": "Damp meadows, stream banks, and woodland edges of Europe and Western Asia.",
+  "traditionalUsesEn": "Relief of mild nervous tension and sleep difficulty associated with restlessness.",
+  "traditionalUsesDe": "Linderung leichter nervöser Anspannung und Einschlafschwierigkeiten bei Unruhe.",
+  "activeCompounds": "Valerenic acid and derivatives, valepotriates (in fresh material), essential oil, GABA-related constituents",
+  "preparation": "Dried root tea, tincture, standardized extracts (capsules/tablets).",
+  "cautions": "May cause drowsiness; avoid combining with sedatives or alcohol without advice. Characteristic strong odor of dried root.",
+  "floweringSeason": "June–August",
+  "historicalNotes": "Used since classical antiquity; listed in European pharmacopoeias for mild sleep and stress support."
+}
