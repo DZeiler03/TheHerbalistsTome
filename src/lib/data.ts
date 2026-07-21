@@ -1,18 +1,49 @@
 import type { AppData, Continent, Country, Plant } from "../types";
 
+async function fetchJson<T>(url: string): Promise<T> {
+  const res = await fetch(url);
+  if (!res.ok) {
+    throw new Error(`Failed to load ${url} (${res.status})`);
+  }
+  return res.json() as Promise<T>;
+}
+
+/** Load plant JSON files in small batches to avoid connection exhaustion. */
+async function loadPlantsBatched(plantIds: string[]): Promise<Plant[]> {
+  const batchSize = 8;
+  const plants: Plant[] = [];
+  for (let i = 0; i < plantIds.length; i += batchSize) {
+    const slice = plantIds.slice(i, i + batchSize);
+    const batch = await Promise.all(
+      slice.map((id) => fetchJson<Plant>(`/data/plants/${id}.json`))
+    );
+    plants.push(...batch);
+  }
+  return plants;
+}
+
 export async function loadAppData(): Promise<AppData> {
-  const [continents, countries, plantIds] = await Promise.all([
-    fetch("/data/continents.json").then((r) => r.json()) as Promise<Continent[]>,
-    fetch("/data/countries.json").then((r) => r.json()) as Promise<Country[]>,
-    fetch("/data/plants/ids.json").then((r) => r.json()) as Promise<string[]>,
+  const [continents, countries] = await Promise.all([
+    fetchJson<Continent[]>("/data/continents.json"),
+    fetchJson<Country[]>("/data/countries.json"),
   ]);
 
-  const plants = await Promise.all(
-    plantIds.map((id) =>
-      fetch(`/data/plants/${id}.json`).then((r) => r.json()) as Promise<Plant>
-    )
-  );
+  // Prefer one aggregate file (3 total requests) when available
+  try {
+    const res = await fetch("/data/plants.json");
+    if (res.ok) {
+      const plants = (await res.json()) as Plant[];
+      if (Array.isArray(plants) && plants.length > 0) {
+        return { continents, countries, plants };
+      }
+    }
+  } catch {
+    // fall through to batched individual files
+  }
 
+  // Fallback: ids + individual monographs, batched (no 100+ parallel fetches)
+  const plantIds = await fetchJson<string[]>("/data/plants/ids.json");
+  const plants = await loadPlantsBatched(plantIds);
   return { continents, countries, plants };
 }
 
