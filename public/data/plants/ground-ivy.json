@@ -1,0 +1,43 @@
+{
+  "id": "ground-ivy",
+  "nameEn": "Ground Ivy",
+  "nameDe": "Gundermann",
+  "scientificName": "Glechoma hederacea",
+  "family": "Lamiaceae",
+  "kind": "herb",
+  "countryIds": [
+    "at",
+    "de",
+    "ch",
+    "gb",
+    "fr",
+    "pl",
+    "cz",
+    "nl"
+  ],
+  "partsUsed": "Aerial parts",
+  "partsUsedDe": "Kraut (oberirdische Teile)",
+  "habitat": "Damp woods edges, gardens and meadows of Europe.",
+  "habitatDe": "Damp woods edges, Gärten und Wiesen von Europa.",
+  "traditionalUsesEn": "Traditional spring tonic and mild respiratory folk tea.",
+  "traditionalUsesDe": "Traditionell Frühling tonic und mild respiratory folk Tee.",
+  "activeCompounds": "Essential oil, flavonoids, bitter principles",
+  "activeCompoundsDe": "Ätherisches Öl, Flavonoide, Bitterstoffe",
+  "preparation": "Herb tea; young leaves sparingly in spring greens.",
+  "preparationDe": "Kraut Tee; junge Blätter sparsam in Frühling greens.",
+  "cautions": "Contains essential oil; not for prolonged high-dose use in pregnancy without advice.",
+  "cautionsDe": "Contains ätherisches Öl; nicht für prolonged hoch-dose Verwendung in Schwangerschaft ohne fachlichen Rat.",
+  "floweringSeason": "April–July",
+  "floweringSeasonDe": "April–Juli",
+  "historicalNotes": "Creeping mint-relative of European cottage gardens.",
+  "historicalNotesDe": "Creeping mint-relative von europäisch cottage Gärten.",
+  "useCategoryIds": [
+    "respiratory",
+    "digestive",
+    "culinary"
+  ],
+  "bloomSeasons": [
+    "spring",
+    "summer"
+  ]
+}
