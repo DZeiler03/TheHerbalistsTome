@@ -1,0 +1,46 @@
+{
+  "id": "ribwort-plantain",
+  "nameEn": "Ribwort Plantain",
+  "nameDe": "Spitzwegerich",
+  "scientificName": "Plantago lanceolata",
+  "family": "Plantaginaceae",
+  "kind": "herb",
+  "countryIds": [
+    "at",
+    "de",
+    "ch",
+    "pl",
+    "cz",
+    "gb",
+    "fr",
+    "it",
+    "nl",
+    "se"
+  ],
+  "partsUsed": "Leaves, seeds",
+  "partsUsedDe": "Blätter",
+  "habitat": "Meadows, roadsides and pastures throughout Europe.",
+  "habitatDe": "Wiesen, Wegränder und Weiden in ganz Europa.",
+  "traditionalUsesEn": "Soothing leaf for coughs and minor wounds; classic European field first-aid plant.",
+  "traditionalUsesDe": "Hustenlösend und wundheilend; klassisches Kinderhustenkraut.",
+  "activeCompounds": "Mucilage, iridoid glycosides (aucubin), flavonoids",
+  "activeCompoundsDe": "Schleimstoffe, Iridoid-Glykoside (Aucubin), Gerbstoffe",
+  "preparation": "Fresh leaf poultice; dried leaf tea or syrup.",
+  "preparationDe": "Frischblatt-Umschlag; getrockneter Blatttee oder Sirup.",
+  "cautions": "Generally mild; seek care if cough persists or wounds infect.",
+  "cautionsDe": "Im Allgemeinen sehr gut verträglich. Bei anhaltendem Husten ärztlich abklären.",
+  "floweringSeason": "May–September",
+  "floweringSeasonDe": "Mai–Oktober",
+  "historicalNotes": "Spitzwegerich – the wound-and-cough companion of Central European paths.",
+  "historicalNotesDe": "Spitzwegerich der europäischen Kinder- und Hustenapotheke.",
+  "useCategoryIds": [
+    "respiratory",
+    "skin-topical",
+    "anti-inflammatory"
+  ],
+  "bloomSeasons": [
+    "spring",
+    "summer",
+    "autumn"
+  ]
+}
