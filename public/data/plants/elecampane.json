@@ -1,0 +1,42 @@
+{
+  "id": "elecampane",
+  "nameEn": "Elecampane",
+  "nameDe": "Alant",
+  "scientificName": "Inula helenium",
+  "family": "Asteraceae",
+  "kind": "herb",
+  "countryIds": [
+    "at",
+    "de",
+    "ch",
+    "pl",
+    "gb",
+    "fr",
+    "hu",
+    "tr"
+  ],
+  "partsUsed": "Root",
+  "partsUsedDe": "Wurzel",
+  "habitat": "Damp meadows and garden herb of Europe and Western Asia.",
+  "habitatDe": "Damp Wiesen und Garten Kraut von Europa und westlich Asia.",
+  "traditionalUsesEn": "Traditional aromatic bitter root for cough and digestion.",
+  "traditionalUsesDe": "Traditionell aromatic bitter Wurzel für Husten und digestion.",
+  "activeCompounds": "Inulin, sesquiterpene lactones (alantolactone), essential oil",
+  "activeCompoundsDe": "Inulin, Sesquiterpenlactone (alantolactone), ätherisches Öl",
+  "preparation": "Root decoction or tincture.",
+  "preparationDe": "Wurzel Dekokt oder Tinktur.",
+  "cautions": "Asteraceae allergy; strong sesquiterpenes may sensitize.",
+  "cautionsDe": "Asteraceae allergy; strong sesquiterpenes kann sensitize.",
+  "floweringSeason": "July–September",
+  "floweringSeasonDe": "Juli–September",
+  "historicalNotes": "Helen’s plant of European monastic gardens.",
+  "historicalNotesDe": "Helen’s Pflanze von europäisch klösterlich Gärten.",
+  "useCategoryIds": [
+    "respiratory",
+    "digestive"
+  ],
+  "bloomSeasons": [
+    "summer",
+    "autumn"
+  ]
+}

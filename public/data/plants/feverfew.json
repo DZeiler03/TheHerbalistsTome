@@ -1,0 +1,40 @@
+{
+  "id": "feverfew",
+  "nameEn": "Feverfew",
+  "nameDe": "Mutterkraut",
+  "scientificName": "Tanacetum parthenium",
+  "family": "Asteraceae",
+  "kind": "herb",
+  "countryIds": [
+    "at",
+    "de",
+    "gb",
+    "fr",
+    "it",
+    "gr",
+    "tr"
+  ],
+  "partsUsed": "Leaves, flowering tops",
+  "partsUsedDe": "Blätter, blühende Spitzen",
+  "habitat": "Garden escape and roadsides of Europe; Mediterranean origin.",
+  "habitatDe": "Gartenflüchtling und Wegränder Europas; mediterrane Herkunft.",
+  "traditionalUsesEn": "Traditional migraine and women's cycle folk herb.",
+  "traditionalUsesDe": "Traditionelles Migräne- und Frauenzyklus-Kraut der Volksmedizin.",
+  "activeCompounds": "Sesquiterpene lactones (parthenolide), essential oil",
+  "activeCompoundsDe": "Sesquiterpenlactone (Parthenolid), ätherisches Öl, Flavonoide",
+  "preparation": "Dried leaf preparations; fresh leaf traditionally chewed (irritating).",
+  "preparationDe": "Getrocknete Blattzubereitungen; frische Blätter traditionell gekaut (reizend).",
+  "cautions": "Mouth ulcers from fresh leaf; Asteraceae allergy; avoid in pregnancy.",
+  "cautionsDe": "Kann die Mundschleimhaut reizen. Nicht in der Schwangerschaft. Wechselwirkungen mit Blutverdünnern möglich.",
+  "floweringSeason": "June–September",
+  "floweringSeasonDe": "Juni–September",
+  "historicalNotes": "Feverfew of European cottage gardens and headache lore.",
+  "historicalNotesDe": "Mutterkraut der europäischen Migräne- und Frauenvolksmedizin.",
+  "useCategoryIds": [
+    "pain-relief",
+    "anti-inflammatory"
+  ],
+  "bloomSeasons": [
+    "summer"
+  ]
+}
