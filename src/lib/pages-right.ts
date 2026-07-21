@@ -77,10 +77,10 @@ export function renderRightPage(
 
   if (view.type === "countries") {
     const continent = getContinent(data, view.continentId);
-    const countries = countriesForContinent(data, view.continentId);
+    const countries = countriesForContinent(data, view.continentId, lang);
     const plantIds = new Set<string>();
     countries.forEach((c) =>
-      plantsForCountry(data, c.id).forEach((p) => plantIds.add(p.id))
+      plantsForCountry(data, c.id, lang).forEach((p) => plantIds.add(p.id))
     );
     const contName = continent ? tName(lang, continent) : view.continentId;
     return `
@@ -100,7 +100,7 @@ export function renderRightPage(
 
   if (view.type === "plants") {
     const country = getCountry(data, view.countryId);
-    const plants = country ? plantsForCountry(data, country.id) : [];
+    const plants = country ? plantsForCountry(data, country.id, lang) : [];
     return `
       <div class="page-ornament">
         ${

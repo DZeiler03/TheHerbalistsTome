@@ -93,6 +93,13 @@ describe("data helpers", () => {
     expect(plantCountForContinent(fixture, "europe")).toBe(2);
   });
 
+  it("sorts plants and countries alphabetically by language", () => {
+    const deOrder = plantsForCountry(fixture, "de", "de").map((p) => p.nameDe);
+    expect(deOrder).toEqual(["Ingwer", "Kamille"]);
+    const enOrder = plantsForCountry(fixture, "de", "en").map((p) => p.nameEn);
+    expect(enOrder).toEqual(["German Chamomile", "Ginger"]);
+  });
+
   it("plantsWithCategories filters", () => {
     expect(plantsWithCategories(fixture.plants, [])).toHaveLength(2);
     expect(plantsWithCategories(fixture.plants, ["calming"])).toHaveLength(1);

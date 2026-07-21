@@ -39,6 +39,27 @@ function normalizePlant(p: Plant): Plant {
   };
 }
 
+export type UiLang = "en" | "de";
+
+/** Locale-aware alphabetical sort by display name (DE or EN). */
+export function compareByDisplayName(
+  lang: UiLang,
+  a: { nameEn: string; nameDe: string },
+  b: { nameEn: string; nameDe: string }
+): number {
+  const locale = lang === "de" ? "de" : "en";
+  const an = (lang === "de" ? a.nameDe : a.nameEn).trim();
+  const bn = (lang === "de" ? b.nameDe : b.nameEn).trim();
+  return an.localeCompare(bn, locale, { sensitivity: "base", numeric: true });
+}
+
+export function sortByDisplayName<T extends { nameEn: string; nameDe: string }>(
+  items: T[],
+  lang: UiLang
+): T[] {
+  return [...items].sort((a, b) => compareByDisplayName(lang, a, b));
+}
+
 export async function loadAppData(): Promise<AppData> {
   const [continents, countries, useCategories] = await Promise.all([
     fetchJson<Continent[]>("/data/continents.json"),
@@ -70,15 +91,26 @@ export async function loadAppData(): Promise<AppData> {
   return { continents, countries, plants, useCategories };
 }
 
-export function plantsForCountry(data: AppData, countryId: string): Plant[] {
-  return data.plants.filter((p) => p.countryIds.includes(countryId));
+export function plantsForCountry(
+  data: AppData,
+  countryId: string,
+  lang: UiLang = "de"
+): Plant[] {
+  return sortByDisplayName(
+    data.plants.filter((p) => p.countryIds.includes(countryId)),
+    lang
+  );
 }
 
 export function countriesForContinent(
   data: AppData,
-  continentId: string
+  continentId: string,
+  lang: UiLang = "de"
 ): Country[] {
-  return data.countries.filter((c) => c.continentId === continentId);
+  return sortByDisplayName(
+    data.countries.filter((c) => c.continentId === continentId),
+    lang
+  );
 }
 
 export function plantCountForContinent(

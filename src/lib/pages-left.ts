@@ -2,6 +2,7 @@ import type { AppData, Country, Plant, View } from "../types";
 import type { Labels, Lang } from "./i18n";
 import {
   bloomingByContinent,
+  compareByDisplayName,
   countriesForContinent,
   currentBloomSeason,
   getContinent,
@@ -11,12 +12,12 @@ import {
   plantCountForContinent,
   plantsForCountry,
   plantsWithCategories,
+  sortByDisplayName,
 } from "./data";
 import { escapeAttr, escapeHtml, FLAG_URL, tDesc, tName } from "./dom";
 import { plantImageSrc } from "./plant-images";
 import { kindLabel, plantText, plantUses } from "./plant-text";
 import { getFavoriteIds, isFavorite } from "./favorites";
-import { continentMapHtml } from "./continent-maps";
 
 export interface LeftPageOpts {
   activeCategoryIds: string[];
@@ -80,7 +81,7 @@ function categoryChips(
   active: string[]
 ): string {
   if (!data.useCategories.length) return "";
-  const chips = data.useCategories
+  const chips = sortByDisplayName(data.useCategories, lang)
     .map((c) => {
       const name = lang === "de" ? c.nameDe : c.nameEn;
       const on = active.includes(c.id);
@@ -129,7 +130,7 @@ export function renderLeftPage(
       </header>
       ${categoryChips(data, lang, L, active)}
       <div class="continent-grid">
-        ${data.continents
+        ${sortByDisplayName(data.continents, lang)
           .map((c) => {
             const n = plantCountForContinent(data, c.id);
             const emoji = CONTINENT_EMOJI[c.id] ?? "🌿";
@@ -154,7 +155,7 @@ export function renderLeftPage(
 
   if (view.type === "countries") {
     const continent = getContinent(data, view.continentId);
-    const countries = countriesForContinent(data, view.continentId);
+    const countries = countriesForContinent(data, view.continentId, lang);
     const contName = continent ? tName(lang, continent) : view.continentId;
     return `
       ${breadcrumb([
@@ -166,16 +167,11 @@ export function renderLeftPage(
         <h2 class="page-title">${continent ? escapeHtml(tName(lang, continent)) : ""}</h2>
         <p class="page-desc">${continent ? escapeHtml(tDesc(lang, continent)) : ""}</p>
       </header>
-      ${continentMapHtml(
-        view.continentId,
-        escapeAttr(`${L.continentMap}: ${contName}`),
-        "continent-map continent-map-left"
-      )}
       ${categoryChips(data, lang, L, active)}
       <div class="item-list">
         ${countries
           .map((c) => {
-            let plants = plantsForCountry(data, c.id);
+            let plants = plantsForCountry(data, c.id, lang);
             plants = plantsWithCategories(plants, active);
             return `
               <button type="button" class="item-card" data-country="${c.id}">
@@ -198,7 +194,7 @@ export function renderLeftPage(
     const continent = country
       ? getContinent(data, country.continentId)
       : undefined;
-    let plants = plantsForCountry(data, view.countryId);
+    let plants = plantsForCountry(data, view.countryId, lang);
     plants = plantsWithCategories(plants, active);
     return `
       ${breadcrumb([
@@ -232,10 +228,17 @@ export function renderLeftPage(
   if (view.type === "plant") {
     const plant = getPlant(data, view.plantId);
     if (!plant) return `<p class="empty-state">${L.unknown}</p>`;
-    const countries = plant.countryIds
-      .map((id) => getCountry(data, id))
-      .filter((c): c is Country => !!c);
-    const primary = countries[0];
+    const countries = sortByDisplayName(
+      plant.countryIds
+        .map((id) => getCountry(data, id))
+        .filter((c): c is Country => !!c),
+      lang
+    );
+    // Primary for breadcrumb: first associated country in data order, else first A–Z
+    const primary =
+      plant.countryIds
+        .map((id) => getCountry(data, id))
+        .find((c): c is Country => !!c) ?? countries[0];
     const continent = primary
       ? getContinent(data, primary.continentId)
       : undefined;
@@ -248,12 +251,12 @@ export function renderLeftPage(
     let navIds = view.navIds?.filter((id) => data.plants.some((p) => p.id === id)) ?? [];
     if (navIds.length < 2 && primary) {
       navIds = plantsWithCategories(
-        plantsForCountry(data, primary.id),
+        plantsForCountry(data, primary.id, lang),
         active
       ).map((p) => p.id);
     }
     if (navIds.length < 2) {
-      navIds = data.plants.map((p) => p.id);
+      navIds = sortByDisplayName(data.plants, lang).map((p) => p.id);
     }
     const idx = Math.max(0, navIds.indexOf(plant.id));
     const prevId = navIds[(idx - 1 + navIds.length) % navIds.length];
@@ -366,7 +369,10 @@ export function renderLeftPage(
 
   if (view.type === "favorites") {
     const favIds = new Set(getFavoriteIds());
-    const plants = data.plants.filter((p) => favIds.has(p.id));
+    const plants = sortByDisplayName(
+      data.plants.filter((p) => favIds.has(p.id)),
+      lang
+    );
     return `
       <header class="page-header">
         <p class="page-eyebrow">${L.favorites}</p>
@@ -393,7 +399,12 @@ export function renderLeftPage(
           : season === "autumn"
             ? L.seasonAutumn
             : L.seasonWinter;
-    const groups = bloomingByContinent(data, season);
+    const groups = bloomingByContinent(data, season)
+      .map((g) => ({
+        ...g,
+        plants: sortByDisplayName(g.plants, lang),
+      }))
+      .sort((a, b) => compareByDisplayName(lang, a.continent, b.continent));
     const seasonBtns: { id: "spring" | "summer" | "autumn" | "winter"; label: string }[] =
       [
         { id: "spring", label: L.seasonSpring },

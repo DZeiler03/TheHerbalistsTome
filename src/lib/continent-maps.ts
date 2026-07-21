@@ -23,16 +23,18 @@ export function continentMapHtml(
   const src = continentMapSrc(continentId);
   if (!src) return "";
   return `
-    <figure class="${className}-wrap">
-      <img
-        class="${className}"
-        src="${src}"
-        alt="${alt}"
-        width="320"
-        height="240"
-        loading="lazy"
-        decoding="async"
-      />
+    <figure class="continent-map-wrap">
+      <div class="continent-map-frame">
+        <img
+          class="${className}"
+          src="${src}"
+          alt="${alt}"
+          width="360"
+          height="280"
+          loading="lazy"
+          decoding="async"
+        />
+      </div>
     </figure>
   `;
 }
