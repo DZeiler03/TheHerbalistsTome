@@ -4,7 +4,7 @@ export async function loadAppData(): Promise<AppData> {
   const [continents, countries, plantIds] = await Promise.all([
     fetch("/data/continents.json").then((r) => r.json()) as Promise<Continent[]>,
     fetch("/data/countries.json").then((r) => r.json()) as Promise<Country[]>,
-    fetch("/data/plants/index.json").then((r) => r.json()) as Promise<string[]>,
+    fetch("/data/plants/ids.json").then((r) => r.json()) as Promise<string[]>,
   ]);
 
   const plants = await Promise.all(

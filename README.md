@@ -22,11 +22,13 @@ Browse medicinal plants by **Continent → Country (flags) → Plant**, with bil
 
 ## Data
 
-| File | Content |
-|------|---------|
+| File / path | Content |
+|-------------|---------|
 | `public/data/continents.json` | Continents (EN/DE) |
 | `public/data/countries.json` | Countries + ISO flag codes |
-| `public/data/plants.json` | Plant monographs |
+| `public/data/plants/ids.json` | Ordered list of plant IDs |
+| `public/data/plants/*.json` | Individual plant monographs (21) |
+| `public/data/plants.json` | Aggregate dump of all plants (optional) |
 
 Where reliable information is unavailable, fields use **Unknown**.
 
