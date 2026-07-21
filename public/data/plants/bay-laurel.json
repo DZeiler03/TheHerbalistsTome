@@ -1,0 +1,22 @@
+{
+  "id": "bay-laurel",
+  "countryIds": [
+    "tr",
+    "gr",
+    "it",
+    "pt"
+  ],
+  "nameEn": "Bay Laurel",
+  "nameDe": "Echter Lorbeer",
+  "scientificName": "Laurus nobilis",
+  "family": "Lauraceae",
+  "partsUsed": "Leaves",
+  "habitat": "Mediterranean scrub; cultivated ornamental and culinary tree.",
+  "traditionalUsesEn": "Culinary seasoning; traditional digestive teas in Mediterranean folk practice.",
+  "traditionalUsesDe": "Küchengewürz; traditionelle Verdauungstees im Mittelmeerraum.",
+  "activeCompounds": "Essential oil (1,8-cineole, others), sesquiterpene lactones",
+  "preparation": "Dried leaves in cooking; occasional leaf infusion.",
+  "cautions": "Do not confuse with cherry laurel (Prunus laurocerasus), which is toxic. Essential oil not for casual internal use.",
+  "floweringSeason": "Spring (small yellow flowers)",
+  "historicalNotes": "Symbol of victory in classical antiquity; Apollo’s plant in myth."
+}
