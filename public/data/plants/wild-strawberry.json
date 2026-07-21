@@ -1,0 +1,43 @@
+{
+  "id": "wild-strawberry",
+  "nameEn": "Wild Strawberry",
+  "nameDe": "Walderdbeere",
+  "scientificName": "Fragaria vesca",
+  "family": "Rosaceae",
+  "kind": "herb",
+  "countryIds": [
+    "at",
+    "de",
+    "ch",
+    "pl",
+    "fr",
+    "se",
+    "no",
+    "cz"
+  ],
+  "partsUsed": "Leaves, fruit",
+  "partsUsedDe": "Blätter, Frucht",
+  "habitat": "Woodland edges and clearings of Europe.",
+  "habitatDe": "Woodland edges und Lichtungen von Europa.",
+  "traditionalUsesEn": "Mild astringent leaf tea; treasured wild fruit.",
+  "traditionalUsesDe": "Mild astringent Blatt Tee; treasured wild Frucht.",
+  "activeCompounds": "Tannins, flavonoids, vitamin C in fruit",
+  "activeCompoundsDe": "Tannins, Flavonoide, vitamin C in Frucht",
+  "preparation": "Leaf tea; fresh berries.",
+  "preparationDe": "Blatt Tee; frisch Beeren.",
+  "cautions": "Generally mild; rare strawberry allergy.",
+  "cautionsDe": "Im Allgemeinen mild; rare strawberry allergy.",
+  "floweringSeason": "April–June; fruit early summer",
+  "floweringSeasonDe": "April–June; Frucht früh Sommer",
+  "historicalNotes": "Forest jewels of Alpine and lowland Europe.",
+  "historicalNotesDe": "Forest jewels von alpin und lowland Europa.",
+  "useCategoryIds": [
+    "digestive",
+    "culinary",
+    "nutritive"
+  ],
+  "bloomSeasons": [
+    "spring",
+    "summer"
+  ]
+}
