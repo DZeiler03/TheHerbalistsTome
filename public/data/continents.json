@@ -14,11 +14,18 @@
     "descriptionDe": "Heimat von Ayurveda, Traditioneller Chinesischer Medizin und jahrtausendealten Gewürz- und Tee-Traditionen."
   },
   {
-    "id": "americas",
-    "nameEn": "The Americas",
-    "nameDe": "Amerika",
-    "descriptionEn": "Indigenous and colonial herbal knowledge spanning rainforests, prairies, and high Andes.",
-    "descriptionDe": "Indigenes und kolonial geprägtes Kräuterwissen von Regenwäldern über Prärien bis zu den Anden."
+    "id": "north-america",
+    "nameEn": "North America",
+    "nameDe": "Nordamerika",
+    "descriptionEn": "Prairie, woodland, and Mesoamerican herbal traditions of the northern continent.",
+    "descriptionDe": "Prärie-, Wald- und mesoamerikanische Kräutertraditionen des nördlichen Kontinents."
+  },
+  {
+    "id": "south-america",
+    "nameEn": "South America",
+    "nameDe": "Südamerika",
+    "descriptionEn": "Rainforest, Andes, and Southern Cone plant lore of the southern continent.",
+    "descriptionDe": "Regenwald-, Anden- und Südspitzen-Pflanzenkunde des südlichen Kontinents."
   },
   {
     "id": "africa",
