@@ -1,0 +1,304 @@
+/* Lists / cards */
+.item-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+}
+
+.item-card {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+  width: 100%;
+  text-align: left;
+  padding: 0.75rem 0.9rem;
+  background: rgba(255, 250, 235, 0.45);
+  border: 1px solid rgba(90, 61, 40, 0.15);
+  border-left: 3px solid var(--accent-green);
+  box-shadow: 1px 2px 0 rgba(90, 61, 40, 0.08);
+  transition: background 0.12s, transform 0.12s, box-shadow 0.12s;
+}
+
+.item-card:hover {
+  background: rgba(255, 252, 240, 0.85);
+  transform: translateX(3px);
+  box-shadow: 2px 3px 0 rgba(90, 61, 40, 0.12);
+}
+
+.item-card .flag {
+  width: 36px;
+  height: 24px;
+  object-fit: cover;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 1px 1px 0 rgba(0, 0, 0, 0.1);
+  flex-shrink: 0;
+  image-rendering: auto;
+}
+
+.item-card .icon-leaf {
+  width: 28px;
+  height: 28px;
+  flex-shrink: 0;
+  display: grid;
+  place-items: center;
+  font-size: 1.1rem;
+  background: rgba(61, 92, 46, 0.12);
+  border: 1px solid rgba(61, 92, 46, 0.25);
+}
+
+.item-card .meta {
+  min-width: 0;
+  flex: 1;
+}
+
+.item-card .name {
+  font-family: var(--font-display);
+  font-size: 1rem;
+  color: var(--ink);
+  letter-spacing: 0.03em;
+}
+
+.item-card .sub {
+  font-size: 0.95rem;
+  font-style: italic;
+  color: var(--ink-soft);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.item-card .count {
+  font-family: var(--font-display);
+  font-size: 0.7rem;
+  color: var(--gold-dim);
+  background: rgba(212, 168, 75, 0.15);
+  padding: 0.25rem 0.5rem;
+  border: 1px solid rgba(212, 168, 75, 0.3);
+  flex-shrink: 0;
+}
+
+/* Continent map-style tiles */
+.continent-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.6rem;
+}
+
+.continent-card {
+  display: block;
+  width: 100%;
+  text-align: left;
+  padding: 1rem 1.1rem;
+  background:
+    linear-gradient(135deg, rgba(255, 252, 240, 0.7) 0%, rgba(232, 213, 168, 0.35) 100%);
+  border: 2px solid rgba(90, 61, 40, 0.18);
+  position: relative;
+  transition: border-color 0.15s, transform 0.12s, box-shadow 0.12s;
+}
+
+.continent-card:hover {
+  border-color: var(--accent-green);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 0 rgba(90, 61, 40, 0.15);
+}
+
+.continent-card .name {
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  letter-spacing: 0.06em;
+  color: var(--ink);
+  margin-bottom: 0.3rem;
+}
+
+.continent-card .desc {
+  font-size: 0.98rem;
+  line-height: 1.4;
+  color: var(--ink-soft);
+}
+
+.continent-card .arrow {
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--gold-dim);
+  font-size: 1.2rem;
+  opacity: 0.6;
+}
+
+/* Plant detail */
+.plant-detail .scientific {
+  font-style: italic;
+  font-size: 1.15rem;
+  color: var(--accent-green);
+  margin-bottom: 0.35rem;
+}
+
+.plant-detail .family {
+  font-family: var(--font-display);
+  font-size: 0.72rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink-faded);
+  margin-bottom: 1.25rem;
+}
+
+.fact-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+}
+
+.fact-block {
+  border-top: 1px solid rgba(90, 61, 40, 0.15);
+  padding-top: 0.65rem;
+}
+
+.fact-block h4 {
+  font-family: var(--font-display);
+  font-size: 0.72rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--gold-dim);
+  margin-bottom: 0.3rem;
+}
+
+.fact-block p {
+  font-size: 1.05rem;
+  line-height: 1.5;
+  color: var(--ink);
+}
+
+.plant-flags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.plant-flags .chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.25rem 0.55rem;
+  background: rgba(255, 250, 235, 0.6);
+  border: 1px solid rgba(90, 61, 40, 0.15);
+  font-size: 0.9rem;
+  color: var(--ink-soft);
+}
+
+.plant-flags .chip img {
+  width: 22px;
+  height: 15px;
+  object-fit: cover;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+/* Right page decoration / empty */
+.page-ornament {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem;
+  color: var(--ink-faded);
+}
+
+.page-ornament .big-leaf {
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+  opacity: 0.45;
+  filter: grayscale(0.3);
+}
+
+.page-ornament h3 {
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  letter-spacing: 0.12em;
+  color: var(--ink-soft);
+  margin-bottom: 0.75rem;
+}
+
+.page-ornament p {
+  font-size: 1.05rem;
+  font-style: italic;
+  max-width: 16rem;
+  line-height: 1.5;
+}
+
+.page-ornament .folio {
+  margin-top: 2rem;
+  font-family: var(--font-display);
+  font-size: 0.7rem;
+  letter-spacing: 0.2em;
+  opacity: 0.5;
+}
+
+/* Empty / no results */
+.empty-state {
+  text-align: center;
+  padding: 2.5rem 1rem;
+  color: var(--ink-faded);
+  font-style: italic;
+  font-size: 1.1rem;
+}
+
+/* Footer bar under book */
+.book-footer {
+  width: var(--book-w);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: var(--font-display);
+  font-size: 0.68rem;
+  letter-spacing: 0.12em;
+  color: var(--ink-faded);
+  text-transform: uppercase;
+}
+
+.book-footer .brand {
+  color: var(--gold-dim);
+}
+
+/* Loading */
+.loading {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--gold);
+  font-family: var(--font-display);
+  letter-spacing: 0.15em;
+  font-size: 0.95rem;
+}
+
+/* Pixel edge accents on cover corners */
+.corner-stud {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: linear-gradient(135deg, var(--gold) 0%, var(--gold-dim) 100%);
+  border: 1px solid #1a0e08;
+  z-index: 4;
+  image-rendering: pixelated;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+}
+
+.corner-stud.tl {
+  top: 10px;
+  left: 38px;
+}
+.corner-stud.tr {
+  top: 10px;
+  right: 10px;
+}
+.corner-stud.bl {
+  bottom: 10px;
+  left: 38px;
+}
+.corner-stud.br {
+  bottom: 10px;
+  right: 10px;
+}
