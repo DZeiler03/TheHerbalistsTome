@@ -1,0 +1,20 @@
+{
+  "id": "american-ginseng",
+  "countryIds": [
+    "us",
+    "ca"
+  ],
+  "nameEn": "American Ginseng",
+  "nameDe": "Amerikanischer Ginseng",
+  "scientificName": "Panax quinquefolius",
+  "family": "Araliaceae",
+  "partsUsed": "Root",
+  "habitat": "Deciduous forests of eastern North America; heavily wild-harvest regulated.",
+  "traditionalUsesEn": "Traditional tonic parallel to Asian ginseng; major export to Chinese markets historically.",
+  "traditionalUsesDe": "Traditionelles Tonikum parallel zum asiatischen Ginseng; historisch großer Export nach China.",
+  "activeCompounds": "Ginsenosides (profile differs from P. ginseng)",
+  "preparation": "Dried root, extracts, teas.",
+  "cautions": "Similar cautions as Asian ginseng regarding drugs and long self-medication. CITES-related trade rules apply to wild roots.",
+  "floweringSeason": "Summer",
+  "historicalNotes": "Drove 18th–19th century trade from Appalachia to China."
+}

@@ -1,8 +1,10 @@
 {
   "id": "aloe-vera",
   "countryIds": [
+    "eg",
+    "in",
     "mx",
-    "eg"
+    "za"
   ],
   "nameEn": "Aloe Vera",
   "nameDe": "Echte Aloe",

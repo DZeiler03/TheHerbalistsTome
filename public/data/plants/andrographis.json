@@ -1,0 +1,22 @@
+{
+  "id": "andrographis",
+  "countryIds": [
+    "in",
+    "th",
+    "vn",
+    "cn"
+  ],
+  "nameEn": "Andrographis / King of Bitters",
+  "nameDe": "Andrographis / Kalmegh",
+  "scientificName": "Andrographis paniculata",
+  "family": "Acanthaceae",
+  "partsUsed": "Aerial parts",
+  "habitat": "South and SE Asia; common in Indian and Thai herbalism.",
+  "traditionalUsesEn": "Intensely bitter traditional herb for feverish colds in Ayurveda and Thai medicine.",
+  "traditionalUsesDe": "Sehr bitteres traditionelles Kraut bei fiebrigen Erkältungen in Ayurveda und thailändischer Medizin.",
+  "activeCompounds": "Andrographolide and related diterpene lactones",
+  "preparation": "Dried herb decoctions, standardized extracts.",
+  "cautions": "Very bitter. May affect fertility and immune drugs—professional advice. Not for pregnancy.",
+  "floweringSeason": "Year-round in tropics",
+  "historicalNotes": "Called king of bitters; WHO monographs discuss traditional cold use."
+}
