@@ -1,0 +1,20 @@
+{
+  "id": "tea",
+  "countryIds": [
+    "cn",
+    "in"
+  ],
+  "nameEn": "Tea Plant",
+  "nameDe": "Tee-Strauch",
+  "scientificName": "Camellia sinensis",
+  "family": "Theaceae",
+  "partsUsed": "Young leaves and leaf buds",
+  "habitat": "Native to East Asia; cultivated in China, India, Sri Lanka, Japan, and many tropical highlands.",
+  "traditionalUsesEn": "Stimulant beverage (caffeine); traditional Chinese medicinal classifications vary by tea type (green, black, oolong, white).",
+  "traditionalUsesDe": "Anregendes Getränk (Koffein); in der chinesischen Tradition je nach Teesorte (grün, schwarz, Oolong, weiß) unterschiedlich eingeordnet.",
+  "activeCompounds": "Catechins (EGCG especially in green tea), caffeine, theanine, flavonoids",
+  "preparation": "Infusion of fresh or oxidized leaves; matcha is stone-ground shade-grown green tea.",
+  "cautions": "Caffeine content; high intake of green tea extracts has been linked to rare liver issues—food use is generally safe. Tannins may reduce iron absorption with meals.",
+  "floweringSeason": "Autumn–winter (depending on climate)",
+  "historicalNotes": "Chinese cultivation and use date back millennia; global trade shaped modern world history."
+}

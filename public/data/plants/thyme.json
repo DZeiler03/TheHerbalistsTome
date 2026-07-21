@@ -1,0 +1,22 @@
+{
+  "id": "thyme",
+  "countryIds": [
+    "gr",
+    "es",
+    "it",
+    "fr"
+  ],
+  "nameEn": "Common Thyme",
+  "nameDe": "Echter Thymian",
+  "scientificName": "Thymus vulgaris",
+  "family": "Lamiaceae",
+  "partsUsed": "Aerial parts (herba), especially leaves and flowering tops",
+  "habitat": "Dry, rocky Mediterranean hillsides; widely cultivated.",
+  "traditionalUsesEn": "Productive coughs and colds (traditional expectorant), oral inflammation, digestive complaints; culinary herb.",
+  "traditionalUsesDe": "Produktiver Husten und Erkältungen (traditionell schleimlösend), Entzündungen im Mundraum, Verdauungsbeschwerden; Küchenkraut.",
+  "activeCompounds": "Essential oil (thymol, carvacrol), flavonoids, tannins",
+  "preparation": "Herb tea, syrups, gargles; culinary use; diluted essential oil in external products.",
+  "cautions": "Essential oil is potent and must be diluted; not for undiluted internal use. High thymol content can irritate mucous membranes.",
+  "floweringSeason": "May–September",
+  "historicalNotes": "Ancient Greek and Roman culinary and medicinal herb; thymol remains a well-studied monoterpene phenol."
+}
