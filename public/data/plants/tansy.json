@@ -1,0 +1,41 @@
+{
+  "id": "tansy",
+  "nameEn": "Tansy",
+  "nameDe": "Rainfarn",
+  "scientificName": "Tanacetum vulgare",
+  "family": "Asteraceae",
+  "kind": "herb",
+  "countryIds": [
+    "at",
+    "de",
+    "pl",
+    "gb",
+    "fr",
+    "se",
+    "cz",
+    "nl"
+  ],
+  "partsUsed": "Flowering tops (caution)",
+  "partsUsedDe": "Kraut, blühende Spitzen",
+  "habitat": "Roadsides and waste ground of Europe.",
+  "habitatDe": "Wegränder und Ödland Europas.",
+  "traditionalUsesEn": "Historical bitter and vermifuge; modern internal use discouraged (thujone).",
+  "traditionalUsesDe": "Historisch bitter und anthelmintisch; moderne Nutzung stark eingeschränkt.",
+  "activeCompounds": "Essential oil (thujone), sesquiterpene lactones",
+  "activeCompoundsDe": "Ätherisches Öl (Thujon), Bitterstoffe, Sesquiterpenlactone",
+  "preparation": "Primarily historical interest; avoid DIY internal use.",
+  "preparationDe": "Historisch Tee und Räucherwerk; heute wegen Thujon kaum innerlich empfohlen.",
+  "cautions": "Thujone toxicity — do not use internally as crude herb.",
+  "cautionsDe": "Thujonreich und potenziell giftig – nicht innerlich in Eigenregie. Schwangerschaft absolut meiden.",
+  "floweringSeason": "July–September",
+  "floweringSeasonDe": "Juli–September",
+  "historicalNotes": "Button-gold clusters of European waysides.",
+  "historicalNotesDe": "Historisches Wurmmittel und Totengeleitkraut; heute mit Vorsicht betrachtet.",
+  "useCategoryIds": [
+    "digestive"
+  ],
+  "bloomSeasons": [
+    "summer",
+    "autumn"
+  ]
+}
