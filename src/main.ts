@@ -1,6 +1,7 @@
 import "./styles/start.css";
 import "./styles/book-a.css";
 import "./styles/book-b.css";
+import "./styles/print.css";
 import type { AppData, View } from "./types";
 import { loadAppData, searchPlants } from "./lib/data";
 import { ensurePlantImages } from "./lib/plant-images";
@@ -8,27 +9,61 @@ import { labels, type Lang } from "./lib/i18n";
 import { escapeAttr } from "./lib/dom";
 import { renderLeftPage } from "./lib/pages-left";
 import { renderRightPage } from "./lib/pages-right";
+import { toggleFavorite } from "./lib/favorites";
 
-let data: AppData = { continents: [], countries: [], plants: [] };
+let data: AppData = {
+  continents: [],
+  countries: [],
+  plants: [],
+  useCategories: [],
+};
 let view: View = { type: "start" };
-let lang: Lang = "en";
+let lang: Lang = "de";
 let searchQuery = "";
 let isTurning = false;
 let historyStack: View[] = [];
+let activeCategoryIds: string[] = [];
 
 const app = document.querySelector<HTMLDivElement>("#app")!;
+
+/** Keyboard ←/→ on plant detail (single global listener). */
+function onPlantKeyNav(ev: KeyboardEvent): void {
+  if (view.type !== "plant") return;
+  if (ev.key !== "ArrowLeft" && ev.key !== "ArrowRight") return;
+  const tag = (ev.target as HTMLElement | null)?.tagName;
+  if (tag === "INPUT" || tag === "TEXTAREA") return;
+  const sel =
+    ev.key === "ArrowLeft" ? '[data-plant-nav="prev"]' : '[data-plant-nav="next"]';
+  const btn = app.querySelector<HTMLElement>(sel);
+  if (!btn || btn.hasAttribute("disabled")) return;
+  ev.preventDefault();
+  const target = btn.dataset.target;
+  if (!target) return;
+  const ids =
+    view.type === "plant" && view.navIds && view.navIds.length > 1
+      ? view.navIds
+      : undefined;
+  navigate({ type: "plant", plantId: target, navIds: ids }, false);
+}
+window.addEventListener("keydown", onPlantKeyNav);
 
 function navigate(next: View, pushHistory = true): void {
   if (isTurning) return;
   if (view.type === "start" && next.type !== "start") {
+    // Opening flourish
+    isTurning = true;
     view = next;
     render();
+    const book = document.querySelector(".book");
+    book?.classList.add("book-opening");
+    window.setTimeout(() => {
+      book?.classList.remove("book-opening");
+      isTurning = false;
+    }, 600);
     return;
   }
   if (next.type === "start") {
-    historyStack = [];
-    view = next;
-    render();
+    closeBookAnimated();
     return;
   }
   if (pushHistory && view.type !== "start") historyStack.push(view);
@@ -53,19 +88,33 @@ function goHome(): void {
   navigate({ type: "continents" }, false);
 }
 
+function closeBookAnimated(): void {
+  if (isTurning) return;
+  if (view.type === "start") return;
+  isTurning = true;
+  const book = document.querySelector(".book");
+  book?.classList.add("book-closing");
+  window.setTimeout(() => {
+    historyStack = [];
+    searchQuery = "";
+    activeCategoryIds = [];
+    view = { type: "start" };
+    isTurning = false;
+    render();
+  }, 650);
+}
+
 function render(): void {
   const L = labels(lang);
 
   if (view.type === "start") {
     app.innerHTML = `
       <div class="mobile-gate"><h1>${L.mobileTitle}</h1><p>${L.mobileBody}</p></div>
-      <div class="start-page leather-bg desktop-only">
+      <div class="start-page leather-bg desktop-app">
         <div class="start-atmosphere" aria-hidden="true">
           <span class="float-leaf l1">🌿</span>
           <span class="float-leaf l2">🍃</span>
           <span class="float-leaf l3">✦</span>
-          <span class="float-leaf l4">🌿</span>
-          <span class="float-leaf l5">✦</span>
           <span class="gold-glow"></span>
         </div>
         <div class="start-content">
@@ -92,23 +141,30 @@ function render(): void {
   const canBack = historyStack.length > 0 || view.type !== "continents";
 
   app.innerHTML = `
-    <div class="mobile-gate"><h1>${L.mobileTitle}</h1><p>${L.mobileBody}</p></div>
-    <div class="book-view leather-bg desktop-only">
+    <div class="mobile-gate extreme"><h1>${L.mobileTitle}</h1><p>${L.mobileBody}</p></div>
+    <div class="book-view leather-bg desktop-app">
       <div class="book-toolbar">
         <button type="button" class="btn-icon" id="btn-back" ${canBack ? "" : "disabled"}>${L.back}</button>
         <button type="button" class="btn-icon" id="btn-home">${L.home}</button>
+        <button type="button" class="btn-icon" id="btn-favorites" title="${L.favorites}">★ ${L.favorites}</button>
+        <button type="button" class="btn-icon" id="btn-season" title="${L.seasonal}">❀</button>
+        <button type="button" class="btn-icon btn-close-book" id="btn-close" title="${L.closeBook}">${L.closeBook}</button>
         <div class="search-wrap">
           <span class="search-icon">⌕</span>
           <input type="search" id="search-input" placeholder="${L.search}" value="${escapeAttr(searchQuery)}" autocomplete="off" />
         </div>
-        <button type="button" class="lang-toggle" id="btn-lang" title="Language">${lang.toUpperCase()}</button>
+        <button type="button" class="lang-toggle" id="btn-lang">${lang.toUpperCase()}</button>
       </div>
       <div class="book">
         <div class="book-cover">
           <span class="corner-stud tl"></span><span class="corner-stud tr"></span>
           <span class="corner-stud bl"></span><span class="corner-stud br"></span>
+          <span class="corner-wear tl" aria-hidden="true"></span>
+          <span class="corner-wear tr" aria-hidden="true"></span>
+          <span class="corner-wear bl" aria-hidden="true"></span>
+          <span class="corner-wear br" aria-hidden="true"></span>
           <div class="book-inner">
-            <div class="page page-left"><div class="page-content">${renderLeftPage(data, view, lang, L)}</div></div>
+            <div class="page page-left"><div class="page-content" id="page-left-root">${renderLeftPage(data, view, lang, L, { activeCategoryIds })}</div></div>
             <div class="page page-right"><div class="page-content">${renderRightPage(data, view, lang, L)}</div></div>
             <div class="page-flip" aria-hidden="true"></div>
           </div>
@@ -116,7 +172,7 @@ function render(): void {
       </div>
       <div class="book-footer">
         <span class="brand">The Herbalists Tome</span>
-        <span>Dominik Zeiler · ${data.plants.length} specimens · ${data.countries.length} lands</span>
+        <span class="footer-count" title="${escapeAttr(L.tomeCountLabel)}"><strong>${data.plants.length}</strong> ${lang === "de" ? "Exemplare" : "specimens"} · ${data.countries.length} ${lang === "de" ? "Länder" : "lands"}</span>
       </div>
     </div>`;
 
@@ -126,6 +182,15 @@ function render(): void {
 function bindEvents(): void {
   document.getElementById("btn-back")?.addEventListener("click", goBack);
   document.getElementById("btn-home")?.addEventListener("click", goHome);
+  document.getElementById("btn-close")?.addEventListener("click", () =>
+    closeBookAnimated()
+  );
+  document.getElementById("btn-favorites")?.addEventListener("click", () =>
+    navigate({ type: "favorites" })
+  );
+  document.getElementById("btn-season")?.addEventListener("click", () =>
+    navigate({ type: "season", season: undefined })
+  );
   document.getElementById("btn-lang")?.addEventListener("click", () => {
     lang = lang === "en" ? "de" : "en";
     render();
@@ -150,13 +215,6 @@ function bindEvents(): void {
       );
     }, 220);
   });
-  input?.addEventListener("keydown", (e) => {
-    if (e.key === "Escape") {
-      searchQuery = "";
-      input.value = "";
-      if (view.type === "search") navigate({ type: "continents" }, false);
-    }
-  });
 
   app.querySelectorAll<HTMLElement>("[data-continent]").forEach((el) =>
     el.addEventListener("click", () =>
@@ -169,9 +227,79 @@ function bindEvents(): void {
     )
   );
   app.querySelectorAll<HTMLElement>("[data-plant]").forEach((el) =>
-    el.addEventListener("click", () =>
-      navigate({ type: "plant", plantId: el.dataset.plant! })
-    )
+    el.addEventListener("click", (e) => {
+      if ((e.target as HTMLElement).closest("[data-fav]")) return;
+      // Sibling plants currently listed → prev/next context
+      const navIds = Array.from(
+        app.querySelectorAll<HTMLElement>("#page-left-root [data-plant]")
+      )
+        .map((node) => node.dataset.plant)
+        .filter((id): id is string => !!id);
+      navigate({
+        type: "plant",
+        plantId: el.dataset.plant!,
+        navIds: navIds.length > 1 ? navIds : undefined,
+      });
+    })
+  );
+  const goPlantNav = (target: string | undefined): void => {
+    if (!target) return;
+    const ids =
+      view.type === "plant" && view.navIds && view.navIds.length > 1
+        ? view.navIds
+        : undefined;
+    navigate({ type: "plant", plantId: target, navIds: ids }, false);
+  };
+  app.querySelectorAll<HTMLElement>("[data-plant-nav]").forEach((el) =>
+    el.addEventListener("click", (e) => {
+      e.stopPropagation();
+      if (el.hasAttribute("disabled")) return;
+      goPlantNav(el.dataset.target);
+    })
+  );
+  app.querySelectorAll<HTMLElement>("[data-season]").forEach((el) =>
+    el.addEventListener("click", () => {
+      const season = el.dataset.season as
+        | "spring"
+        | "summer"
+        | "autumn"
+        | "winter"
+        | undefined;
+      if (!season) return;
+      navigate({ type: "season", season }, view.type !== "season");
+    })
+  );
+  app.querySelectorAll<HTMLElement>("[data-fav]").forEach((el) =>
+    el.addEventListener("click", (e) => {
+      e.stopPropagation();
+      const id = el.dataset.fav!;
+      toggleFavorite(id);
+      render();
+    })
+  );
+  app.querySelectorAll<HTMLElement>("[data-category]").forEach((el) =>
+    el.addEventListener("click", () => {
+      const id = el.dataset.category!;
+      if (activeCategoryIds.includes(id)) {
+        activeCategoryIds = activeCategoryIds.filter((x) => x !== id);
+      } else {
+        activeCategoryIds = [...activeCategoryIds, id];
+      }
+      render();
+    })
+  );
+  app.querySelectorAll<HTMLElement>("[data-category-clear]").forEach((el) =>
+    el.addEventListener("click", () => {
+      activeCategoryIds = [];
+      render();
+    })
+  );
+  app.querySelectorAll<HTMLElement>("[data-print]").forEach((el) =>
+    el.addEventListener("click", () => {
+      document.body.classList.add("printing-plant");
+      window.print();
+      window.setTimeout(() => document.body.classList.remove("printing-plant"), 500);
+    })
   );
   app.querySelectorAll<HTMLElement>("[data-nav]").forEach((el) =>
     el.addEventListener("click", () => {
@@ -189,18 +317,18 @@ function bindEvents(): void {
 }
 
 async function boot(): Promise<void> {
-  app.innerHTML = `<div class="loading leather-bg">${labels(lang).loading}</div>`;
+  const L = labels(lang);
+  app.innerHTML = `<div class="loading leather-bg">${L.loading}</div>`;
   try {
     data = await loadAppData();
-    // Images load on demand; never block or fail boot on portraits
     void ensurePlantImages();
     render();
   } catch (err) {
     console.error(err);
     app.innerHTML = `<div class="loading leather-bg" style="flex-direction:column;gap:1rem;color:#e8c96a">
-      <p>Failed to load tome data.</p>
+      <p>${L.failedLoad}</p>
       <p style="font-size:0.85rem;opacity:0.7">${String(err)}</p>
-      <button type="button" class="btn-enter" id="btn-retry" style="margin-top:1rem">Retry</button>
+      <button type="button" class="btn-enter" id="btn-retry" style="margin-top:1rem">${L.retry}</button>
     </div>`;
     document.getElementById("btn-retry")?.addEventListener("click", () => boot());
   }

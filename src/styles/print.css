@@ -1,0 +1,91 @@
+/* Print / PDF export — single plant field sheet */
+@media print {
+  body * {
+    visibility: hidden !important;
+  }
+
+  body.printing-plant .page-left,
+  body.printing-plant .page-left *,
+  body.printing-plant .page-right,
+  body.printing-plant .page-right * {
+    visibility: visible !important;
+  }
+
+  body.printing-plant .book-toolbar,
+  body.printing-plant .book-footer,
+  body.printing-plant .mobile-gate,
+  body.printing-plant .page-flip,
+  body.printing-plant .corner-stud,
+  body.printing-plant .detail-actions,
+  body.printing-plant .fav-btn,
+  body.printing-plant .chip-go {
+    display: none !important;
+  }
+
+  body.printing-plant {
+    background: #fff !important;
+  }
+
+  body.printing-plant .book,
+  body.printing-plant .book-cover,
+  body.printing-plant .book-inner,
+  body.printing-plant .book-view {
+    position: static !important;
+    width: 100% !important;
+    height: auto !important;
+    min-height: 0 !important;
+    box-shadow: none !important;
+    filter: none !important;
+    background: #fff !important;
+    border: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  body.printing-plant .book-inner {
+    display: block !important;
+    margin: 0 !important;
+  }
+
+  body.printing-plant .page {
+    background: #fff !important;
+    overflow: visible !important;
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  body.printing-plant .page-content {
+    padding: 0.5cm 1cm !important;
+    overflow: visible !important;
+    height: auto !important;
+  }
+
+  body.printing-plant .page-right {
+    page-break-before: avoid;
+  }
+
+  body.printing-plant .plant-pixel {
+    width: 3.2cm !important;
+    height: 3.2cm !important;
+    image-rendering: pixelated;
+  }
+
+  body.printing-plant .page-title {
+    font-size: 18pt !important;
+    color: #000 !important;
+  }
+
+  body.printing-plant::after {
+    content: "The Herbalists Tome — Dominik Zeiler · Educational use only";
+    visibility: visible;
+    display: block;
+    position: fixed;
+    bottom: 0.6cm;
+    left: 1cm;
+    right: 1cm;
+    font-size: 8pt;
+    color: #444;
+    border-top: 1px solid #ccc;
+    padding-top: 0.25cm;
+  }
+}

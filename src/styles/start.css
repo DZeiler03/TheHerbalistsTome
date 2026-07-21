@@ -19,8 +19,8 @@
   --accent-green: #3d5c2e;
   --shadow: rgba(0, 0, 0, 0.55);
   --pixel: 4px;
-  --book-w: min(1100px, 92vw);
-  --book-h: min(720px, 88vh);
+  --book-w: min(1400px, 94vw);
+  --book-h: min(820px, 90vh);
   --font-display: "Cinzel", "Times New Roman", serif;
   --font-body: "Cormorant Garamond", Georgia, serif;
   --font-pixel: "Press Start 2P", monospace;
@@ -65,7 +65,7 @@ button:focus-visible {
   outline-offset: 2px;
 }
 
-/* ─── Desktop-only gate ─────────────────────────────────── */
+/* ─── Extreme viewport gate only ────────────────────────── */
 
 .mobile-gate {
   display: none;
@@ -94,39 +94,84 @@ button:focus-visible {
   color: var(--parchment-dark);
 }
 
-@media (max-width: 900px), (max-height: 560px) {
-  .mobile-gate {
+/* Only hide the app on truly unusable extremes */
+@media (max-width: 320px), (max-height: 280px) {
+  .mobile-gate.extreme {
     display: flex;
     flex-direction: column;
   }
-  .desktop-only {
+  .desktop-app {
     display: none !important;
   }
 }
 
-/* ─── Shared leather texture ────────────────────────────── */
+/* Fluid book size across viewports */
+@media (max-width: 1199px) {
+  :root {
+    --book-w: min(1100px, 96vw);
+    --book-h: min(720px, 86vh);
+  }
+}
+
+@media (max-width: 900px) {
+  :root {
+    --book-w: min(100%, 98vw);
+    --book-h: min(780px, 82vh);
+  }
+}
+
+@media (max-width: 699px) {
+  :root {
+    --book-w: 100%;
+    --book-h: auto;
+  }
+  html,
+  body {
+    overflow: auto;
+  }
+}
+
+/* ─── Shared leather / medieval chamber texture ─────────── */
 
 .leather-bg {
-  background-color: #2a1810;
+  background-color: #1f120c;
   background-image:
-    radial-gradient(ellipse 120% 80% at 50% 0%, rgba(107, 66, 38, 0.45) 0%, transparent 55%),
-    radial-gradient(circle at 20% 80%, rgba(0, 0, 0, 0.35) 0%, transparent 40%),
-    radial-gradient(circle at 80% 30%, rgba(139, 90, 50, 0.2) 0%, transparent 35%),
+    /* soot & torch light */
+    radial-gradient(ellipse 100% 70% at 50% -10%, rgba(180, 120, 50, 0.22) 0%, transparent 50%),
+    radial-gradient(ellipse 60% 50% at 15% 90%, rgba(0, 0, 0, 0.55) 0%, transparent 55%),
+    radial-gradient(ellipse 50% 40% at 90% 20%, rgba(90, 55, 25, 0.28) 0%, transparent 45%),
+    radial-gradient(circle at 70% 75%, rgba(40, 20, 10, 0.4) 0%, transparent 40%),
+    /* fine fiber weave */
     repeating-linear-gradient(
       0deg,
       transparent,
-      transparent 3px,
-      rgba(0, 0, 0, 0.03) 3px,
-      rgba(0, 0, 0, 0.03) 4px
+      transparent 2px,
+      rgba(0, 0, 0, 0.045) 2px,
+      rgba(0, 0, 0, 0.045) 3px
     ),
     repeating-linear-gradient(
       90deg,
       transparent,
-      transparent 3px,
-      rgba(0, 0, 0, 0.02) 3px,
-      rgba(0, 0, 0, 0.02) 4px
+      transparent 2px,
+      rgba(80, 45, 20, 0.035) 2px,
+      rgba(80, 45, 20, 0.035) 3px
     ),
-    linear-gradient(165deg, #3d2618 0%, #2a1810 40%, #1a0e08 100%);
+    /* coarser medieval grain */
+    repeating-linear-gradient(
+      28deg,
+      transparent 0 11px,
+      rgba(0, 0, 0, 0.04) 11px 12px
+    ),
+    repeating-linear-gradient(
+      -18deg,
+      transparent 0 17px,
+      rgba(139, 90, 50, 0.03) 17px 18px
+    ),
+    /* parchment dust flecks via noise svg */
+    url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.11'/%3E%3C/svg%3E"),
+    linear-gradient(165deg, #3a2416 0%, #24150e 38%, #160d08 100%);
+  background-blend-mode: normal, normal, normal, normal, multiply, multiply, soft-light,
+    soft-light, soft-light, normal;
 }
 
 /* ─── START PAGE ────────────────────────────────────────── */
