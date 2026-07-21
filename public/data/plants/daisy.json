@@ -1,0 +1,44 @@
+{
+  "id": "daisy",
+  "nameEn": "Daisy",
+  "nameDe": "Gänseblümchen",
+  "scientificName": "Bellis perennis",
+  "family": "Asteraceae",
+  "kind": "herb",
+  "countryIds": [
+    "at",
+    "de",
+    "ch",
+    "gb",
+    "fr",
+    "pl",
+    "ie",
+    "nl"
+  ],
+  "partsUsed": "Flower heads, leaves",
+  "partsUsedDe": "Blütenköpfe, Kraut",
+  "habitat": "Lawns and short meadows across Europe.",
+  "habitatDe": "Rasen und kurze Wiesen in ganz Europa.",
+  "traditionalUsesEn": "Mild traditional wound and skin herb; edible flower of spring meadows.",
+  "traditionalUsesDe": "Mildes Husten- und Hautkraut der europäischen Volksmedizin.",
+  "activeCompounds": "Saponins, flavonoids, essential oil traces",
+  "activeCompoundsDe": "Saponine, Flavonoide, Bitterstoffe, Gerbstoffe",
+  "preparation": "Flower infusion; fresh flowers in salads.",
+  "preparationDe": "Frischkraut- und Blütentee; äußerlich Spülungen.",
+  "cautions": "Asteraceae allergy possible.",
+  "cautionsDe": "Korbblütler-Allergie möglich. Im Allgemeinen gut verträglich.",
+  "floweringSeason": "March–November (almost year-round mild climates)",
+  "floweringSeasonDe": "März–November (fast ganzjährig in mildem Klima)",
+  "historicalNotes": "Childhood meadow icon of German-speaking lands.",
+  "historicalNotesDe": "Gänseblümchen der Kindheit und milden Volksmedizin Europas.",
+  "useCategoryIds": [
+    "skin-topical",
+    "culinary",
+    "anti-inflammatory"
+  ],
+  "bloomSeasons": [
+    "spring",
+    "summer",
+    "autumn"
+  ]
+}

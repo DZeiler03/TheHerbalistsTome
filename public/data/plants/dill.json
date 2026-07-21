@@ -1,0 +1,41 @@
+{
+  "id": "dill",
+  "nameEn": "Dill",
+  "nameDe": "Dill",
+  "scientificName": "Anethum graveolens",
+  "family": "Apiaceae",
+  "kind": "herb",
+  "countryIds": [
+    "at",
+    "de",
+    "pl",
+    "hu",
+    "se",
+    "fi",
+    "tr",
+    "gr"
+  ],
+  "partsUsed": "Herb, ripe fruits (seeds)",
+  "partsUsedDe": "Kraut, reife Früchte (Samen)",
+  "habitat": "Garden and field spice of Europe and Western Asia.",
+  "habitatDe": "Garten- und Feldgewürz Europas und Westasiens.",
+  "traditionalUsesEn": "Carminative seed and herb; classic Central European fish and pickle spice.",
+  "traditionalUsesDe": "Blähungstreibendes Küchenkraut; traditionell bei Verdauung und als Kindertee.",
+  "activeCompounds": "Essential oil (carvone, limonene)",
+  "activeCompoundsDe": "Ätherisches Öl (Carvon, Limonen), Flavonoide",
+  "preparation": "Fresh herb; crushed seed tea or culinary use.",
+  "preparationDe": "Frischkraut und Samen in der Küche; Samentee.",
+  "cautions": "Culinary safe; essential oil dilute only.",
+  "cautionsDe": "Lebensmittelmengen unbedenklich. Ätherisches Öl nur verdünnt.",
+  "floweringSeason": "June–August",
+  "floweringSeasonDe": "Juni–August",
+  "historicalNotes": "Feathery green of European summer kitchens.",
+  "historicalNotesDe": "Klassischer Dill der europäischen und nahöstlichen Küche.",
+  "useCategoryIds": [
+    "digestive",
+    "culinary"
+  ],
+  "bloomSeasons": [
+    "summer"
+  ]
+}
