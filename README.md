@@ -1,0 +1,53 @@
+# The Herbalists Tome
+
+A desktop-only digital leather-bound herbal encyclopedia by **Dominik Zeiler**.
+
+Browse medicinal plants by **Continent → Country (flags) → Plant**, with bilingual **German / English** search and parchment page-turn animation.
+
+## Stack
+
+- Vite + vanilla TypeScript
+- Static JSON data (`public/data/`)
+- No backend required
+
+## Features
+
+- Elegant start page with leather atmosphere
+- Pixel-styled brown leather book + parchment pages
+- Navigation: Continent → Country → Plants
+- Country flags (flagcdn)
+- Search across DE + EN names and scientific names
+- Page-turn animation between views
+- 21 real plant specimens with factual entries only
+
+## Data
+
+| File | Content |
+|------|---------|
+| `public/data/continents.json` | Continents (EN/DE) |
+| `public/data/countries.json` | Countries + ISO flag codes |
+| `public/data/plants.json` | Plant monographs |
+
+Where reliable information is unavailable, fields use **Unknown**.
+
+## Development
+
+```bash
+npm install
+npm run dev
+```
+
+Open the local URL shown by Vite (typically `http://localhost:5173`).
+
+```bash
+npm run build   # production build → dist/
+npm run preview # preview production build
+```
+
+## Desktop only
+
+The UI is designed for desktop / laptop viewports. Smaller screens show a desktop-only notice.
+
+## License
+
+Content and code © Dominik Zeiler. Plant facts are compiled from well-established botanical and herbal knowledge for educational presentation.
