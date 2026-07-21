@@ -3,6 +3,7 @@ import "./styles/book-a.css";
 import "./styles/book-b.css";
 import type { AppData, View } from "./types";
 import { loadAppData, searchPlants } from "./lib/data";
+import { ensurePlantImages } from "./lib/plant-images";
 import { labels, type Lang } from "./lib/i18n";
 import { escapeAttr } from "./lib/dom";
 import { renderLeftPage } from "./lib/pages-left";
@@ -59,10 +60,24 @@ function render(): void {
     app.innerHTML = `
       <div class="mobile-gate"><h1>${L.mobileTitle}</h1><p>${L.mobileBody}</p></div>
       <div class="start-page leather-bg desktop-only">
+        <div class="start-atmosphere" aria-hidden="true">
+          <span class="float-leaf l1">🌿</span>
+          <span class="float-leaf l2">🍃</span>
+          <span class="float-leaf l3">✦</span>
+          <span class="float-leaf l4">🌿</span>
+          <span class="float-leaf l5">✦</span>
+          <span class="gold-glow"></span>
+        </div>
         <div class="start-content">
+          <div class="start-frame-corner tl"></div>
+          <div class="start-frame-corner tr"></div>
+          <div class="start-frame-corner bl"></div>
+          <div class="start-frame-corner br"></div>
+          <div class="start-seal" aria-hidden="true">❧</div>
           <div class="start-ornament"></div>
           <h1 class="start-title">The Herbalists Tome</h1>
           <p class="start-subtitle">${L.subtitle}</p>
+          <div class="start-divider" aria-hidden="true"><span></span><span class="gem"></span><span></span></div>
           <p class="start-author"><span>${L.authorBy}</span>Dominik Zeiler</p>
           <button type="button" class="btn-enter" id="btn-enter">${L.enter}</button>
           <p class="start-hint">${L.hint}</p>
@@ -176,7 +191,8 @@ function bindEvents(): void {
 async function boot(): Promise<void> {
   app.innerHTML = `<div class="loading leather-bg">${labels(lang).loading}</div>`;
   try {
-    data = await loadAppData();
+    const [appData] = await Promise.all([loadAppData(), ensurePlantImages()]);
+    data = appData;
     render();
   } catch (err) {
     console.error(err);
