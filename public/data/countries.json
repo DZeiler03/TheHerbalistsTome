@@ -78,28 +78,28 @@
   },
   {
     "id": "us",
-    "continentId": "americas",
+    "continentId": "north-america",
     "nameEn": "United States",
     "nameDe": "Vereinigte Staaten",
     "flagCode": "us"
   },
   {
     "id": "mx",
-    "continentId": "americas",
+    "continentId": "north-america",
     "nameEn": "Mexico",
     "nameDe": "Mexiko",
     "flagCode": "mx"
   },
   {
     "id": "ar",
-    "continentId": "americas",
+    "continentId": "south-america",
     "nameEn": "Argentina",
     "nameDe": "Argentinien",
     "flagCode": "ar"
   },
   {
     "id": "br",
-    "continentId": "americas",
+    "continentId": "south-america",
     "nameEn": "Brazil",
     "nameDe": "Brasilien",
     "flagCode": "br"

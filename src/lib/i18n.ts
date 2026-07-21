@@ -37,7 +37,7 @@ export function labels(lang: Lang) {
           "The Herbalists Tome ist für größere Bildschirme gestaltet. Bitte öffne die Seite auf einem Desktop- oder Laptop-Gerät.",
         further: "Weiteres Wissen",
         nameBoth: "Name (EN / DE)",
-        contIntro: "Fünf Kontinente · ein Foliant heilkundlicher Pflanzen.",
+        contIntro: "Sechs Regionen · ein Foliant heilkundlicher Pflanzen.",
         pickCountry:
           "Wähle ein Land, um die dort verzeichneten Heilpflanzen zu sehen.",
         pickPlant:
@@ -80,7 +80,7 @@ export function labels(lang: Lang) {
           "The Herbalists Tome is designed for larger screens. Please open this page on a desktop or laptop device.",
         further: "Further notes",
         nameBoth: "Name (EN / DE)",
-        contIntro: "Five continents · one folio of medicinal plants.",
+        contIntro: "Six regions · one folio of medicinal plants.",
         pickCountry: "Select a country to view its recorded medicinal plants.",
         pickPlant:
           "Open an entry for botanical details, uses, and cautions.",
