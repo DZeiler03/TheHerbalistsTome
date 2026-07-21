@@ -1,0 +1,37 @@
+{
+  "id": "devils-claw",
+  "nameEn": "Devil's Claw",
+  "nameDe": "Teufelskralle",
+  "scientificName": "Harpagophytum procumbens",
+  "family": "Pedaliaceae",
+  "kind": "herb",
+  "countryIds": [
+    "za",
+    "de",
+    "at"
+  ],
+  "partsUsed": "Secondary tubers",
+  "partsUsedDe": "Sekundäre Speicherwurzeln",
+  "habitat": "Kalahari and Namibian savanna; imported to European phytotherapy.",
+  "habitatDe": "Kalahari und namibische Savanne; Import in die europäische Phytotherapie.",
+  "traditionalUsesEn": "Traditional bitter for joint discomfort; popular in German-speaking pharmacies.",
+  "traditionalUsesDe": "Traditionelles Bitterkraut bei Gelenkbeschwerden; beliebt in deutschsprachigen Apotheken.",
+  "activeCompounds": "Iridoid glycosides (harpagoside)",
+  "activeCompoundsDe": "Iridoidglykoside (Harpagosid)",
+  "preparation": "Standardized root extracts, tablets, teas.",
+  "preparationDe": "Standardisierte Wurzelextrakte, Tabletten, Tees.",
+  "cautions": "Avoid with active gastric/duodenal ulcers; check interactions.",
+  "cautionsDe": "Bei aktiven Magen-/Zwölffingerdarmgeschwüren meiden; Wechselwirkungen prüfen.",
+  "floweringSeason": "Summer (southern Africa)",
+  "floweringSeasonDe": "Sommer (Südliches Afrika)",
+  "historicalNotes": "Namibian root embraced by European joint phytotherapy.",
+  "historicalNotesDe": "Namibische Wurzel der europäischen Gelenk-Phytotherapie.",
+  "useCategoryIds": [
+    "pain-relief",
+    "anti-inflammatory",
+    "digestive"
+  ],
+  "bloomSeasons": [
+    "summer"
+  ]
+}

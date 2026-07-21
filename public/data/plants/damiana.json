@@ -1,1 +1,34 @@
-{"id":"damiana","countryIds":["mx","us"],"nameEn":"Damiana","nameDe":"Damiana","scientificName":"Turnera diffusa","family":"Passifloraceae (formerly Turneraceae)","partsUsed":"Leaves","habitat":"Mexico and southwestern US dry scrub.","traditionalUsesEn":"Traditional Mexican leaf tea as mild tonic and reputed aphrodisiac; modern herbal specialty.","traditionalUsesDe":"Traditioneller mexikanischer Blättertee als mildes Tonikum; modern spezialisiertes Kraut.","activeCompounds":"Essential oil, flavonoids, cyanogenic glycosides (low)","preparation":"Dried leaf tea or smoking blends historically (not recommended to smoke).","cautions":"Limited clinical data. Pregnancy: avoid. Prefer tea over smoking.","floweringSeason":"Summer–autumn","historicalNotes":"Documented in Mexican herbalism and 19th-century US Eclectic texts."}
+{
+  "id": "damiana",
+  "countryIds": [
+    "mx",
+    "us"
+  ],
+  "nameEn": "Damiana",
+  "nameDe": "Damiana",
+  "scientificName": "Turnera diffusa",
+  "family": "Passifloraceae (formerly Turneraceae)",
+  "partsUsed": "Leaves",
+  "habitat": "Mexico and southwestern US dry scrub.",
+  "traditionalUsesEn": "Traditional Mexican leaf tea as mild tonic and reputed aphrodisiac; modern herbal specialty.",
+  "traditionalUsesDe": "Traditioneller mexikanischer Blättertee als mildes Tonikum; modern spezialisiertes Kraut.",
+  "activeCompounds": "Essential oil, flavonoids, cyanogenic glycosides (low)",
+  "preparation": "Dried leaf tea or smoking blends historically (not recommended to smoke).",
+  "cautions": "Limited clinical data. Pregnancy: avoid. Prefer tea over smoking.",
+  "floweringSeason": "Summer–autumn",
+  "historicalNotes": "Documented in Mexican herbalism and 19th-century US Eclectic texts.",
+  "partsUsedDe": "Leaves",
+  "habitatDe": "Mexiko und southwestern US dry scrub.",
+  "activeCompoundsDe": "Ätherisches Öl, flavonoids, cyanogenic glycosides (low)",
+  "preparationDe": "Getrocknet Blatt Tee oder smoking blends historically (nicht empfohlen zu smoke).",
+  "cautionsDe": "Limited clinical data. Schwangerschaft: vermeiden. Prefer Tee over smoking.",
+  "floweringSeasonDe": "Sommer–autumn",
+  "historicalNotesDe": "Documented in Mexican herbalism und 19th-century US Eclectic texts.",
+  "useCategoryIds": [
+    "adaptogenic"
+  ],
+  "bloomSeasons": [
+    "summer",
+    "autumn"
+  ]
+}

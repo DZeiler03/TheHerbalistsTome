@@ -1,1 +1,35 @@
-{"id":"boswellia-serrata","countryIds":["in"],"nameEn":"Indian Frankincense","nameDe":"Indischer Weihrauch","scientificName":"Boswellia serrata","family":"Burseraceae","partsUsed":"Oleo-gum-resin","habitat":"Dry forests of India.","traditionalUsesEn":"Ayurvedic shallaki resin for joint inflammatory complaints; boswellic acids studied.","traditionalUsesDe":"Ayurvedisches Shallaki-Harz bei Gelenkentzündungen; Boswelliasäuren erforscht.","activeCompounds":"Boswellic acids (AKBA and related)","preparation":"Resin extracts standardized for boswellic acids; incense less common than African frankincense.","cautions":"GI side effects possible. Professional advice for chronic joint disease.","floweringSeason":"Unknown","historicalNotes":"Distinct species from Somali B. sacra; major Ayurvedic anti-inflammatory resin."}
+{
+  "id": "boswellia-serrata",
+  "countryIds": [
+    "in"
+  ],
+  "nameEn": "Indian Frankincense",
+  "nameDe": "Indischer Weihrauch",
+  "scientificName": "Boswellia serrata",
+  "family": "Burseraceae",
+  "partsUsed": "Oleo-gum-resin",
+  "habitat": "Dry forests of India.",
+  "traditionalUsesEn": "Ayurvedic shallaki resin for joint inflammatory complaints; boswellic acids studied.",
+  "traditionalUsesDe": "Ayurvedisches Shallaki-Harz bei Gelenkentzündungen; Boswelliasäuren erforscht.",
+  "activeCompounds": "Boswellic acids (AKBA and related)",
+  "preparation": "Resin extracts standardized for boswellic acids; incense less common than African frankincense.",
+  "cautions": "GI side effects possible. Professional advice for chronic joint disease.",
+  "floweringSeason": "Unknown",
+  "historicalNotes": "Distinct species from Somali B. sacra; major Ayurvedic anti-inflammatory resin.",
+  "kind": "tree",
+  "partsUsedDe": "Oleo-gum-Harz",
+  "habitatDe": "Dry Wälder von Indien.",
+  "activeCompoundsDe": "Boswellic acids (AKBA und related)",
+  "preparationDe": "Resin Extrakte standardized für boswellic acids; incense less common than Afrikan frankincense.",
+  "cautionsDe": "GI side effects möglich. Fachlicher Rat für chronic joint disease.",
+  "floweringSeasonDe": "Unbekannt",
+  "historicalNotesDe": "Distinct species von Somali B. sacra; major Ayurvedic anti-inflammatory Harz.",
+  "useCategoryIds": [
+    "anti-inflammatory",
+    "skin-topical",
+    "aromatic"
+  ],
+  "bloomSeasons": [
+    "yearRound"
+  ]
+}

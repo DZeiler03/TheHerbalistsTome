@@ -1,0 +1,38 @@
+{
+  "id": "coltsfoot",
+  "nameEn": "Coltsfoot",
+  "nameDe": "Huflattich",
+  "scientificName": "Tussilago farfara",
+  "family": "Asteraceae",
+  "kind": "herb",
+  "countryIds": [
+    "at",
+    "de",
+    "ch",
+    "pl",
+    "fr",
+    "gb"
+  ],
+  "partsUsed": "Leaves, flowers (restricted modern use)",
+  "partsUsedDe": "Blätter, Blüten (moderne Nutzung eingeschränkt)",
+  "habitat": "Clay soils, embankments, waste ground of Europe.",
+  "habitatDe": "Lehmböden, Böschungen und Ödland in Europa.",
+  "traditionalUsesEn": "Historical cough herb; use limited due to pyrrolizidine alkaloids.",
+  "traditionalUsesDe": "Historisches Hustenmittel; Nutzung wegen Pyrrolizidinalkaloiden eingeschränkt.",
+  "activeCompounds": "Mucilage, flavonoids, pyrrolizidine alkaloids",
+  "activeCompoundsDe": "Schleimstoffe, Flavonoide, Pyrrolizidinalkaloide",
+  "preparation": "Prefer PA-reduced commercial products if any; short-term only.",
+  "preparationDe": "Wenn überhaupt, PA-reduzierte Fertigprodukte; nur kurzzeitig.",
+  "cautions": "Pyrrolizidine alkaloids — avoid internal crude use, pregnancy, children.",
+  "cautionsDe": "Pyrrolizidinalkaloide — innere Rohdrogennutzung, Schwangerschaft und Kinder meiden.",
+  "floweringSeason": "February–April (before leaves)",
+  "floweringSeasonDe": "Februar–April (vor dem Blattaustrieb)",
+  "historicalNotes": "Early spring yellow discs of European waysides.",
+  "historicalNotesDe": "Frühe gelbe Frühlingssterne an europäischen Wegrändern.",
+  "useCategoryIds": [
+    "respiratory"
+  ],
+  "bloomSeasons": [
+    "spring"
+  ]
+}

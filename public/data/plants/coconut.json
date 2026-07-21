@@ -1,0 +1,37 @@
+{
+  "id": "coconut",
+  "countryIds": [
+    "id",
+    "ph",
+    "in",
+    "br",
+    "fj"
+  ],
+  "nameEn": "Coconut Palm",
+  "nameDe": "Kokospalme",
+  "scientificName": "Cocos nucifera",
+  "family": "Arecaceae",
+  "kind": "tree",
+  "partsUsed": "Fruit water, meat, oil; husk fiber",
+  "habitat": "Pantropical coasts; Pacific and Indian Ocean cultures.",
+  "traditionalUsesEn": "Food, oil, and water staple; traditional tropical multipurpose palm.",
+  "traditionalUsesDe": "Nahrung, Öl und Wasser; traditionelle tropische Vielzweckpalme.",
+  "activeCompounds": "Medium-chain triglycerides (oil), electrolytes (water), fiber",
+  "preparation": "Culinary coconut products; oil topical and food.",
+  "cautions": "Food use generally safe. Tree climbing harvest risks in production.",
+  "floweringSeason": "Year-round tropics",
+  "historicalNotes": "Canoe plant and island livelihood tree.",
+  "partsUsedDe": "Fruit water, meat, Öl; husk fiber",
+  "habitatDe": "Pantropisch coasts; Pacific und Indienn Ocean cultures.",
+  "activeCompoundsDe": "Medium-chain triglycerides (Öl), electrolytes (water), fiber",
+  "preparationDe": "Kulinarisch coconut products; Öl äußerlich und food.",
+  "cautionsDe": "Food use im Allgemeinen unbedenklich. Tree climbing harvest risks in production.",
+  "floweringSeasonDe": "Ganzjährig tropics",
+  "historicalNotesDe": "Canoe plant und islund livelihood tree.",
+  "useCategoryIds": [
+    "culinary"
+  ],
+  "bloomSeasons": [
+    "yearRound"
+  ]
+}

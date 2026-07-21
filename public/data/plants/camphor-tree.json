@@ -1,0 +1,35 @@
+{
+  "id": "camphor-tree",
+  "countryIds": [
+    "cn",
+    "jp",
+    "tw"
+  ],
+  "nameEn": "Camphor Tree",
+  "nameDe": "Kampferbaum",
+  "scientificName": "Cinnamomum camphora",
+  "family": "Lauraceae",
+  "kind": "tree",
+  "partsUsed": "Wood/leaf-derived camphor historically",
+  "habitat": "East Asia; naturalized in warm regions worldwide.",
+  "traditionalUsesEn": "Source of camphor for traditional liniments and mothballs historically; temple tree in East Asia.",
+  "traditionalUsesDe": "Quelle von Kampfer für traditionelle Einreibungen; Tempelbaum Ostasiens.",
+  "activeCompounds": "Camphor (ketone), essential oil terpenes",
+  "preparation": "Modern pharmaceutical camphor products as labeled; not DIY internal use.",
+  "cautions": "Camphor toxic if swallowed, especially in children. External products only as directed.",
+  "floweringSeason": "Spring",
+  "historicalNotes": "Iconic East Asian evergreen; invasive in some regions.",
+  "partsUsedDe": "Wood/Blatt-derived camphor historically",
+  "habitatDe": "Ostasien; eingebürgert in warm regions worldwide.",
+  "activeCompoundsDe": "Camphor (ketone), ätherisches Öl terpenes",
+  "preparationDe": "Modern pharmaceutical camphor products as labeled; not DIY innere Anwendung.",
+  "cautionsDe": "Camphor toxic if swallowed, especially in Kinder. External products only as directed.",
+  "floweringSeasonDe": "Frühling",
+  "historicalNotesDe": "Iconic Ostasienn evergreen; invasive in some regions.",
+  "useCategoryIds": [
+    "digestive"
+  ],
+  "bloomSeasons": [
+    "spring"
+  ]
+}

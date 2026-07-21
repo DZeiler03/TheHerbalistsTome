@@ -1,0 +1,39 @@
+{
+  "id": "fig",
+  "countryIds": [
+    "tr",
+    "gr",
+    "it",
+    "es",
+    "eg",
+    "tn"
+  ],
+  "nameEn": "Common Fig",
+  "nameDe": "Feige",
+  "scientificName": "Ficus carica",
+  "family": "Moraceae",
+  "kind": "tree",
+  "partsUsed": "Fruit, latex (caution), leaves (traditional)",
+  "habitat": "Mediterranean and SW Asia; cultivated globally in warm climates.",
+  "traditionalUsesEn": "Nutritious fruit staple; traditional Mediterranean and Middle Eastern food medicine.",
+  "traditionalUsesDe": "Nährstoffreiche Frucht; traditionelle mediterrane und nahöstliche Nahrungspflanze.",
+  "activeCompounds": "Fiber, polyphenols, sugars; latex proteases",
+  "preparation": "Fresh or dried fruit as food; latex not for casual internal use.",
+  "cautions": "Fig latex can irritate skin and eyes. Fruit is food.",
+  "floweringSeason": "Varies by climate",
+  "historicalNotes": "Among the earliest cultivated fruit trees.",
+  "partsUsedDe": "Fruit, latex (caution), Blätter (traditionell)",
+  "habitatDe": "Mittelmeergebiet und SW Asien; angebaut globally in warm climates.",
+  "activeCompoundsDe": "Fiber, polyphenols, sugars; latex proteases",
+  "preparationDe": "Frisch oder getrocknet Frucht als Nahrung; latex not für casual innere Anwendung.",
+  "cautionsDe": "Fig latex kann irritate skin und eyes. Fruit is food.",
+  "floweringSeasonDe": "Varies by climate",
+  "historicalNotesDe": "Among die earliest angebaut Frucht trees.",
+  "useCategoryIds": [
+    "culinary",
+    "nutritive"
+  ],
+  "bloomSeasons": [
+    "spring"
+  ]
+}

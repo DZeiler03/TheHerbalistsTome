@@ -1,1 +1,40 @@
-{"id":"calendula","countryIds":["de","fr","es","it","at"],"nameEn":"Calendula / Pot Marigold","nameDe":"Ringelblume","scientificName":"Calendula officinalis","family":"Asteraceae","partsUsed":"Flower heads","habitat":"Mediterranean origin; widely cultivated in temperate gardens.","traditionalUsesEn":"Topical traditional use for minor skin inflammation and wounds; mild oral mucosa rinse.","traditionalUsesDe":"Äußerlich traditionell bei leichten Hautentzündungen und Wunden; leichte Mundspülung.","activeCompounds":"Triterpene alcohols, flavonoids, carotenoids, essential oil","preparation":"Infused oil, ointments, tea compresses; flower tea.","cautions":"Asteraceae allergy possible. For external and mild internal traditional use only.","floweringSeason":"May–October","historicalNotes":"Named for blooming with the calendar months; staple of European herb gardens."}
+{
+  "id": "calendula",
+  "countryIds": [
+    "de",
+    "fr",
+    "es",
+    "it",
+    "at"
+  ],
+  "nameEn": "Calendula / Pot Marigold",
+  "nameDe": "Ringelblume",
+  "scientificName": "Calendula officinalis",
+  "family": "Asteraceae",
+  "partsUsed": "Flower heads",
+  "habitat": "Mediterranean origin; widely cultivated in temperate gardens.",
+  "traditionalUsesEn": "Topical traditional use for minor skin inflammation and wounds; mild oral mucosa rinse.",
+  "traditionalUsesDe": "Äußerlich traditionell bei leichten Hautentzündungen und Wunden; leichte Mundspülung.",
+  "activeCompounds": "Triterpene alcohols, flavonoids, carotenoids, essential oil",
+  "preparation": "Infused oil, ointments, tea compresses; flower tea.",
+  "cautions": "Asteraceae allergy possible. For external and mild internal traditional use only.",
+  "floweringSeason": "May–October",
+  "historicalNotes": "Named for blooming with the calendar months; staple of European herb gardens.",
+  "partsUsedDe": "Flower heads",
+  "habitatDe": "Mittelmeergebiet Herkunft; weit verbreitet angebaut in gemäßigt gardens.",
+  "activeCompoundsDe": "Triterpene alcohols, flavonoids, carotenoids, ätherisches Öl",
+  "preparationDe": "Infused Öl, Salben, Tee Umschläge; Blüte Tee.",
+  "cautionsDe": "Asteraceae Allergie möglich. For äußerlich und mild innerlich traditionell use only.",
+  "floweringSeasonDe": "May–October",
+  "historicalNotesDe": "Named für blooming mit die calendar months; staple von Europaan Kraut gardens.",
+  "useCategoryIds": [
+    "anti-inflammatory",
+    "skin-topical",
+    "respiratory",
+    "oral-dental"
+  ],
+  "bloomSeasons": [
+    "spring",
+    "autumn"
+  ]
+}

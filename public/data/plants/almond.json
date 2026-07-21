@@ -1,0 +1,38 @@
+{
+  "id": "almond",
+  "countryIds": [
+    "ir",
+    "tr",
+    "es",
+    "us",
+    "it"
+  ],
+  "nameEn": "Almond",
+  "nameDe": "Mandel",
+  "scientificName": "Prunus dulcis",
+  "family": "Rosaceae",
+  "kind": "tree",
+  "partsUsed": "Seeds (nuts)",
+  "habitat": "SW Asia origin; Mediterranean and California major producers.",
+  "traditionalUsesEn": "Culinary nut and milk; traditional Middle Eastern food medicine.",
+  "traditionalUsesDe": "Speisenuss und Mandelmilch; traditionelle nahöstliche Nahrung.",
+  "activeCompounds": "Vitamin E, monounsaturated fats, protein",
+  "preparation": "Raw or processed nuts; almond oil culinary/cosmetic.",
+  "cautions": "Tree-nut allergy risk. Bitter almonds contain cyanogenic glycosides—only sweet culinary almonds for food.",
+  "floweringSeason": "Early spring",
+  "historicalNotes": "One of the earliest domesticated nut trees.",
+  "partsUsedDe": "Seeds (nuts)",
+  "habitatDe": "SW Asien Herkunft; Mittelmeergebiet und California major producers.",
+  "activeCompoundsDe": "Vitamin E, monounsaturated fats, protein",
+  "preparationDe": "Raw oder processed nuts; almond Öl kulinarisch/cosmetic.",
+  "cautionsDe": "Tree-nut Allergie risk. Bitter almonds contain cyanogenic glycosides—only sweet kulinarisch almonds für food.",
+  "floweringSeasonDe": "Early spring",
+  "historicalNotesDe": "One von die earliest domesticated nut trees.",
+  "useCategoryIds": [
+    "culinary",
+    "nutritive"
+  ],
+  "bloomSeasons": [
+    "spring"
+  ]
+}

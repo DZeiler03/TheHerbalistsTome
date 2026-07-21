@@ -1,1 +1,36 @@
-{"id":"cardamom","countryIds":["in","lk","gt"],"nameEn":"Green Cardamom","nameDe":"Grüner Kardamom","scientificName":"Elettaria cardamomum","family":"Zingiberaceae","partsUsed":"Fruit capsules / seeds","habitat":"Western Ghats of India and Sri Lanka; major production also in Guatemala.","traditionalUsesEn":"Culinary spice; traditional digestive aromatic in Ayurveda and Middle Eastern coffee.","traditionalUsesDe":"Küchengewürz; traditionell verdauungsförderndes Aroma in Ayurveda und arabischem Kaffee.","activeCompounds":"Essential oil (1,8-cineole, terpinyl acetate, others)","preparation":"Whole or ground seeds in food and chai; occasional digestive tea.","cautions":"Food amounts safe for most people. Concentrated oil not for casual internal use.","floweringSeason":"Rarely flowers outside humid tropics","historicalNotes":"One of the world’s most valuable spices by weight historically."}
+{
+  "id": "cardamom",
+  "countryIds": [
+    "in",
+    "lk",
+    "gt"
+  ],
+  "nameEn": "Green Cardamom",
+  "nameDe": "Grüner Kardamom",
+  "scientificName": "Elettaria cardamomum",
+  "family": "Zingiberaceae",
+  "partsUsed": "Fruit capsules / seeds",
+  "habitat": "Western Ghats of India and Sri Lanka; major production also in Guatemala.",
+  "traditionalUsesEn": "Culinary spice; traditional digestive aromatic in Ayurveda and Middle Eastern coffee.",
+  "traditionalUsesDe": "Küchengewürz; traditionell verdauungsförderndes Aroma in Ayurveda und arabischem Kaffee.",
+  "activeCompounds": "Essential oil (1,8-cineole, terpinyl acetate, others)",
+  "preparation": "Whole or ground seeds in food and chai; occasional digestive tea.",
+  "cautions": "Food amounts safe for most people. Concentrated oil not for casual internal use.",
+  "floweringSeason": "Rarely flowers outside humid tropics",
+  "historicalNotes": "One of the world’s most valuable spices by weight historically.",
+  "partsUsedDe": "Fruit Kapseln / Samen",
+  "habitatDe": "Western Ghats von Indien und Sri Lanka; Hauptanbau also in Guatemala.",
+  "activeCompoundsDe": "Ätherisches Öl (1,8-cineole, terpinyl acetate, others)",
+  "preparationDe": "Whole oder ground Samen in food und chai; occasional verdauungsbezogen Tee.",
+  "cautionsDe": "Nahrungsmengen safe für most Personen. Concentrated Öl not für casual innere Anwendung.",
+  "floweringSeasonDe": "Rarely Blüten outside humid tropics",
+  "historicalNotesDe": "One von die world’s most valuable spices by weight historically.",
+  "useCategoryIds": [
+    "digestive",
+    "culinary",
+    "aromatic"
+  ],
+  "bloomSeasons": [
+    "yearRound"
+  ]
+}

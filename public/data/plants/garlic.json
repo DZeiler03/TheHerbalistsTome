@@ -1,1 +1,39 @@
-{"id":"garlic","countryIds":["cn","in","es","it","eg","kr"],"nameEn":"Garlic","nameDe":"Knoblauch","scientificName":"Allium sativum","family":"Amaryllidaceae","partsUsed":"Bulb","habitat":"Central Asian origin; cultivated globally.","traditionalUsesEn":"Culinary staple; traditional cardiovascular and antimicrobial folk uses; allicin chemistry well studied.","traditionalUsesDe":"Küchengrundlage; traditionell bei Herz-Kreislauf und als antimikrobiell; Allicin gut untersucht.","activeCompounds":"Alliin → allicin (when crushed), ajoenes, sulfur compounds","preparation":"Crushed raw or cooked cloves; aged extracts; powders.","cautions":"Increases bleeding risk with anticoagulants. GI upset raw. Stop before surgery as advised.","floweringSeason":"Summer (scapes)","historicalNotes":"Among the oldest cultivated medicinal-culinary bulbs."}
+{
+  "id": "garlic",
+  "countryIds": [
+    "cn",
+    "in",
+    "es",
+    "it",
+    "eg",
+    "kr"
+  ],
+  "nameEn": "Garlic",
+  "nameDe": "Knoblauch",
+  "scientificName": "Allium sativum",
+  "family": "Amaryllidaceae",
+  "partsUsed": "Bulb",
+  "habitat": "Central Asian origin; cultivated globally.",
+  "traditionalUsesEn": "Culinary staple; traditional cardiovascular and antimicrobial folk uses; allicin chemistry well studied.",
+  "traditionalUsesDe": "Küchengrundlage; traditionell bei Herz-Kreislauf und als antimikrobiell; Allicin gut untersucht.",
+  "activeCompounds": "Alliin → allicin (when crushed), ajoenes, sulfur compounds",
+  "preparation": "Crushed raw or cooked cloves; aged extracts; powders.",
+  "cautions": "Increases bleeding risk with anticoagulants. GI upset raw. Stop before surgery as advised.",
+  "floweringSeason": "Summer (scapes)",
+  "historicalNotes": "Among the oldest cultivated medicinal-culinary bulbs.",
+  "partsUsedDe": "Bulb",
+  "habitatDe": "Central Asienn Herkunft; angebaut globally.",
+  "activeCompoundsDe": "Alliin → allicin (when crushed), ajoenes, sulfur compounds",
+  "preparationDe": "Crushed raw oder gekocht cloves; aged Extrakte; powders.",
+  "cautionsDe": "Increases bleeding risk mit anticoagulants. GI upset raw. Stop before surgery as advised.",
+  "floweringSeasonDe": "Sommer (scapes)",
+  "historicalNotesDe": "Among die oldest angebaut medicinal-kulinarisch bulbs.",
+  "useCategoryIds": [
+    "immune-support",
+    "circulatory",
+    "culinary"
+  ],
+  "bloomSeasons": [
+    "summer"
+  ]
+}

@@ -1,1 +1,36 @@
-{"id":"chia","countryIds":["mx","gt"],"nameEn":"Chia","nameDe":"Chia","scientificName":"Salvia hispanica","family":"Lamiaceae","partsUsed":"Seeds","habitat":"Mesoamerica; major modern production in Latin America.","traditionalUsesEn":"Aztec staple seed; modern omega-3-rich food seed forming gels in liquid.","traditionalUsesDe":"Aztekische Stapelsaat; modernes omega-3-reiches Lebensmittel mit Gelbildung.","activeCompounds":"α-linolenic acid, fiber, protein, minerals","preparation":"Soaked or dry seeds in food; beverages.","cautions":"Dry seeds can swell—take with fluid. Food use.","floweringSeason":"Summer–autumn","historicalNotes":"Revived global superfood from Nahua agriculture."}
+{
+  "id": "chia",
+  "countryIds": [
+    "mx",
+    "gt"
+  ],
+  "nameEn": "Chia",
+  "nameDe": "Chia",
+  "scientificName": "Salvia hispanica",
+  "family": "Lamiaceae",
+  "partsUsed": "Seeds",
+  "habitat": "Mesoamerica; major modern production in Latin America.",
+  "traditionalUsesEn": "Aztec staple seed; modern omega-3-rich food seed forming gels in liquid.",
+  "traditionalUsesDe": "Aztekische Stapelsaat; modernes omega-3-reiches Lebensmittel mit Gelbildung.",
+  "activeCompounds": "α-linolenic acid, fiber, protein, minerals",
+  "preparation": "Soaked or dry seeds in food; beverages.",
+  "cautions": "Dry seeds can swell—take with fluid. Food use.",
+  "floweringSeason": "Summer–autumn",
+  "historicalNotes": "Revived global superfood from Nahua agriculture.",
+  "partsUsedDe": "Seeds",
+  "habitatDe": "Mesoamerica; major modern production in Latin America.",
+  "activeCompoundsDe": "α-linolenic acid, fiber, protein, minerals",
+  "preparationDe": "Soaked oder dry Samen in food; beverages.",
+  "cautionsDe": "Dry Samen kann swell—take mit fluid. Food use.",
+  "floweringSeasonDe": "Sommer–autumn",
+  "historicalNotesDe": "Revived global superfood von Nahua agriculture.",
+  "useCategoryIds": [
+    "skin-topical",
+    "culinary",
+    "nutritive"
+  ],
+  "bloomSeasons": [
+    "summer",
+    "autumn"
+  ]
+}

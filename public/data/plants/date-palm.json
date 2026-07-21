@@ -1,0 +1,37 @@
+{
+  "id": "date-palm",
+  "countryIds": [
+    "eg",
+    "sa",
+    "ma",
+    "tn",
+    "ir"
+  ],
+  "nameEn": "Date Palm",
+  "nameDe": "Dattelpalme",
+  "scientificName": "Phoenix dactylifera",
+  "family": "Arecaceae",
+  "kind": "tree",
+  "partsUsed": "Fruit",
+  "habitat": "Hot arid oases from North Africa to Arabia and SW Asia.",
+  "traditionalUsesEn": "Staple desert fruit; traditional energy food of oasis cultures.",
+  "traditionalUsesDe": "Stapelfrucht der Wüste; traditionelle Energienahrung der Oasenkulturen.",
+  "activeCompounds": "Sugars, fiber, minerals, polyphenols",
+  "preparation": "Fresh or dried dates as food.",
+  "cautions": "Food use. High sugar content relevant for diabetes diets.",
+  "floweringSeason": "Spring (dioecious trees hand-pollinated often)",
+  "historicalNotes": "Tree of life of desert civilizations.",
+  "partsUsedDe": "Fruit",
+  "habitatDe": "Hot arid oases von North Afrika zu Arabia und SW Asien.",
+  "activeCompoundsDe": "Sugars, fiber, minerals, polyphenols",
+  "preparationDe": "Frisch oder getrocknet dates als Nahrung.",
+  "cautionsDe": "Food use. High sugar content relevant für diabetes diets.",
+  "floweringSeasonDe": "Frühling (dioecious trees hand-pollinated often)",
+  "historicalNotesDe": "Tree von life von desert civilizations.",
+  "useCategoryIds": [
+    "culinary"
+  ],
+  "bloomSeasons": [
+    "spring"
+  ]
+}

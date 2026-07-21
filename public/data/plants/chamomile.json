@@ -1,11 +1,14 @@
 {
   "id": "chamomile",
   "countryIds": [
+    "at",
+    "cz",
     "de",
-    "at"
+    "hu",
+    "pl"
   ],
   "nameEn": "German Chamomile",
-  "nameDe": "Echte Kamille",
+  "nameDe": "Kamille",
   "scientificName": "Matricaria chamomilla (syn. Matricaria recutita)",
   "family": "Asteraceae",
   "partsUsed": "Flower heads (flos)",
@@ -16,5 +19,26 @@
   "preparation": "Infusion (tea), steam inhalation, compresses, baths; essential oil in diluted topical preparations.",
   "cautions": "Rare allergic reactions in people sensitive to Asteraceae (daisy family). Not a substitute for medical care in serious illness.",
   "floweringSeason": "May–September (Northern Hemisphere)",
-  "historicalNotes": "Documented in European monastic herbals; German Commission E monographs support several traditional uses."
+  "historicalNotes": "Documented in European monastic herbals; German Commission E monographs support several traditional uses.",
+  "partsUsedDe": "Blütenköpfe (flos)",
+  "habitatDe": "Gemäßigt Europa und Westasien; Wegränder, Äcker, Ödland; weit verbreitet angebaut.",
+  "activeCompoundsDe": "Ätherisches Öl (α-bisabolol, chamazulene), flavonoids (apigenin), coumarins",
+  "preparationDe": "Aufguss (Tee), Dampfinhalation, Umschläge, Bäder; ätherisches Öl nur in verdünnten äußerlichen Zubereitungen.",
+  "cautionsDe": "Selten allergische Reaktionen in Personen empfindlich zu Asteraceae (Korbblütler). Kein Ersatz für medizinische Versorgung in schwere Erkrankung.",
+  "floweringSeasonDe": "Mai–September (Nordhalbkugel)",
+  "historicalNotesDe": "Documented in Europaan monastic herbals; German Commission E monographs support several traditionell uses.",
+  "useCategoryIds": [
+    "calming",
+    "digestive",
+    "anti-inflammatory",
+    "skin-topical",
+    "respiratory",
+    "pain-relief",
+    "oral-dental"
+  ],
+  "bloomSeasons": [
+    "spring",
+    "autumn",
+    "summer"
+  ]
 }

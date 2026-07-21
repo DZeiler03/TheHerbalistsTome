@@ -1,0 +1,39 @@
+{
+  "id": "carline-thistle",
+  "nameEn": "Stemless Carline Thistle",
+  "nameDe": "Silberdistel",
+  "scientificName": "Carlina acaulis",
+  "family": "Asteraceae",
+  "kind": "herb",
+  "countryIds": [
+    "at",
+    "de",
+    "ch",
+    "it",
+    "fr"
+  ],
+  "partsUsed": "Root (historical), flower heads ornamental",
+  "partsUsedDe": "Wurzel (historisch), Blütenköpfe Zierde",
+  "habitat": "Dry calcareous Alpine and upland pastures.",
+  "habitatDe": "Trockene kalkreiche Alpen- und Bergweiden.",
+  "traditionalUsesEn": "Historical Alpine bitter and wound herb; now often protected.",
+  "traditionalUsesDe": "Historisches alpines Bitter- und Wundkraut; heute oft geschützt.",
+  "activeCompounds": "Essential oil, inulin, Carlina oxide",
+  "activeCompoundsDe": "Ätherisches Öl, Inulin, Carlinaoxid",
+  "preparation": "Prefer cultivated/protected-status-aware products; mostly cultural plant today.",
+  "preparationDe": "Kulturware bzw. Schutzstatus beachten; heute vor allem Kulturpflanze.",
+  "cautions": "Protected species in many Alpine regions — do not wild-harvest.",
+  "cautionsDe": "In vielen Alpenregionen geschützt — nicht wild sammeln.",
+  "floweringSeason": "July–September",
+  "floweringSeasonDe": "Juli–September",
+  "historicalNotes": "Silver sun of Alpine meadows; weather oracle folklore.",
+  "historicalNotesDe": "Silberne Sonne der Almwiesen; Wetterorakel der Folklore.",
+  "useCategoryIds": [
+    "digestive",
+    "skin-topical"
+  ],
+  "bloomSeasons": [
+    "summer",
+    "autumn"
+  ]
+}

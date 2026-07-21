@@ -1,0 +1,38 @@
+{
+  "id": "centaury",
+  "nameEn": "Centaury",
+  "nameDe": "Tausendgüldenkraut",
+  "scientificName": "Centaurium erythraea",
+  "family": "Gentianaceae",
+  "kind": "herb",
+  "countryIds": [
+    "at",
+    "de",
+    "fr",
+    "es",
+    "pl",
+    "gb"
+  ],
+  "partsUsed": "Flowering herb",
+  "partsUsedDe": "Blühendes Kraut",
+  "habitat": "Dry grasslands and clearings of Europe.",
+  "habitatDe": "Trockene Grasfluren und Lichtungen Europas.",
+  "traditionalUsesEn": "Gentle bitter for appetite and digestion.",
+  "traditionalUsesDe": "Mildes Amara für Appetit und Verdauung.",
+  "activeCompounds": "Secoiridoid bitters",
+  "activeCompoundsDe": "Secoiridoid-Bitterstoffe",
+  "preparation": "Herb infusion or tincture before meals.",
+  "preparationDe": "Krauttee oder Tinktur vor den Mahlzeiten.",
+  "cautions": "Avoid with active peptic ulcers unless advised.",
+  "cautionsDe": "Bei aktiven Magengeschwüren nur nach Rücksprache.",
+  "floweringSeason": "June–September",
+  "floweringSeasonDe": "Juni–September",
+  "historicalNotes": "„Thousand guilders“ herb of European bitter tradition.",
+  "historicalNotesDe": "„Tausend-Gulden“-Kraut der europäischen Bitterstoff-Tradition.",
+  "useCategoryIds": [
+    "digestive"
+  ],
+  "bloomSeasons": [
+    "summer"
+  ]
+}

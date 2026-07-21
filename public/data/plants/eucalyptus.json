@@ -1,1 +1,36 @@
-{"id":"eucalyptus","countryIds":["au","pt","br"],"nameEn":"Eucalyptus","nameDe":"Eukalyptus","scientificName":"Eucalyptus globulus (and other spp.)","family":"Myrtaceae","partsUsed":"Leaves; essential oil","habitat":"Australia native; planted worldwide in Mediterranean and subtropical climates.","traditionalUsesEn":"Traditional Aboriginal and later pharmacy use of leaf oil for inhalation in colds.","traditionalUsesDe":"Traditionelle und spätere pharmazeutische Nutzung des Blattöls zur Inhalation bei Erkältung.","activeCompounds":"Essential oil (1,8-cineole major in many spp.)","preparation":"Steam inhalation of diluted oil; lozenges; leaf infusions carefully.","cautions":"Essential oil toxic if swallowed; keep from children. Not for infants’ faces. Dilute always.","floweringSeason":"Species-dependent","historicalNotes":"Iconic Australian genus; global plantation timber and oil crop."}
+{
+  "id": "eucalyptus",
+  "countryIds": [
+    "au",
+    "pt",
+    "br"
+  ],
+  "nameEn": "Eucalyptus",
+  "nameDe": "Eukalyptus",
+  "scientificName": "Eucalyptus globulus (and other spp.)",
+  "family": "Myrtaceae",
+  "partsUsed": "Leaves; essential oil",
+  "habitat": "Australia native; planted worldwide in Mediterranean and subtropical climates.",
+  "traditionalUsesEn": "Traditional Aboriginal and later pharmacy use of leaf oil for inhalation in colds.",
+  "traditionalUsesDe": "Traditionelle und spätere pharmazeutische Nutzung des Blattöls zur Inhalation bei Erkältung.",
+  "activeCompounds": "Essential oil (1,8-cineole major in many spp.)",
+  "preparation": "Steam inhalation of diluted oil; lozenges; leaf infusions carefully.",
+  "cautions": "Essential oil toxic if swallowed; keep from children. Not for infants’ faces. Dilute always.",
+  "floweringSeason": "Species-dependent",
+  "historicalNotes": "Iconic Australian genus; global plantation timber and oil crop.",
+  "kind": "tree",
+  "partsUsedDe": "Leaves; ätherisches Öl",
+  "habitatDe": "Australien native; planted worldwide in Mittelmeergebiet und subtropisch climates.",
+  "activeCompoundsDe": "Ätherisches Öl (1,8-cineole major in many spp.)",
+  "preparationDe": "Dampfinhalation von verdünnt Öl; lozenges; Blatt Aufgusss carefully.",
+  "cautionsDe": "Ätherisches Öl toxic if swallowed; keep von Kinder. Not für Säuglinge’ faces. Dilute always.",
+  "floweringSeasonDe": "Species-dependent",
+  "historicalNotesDe": "Iconic Australienn genus; global plantation timber und Öl crop.",
+  "useCategoryIds": [
+    "immune-support",
+    "respiratory"
+  ],
+  "bloomSeasons": [
+    "yearRound"
+  ]
+}

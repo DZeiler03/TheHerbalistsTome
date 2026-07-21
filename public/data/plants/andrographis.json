@@ -18,5 +18,19 @@
   "preparation": "Dried herb decoctions, standardized extracts.",
   "cautions": "Very bitter. May affect fertility and immune drugs—professional advice. Not for pregnancy.",
   "floweringSeason": "Year-round in tropics",
-  "historicalNotes": "Called king of bitters; WHO monographs discuss traditional cold use."
+  "historicalNotes": "Called king of bitters; WHO monographs discuss traditional cold use.",
+  "partsUsedDe": "Kraut",
+  "habitatDe": "South und SE Asien; common in Indienn und Thai herbalism.",
+  "activeCompoundsDe": "Andrographolide und related diterpene lactones",
+  "preparationDe": "Getrocknet Kraut Abkochungs, standardisierte Extrakte.",
+  "cautionsDe": "Very bitter. May affect fertility und immune drugs—fachlicher Rat. Not für Schwangerschaft.",
+  "floweringSeasonDe": "Ganzjährig in tropics",
+  "historicalNotesDe": "Called king von bitters; WHO monographs discuss traditionell cold use.",
+  "useCategoryIds": [
+    "digestive",
+    "immune-support"
+  ],
+  "bloomSeasons": [
+    "yearRound"
+  ]
 }

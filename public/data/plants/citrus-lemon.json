@@ -1,0 +1,39 @@
+{
+  "id": "citrus-lemon",
+  "countryIds": [
+    "es",
+    "it",
+    "tr",
+    "us",
+    "mx"
+  ],
+  "nameEn": "Lemon",
+  "nameDe": "Zitrone",
+  "scientificName": "Citrus limon",
+  "family": "Rutaceae",
+  "kind": "tree",
+  "partsUsed": "Fruit juice and peel",
+  "habitat": "Asian origin via Mediterranean cultivation; global subtropics.",
+  "traditionalUsesEn": "Culinary citrus; traditional vitamin-C food and aromatic peel oil.",
+  "traditionalUsesDe": "Küchenzitrus; traditionelle Vitamin-C-Nahrung und Schalenöl.",
+  "activeCompounds": "Citric acid, vitamin C, limonene in peel oil, flavonoids",
+  "preparation": "Juice and zest in food; peel oil aromatic diluted.",
+  "cautions": "Peel oil photosensitizing on skin before sun. Food amounts safe for most.",
+  "floweringSeason": "Varies; often spring flush",
+  "historicalNotes": "Spread with Arab and later Spanish agriculture.",
+  "partsUsedDe": "Fruit juice und peel",
+  "habitatDe": "Asienn Herkunft via Mittelmeergebiet cultivation; global subtropics.",
+  "activeCompoundsDe": "Citric acid, vitamin C, limonene in peel Öl, flavonoids",
+  "preparationDe": "Juice und zest in food; peel Öl aromatic verdünnt.",
+  "cautionsDe": "Peel Öl photosensitizing on skin before sun. Nahrungsmengen safe für most.",
+  "floweringSeasonDe": "Varies; often spring flush",
+  "historicalNotesDe": "Spread mit Arab und later Spanish agriculture.",
+  "useCategoryIds": [
+    "culinary",
+    "aromatic",
+    "nutritive"
+  ],
+  "bloomSeasons": [
+    "spring"
+  ]
+}

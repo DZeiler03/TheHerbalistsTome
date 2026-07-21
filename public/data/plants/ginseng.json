@@ -1,8 +1,8 @@
 {
   "id": "ginseng",
   "countryIds": [
-    "kr",
-    "cn"
+    "cn",
+    "kr"
   ],
   "nameEn": "Asian Ginseng",
   "nameDe": "Asiatischer Ginseng / Koreanischer Ginseng",
@@ -16,5 +16,19 @@
   "preparation": "Dried root decoctions, white/red ginseng products, standardized extracts.",
   "cautions": "May affect blood pressure, blood sugar, and interact with medications. Not for unrestricted long-term self-medication; avoid in certain hormonal conditions without advice.",
   "floweringSeason": "Summer (wild/cultivated plants)",
-  "historicalNotes": "Name Panax from Greek \"all-healing\"; Korean red ginseng (steamed) is a traditional processed form."
+  "historicalNotes": "Name Panax from Greek \"all-healing\"; Korean red ginseng (steamed) is a traditional processed form.",
+  "kind": "herb",
+  "partsUsedDe": "Wurzel",
+  "habitatDe": "Cool gemäßigt Wälder von Korea, northeastern China, und Russian Far East; extensively angebaut in Korea und China.",
+  "activeCompoundsDe": "Ginsenosides (triterpene saponins), polysaccharides",
+  "preparationDe": "Getrocknet Wurzel Abkochungs, white/red ginseng products, standardisierte Extrakte.",
+  "cautionsDe": "May affect Blutdruck, Blutzucker, und interact mit medications. Not für unrestricted long-term Selbstmedikation; vermeiden in certain hormonal conditions ohne Beratung.",
+  "floweringSeasonDe": "Sommer (wild/angebaut plants)",
+  "historicalNotesDe": "Name Panax von Greek \"all-healing\"; Korean red ginseng (steamed) is a traditionell processed form.",
+  "useCategoryIds": [
+    "adaptogenic"
+  ],
+  "bloomSeasons": [
+    "summer"
+  ]
 }

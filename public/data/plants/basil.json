@@ -1,0 +1,40 @@
+{
+  "id": "basil",
+  "nameEn": "Basil",
+  "nameDe": "Basilikum",
+  "scientificName": "Ocimum basilicum",
+  "family": "Lamiaceae",
+  "kind": "herb",
+  "countryIds": [
+    "it",
+    "gr",
+    "tr",
+    "fr",
+    "at",
+    "de"
+  ],
+  "partsUsed": "Leaves",
+  "partsUsedDe": "Blätter",
+  "habitat": "Tropical Asian origin; Mediterranean and European gardens.",
+  "habitatDe": "Tropisch-asiatischen Ursprungs; mediterrane und europäische Gärten.",
+  "traditionalUsesEn": "Culinary; mild digestive aromatic.",
+  "traditionalUsesDe": "Küchenkraut; mild verdauungsfördernd-aromatisch.",
+  "activeCompounds": "Essential oil (linalool, eugenol chemotypes)",
+  "activeCompoundsDe": "Ätherisches Öl (Linalool-, Eugenol-Chemotypen)",
+  "preparation": "Fresh leaves culinary; mild tea.",
+  "preparationDe": "Frische Blätter in der Küche; milder Tee.",
+  "cautions": "Culinary safe; essential oil dilute only.",
+  "cautionsDe": "Kulinarisch unbedenklich; ätherisches Öl nur verdünnt.",
+  "floweringSeason": "June–September",
+  "floweringSeasonDe": "Juni–September",
+  "historicalNotes": "Royal herb of Mediterranean tables, now Alpine balconies too.",
+  "historicalNotesDe": "Königskraut mediterraner Tafeln, heute auch auf Alpenbalkonen.",
+  "useCategoryIds": [
+    "digestive",
+    "culinary",
+    "calming"
+  ],
+  "bloomSeasons": [
+    "summer"
+  ]
+}

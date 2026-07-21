@@ -1,0 +1,40 @@
+{
+  "id": "chicory",
+  "nameEn": "Chicory",
+  "nameDe": "Wegwarte",
+  "scientificName": "Cichorium intybus",
+  "family": "Asteraceae",
+  "kind": "herb",
+  "countryIds": [
+    "at",
+    "de",
+    "fr",
+    "pl",
+    "it",
+    "hu"
+  ],
+  "partsUsed": "Root, leaves, flowers",
+  "partsUsedDe": "Wurzel, Blätter, Blüten",
+  "habitat": "Roadsides and fields of Europe.",
+  "habitatDe": "Wegränder und Äcker in Europa.",
+  "traditionalUsesEn": "Bitter root coffee substitute; digestive bitter.",
+  "traditionalUsesDe": "Bittere Wurzel als Kaffeeersatz; Verdauungsbitter.",
+  "activeCompounds": "Inulin, bitter sesquiterpene lactones",
+  "activeCompoundsDe": "Inulin, bittere Sesquiterpenlactone",
+  "preparation": "Roasted root beverage; leaf salads; root decoction.",
+  "preparationDe": "Geröstetes Wurzelgetränk; Blattsalate; Wurzelabkochung.",
+  "cautions": "Asteraceae allergy possible.",
+  "cautionsDe": "Korbblütler-Allergie möglich.",
+  "floweringSeason": "July–October",
+  "floweringSeasonDe": "Juli–Oktober",
+  "historicalNotes": "Sky-blue wayside clocks of Central Europe.",
+  "historicalNotesDe": "Himmelblaue Wegranduhren Mitteleuropas.",
+  "useCategoryIds": [
+    "digestive",
+    "culinary"
+  ],
+  "bloomSeasons": [
+    "summer",
+    "autumn"
+  ]
+}

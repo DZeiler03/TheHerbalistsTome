@@ -1,0 +1,36 @@
+{
+  "id": "cedar",
+  "countryIds": [
+    "ma",
+    "tr",
+    "lb"
+  ],
+  "nameEn": "Atlas Cedar",
+  "nameDe": "Atlas-Zeder",
+  "scientificName": "Cedrus atlantica",
+  "family": "Pinaceae",
+  "kind": "tree",
+  "partsUsed": "Wood oil (aromatic), historically wood",
+  "habitat": "Atlas Mountains of Morocco; related cedars in Lebanon and Turkey (C. libani).",
+  "traditionalUsesEn": "Aromatic wood oil in fragrance and traditional inhalation; sacred mountain timber.",
+  "traditionalUsesDe": "Aromatisches Holzöl in Duft und traditioneller Inhalation; heiliges Bergholz.",
+  "activeCompounds": "Essential oil sesquiterpenes (atlantone and related)",
+  "preparation": "Essential oil aromatic/external diluted; wood historically for building.",
+  "cautions": "Essential oil dilute only; quality and species labeling vary.",
+  "floweringSeason": "Autumn (cones mature slowly)",
+  "historicalNotes": "Atlas and Lebanon cedars are cultural icons of the Maghreb and Levant.",
+  "partsUsedDe": "Wood Öl (aromatic), historically Holz",
+  "habitatDe": "Atlas Mountains von Morocco; related cedars in Lebanon und Turkey (C. libani).",
+  "activeCompoundsDe": "Ätherisches Öl sesquiterpenes (atlantone und related)",
+  "preparationDe": "Ätherisches Öl aromatic/äußerlich verdünnt; Holz historically für building.",
+  "cautionsDe": "Ätherisches Öl verdünnen only; quality und species labeling vary.",
+  "floweringSeasonDe": "Herbst (cones mature slowly)",
+  "historicalNotesDe": "Atlas und Lebanon cedars are cultural icons von die Maghreb und Levant.",
+  "useCategoryIds": [
+    "respiratory",
+    "aromatic"
+  ],
+  "bloomSeasons": [
+    "autumn"
+  ]
+}

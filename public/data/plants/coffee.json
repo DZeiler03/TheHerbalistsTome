@@ -1,1 +1,37 @@
-{"id":"coffee","countryIds":["et","co","br","vn","id"],"nameEn":"Coffee","nameDe":"Kaffee","scientificName":"Coffea arabica / C. canephora","family":"Rubiaceae","partsUsed":"Roasted seeds (beans)","habitat":"Ethiopian highlands origin (arabica); tropical cultivation belt worldwide.","traditionalUsesEn":"Global stimulant beverage; traditional Ethiopian coffee ceremony; studied pharmacology of caffeine.","traditionalUsesDe":"Globales Anregungsgetränk; traditionelle äthiopische Kaffeezeremonie; Koffein-Pharmakologie gut untersucht.","activeCompounds":"Caffeine, chlorogenic acids, trigonelline, diterpenes (cafestol, kahweol in unfiltered)","preparation":"Roasted and brewed; espresso, filter, traditional jebena pot.","cautions":"Caffeine: insomnia, anxiety, heart rhythm in sensitive people. Unfiltered coffee raises cholesterol in some studies.","floweringSeason":"After rainy seasons (region-dependent)","historicalNotes":"From Ethiopian forests to global commodity reshaping modern work culture."}
+{
+  "id": "coffee",
+  "countryIds": [
+    "et",
+    "co",
+    "br",
+    "vn",
+    "id"
+  ],
+  "nameEn": "Coffee",
+  "nameDe": "Kaffee",
+  "scientificName": "Coffea arabica / C. canephora",
+  "family": "Rubiaceae",
+  "partsUsed": "Roasted seeds (beans)",
+  "habitat": "Ethiopian highlands origin (arabica); tropical cultivation belt worldwide.",
+  "traditionalUsesEn": "Global stimulant beverage; traditional Ethiopian coffee ceremony; studied pharmacology of caffeine.",
+  "traditionalUsesDe": "Globales Anregungsgetränk; traditionelle äthiopische Kaffeezeremonie; Koffein-Pharmakologie gut untersucht.",
+  "activeCompounds": "Caffeine, chlorogenic acids, trigonelline, diterpenes (cafestol, kahweol in unfiltered)",
+  "preparation": "Roasted and brewed; espresso, filter, traditional jebena pot.",
+  "cautions": "Caffeine: insomnia, anxiety, heart rhythm in sensitive people. Unfiltered coffee raises cholesterol in some studies.",
+  "floweringSeason": "After rainy seasons (region-dependent)",
+  "historicalNotes": "From Ethiopian forests to global commodity reshaping modern work culture.",
+  "kind": "shrub",
+  "partsUsedDe": "Roasted Samen (beans)",
+  "habitatDe": "Ethiopian highlands Herkunft (arabica); tropisch cultivation belt worldwide.",
+  "activeCompoundsDe": "Caffeine, chlorogenic acids, trigonelline, diterpenes (cafestol, kahweol in unfiltered)",
+  "preparationDe": "Roasted und brewed; espresso, filter, traditionell jebena pot.",
+  "cautionsDe": "Caffeine: insomnia, anxiety, heart rhythm in empfindlich Personen. Unfiltered coffee raises cholesterol in some studies.",
+  "floweringSeasonDe": "After rainy seasons (region-dependent)",
+  "historicalNotesDe": "From Ethiopian Wälder zu global commodity reshaping modern work culture.",
+  "useCategoryIds": [
+    "aromatic"
+  ],
+  "bloomSeasons": [
+    "summer"
+  ]
+}

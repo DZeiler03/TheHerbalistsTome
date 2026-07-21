@@ -7,7 +7,7 @@
     "za"
   ],
   "nameEn": "Aloe Vera",
-  "nameDe": "Echte Aloe",
+  "nameDe": "Aloe Vera",
   "scientificName": "Aloe vera (syn. Aloe barbadensis)",
   "family": "Asphodelaceae",
   "partsUsed": "Leaf gel (inner parenchyma); latex (aloetic juice) from outer leaf is a different preparation",
@@ -18,5 +18,20 @@
   "preparation": "Fresh inner gel or stabilized gel products topically; latex products regulated and restricted in many markets.",
   "cautions": "Do not confuse gel with latex. Aloe latex is a stimulant laxative with safety concerns; oral non-decolorized whole-leaf extracts have been restricted in some jurisdictions. Patch-test topical products.",
   "floweringSeason": "Variable; tubular yellow flowers on tall racemes",
-  "historicalNotes": "Depicted and described in ancient Egyptian and Greco-Roman sources; one of the most widely used topical houseplants."
+  "historicalNotes": "Depicted and described in ancient Egyptian and Greco-Roman sources; one of the most widely used topical houseplants.",
+  "kind": "other",
+  "partsUsedDe": "Blatt gel (inner parenchyma); latex (aloetic juice) von outer Blatt is a different preparation",
+  "habitatDe": "Likely Arabian Peninsula Herkunft; eingebürgert und angebaut in warm dry regions worldwide including Mexiko und North Afrika.",
+  "activeCompoundsDe": "Gel: polysaccharides (acemannan), glycoproteins. Latex: anthraquinone glycosides (aloin)",
+  "preparationDe": "Frisch inner gel oder stabilized gel products topically; latex products regulated und restricted in many markets.",
+  "cautionsDe": "Do not confuse gel mit latex. Aloe latex is a stimulant laxative mit safety concerns; oral non-decolorized whole-Blatt Extrakte have been restricted in some jurisdictions. Patch-test äußerlich products.",
+  "floweringSeasonDe": "Variable; tubular yellow Blüten on tall racemes",
+  "historicalNotesDe": "Depicted und described in ancient Ägyptenian und Greco-Roman sources; one von die most widely used äußerlich houseplants.",
+  "useCategoryIds": [
+    "skin-topical",
+    "nutritive"
+  ],
+  "bloomSeasons": [
+    "yearRound"
+  ]
 }

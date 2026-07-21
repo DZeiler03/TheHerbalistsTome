@@ -1,1 +1,40 @@
-{"id":"dandelion","countryIds":["de","fr","gb","pl","us","ca"],"nameEn":"Dandelion","nameDe":"Löwenzahn","scientificName":"Taraxacum officinale","family":"Asteraceae","partsUsed":"Leaves, root","habitat":"Cosmopolitan temperate weed of lawns, meadows, and roadsides.","traditionalUsesEn":"Bitter digestive tonic; traditional diuretic use of leaves; roasted root beverage.","traditionalUsesDe":"Bitterstoff für die Verdauung; traditionell harntreibende Blätter; geröstete Wurzel als Getränk.","activeCompounds":"Sesquiterpene lactones, phenolic acids, inulin (root), potassium","preparation":"Leaf salad or tea; root decoction or roasted coffee substitute.","cautions":"Asteraceae allergy; bile duct obstruction needs medical care, not self-treatment.","floweringSeason":"Mainly spring–autumn (region-dependent)","historicalNotes":"Name from French dent-de-lion; globalized with European settlement."}
+{
+  "id": "dandelion",
+  "countryIds": [
+    "de",
+    "fr",
+    "gb",
+    "pl",
+    "us",
+    "ca"
+  ],
+  "nameEn": "Dandelion",
+  "nameDe": "Löwenzahn",
+  "scientificName": "Taraxacum officinale",
+  "family": "Asteraceae",
+  "partsUsed": "Leaves, root",
+  "habitat": "Cosmopolitan temperate weed of lawns, meadows, and roadsides.",
+  "traditionalUsesEn": "Bitter digestive tonic; traditional diuretic use of leaves; roasted root beverage.",
+  "traditionalUsesDe": "Bitterstoff für die Verdauung; traditionell harntreibende Blätter; geröstete Wurzel als Getränk.",
+  "activeCompounds": "Sesquiterpene lactones, phenolic acids, inulin (root), potassium",
+  "preparation": "Leaf salad or tea; root decoction or roasted coffee substitute.",
+  "cautions": "Asteraceae allergy; bile duct obstruction needs medical care, not self-treatment.",
+  "floweringSeason": "Mainly spring–autumn (region-dependent)",
+  "historicalNotes": "Name from French dent-de-lion; globalized with European settlement.",
+  "partsUsedDe": "Leaves, Wurzel",
+  "habitatDe": "Cosmopolitan gemäßigt weed von lawns, Wiesen, und Wegränder.",
+  "activeCompoundsDe": "Sesquiterpene lactones, phenolic acids, inulin (Wurzel), potassium",
+  "preparationDe": "Blatt salad oder Tee; Wurzel Abkochung oder roasted coffee Ersatz.",
+  "cautionsDe": "Asteraceae Allergie; bile duct obstruction needs medizinische Versorgung, not Selbstbehandlung.",
+  "floweringSeasonDe": "Mainly spring–autumn (region-dependent)",
+  "historicalNotesDe": "Name von French dent-de-lion; globalized mit Europaan settlement.",
+  "useCategoryIds": [
+    "digestive",
+    "adaptogenic",
+    "urinary"
+  ],
+  "bloomSeasons": [
+    "spring",
+    "autumn"
+  ]
+}

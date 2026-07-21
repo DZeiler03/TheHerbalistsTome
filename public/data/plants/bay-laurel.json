@@ -7,7 +7,7 @@
     "pt"
   ],
   "nameEn": "Bay Laurel",
-  "nameDe": "Echter Lorbeer",
+  "nameDe": "Lorbeer",
   "scientificName": "Laurus nobilis",
   "family": "Lauraceae",
   "partsUsed": "Leaves",
@@ -18,5 +18,20 @@
   "preparation": "Dried leaves in cooking; occasional leaf infusion.",
   "cautions": "Do not confuse with cherry laurel (Prunus laurocerasus), which is toxic. Essential oil not for casual internal use.",
   "floweringSeason": "Spring (small yellow flowers)",
-  "historicalNotes": "Symbol of victory in classical antiquity; Apollo’s plant in myth."
+  "historicalNotes": "Symbol of victory in classical antiquity; Apollo’s plant in myth.",
+  "kind": "tree",
+  "partsUsedDe": "Leaves",
+  "habitatDe": "Mittelmeergebiet scrub; angebaut ornamental und kulinarisch tree.",
+  "activeCompoundsDe": "Ätherisches Öl (1,8-cineole, others), sesquiterpene lactones",
+  "preparationDe": "Getrocknet Blätter in die Küche; occasional Blatt Aufguss.",
+  "cautionsDe": "Do not confuse mit cherry laurel (Prunus laurocerasus), which is toxic. Ätherisches Öl not für casual innere Anwendung.",
+  "floweringSeasonDe": "Frühling (small yellow Blüten)",
+  "historicalNotesDe": "Symbol von victory in classical antiquity; Apollo’s plant in myth.",
+  "useCategoryIds": [
+    "digestive",
+    "culinary"
+  ],
+  "bloomSeasons": [
+    "spring"
+  ]
 }

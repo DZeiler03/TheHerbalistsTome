@@ -1,1 +1,35 @@
-{"id":"cat-s-claw","countryIds":["pe","br","bo"],"nameEn":"Cat's Claw","nameDe":"Katzenkralle","scientificName":"Uncaria tomentosa","family":"Rubiaceae","partsUsed":"Bark, root bark","habitat":"Amazonian rainforest vines of Peru and neighboring countries.","traditionalUsesEn":"Traditional Asháninka and Amazonian use for inflammatory complaints; modern bark extracts.","traditionalUsesDe":"Traditionelle asháninka- und amazonische Nutzung bei Entzündungsbeschwerden; moderne Rindenextrakte.","activeCompounds":"Oxindole alkaloids, triterpenes, polyphenols","preparation":"Bark decoctions and standardized extracts.","cautions":"May stimulate immune activity—caution with autoimmune disease and before surgery. Professional advice.","floweringSeason":"Unknown","historicalNotes":"Named for claw-like thorns; major Peruvian botanical export."}
+{
+  "id": "cat-s-claw",
+  "countryIds": [
+    "pe",
+    "br",
+    "bo"
+  ],
+  "nameEn": "Cat's Claw",
+  "nameDe": "Katzenkralle",
+  "scientificName": "Uncaria tomentosa",
+  "family": "Rubiaceae",
+  "partsUsed": "Bark, root bark",
+  "habitat": "Amazonian rainforest vines of Peru and neighboring countries.",
+  "traditionalUsesEn": "Traditional Asháninka and Amazonian use for inflammatory complaints; modern bark extracts.",
+  "traditionalUsesDe": "Traditionelle asháninka- und amazonische Nutzung bei Entzündungsbeschwerden; moderne Rindenextrakte.",
+  "activeCompounds": "Oxindole alkaloids, triterpenes, polyphenols",
+  "preparation": "Bark decoctions and standardized extracts.",
+  "cautions": "May stimulate immune activity—caution with autoimmune disease and before surgery. Professional advice.",
+  "floweringSeason": "Unknown",
+  "historicalNotes": "Named for claw-like thorns; major Peruvian botanical export.",
+  "kind": "vine",
+  "partsUsedDe": "Bark, Wurzel Rinde",
+  "habitatDe": "Amazonian rainforest vines von Peru und neighboring countries.",
+  "activeCompoundsDe": "Oxindole alkaloids, triterpenes, polyphenols",
+  "preparationDe": "Bark Abkochungs und standardisierte Extrakte.",
+  "cautionsDe": "May stimulate immune activity—caution mit autoimmune disease und before surgery. Fachlicher Rat.",
+  "floweringSeasonDe": "Unbekannt",
+  "historicalNotesDe": "Named für claw-like thorns; major Peruvian botanical export.",
+  "useCategoryIds": [
+    "anti-inflammatory"
+  ],
+  "bloomSeasons": [
+    "yearRound"
+  ]
+}

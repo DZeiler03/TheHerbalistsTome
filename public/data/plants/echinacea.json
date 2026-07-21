@@ -1,6 +1,7 @@
 {
   "id": "echinacea",
   "countryIds": [
+    "ca",
     "us"
   ],
   "nameEn": "Purple Coneflower",
@@ -15,5 +16,19 @@
   "preparation": "Tinctures, pressed juice of aerial parts, dried herb/root teas and extracts.",
   "cautions": "Asteraceae allergy risk. Not recommended as prolonged continuous self-treatment; immune-related conditions need professional advice. Evidence for cold prevention/treatment is mixed.",
   "floweringSeason": "Mid to late summer",
-  "historicalNotes": "One of several Echinacea species used medicinally; E. purpurea is the most common cultivated ornamental and herbal species."
+  "historicalNotes": "One of several Echinacea species used medicinally; E. purpurea is the most common cultivated ornamental and herbal species.",
+  "partsUsedDe": "Kraut and/or Wurzel (depending on preparation und species)",
+  "habitatDe": "Nordamerikan prairies und open Waldlands; heimisch in central und eastern USA; weit verbreitet angebaut.",
+  "activeCompoundsDe": "Alkylamides, caffeic acid derivatives (cichoric acid), polysaccharides, ätherisches Öl",
+  "preparationDe": "Tinkturen, pressed juice von Kraut, getrocknet Kraut/Wurzel teas und Extrakte.",
+  "cautionsDe": "Asteraceae Allergie risk. Nicht empfohlen as prolonged continuous Selbstbehandlung; immune-related conditions need fachlicher Rat. Evidence für cold prevention/treatment is mixed.",
+  "floweringSeasonDe": "Mid zu late summer",
+  "historicalNotesDe": "One von several Echinacea species used medicinally; E. purpurea is die most common angebaut ornamental und herbal species.",
+  "useCategoryIds": [
+    "immune-support",
+    "skin-topical"
+  ],
+  "bloomSeasons": [
+    "summer"
+  ]
 }

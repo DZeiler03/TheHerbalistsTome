@@ -1,0 +1,40 @@
+{
+  "id": "cistus",
+  "nameEn": "Rockrose / Cistus",
+  "nameDe": "Zistrose",
+  "scientificName": "Cistus incanus / C. creticus",
+  "family": "Cistaceae",
+  "kind": "shrub",
+  "countryIds": [
+    "gr",
+    "es",
+    "it",
+    "pt",
+    "tr"
+  ],
+  "partsUsed": "Leaves, herb",
+  "partsUsedDe": "Blätter, Kraut",
+  "habitat": "Mediterranean maquis and rocky slopes.",
+  "habitatDe": "Mediterrane Macchie und Felsenhänge.",
+  "traditionalUsesEn": "Polyphenol-rich tea popular in modern European herbalism.",
+  "traditionalUsesDe": "Polyphenolreicher Tee, beliebt in der modernen europäischen Kräuterkunde.",
+  "activeCompounds": "Polyphenols, proanthocyanidins",
+  "activeCompoundsDe": "Polyphenole, Proanthocyanidine",
+  "preparation": "Leaf infusion.",
+  "preparationDe": "Blattaufguss.",
+  "cautions": "Tannin-rich; not for long high-dose use if iron-deficient without advice.",
+  "cautionsDe": "Gerbstoffreich; bei Eisenmangel nicht langfristig hoch dosieren ohne Rat.",
+  "floweringSeason": "April–June",
+  "floweringSeasonDe": "April–Juni",
+  "historicalNotes": "Mediterranean rockrose embraced by German herbal tea culture.",
+  "historicalNotesDe": "Mediterrane Zistrose der deutschen Kräutertee-Kultur.",
+  "useCategoryIds": [
+    "immune-support",
+    "anti-inflammatory",
+    "oral-dental"
+  ],
+  "bloomSeasons": [
+    "spring",
+    "summer"
+  ]
+}

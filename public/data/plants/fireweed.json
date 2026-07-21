@@ -1,0 +1,39 @@
+{
+  "id": "fireweed",
+  "nameEn": "Fireweed / Rosebay Willowherb",
+  "nameDe": "Weidenröschen",
+  "scientificName": "Epilobium angustifolium",
+  "family": "Onagraceae",
+  "kind": "herb",
+  "countryIds": [
+    "at",
+    "de",
+    "se",
+    "fi",
+    "pl",
+    "gb"
+  ],
+  "partsUsed": "Herb, leaves",
+  "partsUsedDe": "Kraut, Blätter",
+  "habitat": "Clearings, burns, mountain slopes of Europe.",
+  "habitatDe": "Lichtungen, Brandflächen und Berghänge Europas.",
+  "traditionalUsesEn": "Traditional men's urinary herb; mild astringent tea.",
+  "traditionalUsesDe": "Traditionelles Männerkraut bei Harnwegsthemen; mild adstringierender Tee.",
+  "activeCompounds": "Ellagitannins, flavonoids",
+  "activeCompoundsDe": "Ellagitannine, Flavonoide",
+  "preparation": "Herb infusion.",
+  "preparationDe": "Krauttee.",
+  "cautions": "Seek medical care for prostate symptoms.",
+  "cautionsDe": "Bei Prostatabeschwerden ärztlichen Rat suchen.",
+  "floweringSeason": "June–September",
+  "floweringSeasonDe": "Juni–September",
+  "historicalNotes": "Magenta pioneer of Alpine and northern clearings.",
+  "historicalNotesDe": "Magenta-Pionier alpiner und nördlicher Lichtungen.",
+  "useCategoryIds": [
+    "urinary",
+    "anti-inflammatory"
+  ],
+  "bloomSeasons": [
+    "summer"
+  ]
+}

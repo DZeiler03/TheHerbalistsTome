@@ -1,1 +1,35 @@
-{"id":"ashwagandha","countryIds":["in","np"],"nameEn":"Ashwagandha","nameDe":"Schlafbeere / Ashwagandha","scientificName":"Withania somnifera","family":"Solanaceae","partsUsed":"Root","habitat":"Dry regions of India, Middle East, and Africa; extensively cultivated in India.","traditionalUsesEn":"Ayurvedic rasayana (rejuvenative) tradition for stress and vitality; modern adaptogen research ongoing.","traditionalUsesDe":"Ayurvedische Rasayana-Tradition bei Stress und Vitalität; moderne Adaptogen-Forschung.","activeCompounds":"Withanolides, alkaloids, sitoindosides","preparation":"Powdered root, standardized extracts, milk decoctions in classical recipes.","cautions":"May interact with sedatives, thyroid, and immunosuppressant drugs. Pregnancy: avoid medicinal use without advice. Nightshade family.","floweringSeason":"Year-round in tropics; flowers small greenish","historicalNotes":"Sanskrit name refers to horse-like strength/scent; cornerstone of Ayurveda."}
+{
+  "id": "ashwagandha",
+  "countryIds": [
+    "in",
+    "np"
+  ],
+  "nameEn": "Ashwagandha",
+  "nameDe": "Schlafbeere / Ashwagandha",
+  "scientificName": "Withania somnifera",
+  "family": "Solanaceae",
+  "partsUsed": "Root",
+  "habitat": "Dry regions of India, Middle East, and Africa; extensively cultivated in India.",
+  "traditionalUsesEn": "Ayurvedic rasayana (rejuvenative) tradition for stress and vitality; modern adaptogen research ongoing.",
+  "traditionalUsesDe": "Ayurvedische Rasayana-Tradition bei Stress und Vitalität; moderne Adaptogen-Forschung.",
+  "activeCompounds": "Withanolides, alkaloids, sitoindosides",
+  "preparation": "Powdered root, standardized extracts, milk decoctions in classical recipes.",
+  "cautions": "May interact with sedatives, thyroid, and immunosuppressant drugs. Pregnancy: avoid medicinal use without advice. Nightshade family.",
+  "floweringSeason": "Year-round in tropics; flowers small greenish",
+  "historicalNotes": "Sanskrit name refers to horse-like strength/scent; cornerstone of Ayurveda.",
+  "kind": "shrub",
+  "partsUsedDe": "Wurzel",
+  "habitatDe": "Dry regions von Indien, Middle East, und Afrika; extensively angebaut in Indien.",
+  "activeCompoundsDe": "Withanolides, alkaloids, sitoindosides",
+  "preparationDe": "Powdered Wurzel, standardisierte Extrakte, milk Abkochungs in classical recipes.",
+  "cautionsDe": "May interact mit Beruhigungsmitteln, thyroid, und immunosuppressant drugs. Schwangerschaft: vermeiden medicinal use ohne Beratung. Nightshade family.",
+  "floweringSeasonDe": "Ganzjährig in tropics; Blüten small greenish",
+  "historicalNotesDe": "Sanskrit name refers zu horse-like strength/scent; cornerstone von Ayurveda.",
+  "useCategoryIds": [
+    "calming",
+    "adaptogenic"
+  ],
+  "bloomSeasons": [
+    "yearRound"
+  ]
+}

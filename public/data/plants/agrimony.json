@@ -1,0 +1,39 @@
+{
+  "id": "agrimony",
+  "nameEn": "Agrimony",
+  "nameDe": "Odermennig",
+  "scientificName": "Agrimonia eupatoria",
+  "family": "Rosaceae",
+  "kind": "herb",
+  "countryIds": [
+    "at",
+    "de",
+    "gb",
+    "fr",
+    "pl"
+  ],
+  "partsUsed": "Flowering herb",
+  "partsUsedDe": "Blühendes Kraut",
+  "habitat": "Dry grasslands and waysides of Europe.",
+  "habitatDe": "Trockene Grasfluren und Wegränder Europas.",
+  "traditionalUsesEn": "Mild astringent for diarrhea and sore throat gargles.",
+  "traditionalUsesDe": "Mild adstringierend bei Durchfall und als Gurgelmittel bei Halsschmerzen.",
+  "activeCompounds": "Tannins, flavonoids",
+  "activeCompoundsDe": "Gerbstoffe, Flavonoide",
+  "preparation": "Herb infusion; gargle.",
+  "preparationDe": "Krauttee; Gurgeln.",
+  "cautions": "Tannin-rich — not long-term high dose.",
+  "cautionsDe": "Gerbstoffreich — nicht langfristig hoch dosieren.",
+  "floweringSeason": "June–September",
+  "floweringSeasonDe": "Juni–September",
+  "historicalNotes": "Church steeples of yellow on European meadows.",
+  "historicalNotesDe": "Gelbe „Kirchtürme“ auf europäischen Wiesen.",
+  "useCategoryIds": [
+    "digestive",
+    "oral-dental",
+    "anti-inflammatory"
+  ],
+  "bloomSeasons": [
+    "summer"
+  ]
+}

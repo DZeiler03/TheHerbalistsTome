@@ -1,1 +1,39 @@
-{"id":"birch","countryIds":["se","no","pl","de","fi"],"nameEn":"Silver Birch","nameDe":"Hänge-Birke","scientificName":"Betula pendula","family":"Betulaceae","partsUsed":"Leaves","habitat":"Temperate and boreal Europe and Asia.","traditionalUsesEn":"Traditional leaf tea as a mild diuretic for flushing the urinary tract.","traditionalUsesDe":"Traditioneller Blättertee als mildes Diuretikum zur Durchspülung der Harnwege.","activeCompounds":"Flavonoids, saponins, essential oil traces, vitamin C","preparation":"Dried leaf infusion; birch water (sap) as seasonal beverage in north Europe.","cautions":"Adequate fluid intake when using diuretic teas. Seek care for UTI symptoms.","floweringSeason":"April–May (catkins)","historicalNotes":"Central tree in northern European culture and folk medicine."}
+{
+  "id": "birch",
+  "countryIds": [
+    "se",
+    "no",
+    "pl",
+    "de",
+    "fi"
+  ],
+  "nameEn": "Silver Birch",
+  "nameDe": "Hänge-Birke",
+  "scientificName": "Betula pendula",
+  "family": "Betulaceae",
+  "partsUsed": "Leaves",
+  "habitat": "Temperate and boreal Europe and Asia.",
+  "traditionalUsesEn": "Traditional leaf tea as a mild diuretic for flushing the urinary tract.",
+  "traditionalUsesDe": "Traditioneller Blättertee als mildes Diuretikum zur Durchspülung der Harnwege.",
+  "activeCompounds": "Flavonoids, saponins, essential oil traces, vitamin C",
+  "preparation": "Dried leaf infusion; birch water (sap) as seasonal beverage in north Europe.",
+  "cautions": "Adequate fluid intake when using diuretic teas. Seek care for UTI symptoms.",
+  "floweringSeason": "April–May (catkins)",
+  "historicalNotes": "Central tree in northern European culture and folk medicine.",
+  "kind": "tree",
+  "partsUsedDe": "Leaves",
+  "habitatDe": "Gemäßigt und boreal Europa und Asien.",
+  "activeCompoundsDe": "Flavonoids, saponins, ätherisches Öl traces, vitamin C",
+  "preparationDe": "Getrocknet Blatt Aufguss; birch water (sap) as seasonal beverage in north Europa.",
+  "cautionsDe": "Adequate fluid intake when using diuretic teas. Seek care für UTI symptoms.",
+  "floweringSeasonDe": "April–Mai (catkins)",
+  "historicalNotesDe": "Central tree in northern Europaan culture und folk medicine.",
+  "useCategoryIds": [
+    "respiratory",
+    "urinary",
+    "nutritive"
+  ],
+  "bloomSeasons": [
+    "spring"
+  ]
+}

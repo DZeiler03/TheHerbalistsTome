@@ -1,0 +1,39 @@
+{
+  "id": "angelica",
+  "nameEn": "Garden Angelica",
+  "nameDe": "Angelika",
+  "scientificName": "Angelica archangelica",
+  "family": "Apiaceae",
+  "kind": "herb",
+  "countryIds": [
+    "at",
+    "de",
+    "no",
+    "se",
+    "fi"
+  ],
+  "partsUsed": "Root, stems, seeds",
+  "partsUsedDe": "Wurzel, Stängel, Samen",
+  "habitat": "Damp northern and alpine European sites; cultivated.",
+  "habitatDe": "Feuchte Standorte in Nord- und Alpeneuropa; auch angebaut.",
+  "traditionalUsesEn": "Digestive bitter and aromatic; traditional cold-season tonic.",
+  "traditionalUsesDe": "Bitter-aromatisches Verdauungsmittel; traditionelles Stärkungsmittel in der kalten Jahreszeit.",
+  "activeCompounds": "Essential oil, coumarins, bitter principles",
+  "activeCompoundsDe": "Ätherisches Öl, Cumarine, Bitterstoffe",
+  "preparation": "Root decoction or tincture; candied stems culinary.",
+  "preparationDe": "Wurzelabkochung oder Tinktur; kandierte Stängel in der Küche.",
+  "cautions": "Photosensitizing coumarins possible; avoid high doses in pregnancy.",
+  "cautionsDe": "Fotosensibilisierende Cumarine möglich; in der Schwangerschaft hohe Dosen meiden.",
+  "floweringSeason": "June–August",
+  "floweringSeasonDe": "Juni–August",
+  "historicalNotes": "Named for archangelic protection in medieval herbals.",
+  "historicalNotesDe": "In mittelalterlichen Kräuterbüchern mit engelhafter Schutzkraft verbunden.",
+  "useCategoryIds": [
+    "digestive",
+    "respiratory",
+    "calming"
+  ],
+  "bloomSeasons": [
+    "summer"
+  ]
+}

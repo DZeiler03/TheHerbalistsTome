@@ -1,0 +1,37 @@
+{
+  "id": "foxglove",
+  "nameEn": "Foxglove",
+  "nameDe": "Fingerhut",
+  "scientificName": "Digitalis purpurea",
+  "family": "Plantaginaceae",
+  "kind": "herb",
+  "countryIds": [
+    "at",
+    "de",
+    "gb",
+    "fr",
+    "ie"
+  ],
+  "partsUsed": "Leaves (pharmaceutical only)",
+  "partsUsedDe": "Blätter (nur pharmazeutisch)",
+  "habitat": "Woodland edges and mountain meadows of Western and Central Europe.",
+  "habitatDe": "Waldränder und Bergwiesen West- und Mitteleuropas.",
+  "traditionalUsesEn": "Historical heart medicine source of cardiac glycosides — not for self-medication.",
+  "traditionalUsesDe": "Historische Herzmittelpflanze (Herzglykoside) — nicht zur Selbstmedikation.",
+  "activeCompounds": "Cardiac glycosides (digitoxin-related)",
+  "activeCompoundsDe": "Herzglykoside (digitoxinverwandt)",
+  "preparation": "Only standardized pharmaceutical preparations under medical care.",
+  "preparationDe": "Nur standardisierte Arzneimittel unter ärztlicher Aufsicht.",
+  "cautions": "HIGHLY TOXIC. Never prepare home teas. Medical use only.",
+  "cautionsDe": "HOCHGIFTIG. Niemals Haus-Tees zubereiten. Nur medizinische Anwendung.",
+  "floweringSeason": "June–August",
+  "floweringSeasonDe": "Juni–August",
+  "historicalNotes": "W. Withering's 18th-century digitalis studies; Alpine garden ornamental.",
+  "historicalNotesDe": "Witherings Digitalis-Studien im 18. Jh.; alpines Ziergarten-Kraut.",
+  "useCategoryIds": [
+    "circulatory"
+  ],
+  "bloomSeasons": [
+    "summer"
+  ]
+}

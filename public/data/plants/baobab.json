@@ -18,5 +18,20 @@
   "preparation": "Dried fruit powder in food and drinks; cooked leaves.",
   "cautions": "Food use. Species protected in some ranges—sustainable harvest.",
   "floweringSeason": "Species-dependent",
-  "historicalNotes": "Tree of life in many African oral traditions."
+  "historicalNotes": "Tree of life in many African oral traditions.",
+  "kind": "tree",
+  "partsUsedDe": "Fruit pulp, Blätter",
+  "habitatDe": "Savannas von Afrika und dry Wälder von Madagascar (other species).",
+  "activeCompoundsDe": "Vitamin C, fiber, polyphenols in pulp; Blätter: mucilage, minerals",
+  "preparationDe": "Getrocknet Frucht powder in food und drinks; gekocht Blätter.",
+  "cautionsDe": "Food use. Species protected in some ranges—sustainable harvest.",
+  "floweringSeasonDe": "Species-dependent",
+  "historicalNotesDe": "Tree von life in many Afrikan oral traditions.",
+  "useCategoryIds": [
+    "culinary",
+    "nutritive"
+  ],
+  "bloomSeasons": [
+    "yearRound"
+  ]
 }

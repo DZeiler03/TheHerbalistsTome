@@ -1,0 +1,37 @@
+{
+  "id": "avocado",
+  "countryIds": [
+    "mx",
+    "pe",
+    "us",
+    "id"
+  ],
+  "nameEn": "Avocado",
+  "nameDe": "Avocado",
+  "scientificName": "Persea americana",
+  "family": "Lauraceae",
+  "kind": "tree",
+  "partsUsed": "Fruit",
+  "habitat": "Mesoamerican highlands origin; global subtropical crop.",
+  "traditionalUsesEn": "Nutrient-dense fruit food; traditional Mesoamerican staple.",
+  "traditionalUsesDe": "Nährstoffreiche Frucht; mesoamerikanische Stapelnahrung.",
+  "activeCompounds": "Monounsaturated fats, fiber, potassium, phytosterols",
+  "preparation": "Culinary fruit.",
+  "cautions": "Food use. Leaves of some varieties may be toxic to animals—do not use casually as tea.",
+  "floweringSeason": "Varies",
+  "historicalNotes": "Domesticated in ancient Mexico and Central America.",
+  "partsUsedDe": "Fruit",
+  "habitatDe": "Mesoamerican highlands Herkunft; global subtropisch crop.",
+  "activeCompoundsDe": "Monounsaturated fats, fiber, potassium, phytosterols",
+  "preparationDe": "Kulinarisch Frucht.",
+  "cautionsDe": "Food use. Leaves von some varieties kann be toxic zu animals—do not use casually as Tee.",
+  "floweringSeasonDe": "Varies",
+  "historicalNotesDe": "Domesticated in ancient Mexiko und Central America.",
+  "useCategoryIds": [
+    "culinary",
+    "nutritive"
+  ],
+  "bloomSeasons": [
+    "spring"
+  ]
+}

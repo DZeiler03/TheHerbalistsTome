@@ -1,1 +1,37 @@
-{"id":"arnica","countryIds":["ch","de","at","fr"],"nameEn":"Arnica","nameDe":"Arnika","scientificName":"Arnica montana","family":"Asteraceae","partsUsed":"Flower heads (external preparations)","habitat":"Mountain meadows of Central Europe; protected in many areas; cultivated substitutes used.","traditionalUsesEn":"Traditional external use for bruises and muscle ache (ointments, gels).","traditionalUsesDe":"Traditionell äußerlich bei Prellungen und Muskelkater (Salben, Gele).","activeCompounds":"Sesquiterpene lactones (helenalin derivatives), flavonoids, essential oil","preparation":"Diluted topical products only. Not for broken skin or internal self-medication.","cautions":"Toxic if swallowed. External use only as directed. Asteraceae allergy.","floweringSeason":"June–August","historicalNotes":"Alpine folk medicine; conservation concerns for wild collection."}
+{
+  "id": "arnica",
+  "countryIds": [
+    "ch",
+    "de",
+    "at",
+    "fr"
+  ],
+  "nameEn": "Arnica",
+  "nameDe": "Arnika",
+  "scientificName": "Arnica montana",
+  "family": "Asteraceae",
+  "partsUsed": "Flower heads (external preparations)",
+  "habitat": "Mountain meadows of Central Europe; protected in many areas; cultivated substitutes used.",
+  "traditionalUsesEn": "Traditional external use for bruises and muscle ache (ointments, gels).",
+  "traditionalUsesDe": "Traditionell äußerlich bei Prellungen und Muskelkater (Salben, Gele).",
+  "activeCompounds": "Sesquiterpene lactones (helenalin derivatives), flavonoids, essential oil",
+  "preparation": "Diluted topical products only. Not for broken skin or internal self-medication.",
+  "cautions": "Toxic if swallowed. External use only as directed. Asteraceae allergy.",
+  "floweringSeason": "June–August",
+  "historicalNotes": "Alpine folk medicine; conservation concerns for wild collection.",
+  "partsUsedDe": "Flower heads (äußerlich preparations)",
+  "habitatDe": "Mountain Wiesen von Mitteleuropa; protected in many areas; angebaut substitutes used.",
+  "activeCompoundsDe": "Sesquiterpene lactones (helenalin derivatives), flavonoids, ätherisches Öl",
+  "preparationDe": "Verdünnt äußerlich products only. Not für broken skin oder innerlich Selbstmedikation.",
+  "cautionsDe": "Toxic if swallowed. Äußere Anwendung only as directed. Asteraceae Allergie.",
+  "floweringSeasonDe": "Juni–August",
+  "historicalNotesDe": "Alpine folk medicine; conservation concerns für wild collection.",
+  "useCategoryIds": [
+    "skin-topical",
+    "respiratory",
+    "pain-relief"
+  ],
+  "bloomSeasons": [
+    "summer"
+  ]
+}

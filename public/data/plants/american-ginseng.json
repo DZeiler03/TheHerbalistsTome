@@ -16,5 +16,19 @@
   "preparation": "Dried root, extracts, teas.",
   "cautions": "Similar cautions as Asian ginseng regarding drugs and long self-medication. CITES-related trade rules apply to wild roots.",
   "floweringSeason": "Summer",
-  "historicalNotes": "Drove 18th–19th century trade from Appalachia to China."
+  "historicalNotes": "Drove 18th–19th century trade from Appalachia to China.",
+  "kind": "herb",
+  "partsUsedDe": "Wurzel",
+  "habitatDe": "Deciduous Wälder von eastern Nordamerika; heavily wild-harvest regulated.",
+  "activeCompoundsDe": "Ginsenosides (profile differs von P. ginseng)",
+  "preparationDe": "Getrocknet Wurzel, Extrakte, teas.",
+  "cautionsDe": "Similar cautions as Asienn ginseng regarding drugs und long Selbstmedikation. CITES-related trade rules apply zu wild roots.",
+  "floweringSeasonDe": "Sommer",
+  "historicalNotesDe": "Drove 18th–19th century trade von Appalachia zu China.",
+  "useCategoryIds": [
+    "adaptogenic"
+  ],
+  "bloomSeasons": [
+    "summer"
+  ]
 }

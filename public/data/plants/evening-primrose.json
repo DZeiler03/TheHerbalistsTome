@@ -1,0 +1,38 @@
+{
+  "id": "evening-primrose",
+  "nameEn": "Evening Primrose",
+  "nameDe": "Nachtkerze",
+  "scientificName": "Oenothera biennis",
+  "family": "Onagraceae",
+  "kind": "herb",
+  "countryIds": [
+    "at",
+    "de",
+    "pl",
+    "fr",
+    "gb"
+  ],
+  "partsUsed": "Seed oil",
+  "partsUsedDe": "Samenöl",
+  "habitat": "Sandy waste ground; naturalized from North America across Europe.",
+  "habitatDe": "Sandige Ödflächen; aus Nordamerika in Europa eingebürgert.",
+  "traditionalUsesEn": "Seed oil (GLA) for skin and women's cycle traditional/modern use.",
+  "traditionalUsesDe": "Samenöl (GLA) traditionell/modern für Haut und Frauenzyklus.",
+  "activeCompounds": "Gamma-linolenic acid (GLA), linoleic acid",
+  "activeCompoundsDe": "Gamma-Linolensäure (GLA), Linolsäure",
+  "preparation": "Cold-pressed oil capsules or topical oils.",
+  "preparationDe": "Kaltgepresstes Öl in Kapseln oder äußerlich.",
+  "cautions": "May interact with anticoagulants; check if epileptic.",
+  "cautionsDe": "Kann mit Gerinnungshemmern wechselwirken; bei Epilepsie abklären.",
+  "floweringSeason": "June–September",
+  "floweringSeasonDe": "Juni–September",
+  "historicalNotes": "Night-blooming yellow spikes of European roadsides.",
+  "historicalNotesDe": "Nachtblühende gelbe Kerzen an europäischen Wegrändern.",
+  "useCategoryIds": [
+    "skin-topical",
+    "anti-inflammatory"
+  ],
+  "bloomSeasons": [
+    "summer"
+  ]
+}

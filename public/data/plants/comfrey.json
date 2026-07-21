@@ -1,0 +1,41 @@
+{
+  "id": "comfrey",
+  "nameEn": "Comfrey",
+  "nameDe": "Beinwell",
+  "scientificName": "Symphytum officinale",
+  "family": "Boraginaceae",
+  "kind": "herb",
+  "countryIds": [
+    "at",
+    "de",
+    "ch",
+    "gb",
+    "fr",
+    "pl"
+  ],
+  "partsUsed": "Root, leaves (external use preferred)",
+  "partsUsedDe": "Wurzel, Blätter (vorzugsweise äußerlich)",
+  "habitat": "Damp meadows and ditches of Europe.",
+  "habitatDe": "Feuchte Wiesen und Gräben in Europa.",
+  "traditionalUsesEn": "Traditional external poultice for bruises and joint discomfort.",
+  "traditionalUsesDe": "Traditionell äußerlich als Umschlag bei Prellungen und Gelenkbeschwerden.",
+  "activeCompounds": "Allantoin, rosmarinic acid, pyrrolizidine alkaloids",
+  "activeCompoundsDe": "Allantoin, Rosmarinsäure, Pyrrolizidinalkaloide",
+  "preparation": "External ointments and poultices from root or leaf.",
+  "preparationDe": "Äußerliche Salben und Umschläge aus Wurzel oder Blatt.",
+  "cautions": "Internal use restricted due to pyrrolizidine alkaloids; external only on intact skin, limited duration.",
+  "cautionsDe": "Innere Anwendung wegen Pyrrolizidinalkaloiden eingeschränkt; äußerlich nur auf intakter Haut, zeitlich begrenzt.",
+  "floweringSeason": "May–July",
+  "floweringSeasonDe": "Mai–Juli",
+  "historicalNotes": "„Beinwell“ – bone-knit herb of European wound lore.",
+  "historicalNotesDe": "„Beinwell“ – das klassische Wundheilkraut der europäischen Volksmedizin.",
+  "useCategoryIds": [
+    "skin-topical",
+    "pain-relief",
+    "anti-inflammatory"
+  ],
+  "bloomSeasons": [
+    "spring",
+    "summer"
+  ]
+}

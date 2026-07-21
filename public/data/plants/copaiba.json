@@ -1,1 +1,35 @@
-{"id":"copaiba","countryIds":["br","co","pe"],"nameEn":"Copaiba","nameDe":"Kopaiva","scientificName":"Copaifera spp. (e.g. C. officinalis, C. langsdorffii)","family":"Fabaceae","partsUsed":"Oleo-resin from trunk","habitat":"Amazon and tropical South American forests.","traditionalUsesEn":"Traditional Amazonian use of balsam for wounds and inflammatory complaints; modern essential oil/resin products.","traditionalUsesDe":"Traditionelles amazonisches Balsam bei Wunden und Entzündungen; moderne Harz-/Ölprodukte.","activeCompounds":"Sesquiterpenes (β-caryophyllene prominent), diterpenes","preparation":"Resin topically diluted; capsules of oil in commercial products under guidance.","cautions":"Quality varies. Patch-test topical use. Internal use only with professional products/advice.","floweringSeason":"Unknown","historicalNotes":"Colonial pharmacy balsam exported from Brazil for centuries."}
+{
+  "id": "copaiba",
+  "countryIds": [
+    "br",
+    "co",
+    "pe"
+  ],
+  "nameEn": "Copaiba",
+  "nameDe": "Kopaiva",
+  "scientificName": "Copaifera spp. (e.g. C. officinalis, C. langsdorffii)",
+  "family": "Fabaceae",
+  "partsUsed": "Oleo-resin from trunk",
+  "habitat": "Amazon and tropical South American forests.",
+  "traditionalUsesEn": "Traditional Amazonian use of balsam for wounds and inflammatory complaints; modern essential oil/resin products.",
+  "traditionalUsesDe": "Traditionelles amazonisches Balsam bei Wunden und Entzündungen; moderne Harz-/Ölprodukte.",
+  "activeCompounds": "Sesquiterpenes (β-caryophyllene prominent), diterpenes",
+  "preparation": "Resin topically diluted; capsules of oil in commercial products under guidance.",
+  "cautions": "Quality varies. Patch-test topical use. Internal use only with professional products/advice.",
+  "floweringSeason": "Unknown",
+  "historicalNotes": "Colonial pharmacy balsam exported from Brazil for centuries.",
+  "partsUsedDe": "Oleo-Harz von trunk",
+  "habitatDe": "Amazon und tropisch Südamerikan Wälder.",
+  "activeCompoundsDe": "Sesquiterpenes (β-caryophyllene prominent), diterpenes",
+  "preparationDe": "Resin topically verdünnt; Kapseln von Öl in commercial products under Anleitung.",
+  "cautionsDe": "Quality varies. Patch-test äußerlich use. Innere Anwendung only mit professional products/advice.",
+  "floweringSeasonDe": "Unbekannt",
+  "historicalNotesDe": "Colonial pharmacy balsam exported von Brasilien für centuries.",
+  "useCategoryIds": [
+    "anti-inflammatory",
+    "skin-topical"
+  ],
+  "bloomSeasons": [
+    "yearRound"
+  ]
+}

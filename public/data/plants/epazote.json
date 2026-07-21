@@ -1,1 +1,33 @@
-{"id":"epazote","countryIds":["mx","gt"],"nameEn":"Epazote","nameDe":"Epazote / Jesuitentee","scientificName":"Dysphania ambrosioides (syn. Chenopodium ambrosioides)","family":"Amaranthaceae","partsUsed":"Leaves","habitat":"Mexico and Central America; naturalized in warm regions.","traditionalUsesEn":"Culinary herb with beans in Mexican cooking; traditional antiparasitic folk use (caution).","traditionalUsesDe":"Küchenkraut zu Bohnen in Mexiko; traditionell gegen Parasiten (Vorsicht).","activeCompounds":"Essential oil (ascaridole—variable, potentially toxic), terpenes","preparation":"Fresh leaves cooked with food in small culinary amounts.","cautions":"Essential oil and high medicinal doses toxic. Culinary leaf amounts only; avoid pregnancy medicinal use.","floweringSeason":"Much of the year in tropics","historicalNotes":"Nahuatl origin name; inseparable from Mexican bean cookery."}
+{
+  "id": "epazote",
+  "countryIds": [
+    "mx",
+    "gt"
+  ],
+  "nameEn": "Epazote",
+  "nameDe": "Epazote / Jesuitentee",
+  "scientificName": "Dysphania ambrosioides (syn. Chenopodium ambrosioides)",
+  "family": "Amaranthaceae",
+  "partsUsed": "Leaves",
+  "habitat": "Mexico and Central America; naturalized in warm regions.",
+  "traditionalUsesEn": "Culinary herb with beans in Mexican cooking; traditional antiparasitic folk use (caution).",
+  "traditionalUsesDe": "Küchenkraut zu Bohnen in Mexiko; traditionell gegen Parasiten (Vorsicht).",
+  "activeCompounds": "Essential oil (ascaridole—variable, potentially toxic), terpenes",
+  "preparation": "Fresh leaves cooked with food in small culinary amounts.",
+  "cautions": "Essential oil and high medicinal doses toxic. Culinary leaf amounts only; avoid pregnancy medicinal use.",
+  "floweringSeason": "Much of the year in tropics",
+  "historicalNotes": "Nahuatl origin name; inseparable from Mexican bean cookery.",
+  "partsUsedDe": "Leaves",
+  "habitatDe": "Mexiko und Central America; eingebürgert in warm regions.",
+  "activeCompoundsDe": "Ätherisches Öl (ascaridole—variable, potentially toxic), terpenes",
+  "preparationDe": "Frisch Blätter gekocht mit food in small kulinarisch amounts.",
+  "cautionsDe": "Ätherisches Öl und high medicinal doses toxic. Kulinarisch Blatt amounts only; vermeiden Schwangerschaft medicinal use.",
+  "floweringSeasonDe": "Much von die year in tropics",
+  "historicalNotesDe": "Nahuatl Herkunft name; inseparable von Mexican bean cookery.",
+  "useCategoryIds": [
+    "culinary"
+  ],
+  "bloomSeasons": [
+    "yearRound"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "anise",
+  "nameEn": "Anise",
+  "nameDe": "Anis",
+  "scientificName": "Pimpinella anisum",
+  "family": "Apiaceae",
+  "kind": "herb",
+  "countryIds": [
+    "tr",
+    "gr",
+    "es",
+    "it",
+    "de",
+    "at"
+  ],
+  "partsUsed": "Ripe fruits",
+  "partsUsedDe": "Reife Früchte",
+  "habitat": "Mediterranean cultivation; kitchen gardens of Europe.",
+  "habitatDe": "Mediterraner Anbau; Küchengärten Europas.",
+  "traditionalUsesEn": "Carminative and mild expectorant; aniseed baking spice.",
+  "traditionalUsesDe": "Blähungstreibend und mild schleimlösend; Anisbackgewürz.",
+  "activeCompounds": "Essential oil (trans-anethole)",
+  "activeCompoundsDe": "Ätherisches Öl (trans-Anethol)",
+  "preparation": "Crushed fruit tea; culinary; diluted oil.",
+  "preparationDe": "Zerstoßene Früchte als Tee; Küche; verdünntes Öl.",
+  "cautions": "Allergy possible; pure oil not for infants.",
+  "cautionsDe": "Allergie möglich; reines Öl nicht für Säuglinge.",
+  "floweringSeason": "July–August",
+  "floweringSeasonDe": "Juli–August",
+  "historicalNotes": "Star of Central European Christmas baking and cough teas.",
+  "historicalNotesDe": "Star des mitteleuropäischen Weihnachtsbackens und der Hustentees.",
+  "useCategoryIds": [
+    "digestive",
+    "respiratory",
+    "culinary"
+  ],
+  "bloomSeasons": [
+    "summer"
+  ]
+}

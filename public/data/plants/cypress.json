@@ -1,0 +1,39 @@
+{
+  "id": "cypress",
+  "nameEn": "Mediterranean Cypress",
+  "nameDe": "Zypresse",
+  "scientificName": "Cupressus sempervirens",
+  "family": "Cupressaceae",
+  "kind": "tree",
+  "countryIds": [
+    "it",
+    "gr",
+    "tr",
+    "es",
+    "fr"
+  ],
+  "partsUsed": "Essential oil from needles/twigs; cones historical",
+  "partsUsedDe": "Ätherisches Öl aus Nadeln/Zweigen; Zapfen historisch",
+  "habitat": "Mediterranean landscapes and cemeteries.",
+  "habitatDe": "Mediterrane Landschaften und Friedhöfe.",
+  "traditionalUsesEn": "Aromatic oil tradition for circulation and respiratory blends.",
+  "traditionalUsesDe": "Aromatische Öltradition für Kreislauf- und Atemwegsmischungen.",
+  "activeCompounds": "Essential oil (α-pinene, δ-3-carene, cedrol)",
+  "activeCompoundsDe": "Ätherisches Öl (α-Pinen, δ-3-Caren, Cedrol)",
+  "preparation": "Diluted essential oil in aromatherapy/cosmetics only.",
+  "preparationDe": "Verdünntes ätherisches Öl nur in Aromapflege/Kosmetik.",
+  "cautions": "Essential oil potent; never undiluted on skin; not for internal DIY.",
+  "cautionsDe": "Ätherisches Öl kräftig; nie unverdünnt auf die Haut; keine innere Selbstanwendung.",
+  "floweringSeason": "March–May",
+  "floweringSeasonDe": "März–Mai",
+  "historicalNotes": "Columnar tree of Mediterranean herbal and funerary culture.",
+  "historicalNotesDe": "Säulenbaum mediterraner Kräuter- und Friedhofskultur.",
+  "useCategoryIds": [
+    "circulatory",
+    "respiratory",
+    "skin-topical"
+  ],
+  "bloomSeasons": [
+    "spring"
+  ]
+}

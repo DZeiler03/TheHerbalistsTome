@@ -1,1 +1,38 @@
-{"id":"fennel","countryIds":["it","es","gr","fr","tr"],"nameEn":"Fennel","nameDe":"Fenchel","scientificName":"Foeniculum vulgare","family":"Apiaceae","partsUsed":"Fruits (seeds), leaves","habitat":"Mediterranean coasts; cultivated worldwide.","traditionalUsesEn":"Digestive complaints, mild spasms and bloating; culinary spice and vegetable (Florence fennel).","traditionalUsesDe":"Verdauungsbeschwerden, leichte Krämpfe und Blähungen; Gewürz und Gemüse.","activeCompounds":"Essential oil (anethole, fenchone), flavonoids","preparation":"Crushed fruit tea; culinary use; syrups for mild cough traditions.","cautions":"Essential oil concentrated—not for undiluted self-use. Pregnancy: professional advice for medicinal doses.","floweringSeason":"July–October","historicalNotes":"Classical Mediterranean food and medicine plant."}
+{
+  "id": "fennel",
+  "countryIds": [
+    "it",
+    "es",
+    "gr",
+    "fr",
+    "tr"
+  ],
+  "nameEn": "Fennel",
+  "nameDe": "Fenchel",
+  "scientificName": "Foeniculum vulgare",
+  "family": "Apiaceae",
+  "partsUsed": "Fruits (seeds), leaves",
+  "habitat": "Mediterranean coasts; cultivated worldwide.",
+  "traditionalUsesEn": "Digestive complaints, mild spasms and bloating; culinary spice and vegetable (Florence fennel).",
+  "traditionalUsesDe": "Verdauungsbeschwerden, leichte Krämpfe und Blähungen; Gewürz und Gemüse.",
+  "activeCompounds": "Essential oil (anethole, fenchone), flavonoids",
+  "preparation": "Crushed fruit tea; culinary use; syrups for mild cough traditions.",
+  "cautions": "Essential oil concentrated—not for undiluted self-use. Pregnancy: professional advice for medicinal doses.",
+  "floweringSeason": "July–October",
+  "historicalNotes": "Classical Mediterranean food and medicine plant.",
+  "partsUsedDe": "Fruits (Samen), Blätter",
+  "habitatDe": "Mittelmeergebiet coasts; angebaut worldwide.",
+  "activeCompoundsDe": "Ätherisches Öl (anethole, fenchone), flavonoids",
+  "preparationDe": "Crushed Frucht Tee; kulinarische Verwendung; Sirupe für mild cough traditions.",
+  "cautionsDe": "Ätherisches Öl konzentriert—nicht unverdünnt self-use. Schwangerschaft: fachlicher Rat für medicinal doses.",
+  "floweringSeasonDe": "July–October",
+  "historicalNotesDe": "Classical Mittelmeergebiet food und medicine plant.",
+  "useCategoryIds": [
+    "digestive",
+    "culinary"
+  ],
+  "bloomSeasons": [
+    "summer",
+    "autumn"
+  ]
+}

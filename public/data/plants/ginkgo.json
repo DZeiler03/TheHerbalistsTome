@@ -1,1 +1,36 @@
-{"id":"ginkgo","countryIds":["cn","jp","kr","de"],"nameEn":"Ginkgo","nameDe":"Ginkgo","scientificName":"Ginkgo biloba","family":"Ginkgoaceae","partsUsed":"Leaves (standardized extracts)","habitat":"Native relict of China; planted worldwide as street tree.","traditionalUsesEn":"Modern phytotherapy uses standardized leaf extracts for cognitive and circulatory support claims under product guidance.","traditionalUsesDe":"In der Phytotherapie standardisierte Blattextrakte bei kognitiver und zirkulatorischer Unterstützung (laut Produkt).","activeCompounds":"Ginkgolides, bilobalide, flavonoids","preparation":"Standardized dry extracts (capsules/tablets); tea less standardized.","cautions":"May increase bleeding risk with anticoagulants. Fresh seeds toxic if misprepared. Use standardized products as labeled.","floweringSeason":"Spring (trees dioecious)","historicalNotes":"Living fossil; sacred in East Asian temple plantings."}
+{
+  "id": "ginkgo",
+  "countryIds": [
+    "cn",
+    "jp",
+    "kr",
+    "de"
+  ],
+  "nameEn": "Ginkgo",
+  "nameDe": "Ginkgo",
+  "scientificName": "Ginkgo biloba",
+  "family": "Ginkgoaceae",
+  "partsUsed": "Leaves (standardized extracts)",
+  "habitat": "Native relict of China; planted worldwide as street tree.",
+  "traditionalUsesEn": "Modern phytotherapy uses standardized leaf extracts for cognitive and circulatory support claims under product guidance.",
+  "traditionalUsesDe": "In der Phytotherapie standardisierte Blattextrakte bei kognitiver und zirkulatorischer Unterstützung (laut Produkt).",
+  "activeCompounds": "Ginkgolides, bilobalide, flavonoids",
+  "preparation": "Standardized dry extracts (capsules/tablets); tea less standardized.",
+  "cautions": "May increase bleeding risk with anticoagulants. Fresh seeds toxic if misprepared. Use standardized products as labeled.",
+  "floweringSeason": "Spring (trees dioecious)",
+  "historicalNotes": "Living fossil; sacred in East Asian temple plantings.",
+  "kind": "tree",
+  "partsUsedDe": "Leaves (standardisierte Extrakte)",
+  "habitatDe": "Native relict von China; planted worldwide as street tree.",
+  "activeCompoundsDe": "Ginkgolides, bilobalide, flavonoids",
+  "preparationDe": "Standardized dry Extrakte (Kapseln/Tabletten); Tee less standardized.",
+  "cautionsDe": "May increase bleeding risk mit anticoagulants. Frisch Samen toxic if misprepared. Use standardized products as labeled.",
+  "floweringSeasonDe": "Frühling (trees dioecious)",
+  "historicalNotesDe": "Living fossil; sacred in Ostasienn temple plantings.",
+  "useCategoryIds": [
+    "circulatory"
+  ],
+  "bloomSeasons": [
+    "spring"
+  ]
+}

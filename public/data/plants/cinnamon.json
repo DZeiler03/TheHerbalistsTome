@@ -1,1 +1,37 @@
-{"id":"cinnamon","countryIds":["lk","in","id","vn"],"nameEn":"Ceylon Cinnamon","nameDe":"Ceylon-Zimt","scientificName":"Cinnamomum verum (syn. C. zeylanicum)","family":"Lauraceae","partsUsed":"Inner bark","habitat":"Sri Lanka native; cultivated in tropics of Asia.","traditionalUsesEn":"Culinary spice; traditional digestive and warming remedy in many systems.","traditionalUsesDe":"Küchengewürz; traditionell verdauungsfördernd und wärmend in vielen Systemen.","activeCompounds":"Essential oil (cinnamaldehyde, eugenol—profile differs from cassia), coumarin (low in true cinnamon)","preparation":"Quills or powder in food; tea; extracts.","cautions":"Cassia cinnamon (C. cassia) is higher in coumarin—limit high chronic intake. True Ceylon preferred for frequent use.","floweringSeason":"Unknown (cultivated trees)","historicalNotes":"Ancient spice trade staple from Sri Lanka (Ceylon)."}
+{
+  "id": "cinnamon",
+  "countryIds": [
+    "lk",
+    "in",
+    "id",
+    "vn"
+  ],
+  "nameEn": "Ceylon Cinnamon",
+  "nameDe": "Ceylon-Zimt",
+  "scientificName": "Cinnamomum verum (syn. C. zeylanicum)",
+  "family": "Lauraceae",
+  "partsUsed": "Inner bark",
+  "habitat": "Sri Lanka native; cultivated in tropics of Asia.",
+  "traditionalUsesEn": "Culinary spice; traditional digestive and warming remedy in many systems.",
+  "traditionalUsesDe": "Küchengewürz; traditionell verdauungsfördernd und wärmend in vielen Systemen.",
+  "activeCompounds": "Essential oil (cinnamaldehyde, eugenol—profile differs from cassia), coumarin (low in true cinnamon)",
+  "preparation": "Quills or powder in food; tea; extracts.",
+  "cautions": "Cassia cinnamon (C. cassia) is higher in coumarin—limit high chronic intake. True Ceylon preferred for frequent use.",
+  "floweringSeason": "Unknown (cultivated trees)",
+  "historicalNotes": "Ancient spice trade staple from Sri Lanka (Ceylon).",
+  "kind": "tree",
+  "partsUsedDe": "Inner Rinde",
+  "habitatDe": "Sri Lanka native; angebaut in tropics von Asien.",
+  "activeCompoundsDe": "Ätherisches Öl (cinnamaldehyde, eugenol—profile differs von cassia), coumarin (low in true cinnamon)",
+  "preparationDe": "Quills oder powder in food; Tee; Extrakte.",
+  "cautionsDe": "Cassia cinnamon (C. cassia) is higher in coumarin—limit high chronic intake. True Ceylon preferred für frequent use.",
+  "floweringSeasonDe": "Unbekannt (angebaut trees)",
+  "historicalNotesDe": "Ancient spice trade staple von Sri Lanka (Ceylon).",
+  "useCategoryIds": [
+    "digestive",
+    "culinary"
+  ],
+  "bloomSeasons": [
+    "yearRound"
+  ]
+}

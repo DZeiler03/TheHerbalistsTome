@@ -1,6 +1,8 @@
 {
   "id": "frankincense",
   "countryIds": [
+    "et",
+    "sa",
     "so"
   ],
   "nameEn": "Frankincense",
@@ -15,5 +17,21 @@
   "preparation": "Burned as incense; resin extracts in modern herbal products (often B. serrata from India also used clinically).",
   "cautions": "Quality and species vary in trade. Internal extracts: professional guidance; possible gastrointestinal side effects and drug interactions.",
   "floweringSeason": "Unknown (variable; trees flower seasonally in arid habitats)",
-  "historicalNotes": "One of the gifts in the Christian Nativity narrative; ancient incense trade linked Somalia and Arabia to Mediterranean empires."
+  "historicalNotes": "One of the gifts in the Christian Nativity narrative; ancient incense trade linked Somalia and Arabia to Mediterranean empires.",
+  "kind": "tree",
+  "partsUsedDe": "Oleo-gum-Harz von Rinde incisions",
+  "habitatDe": "Arid Felsenhänge von die Horn von Afrika (Somalia) und southern Arabia (Oman, Yemen).",
+  "activeCompoundsDe": "Boswellic acids (in Boswellia resins), ätherisches Öl monoterpenes und sesquiterpenes",
+  "preparationDe": "Burned as incense; Harz Extrakte in modern herbal products (often B. serrata von Indien also used clinically).",
+  "cautionsDe": "Quality und species vary in trade. Internal Extrakte: fachlicher Anleitung; möglich gastrointestinal side effects und Arzneimittelwechselwirkungen.",
+  "floweringSeasonDe": "Unbekannt (variable; trees Blüte seasonally in arid habitats)",
+  "historicalNotesDe": "One von die gifts in die Christian Nativity narrative; ancient incense trade linked Somalia und Arabia zu Mittelmeergebiet empires.",
+  "useCategoryIds": [
+    "anti-inflammatory",
+    "skin-topical",
+    "aromatic"
+  ],
+  "bloomSeasons": [
+    "yearRound"
+  ]
 }

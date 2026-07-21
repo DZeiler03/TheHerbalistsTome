@@ -1,0 +1,39 @@
+{
+  "id": "cowslip",
+  "nameEn": "Cowslip",
+  "nameDe": "Schlüsselblume",
+  "scientificName": "Primula veris",
+  "family": "Primulaceae",
+  "kind": "herb",
+  "countryIds": [
+    "at",
+    "de",
+    "ch",
+    "pl",
+    "gb",
+    "se"
+  ],
+  "partsUsed": "Flowers, root",
+  "partsUsedDe": "Blüten, Wurzel",
+  "habitat": "Nutrient-poor meadows of Europe; often protected.",
+  "habitatDe": "Magere Wiesen Europas; oft geschützt.",
+  "traditionalUsesEn": "Flower tea for mild colds; root as traditional expectorant.",
+  "traditionalUsesDe": "Blütentee bei leichten Erkältungen; Wurzel traditionell schleimlösend.",
+  "activeCompounds": "Saponins, flavonoids, phenol glycosides",
+  "activeCompoundsDe": "Saponine, Flavonoide, Phenolglykoside",
+  "preparation": "Flower infusion; root preparations as directed.",
+  "preparationDe": "Blütenaufguss; Wurzelzubereitungen nach Vorschrift.",
+  "cautions": "Protected in many regions — use cultivated sources. Allergy possible.",
+  "cautionsDe": "In vielen Regionen geschützt — Kulturware nutzen. Allergie möglich.",
+  "floweringSeason": "March–May",
+  "floweringSeasonDe": "März–Mai",
+  "historicalNotes": "Spring key flower of Alpine and lowland meadows.",
+  "historicalNotesDe": "Frühlings-Schlüsselblume alpiner und ebener Wiesen.",
+  "useCategoryIds": [
+    "respiratory",
+    "calming"
+  ],
+  "bloomSeasons": [
+    "spring"
+  ]
+}

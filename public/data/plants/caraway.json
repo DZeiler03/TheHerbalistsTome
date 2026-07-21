@@ -1,0 +1,40 @@
+{
+  "id": "caraway",
+  "nameEn": "Caraway",
+  "nameDe": "Kümmel",
+  "scientificName": "Carum carvi",
+  "family": "Apiaceae",
+  "kind": "herb",
+  "countryIds": [
+    "at",
+    "de",
+    "pl",
+    "cz",
+    "hu",
+    "fi"
+  ],
+  "partsUsed": "Ripe fruits (seeds)",
+  "partsUsedDe": "Reife Früchte (Samen)",
+  "habitat": "Meadows and fields of temperate Europe; widely cultivated.",
+  "habitatDe": "Wiesen und Äcker des gemäßigten Europas; weit verbreitet angebaut.",
+  "traditionalUsesEn": "Carminative for bloating; classic Central European bread spice.",
+  "traditionalUsesDe": "Blähungstreibend bei Völlegefühl; klassisches mitteleuropäisches Brotgewürz.",
+  "activeCompounds": "Essential oil (carvone, limonene)",
+  "activeCompoundsDe": "Ätherisches Öl (Carvon, Limonen)",
+  "preparation": "Crushed seed tea or culinary use.",
+  "preparationDe": "Zerstoßene Samen als Tee oder in der Küche.",
+  "cautions": "Generally safe as food spice; concentrated oil dilute only.",
+  "cautionsDe": "Als Gewürz unbedenklich; ätherisches Öl nur verdünnt.",
+  "floweringSeason": "May–July",
+  "floweringSeasonDe": "Mai–Juli",
+  "historicalNotes": "Austrian and German kitchen and pharmacy staple.",
+  "historicalNotesDe": "Stütze der österreichischen und deutschen Küchen- und Hausapotheke.",
+  "useCategoryIds": [
+    "digestive",
+    "culinary"
+  ],
+  "bloomSeasons": [
+    "spring",
+    "summer"
+  ]
+}

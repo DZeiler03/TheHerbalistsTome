@@ -1,8 +1,11 @@
 {
   "id": "cacao",
   "countryIds": [
-    "mx",
-    "br"
+    "br",
+    "co",
+    "ec",
+    "gh",
+    "mx"
   ],
   "nameEn": "Cacao",
   "nameDe": "Kakaobaum",
@@ -16,5 +19,19 @@
   "preparation": "Fermented, dried, roasted beans for cocoa and chocolate; traditional frothed drinks with spices.",
   "cautions": "Stimulant content; high-calorie processed chocolate. Theobromine toxic to dogs and some pets.",
   "floweringSeason": "Year-round in suitable tropics (cauliflorous flowers)",
-  "historicalNotes": "Name Theobroma means \"food of the gods\"; fundamental to Maya and Aztec culture before global chocolate trade."
+  "historicalNotes": "Name Theobroma means \"food of the gods\"; fundamental to Maya and Aztec culture before global chocolate trade.",
+  "kind": "tree",
+  "partsUsedDe": "Seeds (beans) von die Frucht pod",
+  "habitatDe": "Understory von tropisch American rainWälder; major cultivation in West Afrika, Latin America, und Südostasien.",
+  "activeCompoundsDe": "Theobromine, caffeine (smaller amounts), flavanols (epicatechin), fats (cocoa butter)",
+  "preparationDe": "Fermented, getrocknet, roasted beans für cocoa und chocolate; traditionell frothed drinks mit spices.",
+  "cautionsDe": "Stimulant content; high-calorie processed chocolate. Theobromine toxic zu dogs und some pets.",
+  "floweringSeasonDe": "Ganzjährig in suitable tropics (cauliflorous Blüten)",
+  "historicalNotesDe": "Name Theobroma means \"food von die gods\"; fundamental zu Maya und Aztec culture before global chocolate trade.",
+  "useCategoryIds": [
+    "culinary"
+  ],
+  "bloomSeasons": [
+    "yearRound"
+  ]
 }

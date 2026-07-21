@@ -1,1 +1,37 @@
-{"id":"boldo","countryIds":["cl","pe","ar"],"nameEn":"Boldo","nameDe":"Boldo","scientificName":"Peumus boldus","family":"Monimiaceae","partsUsed":"Leaves","habitat":"Central Chile sclerophyll forests; related use in neighboring regions.","traditionalUsesEn":"Traditional South American digestive bitter for liver/gallbladder discomfort traditions.","traditionalUsesDe":"Traditionelles südamerikanisches Verdauungsbitter bei Leber-/Gallebeschwerden.","activeCompounds":"Boldine (aporphine alkaloid), essential oil (ascaridole traces possible), flavonoids","preparation":"Leaf tea (short courses traditionally); extracts.","cautions":"Not for bile duct obstruction or severe liver disease self-care. Essential oil not for internal use. Professional advice.","floweringSeason":"Spring–summer (Southern Hemisphere)","historicalNotes":"Mapuche and Chilean folk medicine heritage."}
+{
+  "id": "boldo",
+  "countryIds": [
+    "cl",
+    "pe",
+    "ar"
+  ],
+  "nameEn": "Boldo",
+  "nameDe": "Boldo",
+  "scientificName": "Peumus boldus",
+  "family": "Monimiaceae",
+  "partsUsed": "Leaves",
+  "habitat": "Central Chile sclerophyll forests; related use in neighboring regions.",
+  "traditionalUsesEn": "Traditional South American digestive bitter for liver/gallbladder discomfort traditions.",
+  "traditionalUsesDe": "Traditionelles südamerikanisches Verdauungsbitter bei Leber-/Gallebeschwerden.",
+  "activeCompounds": "Boldine (aporphine alkaloid), essential oil (ascaridole traces possible), flavonoids",
+  "preparation": "Leaf tea (short courses traditionally); extracts.",
+  "cautions": "Not for bile duct obstruction or severe liver disease self-care. Essential oil not for internal use. Professional advice.",
+  "floweringSeason": "Spring–summer (Southern Hemisphere)",
+  "historicalNotes": "Mapuche and Chilean folk medicine heritage.",
+  "kind": "tree",
+  "partsUsedDe": "Leaves",
+  "habitatDe": "Central Chile sclerophyll Wälder; related use in neighboring regions.",
+  "activeCompoundsDe": "Boldine (aporphine alkaloid), ätherisches Öl (ascaridole traces möglich), flavonoids",
+  "preparationDe": "Blatt Tee (short courses traditionellly); Extrakte.",
+  "cautionsDe": "Not für bile duct obstruction oder severe liver disease self-care. Ätherisches Öl not für innere Anwendung. Fachlicher Rat.",
+  "floweringSeasonDe": "Frühling–summer (Südhalbkugel)",
+  "historicalNotesDe": "Mapuche und Chilean folk medicine heritage.",
+  "useCategoryIds": [
+    "digestive",
+    "urinary"
+  ],
+  "bloomSeasons": [
+    "spring",
+    "summer"
+  ]
+}
