@@ -1,0 +1,40 @@
+{
+  "id": "wild-thyme",
+  "nameEn": "Wild Thyme / Quendel",
+  "nameDe": "Quendel",
+  "scientificName": "Thymus serpyllum",
+  "family": "Lamiaceae",
+  "kind": "herb",
+  "countryIds": [
+    "at",
+    "de",
+    "ch",
+    "pl",
+    "se",
+    "no"
+  ],
+  "partsUsed": "Herb",
+  "partsUsedDe": "Kraut",
+  "habitat": "Dry sandy soils, alpine and northern heaths of Europe.",
+  "habitatDe": "Trockene Sandböden, alpine und nördliche Heiden Europas.",
+  "traditionalUsesEn": "Aromatic respiratory and digestive folk herb; mountain thyme.",
+  "traditionalUsesDe": "Aromatisches Atemwegs- und Verdauungskraut; Bergthymian.",
+  "activeCompounds": "Essential oil (thymol, carvacrol varies)",
+  "activeCompoundsDe": "Ätherisches Öl (Thymol, Carvacrol je nach Chemotyp)",
+  "preparation": "Herb tea; culinary; diluted essential oil.",
+  "preparationDe": "Krauttee; Küche; verdünntes ätherisches Öl.",
+  "cautions": "Essential oil potent; dilute. Culinary herb generally safe.",
+  "cautionsDe": "Ätherisches Öl kräftig; verdünnen. Küchenkraut meist unbedenklich.",
+  "floweringSeason": "June–September",
+  "floweringSeasonDe": "Juni–September",
+  "historicalNotes": "Alpine and heath carpet thyme of Central Europe.",
+  "historicalNotesDe": "Alpiner und Heide-Teppichthymian Mitteleuropas.",
+  "useCategoryIds": [
+    "respiratory",
+    "digestive",
+    "culinary"
+  ],
+  "bloomSeasons": [
+    "summer"
+  ]
+}

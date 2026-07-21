@@ -1,1 +1,37 @@
-{"id":"yarrow","countryIds":["de","at","gb","se"],"nameEn":"Yarrow","nameDe":"Schafgarbe","scientificName":"Achillea millefolium","family":"Asteraceae","partsUsed":"Flowering tops","habitat":"Meadows and roadsides across Europe and temperate Asia.","traditionalUsesEn":"Traditional use for mild digestive complaints and as a diaphoretic tea in colds.","traditionalUsesDe":"Traditionell bei leichten Verdauungsbeschwerden und als schweißtreibender Tee bei Erkältung.","activeCompounds":"Essential oil, sesquiterpene lactones, flavonoids, tannins","preparation":"Flowering herb tea; compresses traditionally.","cautions":"Asteraceae allergy risk. Not for high-dose internal use in pregnancy without advice.","floweringSeason":"June–September","historicalNotes":"Named for Achilles in classical legend; widespread European folk herb."}
+{
+  "id": "yarrow",
+  "countryIds": [
+    "de",
+    "at",
+    "gb",
+    "se"
+  ],
+  "nameEn": "Yarrow",
+  "nameDe": "Schafgarbe",
+  "scientificName": "Achillea millefolium",
+  "family": "Asteraceae",
+  "partsUsed": "Flowering tops",
+  "habitat": "Meadows and roadsides across Europe and temperate Asia.",
+  "traditionalUsesEn": "Traditional use for mild digestive complaints and as a diaphoretic tea in colds.",
+  "traditionalUsesDe": "Traditionell bei leichten Verdauungsbeschwerden und als schweißtreibender Tee bei Erkältung.",
+  "activeCompounds": "Essential oil, sesquiterpene lactones, flavonoids, tannins",
+  "preparation": "Flowering herb tea; compresses traditionally.",
+  "cautions": "Asteraceae allergy risk. Not for high-dose internal use in pregnancy without advice.",
+  "floweringSeason": "June–September",
+  "historicalNotes": "Named for Achilles in classical legend; widespread European folk herb.",
+  "partsUsedDe": "Flowering tops",
+  "habitatDe": "Meadows und Wegränder across Europa und gemäßigt Asien.",
+  "activeCompoundsDe": "Ätherisches Öl, sesquiterpene lactones, flavonoids, tannins",
+  "preparationDe": "Flowering Kraut Tee; Umschläge traditionellly.",
+  "cautionsDe": "Asteraceae Allergie risk. Not für high-dose innere Anwendung in Schwangerschaft ohne Beratung.",
+  "floweringSeasonDe": "Juni–September",
+  "historicalNotesDe": "Named für Achilles in classical legend; widespread Europaan folk Kraut.",
+  "useCategoryIds": [
+    "digestive",
+    "immune-support"
+  ],
+  "bloomSeasons": [
+    "summer",
+    "autumn"
+  ]
+}

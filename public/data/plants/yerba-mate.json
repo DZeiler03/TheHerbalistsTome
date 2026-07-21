@@ -2,7 +2,8 @@
   "id": "yerba-mate",
   "countryIds": [
     "ar",
-    "br"
+    "br",
+    "py"
   ],
   "nameEn": "Yerba Mate",
   "nameDe": "Mate-Strauch",
@@ -16,5 +17,19 @@
   "preparation": "Dried leaves infused in a gourd (mate) with bombilla, or as tea bags / tereré (cold).",
   "cautions": "Caffeine content. Very hot repeated drinking of mate has been associated epidemiologically with increased esophageal cancer risk—temperature and lifestyle factors matter.",
   "floweringSeason": "Spring (Southern Hemisphere)",
-  "historicalNotes": "Jesuit missions expanded cultivation in the 17th–18th centuries; national cultural drink in several South American countries."
+  "historicalNotes": "Jesuit missions expanded cultivation in the 17th–18th centuries; national cultural drink in several South American countries.",
+  "kind": "tree",
+  "partsUsedDe": "Leaves und twigs",
+  "habitatDe": "Subtropisch Wälder von southern Südamerika (Argentina, Paraguay, Brasilien, Uruguay); angebaut in plantations.",
+  "activeCompoundsDe": "Caffeine, theobromine, theophylline (smaller amounts), polyphenols, saponins",
+  "preparationDe": "Getrocknet Blätter infused in a gourd (mate) mit bombilla, oder as Tee bags / tereré (cold).",
+  "cautionsDe": "Caffeine content. Very hot repeated drinking von mate has been associated epidemiologically mit increased esophageal cancer risk—temperature und lifestyle factors matter.",
+  "floweringSeasonDe": "Frühling (Südhalbkugel)",
+  "historicalNotesDe": "Jesuit missions expanded cultivation in die 17th–18th centuries; national cultural drink in several Südamerikan countries.",
+  "useCategoryIds": [
+    "adaptogenic"
+  ],
+  "bloomSeasons": [
+    "spring"
+  ]
 }

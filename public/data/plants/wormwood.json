@@ -1,0 +1,39 @@
+{
+  "id": "wormwood",
+  "nameEn": "Wormwood",
+  "nameDe": "Wermut",
+  "scientificName": "Artemisia absinthium",
+  "family": "Asteraceae",
+  "kind": "herb",
+  "countryIds": [
+    "at",
+    "de",
+    "fr",
+    "ch",
+    "pl",
+    "es"
+  ],
+  "partsUsed": "Herb, flowering tops",
+  "partsUsedDe": "Kraut, blühende Spitzen",
+  "habitat": "Dry stony soils of Europe; garden bitter.",
+  "habitatDe": "Trockene steinige Böden Europas; Garten-Bitterkraut.",
+  "traditionalUsesEn": "Strong bitter digestive; absinthe/vermouth tradition.",
+  "traditionalUsesDe": "Starkes Verdauungsbitter; Absinth-/Wermut-Tradition.",
+  "activeCompounds": "Absinthin, essential oil (thujone)",
+  "activeCompoundsDe": "Absinthin, ätherisches Öl (Thujon)",
+  "preparation": "Light bitter infusions; vermouth; avoid thujone abuse.",
+  "preparationDe": "Leichte Bitteraufgüsse; Wermutwein; Thujon-Missbrauch meiden.",
+  "cautions": "Thujone neurotoxicity risk in high doses; pregnancy avoid.",
+  "cautionsDe": "Thujon: Neurotoxizitätsrisiko in hohen Dosen; in der Schwangerschaft meiden.",
+  "floweringSeason": "July–September",
+  "floweringSeasonDe": "Juli–September",
+  "historicalNotes": "Bitter soul of Alpine digestifs and medieval worm cures.",
+  "historicalNotesDe": "Bittere Seele alpiner Digestifs und mittelalterlicher Wurmkuren.",
+  "useCategoryIds": [
+    "digestive"
+  ],
+  "bloomSeasons": [
+    "summer",
+    "autumn"
+  ]
+}

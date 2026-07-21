@@ -1,0 +1,16 @@
+[
+  { "id": "calming", "nameEn": "Calming / Sedative", "nameDe": "Beruhigend" },
+  { "id": "digestive", "nameEn": "Digestive", "nameDe": "Verdauung" },
+  { "id": "anti-inflammatory", "nameEn": "Anti-inflammatory", "nameDe": "Entzündungshemmend" },
+  { "id": "immune-support", "nameEn": "Immune support", "nameDe": "Immununterstützung" },
+  { "id": "skin-topical", "nameEn": "Skin / Topical", "nameDe": "Haut / Äußerlich" },
+  { "id": "respiratory", "nameEn": "Respiratory", "nameDe": "Atemwege" },
+  { "id": "pain-relief", "nameEn": "Pain relief", "nameDe": "Schmerzlinderung" },
+  { "id": "circulatory", "nameEn": "Circulatory", "nameDe": "Kreislauf" },
+  { "id": "adaptogenic", "nameEn": "Adaptogenic / Tonic", "nameDe": "Adaptogen / Tonikum" },
+  { "id": "culinary", "nameEn": "Culinary / Spice", "nameDe": "Küche / Gewürz" },
+  { "id": "aromatic", "nameEn": "Aromatic / Fragrance", "nameDe": "Aromatisch / Duft" },
+  { "id": "urinary", "nameEn": "Urinary", "nameDe": "Harnwege" },
+  { "id": "oral-dental", "nameEn": "Oral / Dental", "nameDe": "Mund / Zähne" },
+  { "id": "nutritive", "nameEn": "Nutritive food plant", "nameDe": "Nährende Nahrungspflanze" }
+]

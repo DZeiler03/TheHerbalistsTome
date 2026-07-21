@@ -1,1 +1,35 @@
-{"id":"witch-hazel","countryIds":["us","ca"],"nameEn":"Witch Hazel","nameDe":"Virginische Zaubernuss","scientificName":"Hamamelis virginiana","family":"Hamamelidaceae","partsUsed":"Leaves and bark (distillate water widely sold)","habitat":"Eastern North American woodlands.","traditionalUsesEn":"Traditional astringent for skin; modern witch hazel water as topical toner after distillation.","traditionalUsesDe":"Traditionelles Adstringens für die Haut; modernes Hamameliswasser als äußerliches Toner.","activeCompounds":"Tannins (hamamelitannin), flavonoids; distillate mainly aqueous aromatics","preparation":"Topical distilled witch hazel USP; leaf/bark decoctions traditionally.","cautions":"External use preferred for commercial distillate. Internal tannin-rich preps can irritate.","floweringSeason":"Autumn (unique late bloom)","historicalNotes":"Name from Middle English wiche (pliable); Native and settler medicine."}
+{
+  "id": "witch-hazel",
+  "countryIds": [
+    "us",
+    "ca"
+  ],
+  "nameEn": "Witch Hazel",
+  "nameDe": "Zaubernuss",
+  "scientificName": "Hamamelis virginiana",
+  "family": "Hamamelidaceae",
+  "partsUsed": "Leaves and bark (distillate water widely sold)",
+  "habitat": "Eastern North American woodlands.",
+  "traditionalUsesEn": "Traditional astringent for skin; modern witch hazel water as topical toner after distillation.",
+  "traditionalUsesDe": "Traditionelles Adstringens für die Haut; modernes Hamameliswasser als äußerliches Toner.",
+  "activeCompounds": "Tannins (hamamelitannin), flavonoids; distillate mainly aqueous aromatics",
+  "preparation": "Topical distilled witch hazel USP; leaf/bark decoctions traditionally.",
+  "cautions": "External use preferred for commercial distillate. Internal tannin-rich preps can irritate.",
+  "floweringSeason": "Autumn (unique late bloom)",
+  "historicalNotes": "Name from Middle English wiche (pliable); Native and settler medicine.",
+  "kind": "shrub",
+  "partsUsedDe": "Leaves und Rinde (distillate water widely sold)",
+  "habitatDe": "Eastern Nordamerikan Waldlands.",
+  "activeCompoundsDe": "Tannins (hamamelitannin), flavonoids; distillate mainly aqueous aromatics",
+  "preparationDe": "Topical distilled witch hazel USP; Blatt/Rinde Abkochungs traditionellly.",
+  "cautionsDe": "Äußere Anwendung preferred für commercial distillate. Internal tannin-rich preps kann irritate.",
+  "floweringSeasonDe": "Herbst (unique late bloom)",
+  "historicalNotesDe": "Name von Middle English wiche (pliable); Native und settler medicine.",
+  "useCategoryIds": [
+    "skin-topical",
+    "aromatic"
+  ],
+  "bloomSeasons": [
+    "autumn"
+  ]
+}

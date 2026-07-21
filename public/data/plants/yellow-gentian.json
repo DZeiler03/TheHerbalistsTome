@@ -1,0 +1,37 @@
+{
+  "id": "yellow-gentian",
+  "nameEn": "Yellow Gentian",
+  "nameDe": "Gelber Enzian",
+  "scientificName": "Gentiana lutea",
+  "family": "Gentianaceae",
+  "kind": "herb",
+  "countryIds": [
+    "at",
+    "de",
+    "ch",
+    "fr",
+    "it"
+  ],
+  "partsUsed": "Root",
+  "partsUsedDe": "Wurzel",
+  "habitat": "Alpine and subalpine meadows of the Alps and Pyrenees.",
+  "habitatDe": "Alpine und subalpine Wiesen der Alpen und Pyrenäen.",
+  "traditionalUsesEn": "Strong bitter digestive tonic; liqueur (Enzian) tradition.",
+  "traditionalUsesDe": "Stark bitteres Verdauungsamara; Enzian-Schnaps-Tradition.",
+  "activeCompounds": "Secoiridoid bitters (gentiopicroside, amarogentin)",
+  "activeCompoundsDe": "Secoiridoid-Bitterstoffe (Gentiopicrosid, Amarogentin)",
+  "preparation": "Root decoction, tincture, bitters; protected wild stocks — prefer cultivated.",
+  "preparationDe": "Wurzelabkochung, Tinktur, Magenbitter; Wildbestände geschützt — Kulturware bevorzugen.",
+  "cautions": "Very bitter; avoid with active peptic ulcers unless advised.",
+  "cautionsDe": "Sehr bitter; bei aktiven Magengeschwüren nur nach Rücksprache.",
+  "floweringSeason": "June–August",
+  "floweringSeasonDe": "Juni–August",
+  "historicalNotes": "Protected Alpine species; symbol of mountain herbalism.",
+  "historicalNotesDe": "Geschützte Alpenpflanze; Symbol der Gebirgskräuterkunde.",
+  "useCategoryIds": [
+    "digestive"
+  ],
+  "bloomSeasons": [
+    "summer"
+  ]
+}

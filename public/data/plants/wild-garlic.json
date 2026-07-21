@@ -1,0 +1,40 @@
+{
+  "id": "wild-garlic",
+  "nameEn": "Wild Garlic / Ramsons",
+  "nameDe": "Bärlauch",
+  "scientificName": "Allium ursinum",
+  "family": "Amaryllidaceae",
+  "kind": "herb",
+  "countryIds": [
+    "at",
+    "de",
+    "ch",
+    "fr",
+    "gb",
+    "pl"
+  ],
+  "partsUsed": "Leaves (before flowering)",
+  "partsUsedDe": "Blätter (vor der Blüte)",
+  "habitat": "Damp deciduous woods of Central Europe; spring ephemeral.",
+  "habitatDe": "Feuchte Laubwälder Mitteleuropas; Frühlingsgeophyt.",
+  "traditionalUsesEn": "Culinary wild garlic; traditional spring blood-cleansing and digestive folk use.",
+  "traditionalUsesDe": "Wildes Küchenkraut; traditionell im Frühjahr als „Blutreiniger“ und bei Verdauungsbeschwerden.",
+  "activeCompounds": "Sulfur compounds (allicin-related), flavonoids",
+  "activeCompoundsDe": "Schwefelverbindungen (allicinähnlich), Flavonoide",
+  "preparation": "Fresh leaves in pesto, soups; short infusions.",
+  "preparationDe": "Frische Blätter als Pesto, in Suppen; kurze Aufgüsse.",
+  "cautions": "Do not confuse with toxic look-alikes (lily of the valley, autumn crocus).",
+  "cautionsDe": "Nicht mit giftigen Doppelgängern verwechseln (Maiglöckchen, Herbstzeitlose).",
+  "floweringSeason": "April–June",
+  "floweringSeasonDe": "April–Juni",
+  "historicalNotes": "Alpine and Central European spring forage classic.",
+  "historicalNotesDe": "Klassisches Frühlingswildkraut der Alpen und Mitteleuropas.",
+  "useCategoryIds": [
+    "digestive",
+    "culinary",
+    "circulatory"
+  ],
+  "bloomSeasons": [
+    "spring"
+  ]
+}

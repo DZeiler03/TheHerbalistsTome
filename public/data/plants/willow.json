@@ -1,0 +1,38 @@
+{
+  "id": "willow",
+  "countryIds": [
+    "de",
+    "gb",
+    "pl",
+    "se",
+    "fr"
+  ],
+  "nameEn": "White Willow",
+  "nameDe": "Silber-Weide",
+  "scientificName": "Salix alba",
+  "family": "Salicaceae",
+  "kind": "tree",
+  "partsUsed": "Bark",
+  "habitat": "Riverbanks and damp soils of Europe and Western Asia.",
+  "traditionalUsesEn": "Traditional bark tea for fever and aches; salicylate chemistry inspired aspirin.",
+  "traditionalUsesDe": "Traditioneller Rindentee bei Fieber und Schmerzen; Salicylate inspirierten Aspirin.",
+  "activeCompounds": "Salicin and related phenolic glycosides, tannins",
+  "preparation": "Dried bark decoction or extracts (professional products preferred).",
+  "cautions": "Same class cautions as salicylates: Reye risk in children with viral illness, stomach irritation, anticoagulant interactions. Prefer medical advice.",
+  "floweringSeason": "March–April (catkins)",
+  "historicalNotes": "Ancient European fever remedy; chemical ancestor of aspirin.",
+  "partsUsedDe": "Bark",
+  "habitatDe": "Riverbanks und damp soils von Europa und Westasien.",
+  "activeCompoundsDe": "Salicin und related phenolic glycosides, tannins",
+  "preparationDe": "Getrocknet Rinde Abkochung oder Extrakte (professional products preferred).",
+  "cautionsDe": "Same class cautions as salicylates: Reye risk in Kinder mit viral Erkrankungen, stomach irritation, anticoagulant interactions. Prefer ärztlicher Rat.",
+  "floweringSeasonDe": "März–April (catkins)",
+  "historicalNotesDe": "Ancient Europaan fever remedy; chemical ancestor von aspirin.",
+  "useCategoryIds": [
+    "immune-support",
+    "pain-relief"
+  ],
+  "bloomSeasons": [
+    "spring"
+  ]
+}
