@@ -1,0 +1,20 @@
+{
+  "id": "cacao",
+  "countryIds": [
+    "mx",
+    "br"
+  ],
+  "nameEn": "Cacao",
+  "nameDe": "Kakaobaum",
+  "scientificName": "Theobroma cacao",
+  "family": "Malvaceae",
+  "partsUsed": "Seeds (beans) from the fruit pod",
+  "habitat": "Understory of tropical American rainforests; major cultivation in West Africa, Latin America, and Southeast Asia.",
+  "traditionalUsesEn": "Mesoamerican ritual and beverage use; stimulant and food; traditional medicinal roles varied by culture.",
+  "traditionalUsesDe": "Mesoamerikanische Ritual- und Getränkenutzung; Stimulans und Nahrungsmittel; medizinische Rollen je nach Kultur unterschiedlich.",
+  "activeCompounds": "Theobromine, caffeine (smaller amounts), flavanols (epicatechin), fats (cocoa butter)",
+  "preparation": "Fermented, dried, roasted beans for cocoa and chocolate; traditional frothed drinks with spices.",
+  "cautions": "Stimulant content; high-calorie processed chocolate. Theobromine toxic to dogs and some pets.",
+  "floweringSeason": "Year-round in suitable tropics (cauliflorous flowers)",
+  "historicalNotes": "Name Theobroma means \"food of the gods\"; fundamental to Maya and Aztec culture before global chocolate trade."
+}
