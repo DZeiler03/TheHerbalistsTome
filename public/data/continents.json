@@ -1,0 +1,37 @@
+[
+  {
+    "id": "europe",
+    "nameEn": "Europe",
+    "nameDe": "Europa",
+    "descriptionEn": "A cradle of classical herbalism, from monastic physic gardens to Alpine folk medicine.",
+    "descriptionDe": "Eine Wiege der klassischen Kräuterkunde – von klösterlichen Heilgärten bis zur alpinen Volksmedizin."
+  },
+  {
+    "id": "asia",
+    "nameEn": "Asia",
+    "nameDe": "Asien",
+    "descriptionEn": "Home to Ayurveda, Traditional Chinese Medicine, and millennia of spice and tea traditions.",
+    "descriptionDe": "Heimat von Ayurveda, Traditioneller Chinesischer Medizin und jahrtausendealten Gewürz- und Tee-Traditionen."
+  },
+  {
+    "id": "americas",
+    "nameEn": "The Americas",
+    "nameDe": "Amerika",
+    "descriptionEn": "Indigenous and colonial herbal knowledge spanning rainforests, prairies, and high Andes.",
+    "descriptionDe": "Indigenes und kolonial geprägtes Kräuterwissen von Regenwäldern über Prärien bis zu den Anden."
+  },
+  {
+    "id": "africa",
+    "nameEn": "Africa",
+    "nameDe": "Afrika",
+    "descriptionEn": "Diverse healing traditions from the Cape fynbos to the Sahel and Horn of Africa.",
+    "descriptionDe": "Vielfältige Heiltraditionen vom Kap-Fynbos über die Sahelzone bis zum Horn von Afrika."
+  },
+  {
+    "id": "oceania",
+    "nameEn": "Oceania",
+    "nameDe": "Ozeanien",
+    "descriptionEn": "Bush medicine and island plant lore of Australia, New Zealand, and the Pacific.",
+    "descriptionDe": "Bush-Medizin und Insel-Pflanzenkunde Australiens, Neuseelands und des Pazifiks."
+  }
+]

@@ -1,0 +1,142 @@
+[
+  {
+    "id": "de",
+    "continentId": "europe",
+    "nameEn": "Germany",
+    "nameDe": "Deutschland",
+    "flagCode": "de"
+  },
+  {
+    "id": "fr",
+    "continentId": "europe",
+    "nameEn": "France",
+    "nameDe": "Frankreich",
+    "flagCode": "fr"
+  },
+  {
+    "id": "it",
+    "continentId": "europe",
+    "nameEn": "Italy",
+    "nameDe": "Italien",
+    "flagCode": "it"
+  },
+  {
+    "id": "es",
+    "continentId": "europe",
+    "nameEn": "Spain",
+    "nameDe": "Spanien",
+    "flagCode": "es"
+  },
+  {
+    "id": "at",
+    "continentId": "europe",
+    "nameEn": "Austria",
+    "nameDe": "Österreich",
+    "flagCode": "at"
+  },
+  {
+    "id": "gr",
+    "continentId": "europe",
+    "nameEn": "Greece",
+    "nameDe": "Griechenland",
+    "flagCode": "gr"
+  },
+  {
+    "id": "gb",
+    "continentId": "europe",
+    "nameEn": "United Kingdom",
+    "nameDe": "Vereinigtes Königreich",
+    "flagCode": "gb"
+  },
+  {
+    "id": "in",
+    "continentId": "asia",
+    "nameEn": "India",
+    "nameDe": "Indien",
+    "flagCode": "in"
+  },
+  {
+    "id": "cn",
+    "continentId": "asia",
+    "nameEn": "China",
+    "nameDe": "China",
+    "flagCode": "cn"
+  },
+  {
+    "id": "kr",
+    "continentId": "asia",
+    "nameEn": "South Korea",
+    "nameDe": "Südkorea",
+    "flagCode": "kr"
+  },
+  {
+    "id": "th",
+    "continentId": "asia",
+    "nameEn": "Thailand",
+    "nameDe": "Thailand",
+    "flagCode": "th"
+  },
+  {
+    "id": "us",
+    "continentId": "americas",
+    "nameEn": "United States",
+    "nameDe": "Vereinigte Staaten",
+    "flagCode": "us"
+  },
+  {
+    "id": "mx",
+    "continentId": "americas",
+    "nameEn": "Mexico",
+    "nameDe": "Mexiko",
+    "flagCode": "mx"
+  },
+  {
+    "id": "ar",
+    "continentId": "americas",
+    "nameEn": "Argentina",
+    "nameDe": "Argentinien",
+    "flagCode": "ar"
+  },
+  {
+    "id": "br",
+    "continentId": "americas",
+    "nameEn": "Brazil",
+    "nameDe": "Brasilien",
+    "flagCode": "br"
+  },
+  {
+    "id": "za",
+    "continentId": "africa",
+    "nameEn": "South Africa",
+    "nameDe": "Südafrika",
+    "flagCode": "za"
+  },
+  {
+    "id": "so",
+    "continentId": "africa",
+    "nameEn": "Somalia",
+    "nameDe": "Somalia",
+    "flagCode": "so"
+  },
+  {
+    "id": "eg",
+    "continentId": "africa",
+    "nameEn": "Egypt",
+    "nameDe": "Ägypten",
+    "flagCode": "eg"
+  },
+  {
+    "id": "au",
+    "continentId": "oceania",
+    "nameEn": "Australia",
+    "nameDe": "Australien",
+    "flagCode": "au"
+  },
+  {
+    "id": "nz",
+    "continentId": "oceania",
+    "nameEn": "New Zealand",
+    "nameDe": "Neuseeland",
+    "flagCode": "nz"
+  }
+]
