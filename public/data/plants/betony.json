@@ -1,0 +1,41 @@
+{
+  "id": "betony",
+  "nameEn": "Wood Betony",
+  "nameDe": "Heilziest",
+  "scientificName": "Betonica officinalis (syn. Stachys officinalis)",
+  "family": "Lamiaceae",
+  "kind": "herb",
+  "countryIds": [
+    "at",
+    "de",
+    "ch",
+    "gb",
+    "fr",
+    "pl",
+    "cz"
+  ],
+  "partsUsed": "Flowering herb",
+  "partsUsedDe": "Blühendes Kraut",
+  "habitat": "Nutrient-poor meadows and woodland edges of Europe.",
+  "habitatDe": "Nährstoffarme Wiesen und Waldränder Europas.",
+  "traditionalUsesEn": "Historical head and nerve folk herb; mild bitter digestive.",
+  "traditionalUsesDe": "Historisches Kopf- und Nervenkraut der Volksmedizin; mild bitter verdauungsfördernd.",
+  "activeCompounds": "Tannins, alkaloids (stachydrine), flavonoids",
+  "activeCompoundsDe": "Gerbstoffe, Bitterstoffe, Alkaloide (Spuren)",
+  "preparation": "Dried herb tea.",
+  "preparationDe": "Krauttee und Tinkturen nach Tradition.",
+  "cautions": "Avoid high doses in pregnancy without advice.",
+  "cautionsDe": "Hohe Dosen in der Schwangerschaft ohne fachlichen Rat meiden.",
+  "floweringSeason": "June–September",
+  "floweringSeasonDe": "Juni–September",
+  "historicalNotes": "Monastic and Alpine meadow betony of Central Europe.",
+  "historicalNotesDe": "Klösterliches und alpines Wiesen-Betonien Mitteleuropas.",
+  "useCategoryIds": [
+    "calming",
+    "digestive",
+    "pain-relief"
+  ],
+  "bloomSeasons": [
+    "summer"
+  ]
+}
