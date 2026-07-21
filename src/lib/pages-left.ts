@@ -9,7 +9,8 @@ import {
   plantCountForContinent,
   plantsForCountry,
 } from "./data";
-import { escapeHtml, FLAG_URL, tDesc, tName } from "./dom";
+import { escapeAttr, escapeHtml, FLAG_URL, tDesc, tName } from "./dom";
+import { plantImageSrc } from "./plant-images";
 
 function fact(title: string, body: string): string {
   return `
@@ -173,6 +174,17 @@ export function renderLeftPage(
         { label: tName(lang, plant) },
       ])}
       <article class="plant-detail">
+        <div class="plant-portrait">
+          <img
+            class="plant-pixel"
+            src="${plantImageSrc(plant.id)}"
+            alt="${escapeAttr(tName(lang, plant))}"
+            width="180"
+            height="180"
+            loading="eager"
+            onerror="this.closest('.plant-portrait')?.classList.add('missing')"
+          />
+        </div>
         <header class="page-header">
           <p class="page-eyebrow">${L.plants}</p>
           <h2 class="page-title">${escapeHtml(tName(lang, plant))}</h2>
