@@ -1,0 +1,21 @@
+{
+  "id": "ginger",
+  "countryIds": [
+    "in",
+    "cn",
+    "th"
+  ],
+  "nameEn": "Ginger",
+  "nameDe": "Ingwer",
+  "scientificName": "Zingiber officinale",
+  "family": "Zingiberaceae",
+  "partsUsed": "Rhizome",
+  "habitat": "Tropical Asia origin; requires warm, humid climate; major production in India, China, and Southeast Asia.",
+  "traditionalUsesEn": "Nausea and motion sickness, digestive sluggishness, cold-related complaints in traditional systems (Ayurveda, TCM culinary/medicinal use).",
+  "traditionalUsesDe": "Übelkeit und Reisekrankheit, träge Verdauung, erkältungsbedingte Beschwerden in traditionellen Systemen (Ayurveda, TCM).",
+  "activeCompounds": "Gingerols, shogaols, zingerone, essential oil",
+  "preparation": "Fresh or dried rhizome tea, candied ginger, powdered spice, standardized extracts.",
+  "cautions": "Generally recognized as safe as food; high medicinal doses may interact with anticoagulants—seek advice if on blood thinners.",
+  "floweringSeason": "Rarely flowers in cultivation outside tropics",
+  "historicalNotes": "Traded along ancient spice routes; among the earliest documented Asian medicinal spices in European records."
+}
