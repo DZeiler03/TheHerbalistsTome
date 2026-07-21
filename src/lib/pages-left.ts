@@ -182,8 +182,9 @@ export function renderLeftPage(
             width="180"
             height="180"
             loading="eager"
-            onerror="this.closest('.plant-portrait')?.classList.add('missing')"
+            onerror="this.style.display='none'; const p=this.closest('.plant-portrait'); if(p){ p.classList.add('fallback'); p.querySelector('.plant-fallback')?.classList.add('show'); }"
           />
+          <div class="plant-fallback" aria-hidden="true">🌿</div>
         </div>
         <header class="page-header">
           <p class="page-eyebrow">${L.plants}</p>
