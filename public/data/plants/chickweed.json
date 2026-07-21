@@ -1,0 +1,47 @@
+{
+  "id": "chickweed",
+  "nameEn": "Chickweed",
+  "nameDe": "Vogelmiere",
+  "scientificName": "Stellaria media",
+  "family": "Caryophyllaceae",
+  "kind": "herb",
+  "countryIds": [
+    "at",
+    "de",
+    "ch",
+    "gb",
+    "fr",
+    "pl",
+    "ie",
+    "nl",
+    "se"
+  ],
+  "partsUsed": "Aerial parts",
+  "partsUsedDe": "Kraut",
+  "habitat": "Gardens, fields and damp disturbed soils of Europe.",
+  "habitatDe": "Gärten, Felder und feuchte gestörte Böden Europas.",
+  "traditionalUsesEn": "Cooling skin poultice; mild spring green and traditional demulcent.",
+  "traditionalUsesDe": "Mildes Haut- und Erfrischungskraut der Volksmedizin.",
+  "activeCompounds": "Saponins, flavonoids, vitamin C",
+  "activeCompoundsDe": "Saponine, Flavonoide, Mineralstoffe, Vitamin C",
+  "preparation": "Fresh poultice; young shoots in salad; mild tea.",
+  "preparationDe": "Frischkraut-Aufguss; äußerlich als Umschlag.",
+  "cautions": "Very mild overall; identify carefully among look-alikes.",
+  "cautionsDe": "Im Allgemeinen gut verträglich. Wildsammlung nur an unbelasteten Standorten.",
+  "floweringSeason": "Year-round in mild weather",
+  "floweringSeasonDe": "Fast ganzjährig bei mildem Wetter",
+  "historicalNotes": "Starry white of cottage gardens and chicken runs.",
+  "historicalNotesDe": "Unscheinbares Gartengewächs der europäischen Volksmedizin und Wildkräuterküche.",
+  "useCategoryIds": [
+    "skin-topical",
+    "culinary",
+    "nutritive"
+  ],
+  "bloomSeasons": [
+    "spring",
+    "summer",
+    "autumn",
+    "winter",
+    "yearRound"
+  ]
+}

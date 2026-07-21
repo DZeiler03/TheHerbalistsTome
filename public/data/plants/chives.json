@@ -1,0 +1,44 @@
+{
+  "id": "chives",
+  "nameEn": "Chives",
+  "nameDe": "Schnittlauch",
+  "scientificName": "Allium schoenoprasum",
+  "family": "Amaryllidaceae",
+  "kind": "herb",
+  "countryIds": [
+    "at",
+    "de",
+    "ch",
+    "fr",
+    "pl",
+    "se",
+    "no",
+    "fi",
+    "gb"
+  ],
+  "partsUsed": "Hollow leaves",
+  "partsUsedDe": "Blätter, Blüten",
+  "habitat": "Damp meadows of Europe; universal kitchen herb.",
+  "habitatDe": "Feuchte Wiesen Eurasiens; weit verbreitet in Gärten.",
+  "traditionalUsesEn": "Culinary allium; mild digestive kitchen spice.",
+  "traditionalUsesDe": "Mildes Zwiebelkraut der Küche und Volksmedizin.",
+  "activeCompounds": "Sulfur compounds, vitamin C, flavonoids",
+  "activeCompoundsDe": "Schwefelverbindungen, Flavonoide",
+  "preparation": "Fresh snipped leaves in food; mild tea rarely.",
+  "preparationDe": "Frische Blätter in der Küche; milde Tees selten.",
+  "cautions": "Culinary safe; concentrated allium oils irritant.",
+  "cautionsDe": "Lebensmittelverwendung. Für Haustiere (Hunde, Katzen) giftig in größeren Mengen.",
+  "floweringSeason": "May–August",
+  "floweringSeasonDe": "Mai–August",
+  "historicalNotes": "Purple pompons of Alpine and northern kitchen beds.",
+  "historicalNotesDe": "Violette Pompoms der alpinen und nördlichen Küchenbeete.",
+  "useCategoryIds": [
+    "culinary",
+    "digestive",
+    "nutritive"
+  ],
+  "bloomSeasons": [
+    "spring",
+    "summer"
+  ]
+}
