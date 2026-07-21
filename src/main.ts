@@ -129,7 +129,6 @@ function render(): void {
           <div class="start-divider" aria-hidden="true"><span></span><span class="gem"></span><span></span></div>
           <p class="start-author"><span>${L.authorBy}</span>Dominik Zeiler</p>
           <button type="button" class="btn-enter" id="btn-enter">${L.enter}</button>
-          <p class="start-hint">${L.hint}</p>
         </div>
       </div>`;
     document.getElementById("btn-enter")?.addEventListener("click", () =>
