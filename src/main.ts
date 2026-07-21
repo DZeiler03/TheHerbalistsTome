@@ -191,15 +191,18 @@ function bindEvents(): void {
 async function boot(): Promise<void> {
   app.innerHTML = `<div class="loading leather-bg">${labels(lang).loading}</div>`;
   try {
-    const [appData] = await Promise.all([loadAppData(), ensurePlantImages()]);
-    data = appData;
+    data = await loadAppData();
+    // Images load on demand; never block or fail boot on portraits
+    void ensurePlantImages();
     render();
   } catch (err) {
     console.error(err);
     app.innerHTML = `<div class="loading leather-bg" style="flex-direction:column;gap:1rem;color:#e8c96a">
       <p>Failed to load tome data.</p>
       <p style="font-size:0.85rem;opacity:0.7">${String(err)}</p>
+      <button type="button" class="btn-enter" id="btn-retry" style="margin-top:1rem">Retry</button>
     </div>`;
+    document.getElementById("btn-retry")?.addEventListener("click", () => boot());
   }
 }
 
