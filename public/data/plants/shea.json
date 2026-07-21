@@ -1,1 +1,35 @@
-{"id":"shea","countryIds":["gh","ng","bf"],"nameEn":"Shea Tree","nameDe":"Sheabaum","scientificName":"Vitellaria paradoxa","family":"Sapotaceae","partsUsed":"Seed fat (shea butter)","habitat":"Sudanian savanna belt of West Africa.","traditionalUsesEn":"Traditional skin emollient and cooking fat; women’s cooperative economy plant.","traditionalUsesDe":"Traditionelles Hautpflege- und Kochfett; Wirtschaftspflanze von Frauenkooperativen.","activeCompounds":"Stearic and oleic triglycerides, unsaponifiables (karitene, etc.)","preparation":"Cold-processed butter topical and culinary.","cautions":"Topical allergies rare but possible. Food use regional.","floweringSeason":"Unknown","historicalNotes":"Vital non-timber forest product of the Sahel–savanna."}
+{
+  "id": "shea",
+  "countryIds": [
+    "gh",
+    "ng",
+    "bf"
+  ],
+  "nameEn": "Shea Tree",
+  "nameDe": "Sheabaum",
+  "scientificName": "Vitellaria paradoxa",
+  "family": "Sapotaceae",
+  "partsUsed": "Seed fat (shea butter)",
+  "habitat": "Sudanian savanna belt of West Africa.",
+  "traditionalUsesEn": "Traditional skin emollient and cooking fat; women’s cooperative economy plant.",
+  "traditionalUsesDe": "Traditionelles Hautpflege- und Kochfett; Wirtschaftspflanze von Frauenkooperativen.",
+  "activeCompounds": "Stearic and oleic triglycerides, unsaponifiables (karitene, etc.)",
+  "preparation": "Cold-processed butter topical and culinary.",
+  "cautions": "Topical allergies rare but possible. Food use regional.",
+  "floweringSeason": "Unknown",
+  "historicalNotes": "Vital non-timber forest product of the Sahel–savanna.",
+  "kind": "tree",
+  "partsUsedDe": "Seed fat (shea butter)",
+  "habitatDe": "Sudanian savanna belt von West Afrika.",
+  "activeCompoundsDe": "Stearic und oleic triglycerides, unsaponifiables (karitene, etc.)",
+  "preparationDe": "Cold-processed butter äußerlich und kulinarisch.",
+  "cautionsDe": "Topical allergies selten but möglich. Food use regional.",
+  "floweringSeasonDe": "Unbekannt",
+  "historicalNotesDe": "Vital non-timber forest product von die Sahel–savanna.",
+  "useCategoryIds": [
+    "skin-topical"
+  ],
+  "bloomSeasons": [
+    "yearRound"
+  ]
+}

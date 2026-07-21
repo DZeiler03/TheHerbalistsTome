@@ -15,5 +15,21 @@
   "preparation": "Steam-distilled essential oil diluted in carrier oil or formulated products; never undiluted on large skin areas.",
   "cautions": "Toxic if swallowed. Can cause skin irritation or allergic contact dermatitis. Keep away from pets (especially cats). Use diluted.",
   "floweringSeason": "Spring–summer (Australia)",
-  "historicalNotes": "Commercial oil industry developed in Australia in the 20th century; ISO standards define oil quality (terpinen-4-ol content)."
+  "historicalNotes": "Commercial oil industry developed in Australia in the 20th century; ISO standards define oil quality (terpinen-4-ol content).",
+  "kind": "tree",
+  "partsUsedDe": "Ätherisches Öl distilled von Blätter und terminal branches",
+  "habitatDe": "Küstennah northeastern New South Wales und southeastern Queensland, Australien; swampy ground; angebaut für Öl.",
+  "activeCompoundsDe": "Ätherisches Öl: terpinen-4-ol (key antimicrobial marker), γ-terpinene, α-terpinene; 1,8-cineole ideally low in medicinal-grade Öl",
+  "preparationDe": "Steam-distilled ätherisches Öl verdünnt in carrier Öl oder formulated products; never unverdünnt on large skin areas.",
+  "cautionsDe": "Toxic if swallowed. Can verursachen Hautreizung oder allergic contact dermatitis. Keep away von pets (especially cats). Use verdünnt.",
+  "floweringSeasonDe": "Frühling–summer (Australien)",
+  "historicalNotesDe": "Commercial Öl industry developed in Australien in die 20th century; ISO standards define Öl quality (terpinen-4-ol content).",
+  "useCategoryIds": [
+    "immune-support",
+    "skin-topical"
+  ],
+  "bloomSeasons": [
+    "spring",
+    "summer"
+  ]
 }

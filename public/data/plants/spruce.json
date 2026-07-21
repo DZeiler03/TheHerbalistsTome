@@ -1,0 +1,41 @@
+{
+  "id": "spruce",
+  "nameEn": "Norway Spruce",
+  "nameDe": "Fichte",
+  "scientificName": "Picea abies",
+  "family": "Pinaceae",
+  "kind": "tree",
+  "countryIds": [
+    "at",
+    "de",
+    "ch",
+    "no",
+    "se",
+    "fi",
+    "pl"
+  ],
+  "partsUsed": "Young shoots, resin, needles",
+  "partsUsedDe": "Junge Triebe, Harz, Nadeln",
+  "habitat": "Mountain and boreal forests of Europe; Alpine timber tree.",
+  "habitatDe": "Gebirgs- und Borealnadelwälder Europas; alpiner Wirtschaftswald.",
+  "traditionalUsesEn": "Sprout syrups for colds; resin salves; forest bath tradition.",
+  "traditionalUsesDe": "Triebensirupe bei Erkältungen; Harzsalben; Waldluft-Tradition.",
+  "activeCompounds": "Essential oil (bornyl acetate, pinene), resin acids",
+  "activeCompoundsDe": "Ätherisches Öl (Bornylacetat, Pinen), Harzsäuren",
+  "preparation": "Young-shoot syrup, needle steam inhalation, resin ointments.",
+  "preparationDe": "Jungtrieb-Sirup, Nadel-Dampfinhalation, Harzsalben.",
+  "cautions": "Resin and oil may sensitize skin; use diluted.",
+  "cautionsDe": "Harz und Öl können die Haut sensibilisieren; verdünnt anwenden.",
+  "floweringSeason": "May–June (cones later)",
+  "floweringSeasonDe": "Mai–Juni (Zapfen später)",
+  "historicalNotes": "Alpine and Nordic forest pharmacy staple.",
+  "historicalNotesDe": "Stütze der alpinen und nordischen Waldapotheke.",
+  "useCategoryIds": [
+    "respiratory",
+    "skin-topical"
+  ],
+  "bloomSeasons": [
+    "spring",
+    "summer"
+  ]
+}

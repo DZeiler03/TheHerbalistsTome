@@ -1,1 +1,36 @@
-{"id":"schisandra","countryIds":["cn","kr","jp"],"nameEn":"Schisandra","nameDe":"Chinesisches Spaltköbchen","scientificName":"Schisandra chinensis","family":"Schisandraceae","partsUsed":"Ripe berries","habitat":"Forests of northern China, Korea, and Russian Far East.","traditionalUsesEn":"TCM adaptogenic berry (wu wei zi, five-flavor fruit) for fatigue and resilience traditions.","traditionalUsesDe":"TCM-Adaptogenbeere (Wuweizi) bei Müdigkeit und Widerstandskraft.","activeCompounds":"Lignans (schisandrin and related), organic acids, essential oil","preparation":"Dried berry decoctions, tinctures, modern extracts.","cautions":"May interact with drugs via liver enzymes. Professional guidance for therapeutic use.","floweringSeason":"Summer","historicalNotes":"Classic Taoist tonic fruit of northern Chinese medicine."}
+{
+  "id": "schisandra",
+  "countryIds": [
+    "cn",
+    "kr",
+    "jp"
+  ],
+  "nameEn": "Schisandra",
+  "nameDe": "Chinesisches Spaltkölbchen",
+  "scientificName": "Schisandra chinensis",
+  "family": "Schisandraceae",
+  "partsUsed": "Ripe berries",
+  "habitat": "Forests of northern China, Korea, and Russian Far East.",
+  "traditionalUsesEn": "TCM adaptogenic berry (wu wei zi, five-flavor fruit) for fatigue and resilience traditions.",
+  "traditionalUsesDe": "TCM-Adaptogenbeere (Wuweizi) bei Müdigkeit und Widerstandskraft.",
+  "activeCompounds": "Lignans (schisandrin and related), organic acids, essential oil",
+  "preparation": "Dried berry decoctions, tinctures, modern extracts.",
+  "cautions": "May interact with drugs via liver enzymes. Professional guidance for therapeutic use.",
+  "floweringSeason": "Summer",
+  "historicalNotes": "Classic Taoist tonic fruit of northern Chinese medicine.",
+  "kind": "vine",
+  "partsUsedDe": "Ripe berries",
+  "habitatDe": "Forests von northern China, Korea, und Russian Far East.",
+  "activeCompoundsDe": "Lignans (schisandrin und related), organic acids, ätherisches Öl",
+  "preparationDe": "Getrocknet Beere Abkochungs, Tinkturen, modern Extrakte.",
+  "cautionsDe": "May interact mit drugs via liver enzymes. Professional Anleitung für therapeutic use.",
+  "floweringSeasonDe": "Sommer",
+  "historicalNotesDe": "Classic Taoist tonic Frucht von northern Chinese medicine.",
+  "useCategoryIds": [
+    "adaptogenic",
+    "culinary"
+  ],
+  "bloomSeasons": [
+    "summer"
+  ]
+}

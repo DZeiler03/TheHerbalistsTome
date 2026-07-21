@@ -1,0 +1,40 @@
+{
+  "id": "sweet-violet",
+  "nameEn": "Sweet Violet",
+  "nameDe": "Veilchen",
+  "scientificName": "Viola odorata",
+  "family": "Violaceae",
+  "kind": "herb",
+  "countryIds": [
+    "at",
+    "de",
+    "fr",
+    "it",
+    "gb",
+    "ch"
+  ],
+  "partsUsed": "Flowers, leaves",
+  "partsUsedDe": "Blüten, Blätter",
+  "habitat": "Wood edges and gardens of Europe.",
+  "habitatDe": "Waldränder und Gärten Europas.",
+  "traditionalUsesEn": "Soothing flower syrups; mild respiratory folk use.",
+  "traditionalUsesDe": "Lindernde Blütensirupe; milde Atemwegsvolksmedizin.",
+  "activeCompounds": "Saponins, mucilage, methyl salicylate traces",
+  "activeCompoundsDe": "Saponine, Schleimstoffe, Spuren von Methylsalicylat",
+  "preparation": "Flower syrup, mild leaf tea.",
+  "preparationDe": "Blütensirup, milder Blatttee.",
+  "cautions": "Generally gentle; large saponin doses may nauseate.",
+  "cautionsDe": "Meist sanft; große Saponinmengen können Übelkeit auslösen.",
+  "floweringSeason": "March–May",
+  "floweringSeasonDe": "März–Mai",
+  "historicalNotes": "Perfume and spring emblem of European gardens.",
+  "historicalNotesDe": "Duft und Frühlingsemblem europäischer Gärten.",
+  "useCategoryIds": [
+    "respiratory",
+    "calming",
+    "culinary"
+  ],
+  "bloomSeasons": [
+    "spring"
+  ]
+}

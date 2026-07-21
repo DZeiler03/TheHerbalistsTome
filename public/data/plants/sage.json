@@ -1,12 +1,13 @@
 {
   "id": "sage",
   "countryIds": [
-    "it",
     "es",
-    "gr"
+    "gr",
+    "hr",
+    "it"
   ],
   "nameEn": "Common Sage",
-  "nameDe": "Echter Salbei",
+  "nameDe": "Salbei",
   "scientificName": "Salvia officinalis",
   "family": "Lamiaceae",
   "partsUsed": "Leaves",
@@ -17,5 +18,25 @@
   "preparation": "Leaf infusion for gargling or drinking; culinary use; tinctures.",
   "cautions": "High doses or prolonged use of thujone-rich preparations not recommended; avoid concentrated essential oil internally; caution in pregnancy.",
   "floweringSeason": "May–July",
-  "historicalNotes": "Name from Latin salvare (to save/heal); staple of Mediterranean monastic gardens."
+  "historicalNotes": "Name from Latin salvare (to save/heal); staple of Mediterranean monastic gardens.",
+  "partsUsedDe": "Leaves",
+  "habitatDe": "Heimisch in die Mittelmeergebiet; dry rocky soils; weit verbreitet angebaut as kulinarisch und medicinal Kraut.",
+  "activeCompoundsDe": "Ätherisches Öl (thujone, camphor, 1,8-cineole), rosmarinic acid, flavonoids, tannins",
+  "preparationDe": "Blattaufguss zum Gurgeln oder Trinken; kulinarische Verwendung; Tinkturen.",
+  "cautionsDe": "Hohe Dosen oder längere Anwendung von thujone-rich preparations nicht empfohlen; vermeiden konzentriert ätherisches Öl internally; caution in Schwangerschaft.",
+  "floweringSeasonDe": "May–July",
+  "historicalNotesDe": "Name von Latin salvare (to save/heal); staple von Mittelmeergebiet monastic gardens.",
+  "useCategoryIds": [
+    "digestive",
+    "anti-inflammatory",
+    "skin-topical",
+    "respiratory",
+    "pain-relief",
+    "culinary",
+    "oral-dental"
+  ],
+  "bloomSeasons": [
+    "spring",
+    "summer"
+  ]
 }

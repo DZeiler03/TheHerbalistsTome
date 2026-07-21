@@ -1,1 +1,36 @@
-{"id":"vanilla","countryIds":["mx","mg","id"],"nameEn":"Vanilla","nameDe":"Gewürzvanille","scientificName":"Vanilla planifolia","family":"Orchidaceae","partsUsed":"Cured seed pods (beans)","habitat":"Mesoamerican origin; major production in Madagascar, Indonesia, Mexico.","traditionalUsesEn":"Culinary flavoring; traditional Mesoamerican use with cacao beverages.","traditionalUsesDe":"Küchenaroma; traditionell mesoamerikanisch mit Kakao-Getränken.","activeCompounds":"Vanillin and related phenolics (develop during curing)","preparation":"Extracts and whole beans in food; not typically a medicinal tea.","cautions":"Food use. Synthetic vanillin common in cheap products.","floweringSeason":"Epiphytic orchid; flowers hand-pollinated in cultivation","historicalNotes":"Totonac and Aztec heritage; second-most expensive spice after saffron often."}
+{
+  "id": "vanilla",
+  "countryIds": [
+    "mx",
+    "mg",
+    "id"
+  ],
+  "nameEn": "Vanilla",
+  "nameDe": "Gewürzvanille",
+  "scientificName": "Vanilla planifolia",
+  "family": "Orchidaceae",
+  "partsUsed": "Cured seed pods (beans)",
+  "habitat": "Mesoamerican origin; major production in Madagascar, Indonesia, Mexico.",
+  "traditionalUsesEn": "Culinary flavoring; traditional Mesoamerican use with cacao beverages.",
+  "traditionalUsesDe": "Küchenaroma; traditionell mesoamerikanisch mit Kakao-Getränken.",
+  "activeCompounds": "Vanillin and related phenolics (develop during curing)",
+  "preparation": "Extracts and whole beans in food; not typically a medicinal tea.",
+  "cautions": "Food use. Synthetic vanillin common in cheap products.",
+  "floweringSeason": "Epiphytic orchid; flowers hand-pollinated in cultivation",
+  "historicalNotes": "Totonac and Aztec heritage; second-most expensive spice after saffron often.",
+  "kind": "vine",
+  "partsUsedDe": "Cured Samen pods (beans)",
+  "habitatDe": "Mesoamerican Herkunft; Hauptanbau in Madagascar, Indonesia, Mexiko.",
+  "activeCompoundsDe": "Vanillin und related phenolics (develop during curing)",
+  "preparationDe": "Extracts und whole beans in food; not typically a medicinal Tee.",
+  "cautionsDe": "Food use. Synthetic vanillin common in cheap products.",
+  "floweringSeasonDe": "Epiphytic orchid; Blüten hand-pollinated in cultivation",
+  "historicalNotesDe": "Totonac und Aztec heritage; second-most expensive spice after saffron often.",
+  "useCategoryIds": [
+    "culinary",
+    "urinary"
+  ],
+  "bloomSeasons": [
+    "summer"
+  ]
+}

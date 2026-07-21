@@ -1,12 +1,13 @@
 {
   "id": "st-johns-wort",
   "countryIds": [
-    "de",
     "at",
-    "gb"
+    "de",
+    "gb",
+    "se"
   ],
   "nameEn": "St. John's Wort",
-  "nameDe": "Echtes Johanniskraut",
+  "nameDe": "Johanniskraut",
   "scientificName": "Hypericum perforatum",
   "family": "Hypericaceae",
   "partsUsed": "Flowering tops (herba)",
@@ -17,5 +18,22 @@
   "preparation": "Dried herb tea or standardized extracts (oral); red oil (Oleum Hyperici) for external use.",
   "cautions": "Important drug interactions (e.g. with oral contraceptives, immunosuppressants, anticoagulants, some antidepressants) via CYP3A4 induction. Photosensitivity possible. Medical advice required before use.",
   "floweringSeason": "June–August",
-  "historicalNotes": "Named for flowering around St. John's Day (24 June); long history in European folk medicine."
+  "historicalNotes": "Named for flowering around St. John's Day (24 June); long history in European folk medicine.",
+  "partsUsedDe": "blühende Spitzen (herba)",
+  "habitatDe": "Sunny grasslands, Wegränder, und lichte Wälder von Europa und Westasien; eingebürgert elsewhere.",
+  "activeCompoundsDe": "Hypericin, hyperforin, flavonoids, phenolic acids",
+  "preparationDe": "Tee aus getrocknetem Kraut oder standardisierte Extrakte (oral); Rotöl (Oleum Hyperici) für die äußerliche Anwendung.",
+  "cautionsDe": "Wichtig Arzneimittelwechselwirkungen (e.g. mit oral contraceptives, immunosuppressants, anticoagulants, some antidepressants) via CYP3A4 induction. Photosensibilität möglich. Ärztlicher Rat erforderlich vor der Anwendung.",
+  "floweringSeasonDe": "Juni–August",
+  "historicalNotesDe": "Named für flowering around St. John's Day (24 June); long history in Europaan folk medicine.",
+  "useCategoryIds": [
+    "calming",
+    "immune-support",
+    "skin-topical",
+    "respiratory",
+    "adaptogenic"
+  ],
+  "bloomSeasons": [
+    "summer"
+  ]
 }

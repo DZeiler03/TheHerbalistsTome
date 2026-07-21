@@ -1,0 +1,41 @@
+{
+  "id": "sea-buckthorn",
+  "nameEn": "Sea Buckthorn",
+  "nameDe": "Sanddorn",
+  "scientificName": "Hippophae rhamnoides",
+  "family": "Elaeagnaceae",
+  "kind": "shrub",
+  "countryIds": [
+    "at",
+    "de",
+    "pl",
+    "se",
+    "fi",
+    "gb"
+  ],
+  "partsUsed": "Berries, seed oil",
+  "partsUsedDe": "Beeren, Samenöl",
+  "habitat": "Coastal dunes and river gravel; Alpine valleys; cultivated.",
+  "habitatDe": "Küstendünen und Flussschotter; Alpentäler; auch angebaut.",
+  "traditionalUsesEn": "Vitamin-rich berry; oils for skin and mucous membranes.",
+  "traditionalUsesDe": "Vitaminreiche Beere; Öle für Haut und Schleimhäute.",
+  "activeCompounds": "Vitamin C, carotenoids, omega fatty acids",
+  "activeCompoundsDe": "Vitamin C, Carotinoide, Omega-Fettsäuren",
+  "preparation": "Juice, jam, seed/pulp oils.",
+  "preparationDe": "Saft, Marmelade, Samen-/Fruchtfleischöle.",
+  "cautions": "Very acidic juice; oil generally well tolerated topically.",
+  "cautionsDe": "Saft sehr sauer; Öl äußerlich meist gut verträglich.",
+  "floweringSeason": "March–May; berries autumn",
+  "floweringSeasonDe": "März–Mai; Beeren im Herbst",
+  "historicalNotes": "Orange gold of North Sea and Alpine riversides.",
+  "historicalNotesDe": "Orangenes Gold der Nordsee- und Alpenflüsse.",
+  "useCategoryIds": [
+    "immune-support",
+    "skin-topical",
+    "culinary"
+  ],
+  "bloomSeasons": [
+    "spring",
+    "autumn"
+  ]
+}

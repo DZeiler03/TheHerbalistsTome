@@ -1,0 +1,41 @@
+{
+  "id": "white-dead-nettle",
+  "nameEn": "White Dead-Nettle",
+  "nameDe": "Taubnessel",
+  "scientificName": "Lamium album",
+  "family": "Lamiaceae",
+  "kind": "herb",
+  "countryIds": [
+    "at",
+    "de",
+    "pl",
+    "gb",
+    "fr",
+    "cz"
+  ],
+  "partsUsed": "Flowers, herb",
+  "partsUsedDe": "Blüten, Kraut",
+  "habitat": "Nitrogen-rich waysides and wood edges of Europe.",
+  "habitatDe": "Stickstoffreiche Wegränder und Waldränder Europas.",
+  "traditionalUsesEn": "Mild women's and respiratory folk teas; harmless nettle look-alike.",
+  "traditionalUsesDe": "Milde Frauen- und Atemwegstees der Volksmedizin; harmlose Brennnessel-Doppelgängerin.",
+  "activeCompounds": "Mucilage, flavonoids, iridoids",
+  "activeCompoundsDe": "Schleimstoffe, Flavonoide, Iridoide",
+  "preparation": "Flower or herb infusion.",
+  "preparationDe": "Blüten- oder Krauttee.",
+  "cautions": "Very mild overall.",
+  "cautionsDe": "Insgesamt sehr mild.",
+  "floweringSeason": "April–October",
+  "floweringSeasonDe": "April–Oktober",
+  "historicalNotes": "White lipped labiate of Central European paths.",
+  "historicalNotesDe": "Weißlippen-Lippenblütler mitteleuropäischer Wege.",
+  "useCategoryIds": [
+    "respiratory",
+    "anti-inflammatory"
+  ],
+  "bloomSeasons": [
+    "spring",
+    "summer",
+    "autumn"
+  ]
+}

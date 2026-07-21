@@ -1,0 +1,36 @@
+{
+  "id": "sandalwood",
+  "countryIds": [
+    "in",
+    "id",
+    "au"
+  ],
+  "nameEn": "Indian Sandalwood",
+  "nameDe": "Indisches Sandelholz",
+  "scientificName": "Santalum album",
+  "family": "Santalaceae",
+  "kind": "tree",
+  "partsUsed": "Heartwood oil",
+  "habitat": "Dry forests of southern India; related Australian sandalwoods commercial too.",
+  "traditionalUsesEn": "Sacred fragrance and traditional Ayurvedic cooling aromatic; perfume industry.",
+  "traditionalUsesDe": "Heiliger Duft und ayurvedisches kühlendes Aroma; Parfümindustrie.",
+  "activeCompounds": "Sesquiterpene alcohols (santalols)",
+  "preparation": "Essential oil diluted topical/aromatic; wood for incense.",
+  "cautions": "Endangered/regulated wild harvest—prefer sustainable/plantation sources. Oil dilute only.",
+  "floweringSeason": "Unknown",
+  "historicalNotes": "Overharvest led to strict protection in India; plantation revival ongoing.",
+  "partsUsedDe": "Heartwood Öl",
+  "habitatDe": "Dry Wälder von southern Indien; related Australienn sandalWälder commercial too.",
+  "activeCompoundsDe": "Sesquiterpene alcohols (santalols)",
+  "preparationDe": "Ätherisches Öl verdünnt äußerlich/aromatic; Holz für incense.",
+  "cautionsDe": "Endangered/regulated wild harvest—prefer sustainable/plantation sources. Öl verdünnen only.",
+  "floweringSeasonDe": "Unbekannt",
+  "historicalNotesDe": "Overharvest led zu strict protection in Indien; plantation revival ongoing.",
+  "useCategoryIds": [
+    "circulatory",
+    "aromatic"
+  ],
+  "bloomSeasons": [
+    "yearRound"
+  ]
+}

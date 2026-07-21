@@ -1,1 +1,38 @@
-{"id":"saffron","countryIds":["ir","es","in","gr"],"nameEn":"Saffron","nameDe":"Safran","scientificName":"Crocus sativus","family":"Iridaceae","partsUsed":"Dried stigmas","habitat":"Cultivated sterile triploid; major production in Iran, also Spain, Kashmir, Greece.","traditionalUsesEn":"Culinary spice and colorant; traditional mood and digestive aromatic in Persian and Mediterranean medicine.","traditionalUsesDe":"Küchengewürz und Färbemittel; traditionell stimmungs- und verdauungsbezogen in persischer und mediterraner Medizin.","activeCompounds":"Crocins, picrocrocin, safranal","preparation":"Threads steeped in warm liquid for food; small culinary pinches.","cautions":"Very expensive—adulteration common. Extremely high doses toxic. Culinary amounts only unless supervised.","floweringSeason":"Autumn","historicalNotes":"Historically worth its weight in gold; hand-harvested stigmas."}
+{
+  "id": "saffron",
+  "countryIds": [
+    "ir",
+    "es",
+    "in",
+    "gr"
+  ],
+  "nameEn": "Saffron",
+  "nameDe": "Safran",
+  "scientificName": "Crocus sativus",
+  "family": "Iridaceae",
+  "partsUsed": "Dried stigmas",
+  "habitat": "Cultivated sterile triploid; major production in Iran, also Spain, Kashmir, Greece.",
+  "traditionalUsesEn": "Culinary spice and colorant; traditional mood and digestive aromatic in Persian and Mediterranean medicine.",
+  "traditionalUsesDe": "Küchengewürz und Färbemittel; traditionell stimmungs- und verdauungsbezogen in persischer und mediterraner Medizin.",
+  "activeCompounds": "Crocins, picrocrocin, safranal",
+  "preparation": "Threads steeped in warm liquid for food; small culinary pinches.",
+  "cautions": "Very expensive—adulteration common. Extremely high doses toxic. Culinary amounts only unless supervised.",
+  "floweringSeason": "Autumn",
+  "historicalNotes": "Historically worth its weight in gold; hand-harvested stigmas.",
+  "partsUsedDe": "Getrocknet stigmas",
+  "habitatDe": "Angebaut sterile triploid; Hauptanbau in Iran, also Spanien, Kashmir, Griechenland.",
+  "activeCompoundsDe": "Crocins, picrocrocin, safranal",
+  "preparationDe": "Threads steeped in warm liquid für food; small kulinarisch pinches.",
+  "cautionsDe": "Very expensive—adulteration common. Extremely hohe Dosen toxic. Kulinarisch amounts only unless supervised.",
+  "floweringSeasonDe": "Herbst",
+  "historicalNotesDe": "Historically worth its weight in gold; hand-harvested stigmas.",
+  "useCategoryIds": [
+    "digestive",
+    "immune-support",
+    "culinary",
+    "aromatic"
+  ],
+  "bloomSeasons": [
+    "autumn"
+  ]
+}

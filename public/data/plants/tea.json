@@ -2,7 +2,10 @@
   "id": "tea",
   "countryIds": [
     "cn",
-    "in"
+    "in",
+    "jp",
+    "lk",
+    "vn"
   ],
   "nameEn": "Tea Plant",
   "nameDe": "Tee-Strauch",
@@ -16,5 +19,20 @@
   "preparation": "Infusion of fresh or oxidized leaves; matcha is stone-ground shade-grown green tea.",
   "cautions": "Caffeine content; high intake of green tea extracts has been linked to rare liver issues—food use is generally safe. Tannins may reduce iron absorption with meals.",
   "floweringSeason": "Autumn–winter (depending on climate)",
-  "historicalNotes": "Chinese cultivation and use date back millennia; global trade shaped modern world history."
+  "historicalNotes": "Chinese cultivation and use date back millennia; global trade shaped modern world history.",
+  "kind": "tree",
+  "partsUsedDe": "Young Blätter und Blatt Knospen",
+  "habitatDe": "Heimisch in Ostasien; angebaut in China, Indien, Sri Lanka, Japan, und many tropisch highlands.",
+  "activeCompoundsDe": "Catechins (EGCG especially in green Tee), caffeine, theanine, flavonoids",
+  "preparationDe": "Aufguss von frisch oder oxidized Blätter; matcha is stone-ground shade-grown green Tee.",
+  "cautionsDe": "Caffeine content; high intake von green Tee Extrakte has been linked zu selten liver issues—food use is im Allgemeinen unbedenklich. Tannins kann reduce iron absorption mit meals.",
+  "floweringSeasonDe": "Herbst–winter (depending on climate)",
+  "historicalNotesDe": "Chinese cultivation und use date back millennia; global trade shaped modern world history.",
+  "useCategoryIds": [
+    "digestive"
+  ],
+  "bloomSeasons": [
+    "autumn",
+    "winter"
+  ]
 }

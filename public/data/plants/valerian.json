@@ -3,10 +3,11 @@
   "countryIds": [
     "at",
     "de",
-    "gb"
+    "gb",
+    "pl"
   ],
   "nameEn": "Valerian",
-  "nameDe": "Echter Baldrian",
+  "nameDe": "Baldrian",
   "scientificName": "Valeriana officinalis",
   "family": "Caprifoliaceae (formerly Valerianaceae)",
   "partsUsed": "Root and rhizome (radix)",
@@ -17,5 +18,18 @@
   "preparation": "Dried root tea, tincture, standardized extracts (capsules/tablets).",
   "cautions": "May cause drowsiness; avoid combining with sedatives or alcohol without advice. Characteristic strong odor of dried root.",
   "floweringSeason": "June–August",
-  "historicalNotes": "Used since classical antiquity; listed in European pharmacopoeias for mild sleep and stress support."
+  "historicalNotes": "Used since classical antiquity; listed in European pharmacopoeias for mild sleep and stress support.",
+  "partsUsedDe": "Wurzel und Rhizom (Radix)",
+  "habitatDe": "Damp Wiesen, Bachufer, und Waldlund edges von Europa und Westasien.",
+  "activeCompoundsDe": "Valerensäure und Derivate, Valepotriate (in frischem Material), ätherisches Öl, GABA-bezogene Inhaltsstoffe",
+  "preparationDe": "Tee aus getrockneter Wurzel, Tinktur, standardisierte Extrakte (Kapseln/Tabletten).",
+  "cautionsDe": "Kann Schläfrigkeit verursachen; Kombination mit Beruhigungsmitteln oder Alkohol ohne Beratung vermeiden. Charakteristischer starker Geruch der getrockneten Wurzel.",
+  "floweringSeasonDe": "Juni–August",
+  "historicalNotesDe": "Used since classical antiquity; listed in Europaan pharmacopoeias für mild sleep und stress support.",
+  "useCategoryIds": [
+    "calming"
+  ],
+  "bloomSeasons": [
+    "summer"
+  ]
 }

@@ -1,13 +1,14 @@
 {
   "id": "thyme",
   "countryIds": [
-    "gr",
     "es",
+    "fr",
+    "gr",
     "it",
-    "fr"
+    "tr"
   ],
   "nameEn": "Common Thyme",
-  "nameDe": "Echter Thymian",
+  "nameDe": "Thymian",
   "scientificName": "Thymus vulgaris",
   "family": "Lamiaceae",
   "partsUsed": "Aerial parts (herba), especially leaves and flowering tops",
@@ -18,5 +19,25 @@
   "preparation": "Herb tea, syrups, gargles; culinary use; diluted essential oil in external products.",
   "cautions": "Essential oil is potent and must be diluted; not for undiluted internal use. High thymol content can irritate mucous membranes.",
   "floweringSeason": "May–September",
-  "historicalNotes": "Ancient Greek and Roman culinary and medicinal herb; thymol remains a well-studied monoterpene phenol."
+  "historicalNotes": "Ancient Greek and Roman culinary and medicinal herb; thymol remains a well-studied monoterpene phenol.",
+  "partsUsedDe": "Kraut (herba), especially Blätter und blühende Spitzen",
+  "habitatDe": "Dry, rocky Mittelmeergebiet Hänge; weit verbreitet angebaut.",
+  "activeCompoundsDe": "Ätherisches Öl (thymol, carvacrol), flavonoids, tannins",
+  "preparationDe": "Krauttee, Sirupe, Gurgellösungen; kulinarische Verwendung; verdünntes ätherisches Öl in äußerlichen Produkten.",
+  "cautionsDe": "Ätherisches Öl is potent und muss verdünnt werden; nicht unverdünnt innere Anwendung. High thymol content kann irritate mucous membranes.",
+  "floweringSeasonDe": "Mai–September",
+  "historicalNotesDe": "Ancient Greek und Roman kulinarisch und medicinal Kraut; thymol remains a well-studied monoterpene phenol.",
+  "useCategoryIds": [
+    "digestive",
+    "anti-inflammatory",
+    "immune-support",
+    "respiratory",
+    "culinary",
+    "oral-dental"
+  ],
+  "bloomSeasons": [
+    "spring",
+    "autumn",
+    "summer"
+  ]
 }

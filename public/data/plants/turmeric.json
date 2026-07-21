@@ -1,7 +1,9 @@
 {
   "id": "turmeric",
   "countryIds": [
-    "in"
+    "id",
+    "in",
+    "th"
   ],
   "nameEn": "Turmeric",
   "nameDe": "Kurkuma / Gelbwurz",
@@ -15,5 +17,20 @@
   "preparation": "Powdered rhizome in food and golden milk, teas, standardized extracts (bioavailability varies; often with piperine or lipids).",
   "cautions": "Food amounts are generally safe. High-dose extracts may affect gallbladder conditions and drug metabolism—professional advice for therapeutic doses.",
   "floweringSeason": "Variable in tropical cultivation",
-  "historicalNotes": "Sanskrit and early Indian medical texts describe haridra; remains central to Indian cuisine and ritual."
+  "historicalNotes": "Sanskrit and early Indian medical texts describe haridra; remains central to Indian cuisine and ritual.",
+  "partsUsedDe": "Rhizom",
+  "habitatDe": "Südasien; tropisch cultivation, especially Indien (major world producer).",
+  "activeCompoundsDe": "Curcuminoids (curcumin), ätherisches Öl (turmerones)",
+  "preparationDe": "Powdered Rhizom in food und golden milk, teas, standardisierte Extrakte (bioavailability varies; often mit piperine oder lipids).",
+  "cautionsDe": "Nahrungsmengen are im Allgemeinen unbedenklich. High-dose Extrakte kann affect gallbladder conditions und drug metabolism—fachlicher Rat für therapeutic doses.",
+  "floweringSeasonDe": "Variable in tropisch cultivation",
+  "historicalNotesDe": "Sanskrit und early Indienn medical texts describe haridra; remains central zu Indienn cuisine und ritual.",
+  "useCategoryIds": [
+    "digestive",
+    "anti-inflammatory",
+    "culinary"
+  ],
+  "bloomSeasons": [
+    "yearRound"
+  ]
 }

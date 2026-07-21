@@ -1,0 +1,39 @@
+{
+  "id": "walnut",
+  "countryIds": [
+    "ir",
+    "tr",
+    "fr",
+    "us",
+    "cn"
+  ],
+  "nameEn": "Persian Walnut",
+  "nameDe": "Walnuss",
+  "scientificName": "Juglans regia",
+  "family": "Juglandaceae",
+  "kind": "tree",
+  "partsUsed": "Seeds (nuts), leaves (traditional external)",
+  "habitat": "Central Asia to SE Europe; cultivated widely.",
+  "traditionalUsesEn": "Culinary nut rich in oils; traditional leaf external washes.",
+  "traditionalUsesDe": "Speisenuss reich an Ölen; traditionelle äußerliche Blattwaschungen.",
+  "activeCompounds": "Omega-3 ALA, polyphenols (ellagitannins), juglone in green parts",
+  "preparation": "Shelled nuts as food; traditional leaf decoctions external.",
+  "cautions": "Nut allergy. Green husk stains and can irritate. Food nuts generally safe.",
+  "floweringSeason": "Spring",
+  "historicalNotes": "Ancient Silk Road nut tree.",
+  "partsUsedDe": "Seeds (nuts), Blätter (traditionell äußerlich)",
+  "habitatDe": "Central Asien zu SE Europa; angebaut widely.",
+  "activeCompoundsDe": "Omega-3 ALA, polyphenols (ellagitannins), juglone in green parts",
+  "preparationDe": "Shelled nuts als Nahrung; traditionell Blatt Abkochungs äußerlich.",
+  "cautionsDe": "Nut Allergie. Green husk stains und kann irritate. Food nuts im Allgemeinen unbedenklich.",
+  "floweringSeasonDe": "Frühling",
+  "historicalNotesDe": "Ancient Silk Road nut tree.",
+  "useCategoryIds": [
+    "skin-topical",
+    "culinary",
+    "nutritive"
+  ],
+  "bloomSeasons": [
+    "spring"
+  ]
+}
