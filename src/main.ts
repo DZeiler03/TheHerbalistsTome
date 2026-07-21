@@ -116,7 +116,7 @@ function render(): void {
       </div>
       <div class="book-footer">
         <span class="brand">The Herbalists Tome</span>
-        <span>Dominik Zeiler · ${data.plants.length} specimens</span>
+        <span>Dominik Zeiler · ${data.plants.length} specimens · ${data.countries.length} lands</span>
       </div>
     </div>`;
 
