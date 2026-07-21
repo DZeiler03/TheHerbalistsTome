@@ -1,1 +1,37 @@
-{"id":"perilla","countryIds":["jp","kr","cn","vn"],"nameEn":"Perilla / Shiso","nameDe":"Schwarznessel / Shiso","scientificName":"Perilla frutescens","family":"Lamiaceae","partsUsed":"Leaves, seeds","habitat":"East Asia; culinary herb in Japan, Korea, Vietnam, China.","traditionalUsesEn":"Culinary herb (sushi garnish, kimchi, oils); traditional East Asian medicinal food uses vary by cultivar.","traditionalUsesDe":"Küchenkraut (Sushi, Kimchi, Öle); traditionelle ostasiatische Nutzungen je nach Sorte.","activeCompounds":"Essential oil (perillaldehyde chemotypes), rosmarinic acid, anthocyanins (red forms)","preparation":"Fresh leaves; seed oil; pickled leaves.","cautions":"Rare pulmonary issues linked to long high intake of seed oil in animals—normal culinary use typical.","floweringSeason":"Summer–autumn","historicalNotes":"Red and green chemotypes shape regional cuisines."}
+{
+  "id": "perilla",
+  "countryIds": [
+    "jp",
+    "kr",
+    "cn",
+    "vn"
+  ],
+  "nameEn": "Perilla / Shiso",
+  "nameDe": "Schwarznessel / Shiso",
+  "scientificName": "Perilla frutescens",
+  "family": "Lamiaceae",
+  "partsUsed": "Leaves, seeds",
+  "habitat": "East Asia; culinary herb in Japan, Korea, Vietnam, China.",
+  "traditionalUsesEn": "Culinary herb (sushi garnish, kimchi, oils); traditional East Asian medicinal food uses vary by cultivar.",
+  "traditionalUsesDe": "Küchenkraut (Sushi, Kimchi, Öle); traditionelle ostasiatische Nutzungen je nach Sorte.",
+  "activeCompounds": "Essential oil (perillaldehyde chemotypes), rosmarinic acid, anthocyanins (red forms)",
+  "preparation": "Fresh leaves; seed oil; pickled leaves.",
+  "cautions": "Rare pulmonary issues linked to long high intake of seed oil in animals—normal culinary use typical.",
+  "floweringSeason": "Summer–autumn",
+  "historicalNotes": "Red and green chemotypes shape regional cuisines.",
+  "kind": "herb",
+  "partsUsedDe": "Leaves, Samen",
+  "habitatDe": "Ostasien; kulinarisch Kraut in Japan, Korea, Vietnam, China.",
+  "activeCompoundsDe": "Ätherisches Öl (perillaldehyde chemotypes), rosmarinic acid, anthocyanins (red forms)",
+  "preparationDe": "Frisch Blätter; Samen Öl; pickled Blätter.",
+  "cautionsDe": "Selten pulmonary issues linked zu long high intake von Samen Öl in animals—normal kulinarische Verwendung typical.",
+  "floweringSeasonDe": "Sommer–autumn",
+  "historicalNotesDe": "Red und green chemotypes shape regional cuisines.",
+  "useCategoryIds": [
+    "culinary"
+  ],
+  "bloomSeasons": [
+    "summer",
+    "autumn"
+  ]
+}

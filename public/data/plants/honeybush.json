@@ -1,1 +1,34 @@
-{"id":"honeybush","countryIds":["za"],"nameEn":"Honeybush","nameDe":"Honigbusch","scientificName":"Cyclopia spp. (e.g. C. intermedia)","family":"Fabaceae","partsUsed":"Leaves and stems (fermented or green)","habitat":"Fynbos of South Africa's Cape region.","traditionalUsesEn":"Traditional Cape herbal tea, caffeine-free, honey-like aroma; folk use for mild coughs.","traditionalUsesDe":"Traditioneller koffeinfreier Kap-Tee mit Honigaroma; volksmedizinisch bei leichtem Husten.","activeCompounds":"Xanthones, mangiferin, polyphenols; virtually caffeine-free","preparation":"Oxidized or green leaf infusion.","cautions":"Generally safe as beverage in normal amounts.","floweringSeason":"Spring (species-dependent)","historicalNotes":"Sister industry to rooibos in South African fynbos agriculture."}
+{
+  "id": "honeybush",
+  "countryIds": [
+    "za"
+  ],
+  "nameEn": "Honeybush",
+  "nameDe": "Honigbusch",
+  "scientificName": "Cyclopia spp. (e.g. C. intermedia)",
+  "family": "Fabaceae",
+  "partsUsed": "Leaves and stems (fermented or green)",
+  "habitat": "Fynbos of South Africa's Cape region.",
+  "traditionalUsesEn": "Traditional Cape herbal tea, caffeine-free, honey-like aroma; folk use for mild coughs.",
+  "traditionalUsesDe": "Traditioneller koffeinfreier Kap-Tee mit Honigaroma; volksmedizinisch bei leichtem Husten.",
+  "activeCompounds": "Xanthones, mangiferin, polyphenols; virtually caffeine-free",
+  "preparation": "Oxidized or green leaf infusion.",
+  "cautions": "Generally safe as beverage in normal amounts.",
+  "floweringSeason": "Spring (species-dependent)",
+  "historicalNotes": "Sister industry to rooibos in South African fynbos agriculture.",
+  "kind": "shrub",
+  "partsUsedDe": "Leaves und Stängel (fermented oder green)",
+  "habitatDe": "Fynbos von Südafrika's Cape region.",
+  "activeCompoundsDe": "Xanthones, mangiferin, polyphenols; virtually caffeine-free",
+  "preparationDe": "Oxidized oder green Blatt Aufguss.",
+  "cautionsDe": "Im Allgemeinen unbedenklich as beverage in normal amounts.",
+  "floweringSeasonDe": "Frühling (species-dependent)",
+  "historicalNotesDe": "Sister industry zu rooibos in Südafrikan fynbos agriculture.",
+  "useCategoryIds": [
+    "respiratory"
+  ],
+  "bloomSeasons": [
+    "yearRound",
+    "spring"
+  ]
+}

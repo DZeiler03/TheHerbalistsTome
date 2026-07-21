@@ -1,1 +1,38 @@
-{"id":"licorice","countryIds":["cn","ir","tr","es"],"nameEn":"Licorice","nameDe":"Süßholz","scientificName":"Glycyrrhiza glabra","family":"Fabaceae","partsUsed":"Root and stolons","habitat":"Mediterranean to Central Asia; Chinese G. uralensis also used in TCM.","traditionalUsesEn":"Traditional demulcent for sore throat and digestive comfort; major TCM formula herb (gan cao).","traditionalUsesDe":"Traditionell reizmildernd bei Halsschmerzen und Verdauung; wichtige TCM-Pflanze (Gancao).","activeCompounds":"Glycyrrhizin (saponin), flavonoids (liquiritin), coumarins","preparation":"Decoction, lozenges, extracts; often combined in formulas.","cautions":"Can raise blood pressure and lower potassium with prolonged high intake. Avoid excess if hypertensive; drug interactions possible.","floweringSeason":"Summer","historicalNotes":"One of the oldest continuously used medicinal roots in Eurasia."}
+{
+  "id": "licorice",
+  "countryIds": [
+    "cn",
+    "ir",
+    "tr",
+    "es"
+  ],
+  "nameEn": "Licorice",
+  "nameDe": "Süßholz",
+  "scientificName": "Glycyrrhiza glabra",
+  "family": "Fabaceae",
+  "partsUsed": "Root and stolons",
+  "habitat": "Mediterranean to Central Asia; Chinese G. uralensis also used in TCM.",
+  "traditionalUsesEn": "Traditional demulcent for sore throat and digestive comfort; major TCM formula herb (gan cao).",
+  "traditionalUsesDe": "Traditionell reizmildernd bei Halsschmerzen und Verdauung; wichtige TCM-Pflanze (Gancao).",
+  "activeCompounds": "Glycyrrhizin (saponin), flavonoids (liquiritin), coumarins",
+  "preparation": "Decoction, lozenges, extracts; often combined in formulas.",
+  "cautions": "Can raise blood pressure and lower potassium with prolonged high intake. Avoid excess if hypertensive; drug interactions possible.",
+  "floweringSeason": "Summer",
+  "historicalNotes": "One of the oldest continuously used medicinal roots in Eurasia.",
+  "kind": "herb",
+  "partsUsedDe": "Wurzel und stolons",
+  "habitatDe": "Mittelmeergebiet zu Central Asien; Chinese G. uralensis also used in TCM.",
+  "activeCompoundsDe": "Glycyrrhizin (saponin), flavonoids (liquiritin), coumarins",
+  "preparationDe": "Abkochung, lozenges, Extrakte; often combined in formulas.",
+  "cautionsDe": "Can raise Blutdruck und lower potassium mit prolonged high intake. Vermeiden excess if hypertensive; Arzneimittelwechselwirkungen möglich.",
+  "floweringSeasonDe": "Sommer",
+  "historicalNotesDe": "One von die oldest continuously used medicinal roots in Eurasia.",
+  "useCategoryIds": [
+    "digestive",
+    "respiratory",
+    "pain-relief"
+  ],
+  "bloomSeasons": [
+    "summer"
+  ]
+}

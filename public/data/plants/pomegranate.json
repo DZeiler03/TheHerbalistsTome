@@ -1,0 +1,38 @@
+{
+  "id": "pomegranate",
+  "countryIds": [
+    "ir",
+    "tr",
+    "in",
+    "es",
+    "tn"
+  ],
+  "nameEn": "Pomegranate",
+  "nameDe": "Granatapfel",
+  "scientificName": "Punica granatum",
+  "family": "Lythraceae",
+  "kind": "tree",
+  "partsUsed": "Fruit arils, rind (traditional astringent)",
+  "habitat": "Iran to Himalaya origin; Mediterranean cultivation.",
+  "traditionalUsesEn": "Culinary fruit; traditional astringent rind; modern juice polyphenol interest.",
+  "traditionalUsesDe": "Speisefrucht; traditionell adstringierende Schale; modernes Saft-Interesse.",
+  "activeCompounds": "Ellagitannins, anthocyanins, punicalagins",
+  "preparation": "Fresh arils and juice; traditional rind decoctions with caution.",
+  "cautions": "Rind high in tannins—not for unrestricted internal use. Fruit food safe.",
+  "floweringSeason": "Summer–autumn",
+  "historicalNotes": "Ancient Persian and Mediterranean sacred fruit.",
+  "partsUsedDe": "Fruit arils, rind (traditionell astringent)",
+  "habitatDe": "Iran zu Himalaya Herkunft; Mittelmeergebiet cultivation.",
+  "activeCompoundsDe": "Ellagitannins, anthocyanins, punicalagins",
+  "preparationDe": "Frisch arils und juice; traditionell rind Abkochungs mit caution.",
+  "cautionsDe": "Rind high in tannins—not für unrestricted innere Anwendung. Fruit food safe.",
+  "floweringSeasonDe": "Sommer–autumn",
+  "historicalNotesDe": "Ancient Persian und Mittelmeergebiet sacred Frucht.",
+  "useCategoryIds": [
+    "culinary"
+  ],
+  "bloomSeasons": [
+    "summer",
+    "autumn"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "olive",
+  "countryIds": [
+    "es",
+    "it",
+    "gr",
+    "tr",
+    "tn",
+    "ma"
+  ],
+  "nameEn": "Olive Tree",
+  "nameDe": "Olivenbaum",
+  "scientificName": "Olea europaea",
+  "family": "Oleaceae",
+  "kind": "tree",
+  "partsUsed": "Fruit (oil), leaves",
+  "habitat": "Mediterranean basin dry slopes; widely cultivated.",
+  "traditionalUsesEn": "Culinary oil staple; traditional leaf tea for blood-pressure folk use; sacred Mediterranean tree.",
+  "traditionalUsesDe": "Speiseöl-Grundlage; traditioneller Blättertee; heiliger Mittelmeerbaum.",
+  "activeCompounds": "Oleuropein, hydroxytyrosol, monounsaturated fats (oil)",
+  "preparation": "Extra virgin oil in food; dried leaf tea/extracts.",
+  "cautions": "Leaf extracts may lower blood pressure—monitor with meds. Culinary oil generally safe.",
+  "floweringSeason": "Spring–early summer",
+  "historicalNotes": "Central to Mediterranean culture, diet, and scripture.",
+  "partsUsedDe": "Fruit (Öl), Blätter",
+  "habitatDe": "Mittelmeergebiet basin dry slopes; weit verbreitet angebaut.",
+  "activeCompoundsDe": "Oleuropein, hydroxytyrosol, monounsaturated fats (Öl)",
+  "preparationDe": "Extra virgin Öl in food; getrocknet Blatt Tee/Extrakte.",
+  "cautionsDe": "Blatt Extrakte kann lower Blutdruck—monitor mit meds. Kulinarisch Öl im Allgemeinen unbedenklich.",
+  "floweringSeasonDe": "Frühling–early summer",
+  "historicalNotesDe": "Central zu Mittelmeergebiet culture, diet, und scripture.",
+  "useCategoryIds": [
+    "circulatory",
+    "culinary"
+  ],
+  "bloomSeasons": [
+    "spring",
+    "summer"
+  ]
+}

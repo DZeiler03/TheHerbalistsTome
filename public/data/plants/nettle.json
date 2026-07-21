@@ -1,1 +1,39 @@
-{"id":"nettle","countryIds":["de","gb","at","pl"],"nameEn":"Stinging Nettle","nameDe":"Große Brennnessel","scientificName":"Urtica dioica","family":"Urticaceae","partsUsed":"Leaves, root","habitat":"Temperate Europe and Asia; nitrogen-rich soils, roadsides, woods.","traditionalUsesEn":"Traditional use for urinary tract support and joint discomfort; spring greens as food.","traditionalUsesDe":"Traditionell bei Harnwegsbeschwerden und Gelenkbeschwerden; Frühlingsgemüse.","activeCompounds":"Flavonoids, minerals, amines (histamine in fresh hairs), sterols in root","preparation":"Cooked leaves, dried leaf tea, root extracts.","cautions":"Fresh plant stings. Seek advice for root extracts and with medications.","floweringSeason":"June–September","historicalNotes":"Long staple of European folk medicine and cuisine once cooked."}
+{
+  "id": "nettle",
+  "countryIds": [
+    "de",
+    "gb",
+    "at",
+    "pl"
+  ],
+  "nameEn": "Stinging Nettle",
+  "nameDe": "Große Brennnessel",
+  "scientificName": "Urtica dioica",
+  "family": "Urticaceae",
+  "partsUsed": "Leaves, root",
+  "habitat": "Temperate Europe and Asia; nitrogen-rich soils, roadsides, woods.",
+  "traditionalUsesEn": "Traditional use for urinary tract support and joint discomfort; spring greens as food.",
+  "traditionalUsesDe": "Traditionell bei Harnwegsbeschwerden und Gelenkbeschwerden; Frühlingsgemüse.",
+  "activeCompounds": "Flavonoids, minerals, amines (histamine in fresh hairs), sterols in root",
+  "preparation": "Cooked leaves, dried leaf tea, root extracts.",
+  "cautions": "Fresh plant stings. Seek advice for root extracts and with medications.",
+  "floweringSeason": "June–September",
+  "historicalNotes": "Long staple of European folk medicine and cuisine once cooked.",
+  "partsUsedDe": "Leaves, Wurzel",
+  "habitatDe": "Gemäßigt Europa und Asien; nitrogen-rich soils, Wegränder, Wälder.",
+  "activeCompoundsDe": "Flavonoids, minerals, amines (histamine in frisch hairs), sterols in Wurzel",
+  "preparationDe": "Cooked Blätter, getrocknet Blatt Tee, Wurzel Extrakte.",
+  "cautionsDe": "Frisch plant stings. Seek advice für Wurzel Extrakte und mit medications.",
+  "floweringSeasonDe": "Juni–September",
+  "historicalNotesDe": "Long staple von Europaan folk medicine und cuisine once gekocht.",
+  "useCategoryIds": [
+    "anti-inflammatory",
+    "skin-topical",
+    "culinary",
+    "urinary"
+  ],
+  "bloomSeasons": [
+    "summer",
+    "autumn"
+  ]
+}

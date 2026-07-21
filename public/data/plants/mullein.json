@@ -1,1 +1,36 @@
-{"id":"mullein","countryIds":["us","gb","de","tr"],"nameEn":"Common Mullein","nameDe":"Kleinblütige Königskerze / Kleinblütiges Wollkraut","scientificName":"Verbascum thapsus","family":"Scrophulariaceae","partsUsed":"Leaves, flowers","habitat":"Europe and Asia; naturalized widely in North America.","traditionalUsesEn":"Traditional respiratory demulcent leaf tea and flower oil for ear comfort traditions.","traditionalUsesDe":"Traditionell reizmildernder Blättertee bei Atemwegen; Blütenöl traditionell bei Ohrbeschwerden.","activeCompounds":"Mucilage, saponins, flavonoids, iridoids","preparation":"Leaf tea strained well (hairs irritating); flower-infused oil external.","cautions":"Strain teas carefully. Ear symptoms need medical evaluation—do not delay care.","floweringSeason":"June–September","historicalNotes":"Torch-like biennial of roadsides; classical European and settler herb."}
+{
+  "id": "mullein",
+  "countryIds": [
+    "us",
+    "gb",
+    "de",
+    "tr"
+  ],
+  "nameEn": "Common Mullein",
+  "nameDe": "Kleinblütige Königskerze / Kleinblütiges Wollkraut",
+  "scientificName": "Verbascum thapsus",
+  "family": "Scrophulariaceae",
+  "partsUsed": "Leaves, flowers",
+  "habitat": "Europe and Asia; naturalized widely in North America.",
+  "traditionalUsesEn": "Traditional respiratory demulcent leaf tea and flower oil for ear comfort traditions.",
+  "traditionalUsesDe": "Traditionell reizmildernder Blättertee bei Atemwegen; Blütenöl traditionell bei Ohrbeschwerden.",
+  "activeCompounds": "Mucilage, saponins, flavonoids, iridoids",
+  "preparation": "Leaf tea strained well (hairs irritating); flower-infused oil external.",
+  "cautions": "Strain teas carefully. Ear symptoms need medical evaluation—do not delay care.",
+  "floweringSeason": "June–September",
+  "historicalNotes": "Torch-like biennial of roadsides; classical European and settler herb.",
+  "partsUsedDe": "Leaves, Blüten",
+  "habitatDe": "Europa und Asien; eingebürgert widely in Nordamerika.",
+  "activeCompoundsDe": "Mucilage, saponins, flavonoids, iridoids",
+  "preparationDe": "Blatt Tee strained well (hairs irritating); Blüte-infused Öl äußerlich.",
+  "cautionsDe": "Strain teas carefully. Ear symptoms need medical evaluation—do not delay care.",
+  "floweringSeasonDe": "Juni–September",
+  "historicalNotesDe": "Torch-like biennial von Wegränder; classical Europaan und settler Kraut.",
+  "useCategoryIds": [
+    "respiratory"
+  ],
+  "bloomSeasons": [
+    "summer",
+    "autumn"
+  ]
+}

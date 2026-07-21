@@ -1,1 +1,36 @@
-{"id":"milk-thistle","countryIds":["de","it","es","gr","tr"],"nameEn":"Milk Thistle","nameDe":"Mariendistel","scientificName":"Silybum marianum","family":"Asteraceae","partsUsed":"Ripe fruits (seeds)","habitat":"Mediterranean and SW Europe; naturalized elsewhere.","traditionalUsesEn":"Traditional support for digestive complaints related to the liver; modern standardized extracts studied.","traditionalUsesDe":"Traditionell bei verdauungsbedingten Beschwerden mit Bezug zur Leber; standardisierte Extrakte erforscht.","activeCompounds":"Silymarin complex (silybin and related flavonolignans)","preparation":"Seed powder, capsules of standardized extract; tea less common for silymarin yield.","cautions":"Asteraceae allergy. Not a substitute for medical care in liver disease—seek professional advice.","floweringSeason":"June–August","historicalNotes":"Medieval Christian legend of Mary’s milk on the leaves; pharmacognosy staple."}
+{
+  "id": "milk-thistle",
+  "countryIds": [
+    "de",
+    "it",
+    "es",
+    "gr",
+    "tr"
+  ],
+  "nameEn": "Milk Thistle",
+  "nameDe": "Mariendistel",
+  "scientificName": "Silybum marianum",
+  "family": "Asteraceae",
+  "partsUsed": "Ripe fruits (seeds)",
+  "habitat": "Mediterranean and SW Europe; naturalized elsewhere.",
+  "traditionalUsesEn": "Traditional support for digestive complaints related to the liver; modern standardized extracts studied.",
+  "traditionalUsesDe": "Traditionell bei verdauungsbedingten Beschwerden mit Bezug zur Leber; standardisierte Extrakte erforscht.",
+  "activeCompounds": "Silymarin complex (silybin and related flavonolignans)",
+  "preparation": "Seed powder, capsules of standardized extract; tea less common for silymarin yield.",
+  "cautions": "Asteraceae allergy. Not a substitute for medical care in liver disease—seek professional advice.",
+  "floweringSeason": "June–August",
+  "historicalNotes": "Medieval Christian legend of Mary’s milk on the leaves; pharmacognosy staple.",
+  "partsUsedDe": "Ripe Früchte (Samen)",
+  "habitatDe": "Mittelmeergebiet und SW Europa; eingebürgert elsewhere.",
+  "activeCompoundsDe": "Silymarin complex (silybin und related flavonolignans)",
+  "preparationDe": "Seed powder, Kapseln von standardized Extrakt; Tee less common für silymarin yield.",
+  "cautionsDe": "Asteraceae Allergie. Kein Ersatz für medizinische Versorgung in liver disease—seek fachlicher Rat.",
+  "floweringSeasonDe": "Juni–August",
+  "historicalNotesDe": "Medieval Christian legend von Mary’s milk on die Blätter; pharmacognosy staple.",
+  "useCategoryIds": [
+    "digestive"
+  ],
+  "bloomSeasons": [
+    "summer"
+  ]
+}

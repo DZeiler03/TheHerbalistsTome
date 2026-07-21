@@ -1,8 +1,10 @@
 {
   "id": "peppermint",
   "countryIds": [
+    "de",
     "gb",
-    "de"
+    "ma",
+    "us"
   ],
   "nameEn": "Peppermint",
   "nameDe": "Pfefferminze",
@@ -16,5 +18,23 @@
   "preparation": "Leaf tea, enteric-coated oil capsules for IBS-related symptoms (under product guidance), diluted topical oil.",
   "cautions": "May worsen reflux in some people. Essential oil not for infants/young children (risk of laryngeal spasm). Enteric-coated preparations have specific use guidance.",
   "floweringSeason": "July–September",
-  "historicalNotes": "Cultivated since at least the 17th century in England (e.g. Mitcham); one of the most widely used culinary and medicinal mints."
+  "historicalNotes": "Cultivated since at least the 17th century in England (e.g. Mitcham); one of the most widely used culinary and medicinal mints.",
+  "partsUsedDe": "Leaves",
+  "habitatDe": "Hybrid von Mentha aquatica und Mentha spicata; angebaut worldwide in gemäßigt regions (notably Englund historically).",
+  "activeCompoundsDe": "Ätherisches Öl (menthol, menthone), flavonoids, phenolic acids",
+  "preparationDe": "Blatttee, magensaftresistente Öl-Kapseln bei Reizdarm-Beschwerden (nach Produktanleitung), verdünntes Öl äußerlich.",
+  "cautionsDe": "May worsen reflux in some Personen. Ätherisches Öl not für Säuglinge/young Kinder (risk von laryngeal spasm). Enteric-coated preparations have specific use Anleitung.",
+  "floweringSeasonDe": "Juli–September",
+  "historicalNotesDe": "Angebaut since at least die 17th century in Englund (e.g. Mitcham); one von die most widely used kulinarisch und medicinal mints.",
+  "useCategoryIds": [
+    "calming",
+    "digestive",
+    "skin-topical",
+    "pain-relief",
+    "oral-dental"
+  ],
+  "bloomSeasons": [
+    "summer",
+    "autumn"
+  ]
 }

@@ -1,1 +1,39 @@
-{"id":"juniper","countryIds":["de","at","se","no","pl"],"nameEn":"Juniper","nameDe":"Wacholder","scientificName":"Juniperus communis","family":"Cupressaceae","partsUsed":"Ripe berry-like cones","habitat":"Heaths, mountains, and open woods of Europe and northern Asia.","traditionalUsesEn":"Traditional digestive and diuretic culinary spice; gin flavoring.","traditionalUsesDe":"Traditionell verdauungsförderndes und harntreibendes Gewürz; Gin-Aroma.","activeCompounds":"Essential oil (α-pinene, others), sugars, resin","preparation":"Crushed berries in cooking and tea (short courses traditionally).","cautions":"Avoid high doses and prolonged use; not for kidney disease or pregnancy without advice.","floweringSeason":"Cones ripen over 2–3 years","historicalNotes":"Ancient European spice and ritual plant."}
+{
+  "id": "juniper",
+  "countryIds": [
+    "de",
+    "at",
+    "se",
+    "no",
+    "pl"
+  ],
+  "nameEn": "Juniper",
+  "nameDe": "Wacholder",
+  "scientificName": "Juniperus communis",
+  "family": "Cupressaceae",
+  "partsUsed": "Ripe berry-like cones",
+  "habitat": "Heaths, mountains, and open woods of Europe and northern Asia.",
+  "traditionalUsesEn": "Traditional digestive and diuretic culinary spice; gin flavoring.",
+  "traditionalUsesDe": "Traditionell verdauungsförderndes und harntreibendes Gewürz; Gin-Aroma.",
+  "activeCompounds": "Essential oil (α-pinene, others), sugars, resin",
+  "preparation": "Crushed berries in cooking and tea (short courses traditionally).",
+  "cautions": "Avoid high doses and prolonged use; not for kidney disease or pregnancy without advice.",
+  "floweringSeason": "Cones ripen over 2–3 years",
+  "historicalNotes": "Ancient European spice and ritual plant.",
+  "kind": "shrub",
+  "partsUsedDe": "Ripe Beere-like cones",
+  "habitatDe": "Heaths, mountains, und lichte Wälder von Europa und northern Asien.",
+  "activeCompoundsDe": "Ätherisches Öl (α-pinene, others), sugars, Harz",
+  "preparationDe": "Crushed berries in die Küche und Tee (short courses traditionellly).",
+  "cautionsDe": "Vermeiden hohe Dosen und längere Anwendung; not für kidney disease oder Schwangerschaft ohne Beratung.",
+  "floweringSeasonDe": "Cones ripen over 2–3 years",
+  "historicalNotesDe": "Ancient Europaan spice und ritual plant.",
+  "useCategoryIds": [
+    "digestive",
+    "culinary",
+    "urinary"
+  ],
+  "bloomSeasons": [
+    "summer"
+  ]
+}

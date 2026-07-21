@@ -1,0 +1,40 @@
+{
+  "id": "horsetail",
+  "nameEn": "Field Horsetail",
+  "nameDe": "Ackerschachtelhalm",
+  "scientificName": "Equisetum arvense",
+  "family": "Equisetaceae",
+  "kind": "herb",
+  "countryIds": [
+    "at",
+    "de",
+    "ch",
+    "pl",
+    "cz"
+  ],
+  "partsUsed": "Aerial sterile stems (herba)",
+  "partsUsedDe": "Unfruchtbare Sprosse (Herba)",
+  "habitat": "Moist meadows, roadsides, fields across temperate Europe.",
+  "habitatDe": "Feuchte Wiesen, Wegränder und Äcker in ganz Mitteleuropa.",
+  "traditionalUsesEn": "Traditional diuretic tea; external compresses for minor wounds in folk use.",
+  "traditionalUsesDe": "Traditioneller harntreibender Tee; äußerlich als Umschlag bei leichten Wunden in der Volksheilkunde.",
+  "activeCompounds": "Silica, flavonoids, saponins",
+  "activeCompoundsDe": "Kieselsäure, Flavonoide, Saponine",
+  "preparation": "Dried sterile stems as infusion; external washes.",
+  "preparationDe": "Getrocknete sterile Sprosse als Aufguss; äußerliche Waschungen.",
+  "cautions": "Avoid contaminated sites (heavy metals). Not for prolonged high-dose use without advice.",
+  "cautionsDe": "Keine Standorte mit Schwermetallbelastung nutzen. Keine langfristig hohen Dosen ohne fachlichen Rat.",
+  "floweringSeason": "Spores in spring; sterile stems summer",
+  "floweringSeasonDe": "Sporen im Frühjahr; sterile Sprosse im Sommer",
+  "historicalNotes": "Long-used silica herb in European monastic and Alpine practice.",
+  "historicalNotesDe": "Seit Langem genutztes Kieselsäure-Kraut in klösterlicher und alpiner Praxis.",
+  "useCategoryIds": [
+    "urinary",
+    "skin-topical",
+    "anti-inflammatory"
+  ],
+  "bloomSeasons": [
+    "spring",
+    "summer"
+  ]
+}

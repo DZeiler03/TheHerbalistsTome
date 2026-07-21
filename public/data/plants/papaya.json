@@ -1,1 +1,39 @@
-{"id":"papaya","countryIds":["mx","br","in","ph","ng"],"nameEn":"Papaya","nameDe":"Papaya","scientificName":"Carica papaya","family":"Caricaceae","partsUsed":"Fruit, leaves, latex (papain)","habitat":"Mesoamerican origin; pantropical fruit crop.","traditionalUsesEn":"Nutritious fruit; traditional leaf teas in some cultures; latex enzyme papain for digestion/meat tenderizing.","traditionalUsesDe":"Nährstoffreiche Frucht; traditionelle Blättertees; Latex-Enzym Papain.","activeCompounds":"Papain and chymopapain (latex), carotenoids, vitamin C in fruit","preparation":"Ripe fruit food; green fruit cooked; commercial papain; leaf tea traditions vary.","cautions":"Latex can irritate skin and is abortifacient in folk use—avoid medicinal latex in pregnancy. Unripe fruit caution in pregnancy.","floweringSeason":"Year-round tropics","historicalNotes":"Spread with Columbian exchange across tropics."}
+{
+  "id": "papaya",
+  "countryIds": [
+    "mx",
+    "br",
+    "in",
+    "ph",
+    "ng"
+  ],
+  "nameEn": "Papaya",
+  "nameDe": "Papaya",
+  "scientificName": "Carica papaya",
+  "family": "Caricaceae",
+  "partsUsed": "Fruit, leaves, latex (papain)",
+  "habitat": "Mesoamerican origin; pantropical fruit crop.",
+  "traditionalUsesEn": "Nutritious fruit; traditional leaf teas in some cultures; latex enzyme papain for digestion/meat tenderizing.",
+  "traditionalUsesDe": "Nährstoffreiche Frucht; traditionelle Blättertees; Latex-Enzym Papain.",
+  "activeCompounds": "Papain and chymopapain (latex), carotenoids, vitamin C in fruit",
+  "preparation": "Ripe fruit food; green fruit cooked; commercial papain; leaf tea traditions vary.",
+  "cautions": "Latex can irritate skin and is abortifacient in folk use—avoid medicinal latex in pregnancy. Unripe fruit caution in pregnancy.",
+  "floweringSeason": "Year-round tropics",
+  "historicalNotes": "Spread with Columbian exchange across tropics.",
+  "kind": "tree",
+  "partsUsedDe": "Fruit, Blätter, latex (papain)",
+  "habitatDe": "Mesoamerican Herkunft; pantropisch Frucht crop.",
+  "activeCompoundsDe": "Papain und chymopapain (latex), carotenoids, vitamin C in Frucht",
+  "preparationDe": "Ripe Frucht food; green Frucht gekocht; commercial papain; Blatt Tee traditions vary.",
+  "cautionsDe": "Latex kann irritate skin und is abortifacient in folk use—vermeiden medicinal latex in Schwangerschaft. Unripe Frucht caution in Schwangerschaft.",
+  "floweringSeasonDe": "Ganzjährig tropics",
+  "historicalNotesDe": "Spread mit Columbian exchange across tropics.",
+  "useCategoryIds": [
+    "digestive",
+    "pain-relief",
+    "nutritive"
+  ],
+  "bloomSeasons": [
+    "yearRound"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "pine",
+  "countryIds": [
+    "de",
+    "se",
+    "no",
+    "pl",
+    "us",
+    "ca"
+  ],
+  "nameEn": "Scots Pine",
+  "nameDe": "Wald-Kiefer",
+  "scientificName": "Pinus sylvestris",
+  "family": "Pinaceae",
+  "kind": "tree",
+  "partsUsed": "Needles, resin, buds",
+  "habitat": "Boreal and temperate Europe and Asia; related pines worldwide.",
+  "traditionalUsesEn": "Traditional needle teas and resin salves; timber and tar historically.",
+  "traditionalUsesDe": "Traditionelle Nadeltees und Harzsalben; historisch Holz und Teer.",
+  "activeCompounds": "Essential oil (α-pinene, others), resin acids",
+  "preparation": "Needle infusion; resin external; essential oil diluted for inhalation.",
+  "cautions": "Essential oils not for undiluted internal use. Resin may irritate skin.",
+  "floweringSeason": "May–June",
+  "historicalNotes": "Classic Eurasian conifer of folklore and pharmacy balsams.",
+  "partsUsedDe": "Needles, Harz, Knospen",
+  "habitatDe": "Boreal und gemäßigt Europa und Asien; related pines worldwide.",
+  "activeCompoundsDe": "Ätherisches Öl (α-pinene, others), Harz acids",
+  "preparationDe": "Needle Aufguss; Harz äußerlich; ätherisches Öl verdünnt für inhalation.",
+  "cautionsDe": "Ätherisches Öls nicht unverdünnt innere Anwendung. Resin kann irritate skin.",
+  "floweringSeasonDe": "May–June",
+  "historicalNotesDe": "Classic Eurasian conifer von folklore und pharmacy balsams.",
+  "useCategoryIds": [
+    "skin-topical"
+  ],
+  "bloomSeasons": [
+    "spring",
+    "summer"
+  ]
+}

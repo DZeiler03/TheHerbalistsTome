@@ -1,1 +1,37 @@
-{"id":"marshmallow","countryIds":["de","fr","gb","tr"],"nameEn":"Marshmallow","nameDe":"Echter Eibisch","scientificName":"Althaea officinalis","family":"Malvaceae","partsUsed":"Root, leaves, flowers","habitat":"Salt marshes and damp soils of Europe and Western Asia.","traditionalUsesEn":"Classic demulcent for dry cough and irritated mucosa; root cold maceration traditional.","traditionalUsesDe":"Klassisches Schleimmittel bei trockenem Husten und gereizten Schleimhäuten; Wurzel-Kaltauszug.","activeCompounds":"Mucilage polysaccharides, flavonoids","preparation":"Cold-water root maceration; leaf tea; syrups.","cautions":"May slow absorption of medicines—separate dosing. Very gentle herb generally.","floweringSeason":"July–September","historicalNotes":"Original source of confection marshmallow before sugar candy replaced it."}
+{
+  "id": "marshmallow",
+  "countryIds": [
+    "de",
+    "fr",
+    "gb",
+    "tr"
+  ],
+  "nameEn": "Marshmallow",
+  "nameDe": "Eibisch",
+  "scientificName": "Althaea officinalis",
+  "family": "Malvaceae",
+  "partsUsed": "Root, leaves, flowers",
+  "habitat": "Salt marshes and damp soils of Europe and Western Asia.",
+  "traditionalUsesEn": "Classic demulcent for dry cough and irritated mucosa; root cold maceration traditional.",
+  "traditionalUsesDe": "Klassisches Schleimmittel bei trockenem Husten und gereizten Schleimhäuten; Wurzel-Kaltauszug.",
+  "activeCompounds": "Mucilage polysaccharides, flavonoids",
+  "preparation": "Cold-water root maceration; leaf tea; syrups.",
+  "cautions": "May slow absorption of medicines—separate dosing. Very gentle herb generally.",
+  "floweringSeason": "July–September",
+  "historicalNotes": "Original source of confection marshmallow before sugar candy replaced it.",
+  "partsUsedDe": "Wurzel, Blätter, Blüten",
+  "habitatDe": "Salt marshes und damp soils von Europa und Westasien.",
+  "activeCompoundsDe": "Mucilage polysaccharides, flavonoids",
+  "preparationDe": "Cold-water Wurzel maceration; Blatt Tee; Sirupe.",
+  "cautionsDe": "May slow absorption von medicines—separate dosing. Very gentle Kraut generally.",
+  "floweringSeasonDe": "Juli–September",
+  "historicalNotesDe": "Original source von confection marshmallow before sugar candy replaced it.",
+  "useCategoryIds": [
+    "immune-support",
+    "respiratory"
+  ],
+  "bloomSeasons": [
+    "summer",
+    "autumn"
+  ]
+}

@@ -1,1 +1,35 @@
-{"id":"manuka","countryIds":["nz","au"],"nameEn":"Mānuka","nameDe":"Manuka","scientificName":"Leptospermum scoparium","family":"Myrtaceae","partsUsed":"Leaves (tea); honey from nectar is a separate famous product","habitat":"New Zealand and SE Australia scrub and heath.","traditionalUsesEn":"Traditional Māori leaf use; global fame via mānuka honey antimicrobial research (methylglyoxal).","traditionalUsesDe":"Traditionelle māorische Blattnutzung; global bekannt durch Manuka-Honig-Forschung.","activeCompounds":"Leaf essential oil (leptospermone and related); honey: MGO, DHA","preparation":"Leaf tea; honey as food (UMF/MGO graded products for quality).","cautions":"Honey not for infants under 1 year. Leaf oil diluted if used topically.","floweringSeason":"Spring–summer","historicalNotes":"Name from Māori; honey industry major NZ export."}
+{
+  "id": "manuka",
+  "countryIds": [
+    "nz",
+    "au"
+  ],
+  "nameEn": "Mānuka",
+  "nameDe": "Manuka",
+  "scientificName": "Leptospermum scoparium",
+  "family": "Myrtaceae",
+  "partsUsed": "Leaves (tea); honey from nectar is a separate famous product",
+  "habitat": "New Zealand and SE Australia scrub and heath.",
+  "traditionalUsesEn": "Traditional Māori leaf use; global fame via mānuka honey antimicrobial research (methylglyoxal).",
+  "traditionalUsesDe": "Traditionelle māorische Blattnutzung; global bekannt durch Manuka-Honig-Forschung.",
+  "activeCompounds": "Leaf essential oil (leptospermone and related); honey: MGO, DHA",
+  "preparation": "Leaf tea; honey as food (UMF/MGO graded products for quality).",
+  "cautions": "Honey not for infants under 1 year. Leaf oil diluted if used topically.",
+  "floweringSeason": "Spring–summer",
+  "historicalNotes": "Name from Māori; honey industry major NZ export.",
+  "kind": "shrub",
+  "partsUsedDe": "Leaves (Tee); honey von nectar is a separate famous product",
+  "habitatDe": "Neuseelund und SE Australien scrub und heath.",
+  "activeCompoundsDe": "Blatt ätherisches Öl (leptospermone und related); honey: MGO, DHA",
+  "preparationDe": "Blatt Tee; honey als Nahrung (UMF/MGO graded products für quality).",
+  "cautionsDe": "Honey not für Säuglinge under 1 year. Blatt Öl verdünnt if used topically.",
+  "floweringSeasonDe": "Frühling–summer",
+  "historicalNotesDe": "Name von Māori; honey industry major NZ export.",
+  "useCategoryIds": [
+    "immune-support"
+  ],
+  "bloomSeasons": [
+    "spring",
+    "summer"
+  ]
+}

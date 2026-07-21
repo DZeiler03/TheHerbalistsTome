@@ -1,0 +1,38 @@
+{
+  "id": "ivy",
+  "nameEn": "Common Ivy",
+  "nameDe": "Efeu",
+  "scientificName": "Hedera helix",
+  "family": "Araliaceae",
+  "kind": "vine",
+  "countryIds": [
+    "at",
+    "de",
+    "ch",
+    "fr",
+    "gb",
+    "it"
+  ],
+  "partsUsed": "Leaves (standardized extracts)",
+  "partsUsedDe": "Blätter (standardisierte Extrakte)",
+  "habitat": "Woods, walls, and gardens throughout Europe.",
+  "habitatDe": "Wälder, Mauern und Gärten in ganz Europa.",
+  "traditionalUsesEn": "Expectorant leaf preparations for productive cough (modern phytotherapy).",
+  "traditionalUsesDe": "Schleimlösende Blattzubereitungen bei produktivem Husten (moderne Phytotherapie).",
+  "activeCompounds": "Hederacoside C, other saponins",
+  "activeCompoundsDe": "Hederacosid C, weitere Saponine",
+  "preparation": "Standardized dry extracts in syrups/tablets; not crude high-dose teas.",
+  "preparationDe": "Standardisierte Trockenextrakte in Säften/Tabletten; keine hochdosierten Tees aus Rohdroge.",
+  "cautions": "Raw plant can irritate; follow product dosing. Berries toxic if eaten.",
+  "cautionsDe": "Rohpflanze kann reizen; Produktdosierung einhalten. Beeren giftig bei Verzehr.",
+  "floweringSeason": "September–November",
+  "floweringSeasonDe": "September–November",
+  "historicalNotes": "Evergreen of European folklore; modern respiratory monograph plant.",
+  "historicalNotesDe": "Immergrün der europäischen Folklore; moderne Atemwegs-Monographiepflanze.",
+  "useCategoryIds": [
+    "respiratory"
+  ],
+  "bloomSeasons": [
+    "autumn"
+  ]
+}

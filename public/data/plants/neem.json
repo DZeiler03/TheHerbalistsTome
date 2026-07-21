@@ -1,1 +1,36 @@
-{"id":"neem","countryIds":["in","lk","my"],"nameEn":"Neem","nameDe":"Niembaum","scientificName":"Azadirachta indica","family":"Meliaceae","partsUsed":"Leaves, seed oil (external traditions vary)","habitat":"Indian subcontinent; drought-tolerant tree of dry tropics.","traditionalUsesEn":"Traditional Indian use of leaves for skin and oral hygiene; seed oil as agricultural pesticide (azadirachtin).","traditionalUsesDe":"Traditionelle indische Nutzung der Blätter für Haut und Mundhygiene; Samenöl als landwirtschaftliches Insektizid.","activeCompounds":"Limonoids (azadirachtin in seeds), nimbin, flavonoids","preparation":"Leaf pastes and teas in folk practice; oil external; not a casual internal medicine.","cautions":"Internal use of concentrated products can be unsafe, especially in children. Prefer external/traditional guidance.","floweringSeason":"Seasonal (region-dependent)","historicalNotes":"Village pharmacy tree of rural India; WHO and ethnobotany frequently cite it."}
+{
+  "id": "neem",
+  "countryIds": [
+    "in",
+    "lk",
+    "my"
+  ],
+  "nameEn": "Neem",
+  "nameDe": "Niembaum",
+  "scientificName": "Azadirachta indica",
+  "family": "Meliaceae",
+  "partsUsed": "Leaves, seed oil (external traditions vary)",
+  "habitat": "Indian subcontinent; drought-tolerant tree of dry tropics.",
+  "traditionalUsesEn": "Traditional Indian use of leaves for skin and oral hygiene; seed oil as agricultural pesticide (azadirachtin).",
+  "traditionalUsesDe": "Traditionelle indische Nutzung der Blätter für Haut und Mundhygiene; Samenöl als landwirtschaftliches Insektizid.",
+  "activeCompounds": "Limonoids (azadirachtin in seeds), nimbin, flavonoids",
+  "preparation": "Leaf pastes and teas in folk practice; oil external; not a casual internal medicine.",
+  "cautions": "Internal use of concentrated products can be unsafe, especially in children. Prefer external/traditional guidance.",
+  "floweringSeason": "Seasonal (region-dependent)",
+  "historicalNotes": "Village pharmacy tree of rural India; WHO and ethnobotany frequently cite it.",
+  "kind": "tree",
+  "partsUsedDe": "Leaves, Samen Öl (äußerlich traditions vary)",
+  "habitatDe": "Indienn subcontinent; drought-tolerant tree von dry tropics.",
+  "activeCompoundsDe": "Limonoids (azadirachtin in Samen), nimbin, flavonoids",
+  "preparationDe": "Blatt pastes und teas in folk practice; Öl äußerlich; not a casual innerlich medicine.",
+  "cautionsDe": "Innere Anwendung von konzentriert products kann be unsafe, especially in Kinder. Prefer äußerlich/traditionell Anleitung.",
+  "floweringSeasonDe": "Seasonal (region-dependent)",
+  "historicalNotesDe": "Village pharmacy tree von rural Indien; WHO und ethnobotany frequently cite it.",
+  "useCategoryIds": [
+    "skin-topical",
+    "oral-dental"
+  ],
+  "bloomSeasons": [
+    "spring"
+  ]
+}

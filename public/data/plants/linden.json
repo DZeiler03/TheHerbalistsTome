@@ -1,1 +1,38 @@
-{"id":"linden","countryIds":["de","pl","fr","hu","cz"],"nameEn":"Linden / Lime Tree","nameDe":"Lindenblüten","scientificName":"Tilia cordata / T. platyphyllos","family":"Malvaceae","partsUsed":"Flowers with bracts","habitat":"European parks, avenues, and woodlands.","traditionalUsesEn":"Traditional calming diaphoretic tea for colds and restlessness.","traditionalUsesDe":"Traditionell beruhigender, schweißtreibender Tee bei Erkältung und Unruhe.","activeCompounds":"Flavonoids, mucilage, essential oil traces, tannins","preparation":"Flower tea (infusion).","cautions":"Rare allergy. Flowers should be fully dried to avoid fermentation issues.","floweringSeason":"June–July","historicalNotes":"Sacred and civic tree of Central Europe; summer honey source."}
+{
+  "id": "linden",
+  "countryIds": [
+    "de",
+    "pl",
+    "fr",
+    "hu",
+    "cz"
+  ],
+  "nameEn": "Linden / Lime Tree",
+  "nameDe": "Lindenblüten",
+  "scientificName": "Tilia cordata / T. platyphyllos",
+  "family": "Malvaceae",
+  "partsUsed": "Flowers with bracts",
+  "habitat": "European parks, avenues, and woodlands.",
+  "traditionalUsesEn": "Traditional calming diaphoretic tea for colds and restlessness.",
+  "traditionalUsesDe": "Traditionell beruhigender, schweißtreibender Tee bei Erkältung und Unruhe.",
+  "activeCompounds": "Flavonoids, mucilage, essential oil traces, tannins",
+  "preparation": "Flower tea (infusion).",
+  "cautions": "Rare allergy. Flowers should be fully dried to avoid fermentation issues.",
+  "floweringSeason": "June–July",
+  "historicalNotes": "Sacred and civic tree of Central Europe; summer honey source.",
+  "kind": "tree",
+  "partsUsedDe": "Flowers mit bracts",
+  "habitatDe": "Europaan parks, avenues, und Waldlands.",
+  "activeCompoundsDe": "Flavonoids, mucilage, ätherisches Öl traces, tannins",
+  "preparationDe": "Flower Tee (Aufguss).",
+  "cautionsDe": "Selten Allergie. Flowers should be fully getrocknet zu vermeiden fermentation issues.",
+  "floweringSeasonDe": "June–July",
+  "historicalNotesDe": "Sacred und civic tree von Mitteleuropa; summer honey source.",
+  "useCategoryIds": [
+    "calming",
+    "immune-support"
+  ],
+  "bloomSeasons": [
+    "summer"
+  ]
+}

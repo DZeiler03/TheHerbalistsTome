@@ -1,0 +1,38 @@
+{
+  "id": "oak",
+  "countryIds": [
+    "de",
+    "fr",
+    "gb",
+    "pl",
+    "es"
+  ],
+  "nameEn": "English / Pedunculate Oak",
+  "nameDe": "Stiel-Eiche",
+  "scientificName": "Quercus robur",
+  "family": "Fagaceae",
+  "kind": "tree",
+  "partsUsed": "Bark",
+  "habitat": "European temperate woodlands.",
+  "traditionalUsesEn": "Traditional astringent bark for mild diarrhea and mouth rinses; tanning and timber tree.",
+  "traditionalUsesDe": "Traditionell adstringierende Rinde bei leichtem Durchfall und Mundspülungen; Gerb- und Nutzholz.",
+  "activeCompounds": "Tannins (ellagitannins, gallic acid derivatives)",
+  "preparation": "Bark decoction traditionally; external rinses.",
+  "cautions": "High tannin intake can irritate. Not for prolonged internal self-medication.",
+  "floweringSeason": "April–May",
+  "historicalNotes": "King of European forests; folklore and naval timber history.",
+  "partsUsedDe": "Bark",
+  "habitatDe": "Europaan gemäßigt Waldlands.",
+  "activeCompoundsDe": "Tannins (ellagitannins, gallic acid derivatives)",
+  "preparationDe": "Bark Abkochung traditionellly; äußerlich rinses.",
+  "cautionsDe": "High tannin intake kann irritate. Not für prolonged innerlich Selbstmedikation.",
+  "floweringSeasonDe": "April–Mai",
+  "historicalNotesDe": "King von Europaan Wälder; folklore und naval timber history.",
+  "useCategoryIds": [
+    "respiratory",
+    "oral-dental"
+  ],
+  "bloomSeasons": [
+    "spring"
+  ]
+}

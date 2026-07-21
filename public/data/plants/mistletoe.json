@@ -1,0 +1,39 @@
+{
+  "id": "mistletoe",
+  "nameEn": "European Mistletoe",
+  "nameDe": "Mistel",
+  "scientificName": "Viscum album",
+  "family": "Santalaceae",
+  "kind": "shrub",
+  "countryIds": [
+    "at",
+    "de",
+    "ch",
+    "fr",
+    "pl"
+  ],
+  "partsUsed": "Leafy shoots (specialized extracts)",
+  "partsUsedDe": "Beblätterte Triebe (spezielle Extrakte)",
+  "habitat": "Hemiparasite on deciduous trees across Europe.",
+  "habitatDe": "Halbschmarotzer auf Laubbäumen in ganz Europa.",
+  "traditionalUsesEn": "Traditional circulatory folk use; modern injectable extracts under specialist care only.",
+  "traditionalUsesDe": "Traditionell bei Kreislaufthemen in der Volksmedizin; moderne Injektionspräparate nur unter Fachaufsicht.",
+  "activeCompounds": "Lectins, viscotoxins, flavonoids",
+  "activeCompoundsDe": "Lektine, Viscotoxine, Flavonoide",
+  "preparation": "Only quality-controlled commercial products; not DIY teas.",
+  "preparationDe": "Nur qualitätsgeprüfte Fertigprodukte; keine selbst gemachten Tees.",
+  "cautions": "Toxic potential; never improvise dosing. Berries poisonous.",
+  "cautionsDe": "Giftpotenzial; Dosierung nie improvisieren. Beeren giftig.",
+  "floweringSeason": "February–April",
+  "floweringSeasonDe": "Februar–April",
+  "historicalNotes": "Celtic and winter folklore plant of European trees.",
+  "historicalNotesDe": "Keltische und winterliche Folklorepflanze europäischer Bäume.",
+  "useCategoryIds": [
+    "circulatory",
+    "immune-support"
+  ],
+  "bloomSeasons": [
+    "winter",
+    "spring"
+  ]
+}

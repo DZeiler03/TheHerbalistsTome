@@ -1,0 +1,41 @@
+{
+  "id": "meadowsweet",
+  "nameEn": "Meadowsweet",
+  "nameDe": "Mädesüß",
+  "scientificName": "Filipendula ulmaria",
+  "family": "Rosaceae",
+  "kind": "herb",
+  "countryIds": [
+    "at",
+    "de",
+    "gb",
+    "pl",
+    "se",
+    "ie"
+  ],
+  "partsUsed": "Flowering tops",
+  "partsUsedDe": "Blühende Spitzen",
+  "habitat": "Damp meadows and ditches of Europe.",
+  "habitatDe": "Feuchte Wiesen und Gräben in Europa.",
+  "traditionalUsesEn": "Traditional anti-inflammatory tea; historical salicylate plant (aspirin story).",
+  "traditionalUsesDe": "Traditionell entzündungshemmender Tee; historische Salicylat-Pflanze (Aspirin-Geschichte).",
+  "activeCompounds": "Salicylates, flavonoids, tannins",
+  "activeCompoundsDe": "Salicylate, Flavonoide, Gerbstoffe",
+  "preparation": "Flower infusion.",
+  "preparationDe": "Blütenaufguss.",
+  "cautions": "Salicylate sensitivity / anticoagulant interactions possible.",
+  "cautionsDe": "Salicylat-Empfindlichkeit / Wechselwirkungen mit Gerinnungshemmern möglich.",
+  "floweringSeason": "June–September",
+  "floweringSeasonDe": "Juni–September",
+  "historicalNotes": "Linked to early aspirin research; fragrant marsh herb.",
+  "historicalNotesDe": "Mit der frühen Aspirin-Forschung verbunden; duftendes Sumpfkräutlein.",
+  "useCategoryIds": [
+    "anti-inflammatory",
+    "pain-relief",
+    "digestive"
+  ],
+  "bloomSeasons": [
+    "summer",
+    "autumn"
+  ]
+}

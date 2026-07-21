@@ -1,0 +1,40 @@
+{
+  "id": "marjoram",
+  "nameEn": "Sweet Marjoram",
+  "nameDe": "Majoran",
+  "scientificName": "Origanum majorana",
+  "family": "Lamiaceae",
+  "kind": "herb",
+  "countryIds": [
+    "at",
+    "de",
+    "hu",
+    "it",
+    "gr",
+    "tr"
+  ],
+  "partsUsed": "Herb",
+  "partsUsedDe": "Kraut",
+  "habitat": "Mediterranean origin; garden herb in Central Europe.",
+  "habitatDe": "Mediterranen Ursprungs; Gartenkraut in Mitteleuropa.",
+  "traditionalUsesEn": "Culinary; mild digestive and calming kitchen herb.",
+  "traditionalUsesDe": "Küchenkraut; mild verdauungsfördernd und beruhigend.",
+  "activeCompounds": "Essential oil (terpinene-4-ol, sabinene hydrate)",
+  "activeCompoundsDe": "Ätherisches Öl (Terpinen-4-ol, Sabinenhydrat)",
+  "preparation": "Dried herb tea or seasoning.",
+  "preparationDe": "Getrocknetes Kraut als Tee oder Gewürz.",
+  "cautions": "Culinary amounts safe; essential oil dilute only.",
+  "cautionsDe": "Küchenmengen unbedenklich; ätherisches Öl nur verdünnt.",
+  "floweringSeason": "June–September",
+  "floweringSeasonDe": "Juni–September",
+  "historicalNotes": "Sausage and potato herb of German-speaking cookery.",
+  "historicalNotesDe": "Wurst- und Kartoffelkraut der deutschsprachigen Küche.",
+  "useCategoryIds": [
+    "digestive",
+    "culinary",
+    "calming"
+  ],
+  "bloomSeasons": [
+    "summer"
+  ]
+}

@@ -2,6 +2,7 @@
   "id": "passionflower",
   "countryIds": [
     "br",
+    "co",
     "us"
   ],
   "nameEn": "Maypop / Passionflower",
@@ -16,5 +17,18 @@
   "preparation": "Dried herb tea, tinctures, extracts in combination sleep/calm products.",
   "cautions": "May enhance sedative effects of other substances. Limited use in pregnancy without professional advice.",
   "floweringSeason": "Summer",
-  "historicalNotes": "Christian missionaries named the flower for symbols of the Passion; Native American and later European herbal use documented."
+  "historicalNotes": "Christian missionaries named the flower for symbols of the Passion; Native American and later European herbal use documented.",
+  "partsUsedDe": "Kraut (herba)",
+  "habitatDe": "Southeastern Vereinigte Staaten und parts von Central/Südamerika; disturbed ground, thickets; angebaut.",
+  "activeCompoundsDe": "Flavonoids (vitexin, isovitexin), indole alkaloids (harman-type, in low amounts), maltol",
+  "preparationDe": "Getrocknet Kraut Tee, Tinkturen, Extrakte in combination sleep/calm products.",
+  "cautionsDe": "May enhance sedative effects von other substances. Limited use in Schwangerschaft without fachlicher Rat.",
+  "floweringSeasonDe": "Sommer",
+  "historicalNotesDe": "Christian missionaries named die Blüte für symbols von die Passion; Native American und later Europaan herbal use documented.",
+  "useCategoryIds": [
+    "calming"
+  ],
+  "bloomSeasons": [
+    "summer"
+  ]
 }

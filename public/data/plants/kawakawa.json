@@ -1,1 +1,34 @@
-{"id":"kawakawa","countryIds":["nz"],"nameEn":"Kawakawa","nameDe":"Kawakawa","scientificName":"Piper excelsum","family":"Piperaceae","partsUsed":"Leaves","habitat":"Coastal and lowland forests of New Zealand.","traditionalUsesEn":"Traditional Māori rongoā for digestive and skin comfort; peppery leaf tea.","traditionalUsesDe":"Traditionelle māorische Rongoā bei Verdauungs- und Hautbeschwerden; pfeffriger Blättertee.","activeCompounds":"Amides related to other Piper species, essential oil components","preparation":"Fresh or dried leaf infusions; topical oils in modern craft products.","cautions":"Traditional knowledge—use respectfully. Limited clinical data; culinary-like tea amounts common.","floweringSeason":"Unknown","historicalNotes":"Iconic New Zealand native pepper tree of rongoā Māori."}
+{
+  "id": "kawakawa",
+  "countryIds": [
+    "nz"
+  ],
+  "nameEn": "Kawakawa",
+  "nameDe": "Kawakawa",
+  "scientificName": "Piper excelsum",
+  "family": "Piperaceae",
+  "partsUsed": "Leaves",
+  "habitat": "Coastal and lowland forests of New Zealand.",
+  "traditionalUsesEn": "Traditional Māori rongoā for digestive and skin comfort; peppery leaf tea.",
+  "traditionalUsesDe": "Traditionelle māorische Rongoā bei Verdauungs- und Hautbeschwerden; pfeffriger Blättertee.",
+  "activeCompounds": "Amides related to other Piper species, essential oil components",
+  "preparation": "Fresh or dried leaf infusions; topical oils in modern craft products.",
+  "cautions": "Traditional knowledge—use respectfully. Limited clinical data; culinary-like tea amounts common.",
+  "floweringSeason": "Unknown",
+  "historicalNotes": "Iconic New Zealand native pepper tree of rongoā Māori.",
+  "kind": "shrub",
+  "partsUsedDe": "Leaves",
+  "habitatDe": "Küstennah und lowlund Wälder von Neuseeland.",
+  "activeCompoundsDe": "Amides related zu other Piper species, ätherisches Öl components",
+  "preparationDe": "Frisch oder getrocknet Blatt Aufgusss; äußerlich oils in modern craft products.",
+  "cautionsDe": "Traditionell knowledge—use respectfully. Limited clinical data; kulinarisch-like Tee amounts common.",
+  "floweringSeasonDe": "Unbekannt",
+  "historicalNotesDe": "Iconic Neuseelund native pepper tree von rongoā Māori.",
+  "useCategoryIds": [
+    "digestive",
+    "skin-topical"
+  ],
+  "bloomSeasons": [
+    "yearRound"
+  ]
+}

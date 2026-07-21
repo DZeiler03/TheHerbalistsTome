@@ -15,5 +15,20 @@
   "preparation": "Oxidized (red) or unoxidized (green) leaf infusion.",
   "cautions": "Generally regarded as a safe beverage. Rare case reports of liver issues with excessive consumption—normal tea amounts are typical.",
   "floweringSeason": "Spring–early summer (Southern Hemisphere)",
-  "historicalNotes": "Commercial cultivation expanded in the 20th century; GI-linked cultural product of South Africa."
+  "historicalNotes": "Commercial cultivation expanded in the 20th century; GI-linked cultural product of South Africa.",
+  "kind": "shrub",
+  "partsUsedDe": "Needle-like Blätter und Stängel (fermented oder green)",
+  "habitatDe": "Endemic zu die Cederberg region von die Western Cape, Südafrika (fynbos biome).",
+  "activeCompoundsDe": "Aspalathin und other dihydrochalcones, nothofagin, polyphenols; virtually caffeine-free",
+  "preparationDe": "Oxidized (red) oder unoxidized (green) Blatt Aufguss.",
+  "cautionsDe": "Generally regarded as a safe beverage. Selten case reports von liver issues mit excessive consumption—normal Tee amounts are typical.",
+  "floweringSeasonDe": "Frühling–early summer (Südhalbkugel)",
+  "historicalNotesDe": "Commercial cultivation expanded in die 20th century; GI-linked cultural product von Südafrika.",
+  "useCategoryIds": [
+    "digestive"
+  ],
+  "bloomSeasons": [
+    "spring",
+    "summer"
+  ]
 }

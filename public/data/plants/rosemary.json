@@ -2,8 +2,10 @@
   "id": "rosemary",
   "countryIds": [
     "es",
+    "fr",
+    "hr",
     "it",
-    "fr"
+    "pt"
   ],
   "nameEn": "Rosemary",
   "nameDe": "Rosmarin",
@@ -17,5 +19,23 @@
   "preparation": "Leaf tea, culinary seasoning, diluted essential oil or ointments for external use.",
   "cautions": "Essential oil not for undiluted skin use or internal self-medication; high doses may irritate.",
   "floweringSeason": "Mainly winter–spring in Mediterranean climate",
-  "historicalNotes": "Symbol of remembrance in European tradition; reclassified from Rosmarinus into Salvia based on molecular phylogeny."
+  "historicalNotes": "Symbol of remembrance in European tradition; reclassified from Rosmarinus into Salvia based on molecular phylogeny.",
+  "partsUsedDe": "Leaves, blühende Spitzen",
+  "habitatDe": "Küstennah Mittelmeergebiet scrub (maquis); rocky, sunny, gut drainiert sites.",
+  "activeCompoundsDe": "Ätherisches Öl (1,8-cineole, camphor, α-pinene), rosmarinic acid, carnosic acid, flavonoids",
+  "preparationDe": "Blatttee, kulinarische Würze, verdünntes ätherisches Öl oder Salben für die äußerliche Anwendung.",
+  "cautionsDe": "Ätherisches Öl nicht unverdünnt Hautanwendung oder innerlich Selbstmedikation; hohe Dosen kann irritate.",
+  "floweringSeasonDe": "Mainly winter–spring in Mittelmeergebiet climate",
+  "historicalNotesDe": "Symbol von remembrance in Europaan tradition; reclassified von Rosmarinus into Salvia based on molecular phylogeny.",
+  "useCategoryIds": [
+    "digestive",
+    "anti-inflammatory",
+    "skin-topical",
+    "circulatory",
+    "culinary"
+  ],
+  "bloomSeasons": [
+    "spring",
+    "winter"
+  ]
 }

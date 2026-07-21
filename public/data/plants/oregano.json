@@ -1,1 +1,38 @@
-{"id":"oregano","countryIds":["gr","it","tr","es"],"nameEn":"Oregano","nameDe":"Oregano / Dost","scientificName":"Origanum vulgare","family":"Lamiaceae","partsUsed":"Aerial parts","habitat":"Mediterranean hillsides; widely cultivated.","traditionalUsesEn":"Culinary herb; traditional teas for mild digestive and cold-related comfort.","traditionalUsesDe":"Küchenkraut; traditionelle Tees bei leichten Verdauungs- und Erkältungsbeschwerden.","activeCompounds":"Essential oil (carvacrol, thymol—chemotype dependent), flavonoids","preparation":"Dried herb culinary and tea; diluted essential oil external/aromatic only.","cautions":"Essential oil potent—dilute. Chemotypes vary widely.","floweringSeason":"June–September","historicalNotes":"Name from Greek oros ganos (joy of the mountain)."}
+{
+  "id": "oregano",
+  "countryIds": [
+    "gr",
+    "it",
+    "tr",
+    "es"
+  ],
+  "nameEn": "Oregano",
+  "nameDe": "Oregano / Dost",
+  "scientificName": "Origanum vulgare",
+  "family": "Lamiaceae",
+  "partsUsed": "Aerial parts",
+  "habitat": "Mediterranean hillsides; widely cultivated.",
+  "traditionalUsesEn": "Culinary herb; traditional teas for mild digestive and cold-related comfort.",
+  "traditionalUsesDe": "Küchenkraut; traditionelle Tees bei leichten Verdauungs- und Erkältungsbeschwerden.",
+  "activeCompounds": "Essential oil (carvacrol, thymol—chemotype dependent), flavonoids",
+  "preparation": "Dried herb culinary and tea; diluted essential oil external/aromatic only.",
+  "cautions": "Essential oil potent—dilute. Chemotypes vary widely.",
+  "floweringSeason": "June–September",
+  "historicalNotes": "Name from Greek oros ganos (joy of the mountain).",
+  "partsUsedDe": "Kraut",
+  "habitatDe": "Mittelmeergebiet Hänge; weit verbreitet angebaut.",
+  "activeCompoundsDe": "Ätherisches Öl (carvacrol, thymol—chemotype dependent), flavonoids",
+  "preparationDe": "Getrocknet Kraut kulinarisch und Tee; verdünnt ätherisches Öl äußerlich/aromatic only.",
+  "cautionsDe": "Ätherisches Öl potent—verdünnen. Chemotypes vary widely.",
+  "floweringSeasonDe": "Juni–September",
+  "historicalNotesDe": "Name von Greek oros ganos (joy von die mountain).",
+  "useCategoryIds": [
+    "digestive",
+    "immune-support",
+    "culinary"
+  ],
+  "bloomSeasons": [
+    "summer",
+    "autumn"
+  ]
+}

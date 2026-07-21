@@ -1,0 +1,42 @@
+{
+  "id": "rose-hip",
+  "nameEn": "Dog Rose / Rose Hip",
+  "nameDe": "Hagebutte",
+  "scientificName": "Rosa canina",
+  "family": "Rosaceae",
+  "kind": "shrub",
+  "countryIds": [
+    "at",
+    "de",
+    "ch",
+    "pl",
+    "fr",
+    "gb"
+  ],
+  "partsUsed": "False fruits (hips), seeds",
+  "partsUsedDe": "Scheinfrüchte (Hagebutten), Samen",
+  "habitat": "Hedges, woodland edges across Europe.",
+  "habitatDe": "Hecken und Waldränder in ganz Europa.",
+  "traditionalUsesEn": "Vitamin-C-rich winter tea; traditional mild cold support.",
+  "traditionalUsesDe": "Vitamin-C-reicher Wintertee; traditionell bei leichten Erkältungen.",
+  "activeCompounds": "Vitamin C, galactolipids, flavonoids, pectin",
+  "activeCompoundsDe": "Vitamin C, Galaktolipide, Flavonoide, Pektin",
+  "preparation": "Dried hip shells infusion; jam and syrup.",
+  "preparationDe": "Aufguss aus getrockneten Schalen; Marmelade und Sirup.",
+  "cautions": "Seed hairs can irritate; strain teas well.",
+  "cautionsDe": "Samenhaare können reizen; Tee gut abseihen.",
+  "floweringSeason": "May–July; hips autumn–winter",
+  "floweringSeasonDe": "Mai–Juli; Früchte Herbst–Winter",
+  "historicalNotes": "Hedge pharmacy of Central Europe; winter vitamin fruit.",
+  "historicalNotesDe": "Heckenapotheke Mitteleuropas; Winter-Vitaminfrucht.",
+  "useCategoryIds": [
+    "immune-support",
+    "anti-inflammatory",
+    "culinary"
+  ],
+  "bloomSeasons": [
+    "spring",
+    "summer",
+    "autumn"
+  ]
+}

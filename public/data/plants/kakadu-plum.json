@@ -1,1 +1,34 @@
-{"id":"kakadu-plum","countryIds":["au"],"nameEn":"Kakadu Plum","nameDe":"Kakadu-Pflaume","scientificName":"Terminalia ferdinandiana","family":"Combretaceae","partsUsed":"Fruit","habitat":"Woodlands of northern Australia.","traditionalUsesEn":"Traditional Aboriginal food; exceptionally high natural vitamin C content studied scientifically.","traditionalUsesDe":"Traditionelle Aboriginal-Nahrung; wissenschaftlich sehr hoher Vitamin-C-Gehalt.","activeCompounds":"Vitamin C (ascorbic acid) at very high levels, ellagic acid, polyphenols","preparation":"Fresh or processed fruit products; powders in modern foods.","cautions":"Food use. Respect Indigenous supply chains and benefit-sharing.","floweringSeason":"Wet season fruiting","historicalNotes":"Among the highest vitamin C fruits measured globally."}
+{
+  "id": "kakadu-plum",
+  "countryIds": [
+    "au"
+  ],
+  "nameEn": "Kakadu Plum",
+  "nameDe": "Kakadu-Pflaume",
+  "scientificName": "Terminalia ferdinandiana",
+  "family": "Combretaceae",
+  "partsUsed": "Fruit",
+  "habitat": "Woodlands of northern Australia.",
+  "traditionalUsesEn": "Traditional Aboriginal food; exceptionally high natural vitamin C content studied scientifically.",
+  "traditionalUsesDe": "Traditionelle Aboriginal-Nahrung; wissenschaftlich sehr hoher Vitamin-C-Gehalt.",
+  "activeCompounds": "Vitamin C (ascorbic acid) at very high levels, ellagic acid, polyphenols",
+  "preparation": "Fresh or processed fruit products; powders in modern foods.",
+  "cautions": "Food use. Respect Indigenous supply chains and benefit-sharing.",
+  "floweringSeason": "Wet season fruiting",
+  "historicalNotes": "Among the highest vitamin C fruits measured globally.",
+  "kind": "tree",
+  "partsUsedDe": "Fruit",
+  "habitatDe": "Woodlands von northern Australien.",
+  "activeCompoundsDe": "Vitamin C (ascorbic acid) at very high levels, ellagic acid, polyphenols",
+  "preparationDe": "Frisch oder processed Frucht products; powders in modern foods.",
+  "cautionsDe": "Food use. Respect Indigenous supply chains und benefit-sharing.",
+  "floweringSeasonDe": "Wet season fruiting",
+  "historicalNotesDe": "Among die highest vitamin C Früchte measured globally.",
+  "useCategoryIds": [
+    "culinary",
+    "nutritive"
+  ],
+  "bloomSeasons": [
+    "spring"
+  ]
+}

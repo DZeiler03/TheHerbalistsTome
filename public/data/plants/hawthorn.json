@@ -1,1 +1,38 @@
-{"id":"hawthorn","countryIds":["de","gb","fr","pl"],"nameEn":"Hawthorn","nameDe":"Weißdorn","scientificName":"Crataegus monogyna / C. laevigata","family":"Rosaceae","partsUsed":"Leaves, flowers, berries","habitat":"Hedgerows and wood edges of Europe.","traditionalUsesEn":"Traditional European heart tonic herb; modern extracts used under medical herbal guidance for mild cardiac complaints.","traditionalUsesDe":"Traditionelles europäisches Herzmittel; moderne Extrakte unter fachlicher Leitung bei leichten Herzbeschwerden.","activeCompounds":"Oligomeric procyanidins, flavonoids (hyperoside, vitexin derivatives)","preparation":"Flowering tops tea; standardized leaf-flower extracts.","cautions":"Heart symptoms require diagnosis. May potentiate heart drugs—medical supervision essential.","floweringSeason":"May–June","historicalNotes":"May blossom of British and German folklore; Commission E and ESCOP monographs exist."}
+{
+  "id": "hawthorn",
+  "countryIds": [
+    "de",
+    "gb",
+    "fr",
+    "pl"
+  ],
+  "nameEn": "Hawthorn",
+  "nameDe": "Weißdorn",
+  "scientificName": "Crataegus monogyna / C. laevigata",
+  "family": "Rosaceae",
+  "partsUsed": "Leaves, flowers, berries",
+  "habitat": "Hedgerows and wood edges of Europe.",
+  "traditionalUsesEn": "Traditional European heart tonic herb; modern extracts used under medical herbal guidance for mild cardiac complaints.",
+  "traditionalUsesDe": "Traditionelles europäisches Herzmittel; moderne Extrakte unter fachlicher Leitung bei leichten Herzbeschwerden.",
+  "activeCompounds": "Oligomeric procyanidins, flavonoids (hyperoside, vitexin derivatives)",
+  "preparation": "Flowering tops tea; standardized leaf-flower extracts.",
+  "cautions": "Heart symptoms require diagnosis. May potentiate heart drugs—medical supervision essential.",
+  "floweringSeason": "May–June",
+  "historicalNotes": "May blossom of British and German folklore; Commission E and ESCOP monographs exist.",
+  "kind": "tree",
+  "partsUsedDe": "Leaves, Blüten, berries",
+  "habitatDe": "Hedgerows und Holz edges von Europa.",
+  "activeCompoundsDe": "Oligomeric procyanidins, flavonoids (hyperoside, vitexin derivatives)",
+  "preparationDe": "Flowering tops Tee; standardized Blatt-Blüte Extrakte.",
+  "cautionsDe": "Heart symptoms require diagnosis. May potentiate heart drugs—medical supervision essential.",
+  "floweringSeasonDe": "May–June",
+  "historicalNotesDe": "May blossom von British und German folklore; Commission E und ESCOP monographs exist.",
+  "useCategoryIds": [
+    "circulatory",
+    "adaptogenic"
+  ],
+  "bloomSeasons": [
+    "spring",
+    "summer"
+  ]
+}

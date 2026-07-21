@@ -1,0 +1,40 @@
+{
+  "id": "goldenrod",
+  "nameEn": "European Goldenrod",
+  "nameDe": "Goldrute",
+  "scientificName": "Solidago virgaurea",
+  "family": "Asteraceae",
+  "kind": "herb",
+  "countryIds": [
+    "at",
+    "de",
+    "ch",
+    "pl",
+    "cz",
+    "se"
+  ],
+  "partsUsed": "Flowering tops",
+  "partsUsedDe": "Blühende Spitzen",
+  "habitat": "Open woods, clearings, mountain slopes of Europe.",
+  "habitatDe": "Lichte Wälder, Lichtungen und Berghänge Europas.",
+  "traditionalUsesEn": "Traditional irrigation therapy support for mild urinary complaints.",
+  "traditionalUsesDe": "Traditionell zur Durchspülungstherapie bei leichten Harnwegsbeschwerden.",
+  "activeCompounds": "Flavonoids, saponins, phenolic acids",
+  "activeCompoundsDe": "Flavonoide, Saponine, Phenolsäuren",
+  "preparation": "Herb infusion with ample fluid intake.",
+  "preparationDe": "Krauttee mit reichlicher Flüssigkeitszufuhr.",
+  "cautions": "Not for edema from heart/kidney failure; allergy possible (Asteraceae).",
+  "cautionsDe": "Nicht bei Ödemen durch Herz-/Niereninsuffizienz; Allergie möglich (Korbblütler).",
+  "floweringSeason": "July–October",
+  "floweringSeasonDe": "Juli–Oktober",
+  "historicalNotes": "Solidago – „to make whole“; Central European urological herb.",
+  "historicalNotesDe": "Solidago – „ganz machen“; mitteleuropäisches Harnwegskraut.",
+  "useCategoryIds": [
+    "urinary",
+    "anti-inflammatory"
+  ],
+  "bloomSeasons": [
+    "summer",
+    "autumn"
+  ]
+}

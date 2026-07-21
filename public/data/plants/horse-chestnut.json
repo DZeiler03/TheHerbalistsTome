@@ -1,0 +1,39 @@
+{
+  "id": "horse-chestnut",
+  "nameEn": "Horse Chestnut",
+  "nameDe": "Rosskastanie",
+  "scientificName": "Aesculus hippocastanum",
+  "family": "Sapindaceae",
+  "kind": "tree",
+  "countryIds": [
+    "at",
+    "de",
+    "ch",
+    "fr",
+    "pl",
+    "hu"
+  ],
+  "partsUsed": "Seeds (standardized extracts)",
+  "partsUsedDe": "Samen (standardisierte Extrakte)",
+  "habitat": "Parks and avenues across Europe; Balkan origin.",
+  "habitatDe": "Parks und Alleen in ganz Europa; Herkunft Balkan.",
+  "traditionalUsesEn": "Seed extract for tired heavy legs / venous tone (modern phytotherapy).",
+  "traditionalUsesDe": "Samenextrakt bei müden, schweren Beinen / Venentonus (moderne Phytotherapie).",
+  "activeCompounds": "Aescin (triterpene saponins)",
+  "activeCompoundsDe": "Aescin (Triterpensaponine)",
+  "preparation": "Standardized seed extracts; not raw seeds (toxic).",
+  "preparationDe": "Standardisierte Samenextrakte; keine rohen Samen (giftig).",
+  "cautions": "Raw seeds poisonous. Use finished medicines as directed.",
+  "cautionsDe": "Rohe Samen giftig. Fertigarzneimittel wie angegeben nutzen.",
+  "floweringSeason": "April–May",
+  "floweringSeasonDe": "April–Mai",
+  "historicalNotes": "Urban tree of Central Europe; seed medicine of the 20th century.",
+  "historicalNotesDe": "Stadtbaum Mitteleuropas; Samenarznei des 20. Jahrhunderts.",
+  "useCategoryIds": [
+    "circulatory",
+    "anti-inflammatory"
+  ],
+  "bloomSeasons": [
+    "spring"
+  ]
+}

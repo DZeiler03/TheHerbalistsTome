@@ -1,1 +1,39 @@
-{"id":"hop","countryIds":["de","cz","gb","pl","nl"],"nameEn":"Hop","nameDe":"Hopfen","scientificName":"Humulus lupulus","family":"Cannabaceae","partsUsed":"Female strobiles (cones)","habitat":"Temperate Europe and Asia; widely cultivated for brewing.","traditionalUsesEn":"Traditional calming tea for restlessness; bitter for digestion; brewing flavor.","traditionalUsesDe":"Traditionell beruhigender Tee bei Unruhe; Bitterstoff für die Verdauung; Bierwürze.","activeCompounds":"Bitter acids (humulone, lupulone), essential oil, flavonoids (xanthohumol)","preparation":"Dried cone tea or pillows; brewing; extracts.","cautions":"May cause drowsiness. Occupational allergy in hop workers known.","floweringSeason":"July–September","historicalNotes":"Central to beer culture since medieval Europe."}
+{
+  "id": "hop",
+  "countryIds": [
+    "de",
+    "cz",
+    "gb",
+    "pl",
+    "nl"
+  ],
+  "nameEn": "Hop",
+  "nameDe": "Hopfen",
+  "scientificName": "Humulus lupulus",
+  "family": "Cannabaceae",
+  "partsUsed": "Female strobiles (cones)",
+  "habitat": "Temperate Europe and Asia; widely cultivated for brewing.",
+  "traditionalUsesEn": "Traditional calming tea for restlessness; bitter for digestion; brewing flavor.",
+  "traditionalUsesDe": "Traditionell beruhigender Tee bei Unruhe; Bitterstoff für die Verdauung; Bierwürze.",
+  "activeCompounds": "Bitter acids (humulone, lupulone), essential oil, flavonoids (xanthohumol)",
+  "preparation": "Dried cone tea or pillows; brewing; extracts.",
+  "cautions": "May cause drowsiness. Occupational allergy in hop workers known.",
+  "floweringSeason": "July–September",
+  "historicalNotes": "Central to beer culture since medieval Europe.",
+  "partsUsedDe": "Female strobiles (cones)",
+  "habitatDe": "Gemäßigt Europa und Asien; weit verbreitet angebaut für brewing.",
+  "activeCompoundsDe": "Bitter acids (humulone, lupulone), ätherisches Öl, flavonoids (xanthohumol)",
+  "preparationDe": "Getrocknet cone Tee oder pillows; brewing; Extrakte.",
+  "cautionsDe": "May verursachen Schläfrigkeit. Occupational Allergie in hop workers known.",
+  "floweringSeasonDe": "Juli–September",
+  "historicalNotesDe": "Central zu beer culture since medieval Europa.",
+  "useCategoryIds": [
+    "calming",
+    "digestive",
+    "culinary"
+  ],
+  "bloomSeasons": [
+    "summer",
+    "autumn"
+  ]
+}

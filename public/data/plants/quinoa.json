@@ -1,1 +1,35 @@
-{"id":"quinoa","countryIds":["pe","bo","ec"],"nameEn":"Quinoa","nameDe":"Quinoa","scientificName":"Chenopodium quinoa","family":"Amaranthaceae","partsUsed":"Seeds","habitat":"Andes; sacred Inca crop.","traditionalUsesEn":"Complete-protein grain-like seed; traditional Andean staple (not a classical medicinal herb but cultural plant food).","traditionalUsesDe":"Proteinreiches Pseudogetreide; andine Stapelnahrung.","activeCompounds":"Proteins, saponins (seed coat—rinsed), minerals","preparation":"Rinsed and cooked seeds.","cautions":"Rinse to remove bitter saponins. Food use.","floweringSeason":"Varies with altitude","historicalNotes":"Mother grain of the Andes; global boom in 21st century."}
+{
+  "id": "quinoa",
+  "countryIds": [
+    "pe",
+    "bo",
+    "ec"
+  ],
+  "nameEn": "Quinoa",
+  "nameDe": "Quinoa",
+  "scientificName": "Chenopodium quinoa",
+  "family": "Amaranthaceae",
+  "partsUsed": "Seeds",
+  "habitat": "Andes; sacred Inca crop.",
+  "traditionalUsesEn": "Complete-protein grain-like seed; traditional Andean staple (not a classical medicinal herb but cultural plant food).",
+  "traditionalUsesDe": "Proteinreiches Pseudogetreide; andine Stapelnahrung.",
+  "activeCompounds": "Proteins, saponins (seed coat—rinsed), minerals",
+  "preparation": "Rinsed and cooked seeds.",
+  "cautions": "Rinse to remove bitter saponins. Food use.",
+  "floweringSeason": "Varies with altitude",
+  "historicalNotes": "Mother grain of the Andes; global boom in 21st century.",
+  "partsUsedDe": "Seeds",
+  "habitatDe": "Andes; sacred Inca crop.",
+  "activeCompoundsDe": "Proteins, saponins (Samen coat—rinsed), minerals",
+  "preparationDe": "Rinsed und gekocht Samen.",
+  "cautionsDe": "Rinse zu remove bitter saponins. Food use.",
+  "floweringSeasonDe": "Varies mit altitude",
+  "historicalNotesDe": "Mother grain von die Andes; global boom in 21st century.",
+  "useCategoryIds": [
+    "culinary",
+    "nutritive"
+  ],
+  "bloomSeasons": [
+    "summer"
+  ]
+}

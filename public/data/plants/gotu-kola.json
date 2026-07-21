@@ -1,1 +1,36 @@
-{"id":"gotu-kola","countryIds":["in","lk","id","my"],"nameEn":"Gotu Kola","nameDe":"Indischer Wassernabel","scientificName":"Centella asiatica","family":"Apiaceae","partsUsed":"Aerial parts","habitat":"Tropical wetlands of Asia and beyond; common in India and SE Asia.","traditionalUsesEn":"Ayurvedic and SE Asian use for skin and mental clarity traditions; culinary greens in some regions.","traditionalUsesDe":"Ayurvedische und südostasiatische Nutzung für Haut und geistige Klarheit; regional als Blattgemüse.","activeCompounds":"Triterpene saponins (asiaticoside, madecassoside), flavonoids","preparation":"Fresh leaves, dried herb tea, topical and oral extracts.","cautions":"Generally food-like in culinary amounts; concentrated extracts—follow product advice.","floweringSeason":"Much of the year in tropics","historicalNotes":"Sanskrit mandukaparni; common market green in parts of Asia."}
+{
+  "id": "gotu-kola",
+  "countryIds": [
+    "in",
+    "lk",
+    "id",
+    "my"
+  ],
+  "nameEn": "Gotu Kola",
+  "nameDe": "Gotu Kola",
+  "scientificName": "Centella asiatica",
+  "family": "Apiaceae",
+  "partsUsed": "Aerial parts",
+  "habitat": "Tropical wetlands of Asia and beyond; common in India and SE Asia.",
+  "traditionalUsesEn": "Ayurvedic and SE Asian use for skin and mental clarity traditions; culinary greens in some regions.",
+  "traditionalUsesDe": "Ayurvedische und südostasiatische Nutzung für Haut und geistige Klarheit; regional als Blattgemüse.",
+  "activeCompounds": "Triterpene saponins (asiaticoside, madecassoside), flavonoids",
+  "preparation": "Fresh leaves, dried herb tea, topical and oral extracts.",
+  "cautions": "Generally food-like in culinary amounts; concentrated extracts—follow product advice.",
+  "floweringSeason": "Much of the year in tropics",
+  "historicalNotes": "Sanskrit mandukaparni; common market green in parts of Asia.",
+  "partsUsedDe": "Kraut",
+  "habitatDe": "Tropisch wetlands von Asien und beyond; common in Indien und SE Asien.",
+  "activeCompoundsDe": "Triterpene saponins (asiaticoside, madecassoside), flavonoids",
+  "preparationDe": "Frisch Blätter, getrocknet Kraut Tee, äußerlich und oral Extrakte.",
+  "cautionsDe": "Generally food-like in kulinarisch amounts; konzentriert Extrakte—follow product advice.",
+  "floweringSeasonDe": "Much von die year in tropics",
+  "historicalNotesDe": "Sanskrit mandukaparni; common market green in parts von Asien.",
+  "useCategoryIds": [
+    "skin-topical",
+    "culinary"
+  ],
+  "bloomSeasons": [
+    "yearRound"
+  ]
+}

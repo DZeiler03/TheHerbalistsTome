@@ -1,1 +1,33 @@
-{"id":"hoodia","countryIds":["za"],"nameEn":"Hoodia","nameDe":"Hoodia","scientificName":"Hoodia gordonii","family":"Apocynaceae","partsUsed":"Stem (traditional San use)","habitat":"Arid Kalahari regions of southern Africa.","traditionalUsesEn":"Traditional San use as appetite suppressant on long hunts; modern supplements controversial.","traditionalUsesDe":"Traditionelle San-Nutzung als appetithemmend auf langen Jagden; moderne Supplements umstritten.","activeCompounds":"P57 oxypregnane steroidal glycoside (studied), other glycosides","preparation":"Traditional fresh stem; commercial extracts (efficacy/safety debated).","cautions":"Evidence for weight loss weak; conservation and biopiracy concerns. Not a proven diet drug.","floweringSeason":"Unknown","historicalNotes":"Famous for benefit-sharing debates after patent controversies."}
+{
+  "id": "hoodia",
+  "countryIds": [
+    "za"
+  ],
+  "nameEn": "Hoodia",
+  "nameDe": "Hoodia",
+  "scientificName": "Hoodia gordonii",
+  "family": "Apocynaceae",
+  "partsUsed": "Stem (traditional San use)",
+  "habitat": "Arid Kalahari regions of southern Africa.",
+  "traditionalUsesEn": "Traditional San use as appetite suppressant on long hunts; modern supplements controversial.",
+  "traditionalUsesDe": "Traditionelle San-Nutzung als appetithemmend auf langen Jagden; moderne Supplements umstritten.",
+  "activeCompounds": "P57 oxypregnane steroidal glycoside (studied), other glycosides",
+  "preparation": "Traditional fresh stem; commercial extracts (efficacy/safety debated).",
+  "cautions": "Evidence for weight loss weak; conservation and biopiracy concerns. Not a proven diet drug.",
+  "floweringSeason": "Unknown",
+  "historicalNotes": "Famous for benefit-sharing debates after patent controversies.",
+  "kind": "other",
+  "partsUsedDe": "Stem (traditionell San use)",
+  "habitatDe": "Arid Kalahari regions von southern Afrika.",
+  "activeCompoundsDe": "P57 oxypregnane steroidal glycoside (studied), other glycosides",
+  "preparationDe": "Traditionell frisch Stängel; commercial Extrakte (efficacy/safety debated).",
+  "cautionsDe": "Evidence für weight loss weak; conservation und biopiracy concerns. Not a proven diet drug.",
+  "floweringSeasonDe": "Unbekannt",
+  "historicalNotesDe": "Famous für benefit-sharing debates after patent controversies.",
+  "useCategoryIds": [
+    "aromatic"
+  ],
+  "bloomSeasons": [
+    "yearRound"
+  ]
+}

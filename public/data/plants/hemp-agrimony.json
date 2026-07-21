@@ -1,0 +1,38 @@
+{
+  "id": "hemp-agrimony",
+  "nameEn": "Hemp Agrimony",
+  "nameDe": "Wasserdost",
+  "scientificName": "Eupatorium cannabinum",
+  "family": "Asteraceae",
+  "kind": "herb",
+  "countryIds": [
+    "at",
+    "de",
+    "fr",
+    "pl",
+    "gb"
+  ],
+  "partsUsed": "Herb (caution)",
+  "partsUsedDe": "Kraut (Vorsicht)",
+  "habitat": "Wet banks and ditches of Europe.",
+  "habitatDe": "Nasse Ufer und Gräben Europas.",
+  "traditionalUsesEn": "Historical fever and liver folk herb; modern internal use discouraged (PA).",
+  "traditionalUsesDe": "Historisches Fieber- und Leberkraut; innere Nutzung heute abgeraten (PA).",
+  "activeCompounds": "Pyrrolizidine alkaloids, flavonoids",
+  "activeCompoundsDe": "Pyrrolizidinalkaloide, Flavonoide",
+  "preparation": "Primarily historical interest; avoid DIY internal use.",
+  "preparationDe": "Vor allem von historischem Interesse; innere Selbstanwendung meiden.",
+  "cautions": "Pyrrolizidine alkaloids — do not use internally as crude herb.",
+  "cautionsDe": "Pyrrolizidinalkaloide — nicht innerlich als Rohdroge verwenden.",
+  "floweringSeason": "July–September",
+  "floweringSeasonDe": "Juli–September",
+  "historicalNotes": "Pink riverside plumes of European wetlands.",
+  "historicalNotesDe": "Rosa Uferrispen europäischer Feuchtgebiete.",
+  "useCategoryIds": [
+    "anti-inflammatory"
+  ],
+  "bloomSeasons": [
+    "summer",
+    "autumn"
+  ]
+}

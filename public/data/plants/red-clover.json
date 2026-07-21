@@ -1,0 +1,39 @@
+{
+  "id": "red-clover",
+  "nameEn": "Red Clover",
+  "nameDe": "Rotklee",
+  "scientificName": "Trifolium pratense",
+  "family": "Fabaceae",
+  "kind": "herb",
+  "countryIds": [
+    "at",
+    "de",
+    "gb",
+    "pl",
+    "ie",
+    "fr"
+  ],
+  "partsUsed": "Flower heads",
+  "partsUsedDe": "Blütenköpfe",
+  "habitat": "Meadows and pastures throughout Europe.",
+  "habitatDe": "Wiesen und Weiden in ganz Europa.",
+  "traditionalUsesEn": "Traditional 'blood purifying' tea; isoflavone interest.",
+  "traditionalUsesDe": "Traditioneller „Blutreinigungs“-Tee; Interesse an Isoflavonen.",
+  "activeCompounds": "Isoflavones, flavonoids",
+  "activeCompoundsDe": "Isoflavone, Flavonoide",
+  "preparation": "Dried flower infusion.",
+  "preparationDe": "Aufguss aus getrockneten Blüten.",
+  "cautions": "Hormone-sensitive conditions: seek advice. May affect blood clotting.",
+  "cautionsDe": "Bei hormonempfindlichen Erkrankungen Rücksprache halten. Kann die Blutgerinnung beeinflussen.",
+  "floweringSeason": "May–September",
+  "floweringSeasonDe": "Mai–September",
+  "historicalNotes": "Meadow purple of European pastoral landscapes.",
+  "historicalNotesDe": "Wiesenpurpur europäischer Kulturlandschaften.",
+  "useCategoryIds": [
+    "skin-topical"
+  ],
+  "bloomSeasons": [
+    "spring",
+    "summer"
+  ]
+}

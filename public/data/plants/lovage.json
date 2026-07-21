@@ -1,0 +1,39 @@
+{
+  "id": "lovage",
+  "nameEn": "Lovage",
+  "nameDe": "Liebstöckel",
+  "scientificName": "Levisticum officinale",
+  "family": "Apiaceae",
+  "kind": "herb",
+  "countryIds": [
+    "at",
+    "de",
+    "ch",
+    "pl",
+    "cz"
+  ],
+  "partsUsed": "Leaves, root, seeds",
+  "partsUsedDe": "Blätter, Wurzel, Samen",
+  "habitat": "Garden herb of Central Europe; naturalized near settlements.",
+  "habitatDe": "Gartenkraut Mitteleuropas; verwildert nahe Siedlungen.",
+  "traditionalUsesEn": "Soup herb; traditional diuretic and digestive aromatic.",
+  "traditionalUsesDe": "Suppenkraut; traditionell harntreibend und verdauungsfördernd-aromatisch.",
+  "activeCompounds": "Essential oil (phthalides), coumarins",
+  "activeCompoundsDe": "Ätherisches Öl (Phthalide), Cumarine",
+  "preparation": "Fresh/dried leaf in cooking; root infusion sparingly.",
+  "preparationDe": "Frische/getrocknete Blätter in der Küche; Wurzeltee sparsam.",
+  "cautions": "May increase photosensitivity; avoid large medicinal root doses in pregnancy/kidney disease.",
+  "cautionsDe": "Kann die Lichtempfindlichkeit erhöhen; große Wurzel-Arzneidosen in Schwangerschaft/Nierenerkrankung meiden.",
+  "floweringSeason": "June–August",
+  "floweringSeasonDe": "Juni–August",
+  "historicalNotes": "„Maggi herb“ of Alpine and Austrian kitchens.",
+  "historicalNotesDe": "„Maggikraut“ der alpinen und österreichischen Küche.",
+  "useCategoryIds": [
+    "digestive",
+    "urinary",
+    "culinary"
+  ],
+  "bloomSeasons": [
+    "summer"
+  ]
+}

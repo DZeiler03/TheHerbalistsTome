@@ -1,1 +1,37 @@
-{"id":"onion","countryIds":["cn","in","eg","us","nl"],"nameEn":"Onion","nameDe":"Küchenzwiebel","scientificName":"Allium cepa","family":"Amaryllidaceae","partsUsed":"Bulb","habitat":"Central Asian domestication; global crop.","traditionalUsesEn":"Culinary vegetable; traditional cough syrups and poultices in folk medicine.","traditionalUsesDe":"Küchengemüse; traditionelle Hustensäfte und Umschläge in der Volksmedizin.","activeCompounds":"Sulfur compounds, flavonoids (quercetin)","preparation":"Raw or cooked food; traditional honey-onion syrups.","cautions":"Food use safe for most. Eye irritation when cutting.","floweringSeason":"Summer","historicalNotes":"Fundamental Eurasian crop of cuisine and folk care."}
+{
+  "id": "onion",
+  "countryIds": [
+    "cn",
+    "in",
+    "eg",
+    "us",
+    "nl"
+  ],
+  "nameEn": "Onion",
+  "nameDe": "Küchenzwiebel",
+  "scientificName": "Allium cepa",
+  "family": "Amaryllidaceae",
+  "partsUsed": "Bulb",
+  "habitat": "Central Asian domestication; global crop.",
+  "traditionalUsesEn": "Culinary vegetable; traditional cough syrups and poultices in folk medicine.",
+  "traditionalUsesDe": "Küchengemüse; traditionelle Hustensäfte und Umschläge in der Volksmedizin.",
+  "activeCompounds": "Sulfur compounds, flavonoids (quercetin)",
+  "preparation": "Raw or cooked food; traditional honey-onion syrups.",
+  "cautions": "Food use safe for most. Eye irritation when cutting.",
+  "floweringSeason": "Summer",
+  "historicalNotes": "Fundamental Eurasian crop of cuisine and folk care.",
+  "partsUsedDe": "Bulb",
+  "habitatDe": "Central Asienn domestication; global crop.",
+  "activeCompoundsDe": "Sulfur compounds, flavonoids (quercetin)",
+  "preparationDe": "Raw oder gekocht food; traditionell honey-onion Sirupe.",
+  "cautionsDe": "Food use safe für most. Eye irritation when cutting.",
+  "floweringSeasonDe": "Sommer",
+  "historicalNotesDe": "Fundamental Eurasian crop von cuisine und folk care.",
+  "useCategoryIds": [
+    "respiratory",
+    "culinary"
+  ],
+  "bloomSeasons": [
+    "summer"
+  ]
+}

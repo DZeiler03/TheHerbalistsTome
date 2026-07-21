@@ -1,8 +1,10 @@
 {
   "id": "lemongrass",
   "countryIds": [
-    "th",
-    "in"
+    "id",
+    "in",
+    "ph",
+    "th"
   ],
   "nameEn": "West Indian Lemongrass",
   "nameDe": "Zitronengras",
@@ -16,5 +18,22 @@
   "preparation": "Fresh stalks in soups and teas; dried leaf tea; diluted essential oil external/aromatic use.",
   "cautions": "Essential oil must be diluted; may irritate skin. Culinary amounts generally safe.",
   "floweringSeason": "Rarely flowers outside tropics",
-  "historicalNotes": "Distinct from East Indian lemongrass (C. flexuosus), which is more often used for oil production."
+  "historicalNotes": "Distinct from East Indian lemongrass (C. flexuosus), which is more often used for oil production.",
+  "kind": "herb",
+  "partsUsedDe": "Kulinarisch stalk bases und Blätter; ätherisches Öl von Blätter",
+  "habitatDe": "Tropisch Asien Herkunft; angebaut throughout die tropics, prominent in Thai und other Südostasienn cuisines.",
+  "activeCompoundsDe": "Ätherisches Öl (citral: geranial und neral), myrcene, flavonoids",
+  "preparationDe": "Frisch stalks in soups und teas; getrocknet Blatt Tee; verdünnt ätherisches Öl äußerlich/aromatic use.",
+  "cautionsDe": "Ätherisches Öl muss verdünnt werden; kann irritate skin. Kulinarisch amounts im Allgemeinen unbedenklich.",
+  "floweringSeasonDe": "Rarely Blüten outside tropics",
+  "historicalNotesDe": "Distinct von East Indienn lemongrass (C. flexuosus), which is more often used für Öl production.",
+  "useCategoryIds": [
+    "digestive",
+    "immune-support",
+    "culinary",
+    "aromatic"
+  ],
+  "bloomSeasons": [
+    "yearRound"
+  ]
 }

@@ -1,12 +1,14 @@
 {
   "id": "lavender",
   "countryIds": [
-    "fr",
     "es",
-    "it"
+    "fr",
+    "hr",
+    "it",
+    "tr"
   ],
   "nameEn": "True Lavender",
-  "nameDe": "Echter Lavendel",
+  "nameDe": "Lavendel",
   "scientificName": "Lavandula angustifolia",
   "family": "Lamiaceae",
   "partsUsed": "Flowers",
@@ -17,5 +19,20 @@
   "preparation": "Dried flower tea, essential oil (aromatherapy, diluted topical), pillows and sachets.",
   "cautions": "Essential oil must be diluted for skin use; internal use of concentrated oil only under professional guidance.",
   "floweringSeason": "June–August",
-  "historicalNotes": "Cultivated since antiquity around the Mediterranean; central to French perfume and herbal traditions."
+  "historicalNotes": "Cultivated since antiquity around the Mediterranean; central to French perfume and herbal traditions.",
+  "partsUsedDe": "Flowers",
+  "habitatDe": "Mittelmeergebiet dry, Felsenhänge; extensively angebaut in Provence (Frankreich) und elsewhere.",
+  "activeCompoundsDe": "Ätherisches Öl (linalool, linalyl acetate), tannins, coumarins",
+  "preparationDe": "Tee aus getrockneten Blüten, ätherisches Öl (Aromapflege, verdünnt äußerlich), Duftkissen und Duftsäckchen.",
+  "cautionsDe": "Ätherisches Öl muss für die Hautanwendung verdünnt werden; innere Anwendung von konzentriertem Öl nur unter fachlicher Anleitung.",
+  "floweringSeasonDe": "Juni–August",
+  "historicalNotesDe": "Angebaut since antiquity around die Mittelmeergebiet; central zu French perfume und herbal traditions.",
+  "useCategoryIds": [
+    "calming",
+    "skin-topical",
+    "aromatic"
+  ],
+  "bloomSeasons": [
+    "summer"
+  ]
 }

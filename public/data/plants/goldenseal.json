@@ -1,1 +1,35 @@
-{"id":"goldenseal","countryIds":["us","ca"],"nameEn":"Goldenseal","nameDe":"Kanadische Orangenwurzel","scientificName":"Hydrastis canadensis","family":"Ranunculaceae","partsUsed":"Rhizome and roots","habitat":"Eastern North American rich woods; overharvested in wild; cultivated increasingly.","traditionalUsesEn":"Traditional Native American and later Eclectic use for mucous membrane complaints; bitter tonic.","traditionalUsesDe":"Traditionelle Nutzung indigener Völker und späterer Eclectics bei Schleimhautbeschwerden; Bittertonikum.","activeCompounds":"Isoquinoline alkaloids (berberine, hydrastine)","preparation":"Dried root tea or tincture (professional products).","cautions":"Not for pregnancy. Alkaloids potent; drug interactions possible. Conservation: prefer cultivated sources.","floweringSeason":"Spring","historicalNotes":"Among the most famous and conservation-sensitive North American medicinals."}
+{
+  "id": "goldenseal",
+  "countryIds": [
+    "us",
+    "ca"
+  ],
+  "nameEn": "Goldenseal",
+  "nameDe": "Gelbwurzel",
+  "scientificName": "Hydrastis canadensis",
+  "family": "Ranunculaceae",
+  "partsUsed": "Rhizome and roots",
+  "habitat": "Eastern North American rich woods; overharvested in wild; cultivated increasingly.",
+  "traditionalUsesEn": "Traditional Native American and later Eclectic use for mucous membrane complaints; bitter tonic.",
+  "traditionalUsesDe": "Traditionelle Nutzung indigener Völker und späterer Eclectics bei Schleimhautbeschwerden; Bittertonikum.",
+  "activeCompounds": "Isoquinoline alkaloids (berberine, hydrastine)",
+  "preparation": "Dried root tea or tincture (professional products).",
+  "cautions": "Not for pregnancy. Alkaloids potent; drug interactions possible. Conservation: prefer cultivated sources.",
+  "floweringSeason": "Spring",
+  "historicalNotes": "Among the most famous and conservation-sensitive North American medicinals.",
+  "partsUsedDe": "Rhizom und roots",
+  "habitatDe": "Eastern Nordamerikan rich Wälder; overharvested in wild; angebaut increasingly.",
+  "activeCompoundsDe": "Isoquinoline alkaloids (berberine, hydrastine)",
+  "preparationDe": "Tee aus getrockneter Wurzel oder Tinktur (professional products).",
+  "cautionsDe": "Not für Schwangerschaft. Alkaloids potent; Arzneimittelwechselwirkungen möglich. Conservation: prefer angebaut sources.",
+  "floweringSeasonDe": "Frühling",
+  "historicalNotesDe": "Among die most famous und conservation-empfindlich Nordamerikan medicinals.",
+  "useCategoryIds": [
+    "digestive",
+    "skin-topical",
+    "adaptogenic"
+  ],
+  "bloomSeasons": [
+    "spring"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "greater-celandine",
+  "nameEn": "Greater Celandine",
+  "nameDe": "Schöllkraut",
+  "scientificName": "Chelidonium majus",
+  "family": "Papaveraceae",
+  "kind": "herb",
+  "countryIds": [
+    "at",
+    "de",
+    "pl",
+    "fr",
+    "cz"
+  ],
+  "partsUsed": "Herb, orange latex (external folklore)",
+  "partsUsedDe": "Kraut, oranger Milchsaft (äußerliche Volksanwendung)",
+  "habitat": "Walls, waysides, gardens of Europe.",
+  "habitatDe": "Mauern, Wegränder und Gärten Europas.",
+  "traditionalUsesEn": "Historical liver herb; latex folk use on warts — safety concerns modern.",
+  "traditionalUsesDe": "Historisches Leberkraut; Milchsaft volkstümlich auf Warzen — moderne Sicherheitsbedenken.",
+  "activeCompounds": "Isoquinoline alkaloids (chelidonine, etc.)",
+  "activeCompoundsDe": "Isochinolin-Alkaloide (Chelidonin u. a.)",
+  "preparation": "Only short-term supervised products if any; latex never on broken skin carelessly.",
+  "preparationDe": "Wenn überhaupt, nur kurzzeitige geprüfte Produkte; Milchsaft nie unbedacht auf verletzter Haut.",
+  "cautions": "Hepatotoxicity risk with internal use. Not for self-medication.",
+  "cautionsDe": "Leberschädigungsrisiko bei innerer Anwendung. Nicht zur Selbstmedikation.",
+  "floweringSeason": "April–October",
+  "floweringSeasonDe": "April–Oktober",
+  "historicalNotes": "Orange-sapped swallow-wort of European walls.",
+  "historicalNotesDe": "Orangesaftiges Schwalbenkraut europäischer Mauern.",
+  "useCategoryIds": [
+    "skin-topical",
+    "digestive"
+  ],
+  "bloomSeasons": [
+    "spring",
+    "summer",
+    "autumn"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "mango",
+  "countryIds": [
+    "in",
+    "th",
+    "ph",
+    "br",
+    "ng"
+  ],
+  "nameEn": "Mango",
+  "nameDe": "Mango",
+  "scientificName": "Mangifera indica",
+  "family": "Anacardiaceae",
+  "kind": "tree",
+  "partsUsed": "Fruit; leaves and bark in some traditions",
+  "habitat": "South Asia origin; pantropical fruit tree.",
+  "traditionalUsesEn": "Major tropical fruit; traditional Ayurvedic uses of leaves/bark vary.",
+  "traditionalUsesDe": "Wichtige Tropenfrucht; ayurvedische Blatt-/Rindennutzung variiert.",
+  "activeCompounds": "Carotenoids, vitamin C, polyphenols in fruit",
+  "preparation": "Ripe fruit food; traditional leaf teas regional.",
+  "cautions": "Related to poison ivy family—latex/sap can cause dermatitis in sensitive people.",
+  "floweringSeason": "Dry season flowering (region-dependent)",
+  "historicalNotes": "National fruit of India; global tropical crop.",
+  "partsUsedDe": "Fruit; Blätter und Rinde in some traditions",
+  "habitatDe": "Südasien Herkunft; pantropisch Frucht tree.",
+  "activeCompoundsDe": "Carotenoids, vitamin C, polyphenols in Frucht",
+  "preparationDe": "Ripe Frucht food; traditionell Blatt teas regional.",
+  "cautionsDe": "Related zu poison ivy family—latex/sap kann verursachen dermatitis in empfindlich Personen.",
+  "floweringSeasonDe": "Dry season flowering (region-dependent)",
+  "historicalNotesDe": "National Frucht von Indien; global tropisch crop.",
+  "useCategoryIds": [
+    "nutritive"
+  ],
+  "bloomSeasons": [
+    "spring"
+  ]
+}

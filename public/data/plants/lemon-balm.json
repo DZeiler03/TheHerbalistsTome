@@ -1,1 +1,37 @@
-{"id":"lemon-balm","countryIds":["de","at","fr","gb"],"nameEn":"Lemon Balm","nameDe":"Zitronenmelisse","scientificName":"Melissa officinalis","family":"Lamiaceae","partsUsed":"Leaves","habitat":"Mediterranean origin; cultivated across temperate Europe.","traditionalUsesEn":"Mild restlessness and sleep difficulty; digestive discomfort; lemony culinary herb.","traditionalUsesDe":"Leichte Unruhe und Einschlafprobleme; Verdauungsbeschwerden; Küchenkraut.","activeCompounds":"Essential oil (citral, citronellal), rosmarinic acid, flavonoids","preparation":"Fresh or dried leaf tea; culinary use; tinctures.","cautions":"Generally well tolerated as tea; essential oil diluted only.","floweringSeason":"June–August","historicalNotes":"Medieval monastic gardens; name Melissa from Greek for bee."}
+{
+  "id": "lemon-balm",
+  "countryIds": [
+    "de",
+    "at",
+    "fr",
+    "gb"
+  ],
+  "nameEn": "Lemon Balm",
+  "nameDe": "Zitronenmelisse",
+  "scientificName": "Melissa officinalis",
+  "family": "Lamiaceae",
+  "partsUsed": "Leaves",
+  "habitat": "Mediterranean origin; cultivated across temperate Europe.",
+  "traditionalUsesEn": "Mild restlessness and sleep difficulty; digestive discomfort; lemony culinary herb.",
+  "traditionalUsesDe": "Leichte Unruhe und Einschlafprobleme; Verdauungsbeschwerden; Küchenkraut.",
+  "activeCompounds": "Essential oil (citral, citronellal), rosmarinic acid, flavonoids",
+  "preparation": "Fresh or dried leaf tea; culinary use; tinctures.",
+  "cautions": "Generally well tolerated as tea; essential oil diluted only.",
+  "floweringSeason": "June–August",
+  "historicalNotes": "Medieval monastic gardens; name Melissa from Greek for bee.",
+  "partsUsedDe": "Leaves",
+  "habitatDe": "Mittelmeergebiet Herkunft; angebaut across gemäßigt Europa.",
+  "activeCompoundsDe": "Ätherisches Öl (citral, citronellal), rosmarinic acid, flavonoids",
+  "preparationDe": "Frisch oder getrocknet Blatt Tee; kulinarische Verwendung; Tinkturen.",
+  "cautionsDe": "Generally well tolerated as Tee; ätherisches Öl verdünnt only.",
+  "floweringSeasonDe": "Juni–August",
+  "historicalNotesDe": "Medieval monastic gardens; name Melissa von Greek für bee.",
+  "useCategoryIds": [
+    "calming",
+    "digestive",
+    "culinary"
+  ],
+  "bloomSeasons": [
+    "summer"
+  ]
+}

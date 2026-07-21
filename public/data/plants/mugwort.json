@@ -1,0 +1,41 @@
+{
+  "id": "mugwort",
+  "nameEn": "Mugwort",
+  "nameDe": "Beifuß",
+  "scientificName": "Artemisia vulgaris",
+  "family": "Asteraceae",
+  "kind": "herb",
+  "countryIds": [
+    "at",
+    "de",
+    "pl",
+    "cz",
+    "hu",
+    "fr"
+  ],
+  "partsUsed": "Herb, flowering tops",
+  "partsUsedDe": "Kraut, blühende Spitzen",
+  "habitat": "Waysides, waste ground, riverbanks across Europe.",
+  "habitatDe": "Wegränder, Ödland und Flussufer in ganz Europa.",
+  "traditionalUsesEn": "Bitter digestive; traditional women's herb and culinary bitter for fatty foods.",
+  "traditionalUsesDe": "Bitteres Verdauungskraut; traditionelles Frauenkraut und Küchenbitter zu fetten Speisen.",
+  "activeCompounds": "Essential oil (thujone-containing), bitter sesquiterpenes",
+  "activeCompoundsDe": "Ätherisches Öl (thujonhaltig), bittere Sesquiterpene",
+  "preparation": "Light infusion or culinary seasoning; avoid concentrated thujone products.",
+  "preparationDe": "Leichter Aufguss oder als Gewürz; thujonreiche Konzentrate meiden.",
+  "cautions": "Thujone; avoid in pregnancy and epilepsy.",
+  "cautionsDe": "Thujonhaltig; in Schwangerschaft und bei Epilepsie meiden.",
+  "floweringSeason": "July–September",
+  "floweringSeasonDe": "Juli–September",
+  "historicalNotes": "St. John's plant of midsummer folk rites in German-speaking lands.",
+  "historicalNotesDe": "Johanniskraut der Mittsommerbräuche im deutschen Sprachraum (Beifuß).",
+  "useCategoryIds": [
+    "digestive",
+    "culinary",
+    "aromatic"
+  ],
+  "bloomSeasons": [
+    "summer",
+    "autumn"
+  ]
+}

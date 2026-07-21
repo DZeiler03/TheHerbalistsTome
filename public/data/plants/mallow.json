@@ -1,0 +1,41 @@
+{
+  "id": "mallow",
+  "nameEn": "Common Mallow",
+  "nameDe": "Malve",
+  "scientificName": "Malva sylvestris",
+  "family": "Malvaceae",
+  "kind": "herb",
+  "countryIds": [
+    "at",
+    "de",
+    "it",
+    "fr",
+    "es",
+    "gr"
+  ],
+  "partsUsed": "Flowers, leaves",
+  "partsUsedDe": "Blüten, Blätter",
+  "habitat": "Roadsides and fields of Europe.",
+  "habitatDe": "Wegränder und Äcker in Europa.",
+  "traditionalUsesEn": "Soothing mucilage tea for dry cough and mild mouth/throat irritation.",
+  "traditionalUsesDe": "Schleimstofftee bei trockenem Husten und leichten Mund-/Rachenreizungen.",
+  "activeCompounds": "Mucilage polysaccharides, anthocyanins",
+  "activeCompoundsDe": "Schleimpolysaccharide, Anthocyane",
+  "preparation": "Cold maceration or brief infusion of flowers/leaves.",
+  "preparationDe": "Kaltauszug oder kurzer Aufguss aus Blüten/Blättern.",
+  "cautions": "Very mild; seek care if cough persists.",
+  "cautionsDe": "Sehr mild; bei anhaltendem Husten ärztlichen Rat suchen.",
+  "floweringSeason": "June–October",
+  "floweringSeasonDe": "Juni–Oktober",
+  "historicalNotes": "Medieval soothe-herb; purple-flowered wayside plant.",
+  "historicalNotesDe": "Mittelalterliches Schleimkraut; purpurblütiges Wegrandkraut.",
+  "useCategoryIds": [
+    "respiratory",
+    "skin-topical",
+    "oral-dental"
+  ],
+  "bloomSeasons": [
+    "summer",
+    "autumn"
+  ]
+}

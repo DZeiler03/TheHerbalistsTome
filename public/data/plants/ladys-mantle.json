@@ -1,0 +1,40 @@
+{
+  "id": "ladys-mantle",
+  "nameEn": "Lady's Mantle",
+  "nameDe": "Frauenmantel",
+  "scientificName": "Alchemilla vulgaris agg.",
+  "family": "Rosaceae",
+  "kind": "herb",
+  "countryIds": [
+    "at",
+    "de",
+    "ch",
+    "pl",
+    "cz",
+    "no"
+  ],
+  "partsUsed": "Aerial parts",
+  "partsUsedDe": "Kraut",
+  "habitat": "Meadows and mountain pastures of Europe.",
+  "habitatDe": "Wiesen und Bergweiden Europas.",
+  "traditionalUsesEn": "Traditional astringent women's herb; mild diarrhea teas.",
+  "traditionalUsesDe": "Traditionelles adstringierendes Frauenkraut; milde Tees bei Durchfall.",
+  "activeCompounds": "Tannins, flavonoids",
+  "activeCompoundsDe": "Gerbstoffe, Flavonoide",
+  "preparation": "Dried herb infusion.",
+  "preparationDe": "Aufguss aus getrocknetem Kraut.",
+  "cautions": "Generally mild; seek care for heavy menstrual issues.",
+  "cautionsDe": "Meist gut verträglich; bei starken Menstruationsproblemen ärztlichen Rat suchen.",
+  "floweringSeason": "May–August",
+  "floweringSeasonDe": "Mai–August",
+  "historicalNotes": "Alchemists' dew-catching leaf; Alpine meadow classic.",
+  "historicalNotesDe": "Tautropfen-Blatt der Alchemisten; Klassiker der Almwiesen.",
+  "useCategoryIds": [
+    "digestive",
+    "anti-inflammatory"
+  ],
+  "bloomSeasons": [
+    "spring",
+    "summer"
+  ]
+}
