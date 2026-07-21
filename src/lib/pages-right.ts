@@ -1,19 +1,23 @@
-import type { AppData, Country, View } from "../types";
+import type { AppData, View } from "../types";
 import type { Labels, Lang } from "./i18n";
 import {
   countriesForContinent,
+  currentBloomSeason,
   getContinent,
   getCountry,
   getPlant,
   plantsForCountry,
 } from "./data";
-import { escapeHtml, FLAG_URL, tName } from "./dom";
+import { escapeAttr, escapeHtml, FLAG_URL, tName } from "./dom";
+import { plantText } from "./plant-text";
+import { getFavoriteIds } from "./favorites";
+import { continentMapHtml } from "./continent-maps";
 
-function fact(title: string, body: string): string {
+function fact(title: string, body: string, unknown: string): string {
   return `
     <div class="fact-block">
       <h4>${escapeHtml(title)}</h4>
-      <p>${escapeHtml(body || "Unknown")}</p>
+      <p>${escapeHtml(body || unknown)}</p>
     </div>
   `;
 }
@@ -39,29 +43,36 @@ export function renderRightPage(
   if (view.type === "plant") {
     const plant = getPlant(data, view.plantId);
     if (!plant) return ornament(L);
-    const regionNames = plant.countryIds
-      .map((id) => getCountry(data, id))
-      .filter((c): c is Country => !!c)
-      .map((c) => tName(lang, c))
-      .join(", ");
     return `
       <header class="page-header">
         <p class="page-eyebrow">${escapeHtml(tName(lang, plant))}</p>
         <h2 class="page-title">${L.further}</h2>
       </header>
-      <div class="fact-grid">
-        ${fact(L.preparation, plant.preparation)}
-        ${fact(L.cautions, plant.cautions)}
-        ${fact(L.flowering, plant.floweringSeason)}
-        ${fact(L.history, plant.historicalNotes)}
-        ${fact(L.regions, regionNames || "Unknown")}
-        ${fact(L.nameBoth, `${plant.nameEn} / ${plant.nameDe}`)}
+      <div class="fact-grid print-facts">
+        ${fact(L.preparation, plantText(plant, "preparation", lang, L.unknown), L.unknown)}
+        ${fact(L.cautions, plantText(plant, "cautions", lang, L.unknown), L.unknown)}
+        ${fact(L.flowering, plantText(plant, "floweringSeason", lang, L.unknown), L.unknown)}
+        ${fact(L.history, plantText(plant, "historicalNotes", lang, L.unknown), L.unknown)}
+        ${fact(L.nameBoth, `${plant.nameEn} / ${plant.nameDe}`, L.unknown)}
       </div>
     `;
   }
 
   if (view.type === "continents") {
-    return ornament(L, `<p class="folio">XXI · SPECIMINA</p>`);
+    return `
+      <div class="page-ornament continent-right">
+        <div class="tome-seal" aria-hidden="true">❧</div>
+        <div class="big-leaf">🌿</div>
+        <h3>${escapeHtml(L.rightTitle)}</h3>
+        <p>${escapeHtml(L.rightBody)}</p>
+        <div class="tome-counter tome-counter-right" role="status">
+          <span class="tome-counter-num">${data.plants.length}</span>
+          <span class="tome-counter-label">${escapeHtml(L.tomeCountLabel)}</span>
+          <span class="tome-counter-meta">${L.countryCount(data.countries.length)}</span>
+        </div>
+        <p class="folio">${L.folio.toUpperCase()}</p>
+      </div>
+    `;
   }
 
   if (view.type === "countries") {
@@ -71,12 +82,17 @@ export function renderRightPage(
     countries.forEach((c) =>
       plantsForCountry(data, c.id).forEach((p) => plantIds.add(p.id))
     );
+    const contName = continent ? tName(lang, continent) : view.continentId;
     return `
-      <div class="page-ornament">
-        <div class="big-leaf">📜</div>
+      <div class="page-ornament continent-map-page">
+        ${continentMapHtml(
+          view.continentId,
+          escapeAttr(`${L.continentMap}: ${contName}`),
+          "continent-map continent-map-right"
+        )}
         <h3>${continent ? escapeHtml(tName(lang, continent)) : ""}</h3>
         <p>${L.countryCount(countries.length)} · ${L.plantCount(plantIds.size)}</p>
-        <p style="margin-top:1.25rem">${L.pickCountry}</p>
+        <p style="margin-top:1rem">${L.pickCountry}</p>
         <p class="folio">${L.countries.toUpperCase()}</p>
       </div>
     `;
@@ -89,7 +105,7 @@ export function renderRightPage(
       <div class="page-ornament">
         ${
           country
-            ? `<img src="${FLAG_URL(country.flagCode)}" alt="" width="72" height="48" style="border:2px solid rgba(90,61,40,.25);margin-bottom:1rem;box-shadow:2px 2px 0 rgba(0,0,0,.1)" />`
+            ? `<img src="${FLAG_URL(country.flagCode)}" alt="" width="72" height="48" style="border:2px solid rgba(90,61,40,.25);margin-bottom:1rem" />`
             : `<div class="big-leaf">🌱</div>`
         }
         <h3>${country ? escapeHtml(tName(lang, country)) : ""}</h3>
@@ -109,6 +125,29 @@ export function renderRightPage(
         <p class="folio">INDEX</p>
       </div>
     `;
+  }
+
+  if (view.type === "favorites") {
+    const n = getFavoriteIds().length;
+    return ornament(L, `<p class="total-plants">${L.plantCount(n)}</p>`);
+  }
+
+  if (view.type === "season") {
+    const now = currentBloomSeason();
+    const s =
+      view.season && view.season !== "yearRound" ? view.season : now;
+    const label =
+      s === "spring"
+        ? L.seasonSpring
+        : s === "summer"
+          ? L.seasonSummer
+          : s === "autumn"
+            ? L.seasonAutumn
+            : L.seasonWinter;
+    return ornament(
+      L,
+      `<p class="total-plants">${escapeHtml(label)}${s === now ? ` · ${escapeHtml(L.seasonNow)}` : ""} · ${escapeHtml(L.seasonYearRound)}</p>`
+    );
   }
 
   return ornament(L);
