@@ -6,11 +6,28 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "prebuild": "node scripts/build-plant-images.mjs",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "images:check": "node scripts/build-plant-images.mjs",
+    "images:strict": "node scripts/build-plant-images.mjs --strict",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "test": "vitest run",
+    "test:watch": "vitest"
   },
   "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.7.0",
+    "eslint-config-prettier": "^10.1.8",
+    "prettier": "^3.9.6",
     "typescript": "~5.9.3",
-    "vite": "^7.2.4"
+    "typescript-eslint": "^8.65.0",
+    "vite": "^7.2.4",
+    "vite-plugin-pwa": "^1.3.0",
+    "vitest": "^4.1.10"
+  },
+  "dependencies": {
+    "fuse.js": "^7.5.0"
   }
 }
