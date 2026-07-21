@@ -1,0 +1,21 @@
+{
+  "id": "st-johns-wort",
+  "countryIds": [
+    "de",
+    "at",
+    "gb"
+  ],
+  "nameEn": "St. John's Wort",
+  "nameDe": "Echtes Johanniskraut",
+  "scientificName": "Hypericum perforatum",
+  "family": "Hypericaceae",
+  "partsUsed": "Flowering tops (herba)",
+  "habitat": "Sunny grasslands, roadsides, and open woods of Europe and Western Asia; naturalized elsewhere.",
+  "traditionalUsesEn": "Mild depressive episodes and temporary nervous exhaustion (traditional herbal use); topical oil for minor wounds and bruises.",
+  "traditionalUsesDe": "Leichte depressive Verstimmungen und vorübergehende nervöse Erschöpfung (traditionelle Anwendung); äußerlich als Öl bei leichten Wunden und Prellungen.",
+  "activeCompounds": "Hypericin, hyperforin, flavonoids, phenolic acids",
+  "preparation": "Dried herb tea or standardized extracts (oral); red oil (Oleum Hyperici) for external use.",
+  "cautions": "Important drug interactions (e.g. with oral contraceptives, immunosuppressants, anticoagulants, some antidepressants) via CYP3A4 induction. Photosensitivity possible. Medical advice required before use.",
+  "floweringSeason": "June–August",
+  "historicalNotes": "Named for flowering around St. John's Day (24 June); long history in European folk medicine."
+}

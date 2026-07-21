@@ -1,0 +1,21 @@
+{
+  "id": "rosemary",
+  "countryIds": [
+    "es",
+    "it",
+    "fr"
+  ],
+  "nameEn": "Rosemary",
+  "nameDe": "Rosmarin",
+  "scientificName": "Salvia rosmarinus (formerly Rosmarinus officinalis)",
+  "family": "Lamiaceae",
+  "partsUsed": "Leaves, flowering tops",
+  "habitat": "Coastal Mediterranean scrub (maquis); rocky, sunny, well-drained sites.",
+  "traditionalUsesEn": "Digestive complaints, mild circulatory stimulation (traditional), topical use for muscle and joint discomfort; culinary herb.",
+  "traditionalUsesDe": "Verdauungsbeschwerden, traditionell milde Kreislaufanregung, äußerlich bei Muskel- und Gelenkbeschwerden; Küchenkraut.",
+  "activeCompounds": "Essential oil (1,8-cineole, camphor, α-pinene), rosmarinic acid, carnosic acid, flavonoids",
+  "preparation": "Leaf tea, culinary seasoning, diluted essential oil or ointments for external use.",
+  "cautions": "Essential oil not for undiluted skin use or internal self-medication; high doses may irritate.",
+  "floweringSeason": "Mainly winter–spring in Mediterranean climate",
+  "historicalNotes": "Symbol of remembrance in European tradition; reclassified from Rosmarinus into Salvia based on molecular phylogeny."
+}

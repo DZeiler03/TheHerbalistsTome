@@ -1,0 +1,21 @@
+{
+  "id": "sage",
+  "countryIds": [
+    "it",
+    "es",
+    "gr"
+  ],
+  "nameEn": "Common Sage",
+  "nameDe": "Echter Salbei",
+  "scientificName": "Salvia officinalis",
+  "family": "Lamiaceae",
+  "partsUsed": "Leaves",
+  "habitat": "Native to the Mediterranean; dry rocky soils; widely cultivated as culinary and medicinal herb.",
+  "traditionalUsesEn": "Inflammation of the mouth and throat (gargle); excessive sweating; digestive complaints; culinary seasoning.",
+  "traditionalUsesDe": "Entzündungen im Mund- und Rachenraum (Gurgeln); übermäßiges Schwitzen; Verdauungsbeschwerden; Küchengewürz.",
+  "activeCompounds": "Essential oil (thujone, camphor, 1,8-cineole), rosmarinic acid, flavonoids, tannins",
+  "preparation": "Leaf infusion for gargling or drinking; culinary use; tinctures.",
+  "cautions": "High doses or prolonged use of thujone-rich preparations not recommended; avoid concentrated essential oil internally; caution in pregnancy.",
+  "floweringSeason": "May–July",
+  "historicalNotes": "Name from Latin salvare (to save/heal); staple of Mediterranean monastic gardens."
+}
