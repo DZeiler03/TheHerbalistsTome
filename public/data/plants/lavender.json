@@ -1,0 +1,21 @@
+{
+  "id": "lavender",
+  "countryIds": [
+    "fr",
+    "es",
+    "it"
+  ],
+  "nameEn": "True Lavender",
+  "nameDe": "Echter Lavendel",
+  "scientificName": "Lavandula angustifolia",
+  "family": "Lamiaceae",
+  "partsUsed": "Flowers",
+  "habitat": "Mediterranean dry, rocky slopes; extensively cultivated in Provence (France) and elsewhere.",
+  "traditionalUsesEn": "Mild anxiety, restlessness, and sleep disturbance; topical use for minor muscle tension; fragrance and insect-repellent traditions.",
+  "traditionalUsesDe": "Leichte Angstzustände, Unruhe und Einschlafprobleme; äußerlich bei leichten Muskelverspannungen; Duft- und insektenabwehrende Tradition.",
+  "activeCompounds": "Essential oil (linalool, linalyl acetate), tannins, coumarins",
+  "preparation": "Dried flower tea, essential oil (aromatherapy, diluted topical), pillows and sachets.",
+  "cautions": "Essential oil must be diluted for skin use; internal use of concentrated oil only under professional guidance.",
+  "floweringSeason": "June–August",
+  "historicalNotes": "Cultivated since antiquity around the Mediterranean; central to French perfume and herbal traditions."
+}

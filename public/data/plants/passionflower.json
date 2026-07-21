@@ -1,0 +1,20 @@
+{
+  "id": "passionflower",
+  "countryIds": [
+    "br",
+    "us"
+  ],
+  "nameEn": "Maypop / Passionflower",
+  "nameDe": "Passionsblume",
+  "scientificName": "Passiflora incarnata",
+  "family": "Passifloraceae",
+  "partsUsed": "Aerial parts (herba)",
+  "habitat": "Southeastern United States and parts of Central/South America; disturbed ground, thickets; cultivated.",
+  "traditionalUsesEn": "Traditional use for restlessness and difficulty sleeping; mild anxiety-related tension.",
+  "traditionalUsesDe": "Traditionell bei Unruhe und Einschlafschwierigkeiten; leichte angstbedingte Anspannung.",
+  "activeCompounds": "Flavonoids (vitexin, isovitexin), indole alkaloids (harman-type, in low amounts), maltol",
+  "preparation": "Dried herb tea, tinctures, extracts in combination sleep/calm products.",
+  "cautions": "May enhance sedative effects of other substances. Limited use in pregnancy without professional advice.",
+  "floweringSeason": "Summer",
+  "historicalNotes": "Christian missionaries named the flower for symbols of the Passion; Native American and later European herbal use documented."
+}

@@ -1,0 +1,20 @@
+{
+  "id": "peppermint",
+  "countryIds": [
+    "gb",
+    "de"
+  ],
+  "nameEn": "Peppermint",
+  "nameDe": "Pfefferminze",
+  "scientificName": "Mentha × piperita",
+  "family": "Lamiaceae",
+  "partsUsed": "Leaves",
+  "habitat": "Hybrid of Mentha aquatica and Mentha spicata; cultivated worldwide in temperate regions (notably England historically).",
+  "traditionalUsesEn": "Digestive discomfort (flatulence, mild spasms), tension-type headache (topical oil diluted), oral freshness.",
+  "traditionalUsesDe": "Verdauungsbeschwerden (Blähungen, leichte Krämpfe), Spannungskopfschmerz (verdünntes Öl äußerlich), Mundfrische.",
+  "activeCompounds": "Essential oil (menthol, menthone), flavonoids, phenolic acids",
+  "preparation": "Leaf tea, enteric-coated oil capsules for IBS-related symptoms (under product guidance), diluted topical oil.",
+  "cautions": "May worsen reflux in some people. Essential oil not for infants/young children (risk of laryngeal spasm). Enteric-coated preparations have specific use guidance.",
+  "floweringSeason": "July–September",
+  "historicalNotes": "Cultivated since at least the 17th century in England (e.g. Mitcham); one of the most widely used culinary and medicinal mints."
+}
