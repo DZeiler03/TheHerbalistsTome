@@ -1,0 +1,43 @@
+{
+  "id": "shepherds-purse",
+  "nameEn": "Shepherd's Purse",
+  "nameDe": "Hirtentäschel",
+  "scientificName": "Capsella bursa-pastoris",
+  "family": "Brassicaceae",
+  "kind": "herb",
+  "countryIds": [
+    "at",
+    "de",
+    "ch",
+    "pl",
+    "gb",
+    "fr",
+    "cz",
+    "hu"
+  ],
+  "partsUsed": "Herb, flowering tops",
+  "partsUsedDe": "Kraut",
+  "habitat": "Fields, paths and waste ground throughout Europe.",
+  "habitatDe": "Felder, Wege und Ödland in ganz Europa.",
+  "traditionalUsesEn": "Traditional astringent women's herb for mild bleeding support in folk practice.",
+  "traditionalUsesDe": "Adstringierendes und blutstillendes Kraut der Volksmedizin.",
+  "activeCompounds": "Flavonoids, amines, mustard-oil glycosides",
+  "activeCompoundsDe": "Flavonoide, Amine, Glucosinolate, Gerbstoffe",
+  "preparation": "Fresh or dried herb tea.",
+  "preparationDe": "Frisch- oder Trockenkraut-Tee; traditionell bei leichten Blutungen äußerlich/innerlich nach Tradition.",
+  "cautions": "Not a substitute for emergency care in heavy bleeding; pregnancy: seek advice.",
+  "cautionsDe": "Bei Schwangerschaft und Thrombosen fachlichen Rat einholen. Nicht als Ersatz ärztlicher Behandlung bei Blutungen.",
+  "floweringSeason": "March–November",
+  "floweringSeasonDe": "März–November (fast ganzjährig in mildem Klima)",
+  "historicalNotes": "Heart-shaped pods of European paths – the shepherd's little bag.",
+  "historicalNotesDe": "Unscheinbares Ackerwildkraut der europäischen Frauen- und Wundvolksmedizin.",
+  "useCategoryIds": [
+    "anti-inflammatory",
+    "digestive"
+  ],
+  "bloomSeasons": [
+    "spring",
+    "summer",
+    "autumn"
+  ]
+}

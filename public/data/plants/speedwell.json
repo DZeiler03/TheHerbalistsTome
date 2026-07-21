@@ -1,0 +1,43 @@
+{
+  "id": "speedwell",
+  "nameEn": "Heath Speedwell",
+  "nameDe": "Ehrenpreis",
+  "scientificName": "Veronica officinalis",
+  "family": "Plantaginaceae",
+  "kind": "herb",
+  "countryIds": [
+    "at",
+    "de",
+    "ch",
+    "pl",
+    "gb",
+    "se",
+    "fr",
+    "cz"
+  ],
+  "partsUsed": "Flowering herb",
+  "partsUsedDe": "Blühendes Kraut",
+  "habitat": "Woods, heaths and dry meadows of Europe.",
+  "habitatDe": "Woods, heaths und trocken Wiesen von Europa.",
+  "traditionalUsesEn": "Traditional mild respiratory and wound folk tea.",
+  "traditionalUsesDe": "Traditionell mild respiratory und wound folk Tee.",
+  "activeCompounds": "Iridoid glycosides, flavonoids, tannins",
+  "activeCompoundsDe": "Iridoid glycosides, Flavonoide, tannins",
+  "preparation": "Herb tea.",
+  "preparationDe": "Kraut Tee.",
+  "cautions": "Generally mild.",
+  "cautionsDe": "Im Allgemeinen mild.",
+  "floweringSeason": "May–August",
+  "floweringSeasonDe": "Mai–August",
+  "historicalNotes": "„Honor-price“ of European woodland floors.",
+  "historicalNotesDe": "„Honor-price“ von europäisch woodland floors.",
+  "useCategoryIds": [
+    "respiratory",
+    "skin-topical",
+    "anti-inflammatory"
+  ],
+  "bloomSeasons": [
+    "spring",
+    "summer"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": "selfheal",
+  "nameEn": "Selfheal",
+  "nameDe": "Kleine Braunelle",
+  "scientificName": "Prunella vulgaris",
+  "family": "Lamiaceae",
+  "kind": "herb",
+  "countryIds": [
+    "at",
+    "de",
+    "ch",
+    "gb",
+    "fr",
+    "pl",
+    "ie",
+    "se",
+    "no"
+  ],
+  "partsUsed": "Flowering herb",
+  "partsUsedDe": "Blühendes Kraut",
+  "habitat": "Meadows, lawns and woodland clearings of Europe.",
+  "habitatDe": "Wiesen, Rasen und Waldlichtungen Europas.",
+  "traditionalUsesEn": "Traditional throat and wound herb of European folk medicine.",
+  "traditionalUsesDe": "Adstringierendes Hals- und Wundkraut der Volksmedizin.",
+  "activeCompounds": "Tannins, flavonoids, rosmarinic acid, triterpenes",
+  "activeCompoundsDe": "Gerbstoffe, Flavonoide, Triterpene",
+  "preparation": "Herb tea; gargle; external washes.",
+  "preparationDe": "Krauttee und äußerliche Spülungen.",
+  "cautions": "Generally well tolerated.",
+  "cautionsDe": "Im Allgemeinen gut verträglich.",
+  "floweringSeason": "June–September",
+  "floweringSeasonDe": "Juni–September",
+  "historicalNotes": "„All-heal“ of European meadows – compact purple spikes.",
+  "historicalNotesDe": "Brunelle/„Selbstheil“ der europäischen Volksmedizin.",
+  "useCategoryIds": [
+    "oral-dental",
+    "skin-topical",
+    "anti-inflammatory",
+    "respiratory"
+  ],
+  "bloomSeasons": [
+    "summer",
+    "autumn"
+  ]
+}

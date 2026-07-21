@@ -1,0 +1,43 @@
+{
+  "id": "silverweed",
+  "nameEn": "Silverweed",
+  "nameDe": "Gänsefingerkraut",
+  "scientificName": "Potentilla anserina",
+  "family": "Rosaceae",
+  "kind": "herb",
+  "countryIds": [
+    "at",
+    "de",
+    "pl",
+    "gb",
+    "se",
+    "no",
+    "ie",
+    "nl"
+  ],
+  "partsUsed": "Herb, root",
+  "partsUsedDe": "Kraut, Wurzel",
+  "habitat": "Damp paths, shores and grazed ground of Europe.",
+  "habitatDe": "Damp paths, shores und grazed gemahlen von Europa.",
+  "traditionalUsesEn": "Traditional astringent for mild diarrhea and menstrual cramp teas.",
+  "traditionalUsesDe": "Traditionell astringent für mild diarrhea und menstrual cramp Tees.",
+  "activeCompounds": "Tannins, flavonoids",
+  "activeCompoundsDe": "Tannins, Flavonoide",
+  "preparation": "Herb tea.",
+  "preparationDe": "Kraut Tee.",
+  "cautions": "Tannin-rich — short-term use preferred.",
+  "cautionsDe": "Tannin-reich — kurz-term Verwendung preferred.",
+  "floweringSeason": "May–August",
+  "floweringSeasonDe": "Mai–August",
+  "historicalNotes": "Silvery pinnate leaves of European goose pastures.",
+  "historicalNotesDe": "Silvery pinnate Blätter von europäisch goose Weiden.",
+  "useCategoryIds": [
+    "digestive",
+    "pain-relief",
+    "anti-inflammatory"
+  ],
+  "bloomSeasons": [
+    "spring",
+    "summer"
+  ]
+}
