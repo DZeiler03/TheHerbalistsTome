@@ -17,8 +17,7 @@ Browse medicinal plants by **Continent → Country (flags) → Plant**, with bil
 - Navigation: Continent → Country → Plants (North & South America separate)
 - Country flags (flagcdn)
 - Search across DE + EN names and scientific names
-- Page-turn animation between views
-- 90+ real plant specimens with factual entries only
+- 175+ real plant specimens with factual entries only
 - 60+ countries across six regions
 - Pixel-art plant portraits on plant detail pages (with leaf fallback)
 
