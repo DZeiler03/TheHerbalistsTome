@@ -1,0 +1,41 @@
+{
+  "id": "lesser-celandine",
+  "nameEn": "Lesser Celandine",
+  "nameDe": "Scharbockskraut",
+  "scientificName": "Ficaria verna (syn. Ranunculus ficaria)",
+  "family": "Ranunculaceae",
+  "kind": "herb",
+  "countryIds": [
+    "at",
+    "de",
+    "ch",
+    "gb",
+    "fr",
+    "pl",
+    "se",
+    "nl"
+  ],
+  "partsUsed": "Young leaves (early spring only, carefully)",
+  "partsUsedDe": "Kraut (Vorsicht)",
+  "habitat": "Damp woods and stream banks of Europe.",
+  "habitatDe": "Feuchte Wälder und Auen Europas.",
+  "traditionalUsesEn": "Historical spring vitamin herb (scurvy lore); modern internal use limited.",
+  "traditionalUsesDe": "Historisch bei Hämorrhoiden äußerlich; heute mit Vorsicht.",
+  "activeCompounds": "Vitamin C (young leaves), protoanemonin (in mature plant)",
+  "activeCompoundsDe": "Protoanemonin (frisch), Anemonin, Saponine",
+  "preparation": "Only very young spring leaves traditionally; avoid mature toxic stages.",
+  "preparationDe": "Historisch äußerlich; frische Pflanze reizend. Besser Fertigpräparate.",
+  "cautions": "Mature plant is toxic (protoanemonin). Not for self-medication of piles/products without care.",
+  "cautionsDe": "Ausgewachsene Pflanze ist giftig (Protoanemonin). Nicht zur Selbstmedikation bei Hämorrhoiden/Produkten ohne fachliche Pflege.",
+  "floweringSeason": "March–May",
+  "floweringSeasonDe": "März–Mai",
+  "historicalNotes": "Glossy spring gold of European forest floors.",
+  "historicalNotesDe": "Frühlings-Scharbockskraut der europäischen Volksmedizin; giftig frisch.",
+  "useCategoryIds": [
+    "nutritive",
+    "skin-topical"
+  ],
+  "bloomSeasons": [
+    "spring"
+  ]
+}
