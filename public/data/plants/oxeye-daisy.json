@@ -1,0 +1,43 @@
+{
+  "id": "oxeye-daisy",
+  "nameEn": "Oxeye Daisy",
+  "nameDe": "Margerite",
+  "scientificName": "Leucanthemum vulgare",
+  "family": "Asteraceae",
+  "kind": "herb",
+  "countryIds": [
+    "at",
+    "de",
+    "ch",
+    "gb",
+    "pl",
+    "fr",
+    "se",
+    "ie"
+  ],
+  "partsUsed": "Flower heads (historical)",
+  "partsUsedDe": "Blütenköpfe, Kraut",
+  "habitat": "Meadows and roadsides of Europe.",
+  "habitatDe": "Wiesen und Wegränder Europas.",
+  "traditionalUsesEn": "Historical chest and wound folk herb; iconic meadow flower.",
+  "traditionalUsesDe": "Mildes Erkältungs- und Frauenkraut der Volksmedizin.",
+  "activeCompounds": "Essential oil, flavonoids, sesquiterpene lactones",
+  "activeCompoundsDe": "Sesquiterpenlactone, ätherisches Öl, Flavonoide",
+  "preparation": "Mostly cultural/meadow plant today; flower tea historically.",
+  "preparationDe": "Kraut- und Blütentee.",
+  "cautions": "Asteraceae allergy possible.",
+  "cautionsDe": "Korbblütler-Allergie möglich.",
+  "floweringSeason": "May–September",
+  "floweringSeasonDe": "Juni–September",
+  "historicalNotes": "White-and-gold of European summer meadows.",
+  "historicalNotesDe": "Große Margerite der europäischen Wiesen und Volksmedizin.",
+  "useCategoryIds": [
+    "respiratory",
+    "skin-topical"
+  ],
+  "bloomSeasons": [
+    "spring",
+    "summer",
+    "autumn"
+  ]
+}

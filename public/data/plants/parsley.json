@@ -1,0 +1,42 @@
+{
+  "id": "parsley",
+  "nameEn": "Parsley",
+  "nameDe": "Petersilie",
+  "scientificName": "Petroselinum crispum",
+  "family": "Apiaceae",
+  "kind": "herb",
+  "countryIds": [
+    "at",
+    "de",
+    "fr",
+    "it",
+    "gr",
+    "tr",
+    "pl",
+    "gb"
+  ],
+  "partsUsed": "Leaves, root, seeds",
+  "partsUsedDe": "Blätter, Wurzel, Samen",
+  "habitat": "Mediterranean garden staple across Europe.",
+  "habitatDe": "mediterran Garten staple across Europa.",
+  "traditionalUsesEn": "Culinary herb; traditional diuretic root and leaf in folk use.",
+  "traditionalUsesDe": "Kulinarisch Kraut; traditionell diuretic Wurzel und Blatt in folk Verwendung.",
+  "activeCompounds": "Essential oil (apiol, myristicin), flavonoids, vitamins",
+  "activeCompoundsDe": "Ätherisches Öl (apiol, myristicin), Flavonoide, vitamins",
+  "preparation": "Fresh leaves culinary; root decoction sparingly as traditional diuretic.",
+  "preparationDe": "Frisch Blätter kulinarisch; Wurzel Dekokt sparsam als traditionell diuretic.",
+  "cautions": "Seed/apiol: avoid medicinal doses in pregnancy; culinary leaf is fine.",
+  "cautionsDe": "Samen/apiol: meiden heilkundlich doses in Schwangerschaft; kulinarisch Blatt ist fine.",
+  "floweringSeason": "June–August (second year)",
+  "floweringSeasonDe": "Juni–August (im zweiten Jahr)",
+  "historicalNotes": "Curly and flat parsley of European tables.",
+  "historicalNotesDe": "Curly und flat parsley von europäisch Tische.",
+  "useCategoryIds": [
+    "culinary",
+    "urinary",
+    "nutritive"
+  ],
+  "bloomSeasons": [
+    "summer"
+  ]
+}
