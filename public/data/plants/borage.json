@@ -1,0 +1,42 @@
+{
+  "id": "borage",
+  "nameEn": "Borage",
+  "nameDe": "Borretsch",
+  "scientificName": "Borago officinalis",
+  "family": "Boraginaceae",
+  "kind": "herb",
+  "countryIds": [
+    "at",
+    "de",
+    "fr",
+    "it",
+    "es",
+    "gb",
+    "tr"
+  ],
+  "partsUsed": "Flowers, young leaves (sparingly); seed oil",
+  "partsUsedDe": "Blüten, junge Blätter (sparsam); Samenöl",
+  "habitat": "Mediterranean garden herb naturalized in Europe.",
+  "habitatDe": "Mediterranes Gartenkraut, in Europa eingebürgert.",
+  "traditionalUsesEn": "Cucumber-flavored pot herb; star flowers for courage lore; seed oil (GLA).",
+  "traditionalUsesDe": "Gurkenartiges Blattgemüse und Blütendekoration; Samenöl ist ein modernes Produkt.",
+  "activeCompounds": "Mucilage, minerals; seed oil rich in GLA; pyrrolizidine alkaloids in herb",
+  "activeCompoundsDe": "Schleimstoffe, Mineralstoffe; Samenöl reich an GLA; Pyrrolizidin-Alkaloide im Kraut",
+  "preparation": "Flowers garnish; young leaves sparingly; prefer seed oil products over herb tea.",
+  "preparationDe": "Blüten als Garnitur; junge Blätter sparsam; Samenöl-Produkte dem Krauttee vorziehen.",
+  "cautions": "Herb contains PAs — limit internal herb use; seed oil is the modern product.",
+  "cautionsDe": "Kraut enthält Pyrrolizidin-Alkaloide – innerliche Krautnutzung begrenzen; Samenöl ist ein modernes Produkt.",
+  "floweringSeason": "May–September",
+  "floweringSeasonDe": "Mai–September",
+  "historicalNotes": "Blue stars of European kitchen gardens.",
+  "historicalNotesDe": "Blaue Sterne europäischer Küchengärten.",
+  "useCategoryIds": [
+    "culinary",
+    "skin-topical",
+    "nutritive"
+  ],
+  "bloomSeasons": [
+    "spring",
+    "summer"
+  ]
+}

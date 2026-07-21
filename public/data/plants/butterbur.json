@@ -1,0 +1,40 @@
+{
+  "id": "butterbur",
+  "nameEn": "Butterbur",
+  "nameDe": "Pestwurz",
+  "scientificName": "Petasites hybridus",
+  "family": "Asteraceae",
+  "kind": "herb",
+  "countryIds": [
+    "at",
+    "de",
+    "ch",
+    "pl",
+    "cz",
+    "gb",
+    "fr"
+  ],
+  "partsUsed": "Rhizome, leaves (PA-reduced products only)",
+  "partsUsedDe": "Rhizom, Blätter (nur PA-reduzierte Produkte)",
+  "habitat": "Damp riverbanks and ditches of Europe.",
+  "habitatDe": "Feuchte Ufer und Auen Mitteleuropas.",
+  "traditionalUsesEn": "Traditional migraine and spasm folk herb; modern use only PA-free extracts.",
+  "traditionalUsesDe": "Traditionell bei Migräne und Atemwegen – heute nur PA-reduzierte Präparate.",
+  "activeCompounds": "Sesquiterpenes (petasin); pyrrolizidine alkaloids in crude drug",
+  "activeCompoundsDe": "Sesquiterpene; Pyrrolizidin-Alkaloide in Rohware",
+  "preparation": "Only certified PA-reduced commercial extracts.",
+  "preparationDe": "Nur zertifizierte PA-reduzierte Handelspräparate.",
+  "cautions": "Crude butterbur contains liver-toxic PAs — never DIY internal teas.",
+  "cautionsDe": "Roher Pestwurz enthält lebertoxische PAs – niemals selbst gemachte innerliche Tees.",
+  "floweringSeason": "March–May (before leaves)",
+  "floweringSeasonDe": "März–Mai (vor dem Laubaustrieb)",
+  "historicalNotes": "Huge riverside leaves of Central European streams.",
+  "historicalNotesDe": "Riesige ufernahe Blätter mitteleuropäischer Bäche.",
+  "useCategoryIds": [
+    "pain-relief",
+    "respiratory"
+  ],
+  "bloomSeasons": [
+    "spring"
+  ]
+}

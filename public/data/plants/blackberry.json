@@ -1,0 +1,45 @@
+{
+  "id": "blackberry",
+  "nameEn": "Blackberry",
+  "nameDe": "Brombeere",
+  "scientificName": "Rubus fruticosus agg.",
+  "family": "Rosaceae",
+  "kind": "shrub",
+  "countryIds": [
+    "at",
+    "de",
+    "gb",
+    "fr",
+    "pl",
+    "ie",
+    "nl",
+    "ch"
+  ],
+  "partsUsed": "Leaves, fruit",
+  "partsUsedDe": "Blätter, Frucht",
+  "habitat": "Hedges, woodland edges and waste ground of Europe.",
+  "habitatDe": "Hecken, Waldränder und Lichtungen Europas.",
+  "traditionalUsesEn": "Astringent leaf for mild diarrhea and mouth rinses; autumn berries.",
+  "traditionalUsesDe": "Adstringierendes Blatt und vitaminreiche Beere der Volksmedizin.",
+  "activeCompounds": "Tannins, flavonoids, fruit anthocyanins",
+  "activeCompoundsDe": "Gerbstoffe, Anthocyane, Vitamin C, Flavonoide",
+  "preparation": "Leaf tea; fresh or cooked fruit.",
+  "preparationDe": "Blatttee; frische Beeren als Lebensmittel.",
+  "cautions": "Tannin-rich leaf — not long high-dose; thorns!",
+  "cautionsDe": "Gerbstoffreiches Blatt – nicht langfristig hoch dosieren; Dornen!",
+  "floweringSeason": "May–July; fruit August–October",
+  "floweringSeasonDe": "Mai–Juli; Frucht August–Oktober",
+  "historicalNotes": "Thorny hedge larder of European countryside.",
+  "historicalNotesDe": "Dornige Hecken-Vorratskammer der europäischen Landschaft.",
+  "useCategoryIds": [
+    "digestive",
+    "oral-dental",
+    "culinary",
+    "nutritive"
+  ],
+  "bloomSeasons": [
+    "spring",
+    "summer",
+    "autumn"
+  ]
+}
