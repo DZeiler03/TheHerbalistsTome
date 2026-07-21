@@ -1,0 +1,44 @@
+{
+  "id": "tormentil",
+  "nameEn": "Tormentil",
+  "nameDe": "Blutwurz",
+  "scientificName": "Potentilla erecta",
+  "family": "Rosaceae",
+  "kind": "herb",
+  "countryIds": [
+    "at",
+    "de",
+    "ch",
+    "pl",
+    "gb",
+    "se",
+    "no",
+    "cz"
+  ],
+  "partsUsed": "Rhizome",
+  "partsUsedDe": "Rhizom",
+  "habitat": "Acid meadows, heaths and mountains of Europe.",
+  "habitatDe": "Acid Wiesen, heaths und mountains von Europa.",
+  "traditionalUsesEn": "Strong traditional astringent root for diarrhea and mouth rinses.",
+  "traditionalUsesDe": "Strong traditionell astringent Wurzel für diarrhea und mouth rinses.",
+  "activeCompounds": "Condensed tannins (up to high percentages)",
+  "activeCompoundsDe": "Condensed tannins (up zu hoch percentages)",
+  "preparation": "Rhizome decoction or tincture, short-term.",
+  "preparationDe": "Rhizome Dekokt oder Tinktur, kurz-term.",
+  "cautions": "Very tannin-rich; not for long continuous internal use.",
+  "cautionsDe": "Sehr tannin-reich; nicht für lang continuous innerlich Verwendung.",
+  "floweringSeason": "May–September",
+  "floweringSeasonDe": "Mai–September",
+  "historicalNotes": "Blood-red cut rhizome of European moors.",
+  "historicalNotesDe": "Blut-red cut rhizome von europäisch moors.",
+  "useCategoryIds": [
+    "digestive",
+    "oral-dental",
+    "anti-inflammatory"
+  ],
+  "bloomSeasons": [
+    "spring",
+    "summer",
+    "autumn"
+  ]
+}
