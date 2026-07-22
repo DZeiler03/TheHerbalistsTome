@@ -19,7 +19,12 @@ let data: AppData = {
 };
 let view: View = { type: "start" };
 let lang: Lang = "de";
+/** Last committed search (results page). */
 let searchQuery = "";
+/** Draft text while the expandable search field is open. */
+let searchDraft = "";
+/** Magnifying glass expanded into a horizontal input. */
+let searchOpen = false;
 let isTurning = false;
 let historyStack: View[] = [];
 let activeCategoryIds: string[] = [];
@@ -97,11 +102,54 @@ function closeBookAnimated(): void {
   window.setTimeout(() => {
     historyStack = [];
     searchQuery = "";
+    searchDraft = "";
+    searchOpen = false;
     activeCategoryIds = [];
     view = { type: "start" };
     isTurning = false;
     render();
   }, 650);
+}
+
+function commitSearch(): void {
+  const q = searchDraft.trim();
+  searchQuery = q;
+  if (!q) {
+    if (view.type === "search") {
+      navigate({ type: "continents" }, false);
+    }
+    return;
+  }
+  // Stay on the search results view when refining; only push history once.
+  navigate(
+    { type: "search", query: q, results: searchPlants(data, q) },
+    view.type !== "search"
+  );
+}
+
+function openSearch(): void {
+  if (searchOpen) return;
+  searchOpen = true;
+  if (!searchDraft && searchQuery) searchDraft = searchQuery;
+  render();
+  // Focus after DOM paint so the expanded field receives keystrokes.
+  window.requestAnimationFrame(() => {
+    const input = document.getElementById(
+      "search-input"
+    ) as HTMLInputElement | null;
+    input?.focus();
+    const len = input?.value.length ?? 0;
+    input?.setSelectionRange(len, len);
+  });
+}
+
+function closeSearch(clearDraft = false): void {
+  searchOpen = false;
+  if (clearDraft) {
+    searchDraft = "";
+    searchQuery = "";
+  }
+  render();
 }
 
 function render(): void {
@@ -148,9 +196,27 @@ function render(): void {
         <button type="button" class="btn-icon" id="btn-favorites" title="${L.favorites}">★ ${L.favorites}</button>
         <button type="button" class="btn-icon" id="btn-season" title="${L.seasonal}">❀</button>
         <button type="button" class="btn-icon btn-close-book" id="btn-close" title="${L.closeBook}">${L.closeBook}</button>
-        <div class="search-wrap">
-          <span class="search-icon">⌕</span>
-          <input type="search" id="search-input" placeholder="${L.search}" value="${escapeAttr(searchQuery)}" autocomplete="off" />
+        <div class="search-wrap${searchOpen ? " is-open" : ""}" id="search-wrap">
+          <button
+            type="button"
+            class="search-toggle"
+            id="btn-search-toggle"
+            title="${escapeAttr(L.search)}"
+            aria-label="${escapeAttr(L.search)}"
+            aria-expanded="${searchOpen ? "true" : "false"}"
+            aria-controls="search-input"
+          >⌕</button>
+          <input
+            type="search"
+            id="search-input"
+            class="search-input"
+            placeholder="${escapeAttr(L.search)}"
+            value="${escapeAttr(searchDraft)}"
+            autocomplete="off"
+            enterkeyhint="search"
+            aria-label="${escapeAttr(L.search)}"
+            ${searchOpen ? "" : "tabindex=\"-1\" aria-hidden=\"true\""}
+          />
         </div>
         <button type="button" class="lang-toggle" id="btn-lang">${lang.toUpperCase()}</button>
       </div>
@@ -195,25 +261,60 @@ function bindEvents(): void {
     render();
   });
 
+  const searchWrap = document.getElementById("search-wrap");
+  const searchToggle = document.getElementById("btn-search-toggle");
   const input = document.getElementById(
     "search-input"
   ) as HTMLInputElement | null;
-  let debounce: number | undefined;
-  input?.addEventListener("input", () => {
-    searchQuery = input.value;
-    window.clearTimeout(debounce);
-    debounce = window.setTimeout(() => {
-      const q = searchQuery.trim();
-      if (!q) {
-        if (view.type === "search") navigate({ type: "continents" }, false);
-        return;
-      }
-      navigate(
-        { type: "search", query: q, results: searchPlants(data, q) },
-        view.type !== "search"
-      );
-    }, 220);
+
+  searchToggle?.addEventListener("click", (e) => {
+    e.stopPropagation();
+    if (searchOpen) {
+      // Already expanded: keep focus in the field (do not navigate).
+      input?.focus();
+      return;
+    }
+    openSearch();
   });
+
+  // Typing only updates the draft — never navigates mid-keystroke.
+  input?.addEventListener("input", () => {
+    searchDraft = input.value;
+  });
+
+  input?.addEventListener("keydown", (e) => {
+    if (e.key === "Enter") {
+      e.preventDefault();
+      commitSearch();
+      return;
+    }
+    if (e.key === "Escape") {
+      e.preventDefault();
+      closeSearch(false);
+    }
+  });
+
+  // Keep focus inside the expanded field while open (don't collapse on blur
+  // immediately — user may click a result; only Escape / empty toggle closes).
+  input?.addEventListener("blur", () => {
+    // If still open and empty after a short delay, collapse the field.
+    window.setTimeout(() => {
+      if (!searchOpen) return;
+      const active = document.activeElement;
+      if (active === input || searchWrap?.contains(active)) return;
+      if (!searchDraft.trim() && view.type !== "search") {
+        searchOpen = false;
+        render();
+      }
+    }, 180);
+  });
+
+  if (searchOpen && input) {
+    // Restore caret after any re-render while the panel is open.
+    window.requestAnimationFrame(() => {
+      input.focus({ preventScroll: true });
+    });
+  }
 
   app.querySelectorAll<HTMLElement>("[data-continent]").forEach((el) =>
     el.addEventListener("click", () =>
