@@ -478,6 +478,801 @@
   opacity: 0.5;
 }
 
+/* ─── Discovery sunflower garden (continents right) ─────── */
+.continent-right {
+  justify-content: flex-start;
+  padding-top: 1.25rem;
+  gap: 0.35rem;
+  overflow-y: auto;
+}
+
+.discovery-garden {
+  width: min(100%, 17.5rem);
+  margin: 0.65rem auto 0.35rem;
+  padding: 0.65rem 0.55rem 0.75rem;
+  background: rgba(255, 250, 235, 0.35);
+  border: 1px solid rgba(90, 61, 40, 0.16);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.35);
+}
+
+.discovery-label {
+  font-family: var(--font-display) !important;
+  font-size: 0.68rem !important;
+  font-style: normal !important;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--gold-dim) !important;
+  margin: 0 0 0.45rem !important;
+  max-width: none !important;
+}
+
+.discovery-scene {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: end;
+  gap: 0.25rem;
+  min-height: 11.5rem;
+  padding-bottom: 0.25rem;
+}
+
+.discovery-plant-wrap {
+  position: relative;
+  width: 7.2rem;
+  height: 10.8rem;
+  justify-self: center;
+}
+
+.discovery-plant {
+  position: absolute;
+  left: 50%;
+  bottom: 2.35rem;
+  width: 4.5rem;
+  height: 7.5rem;
+  transform: translateX(-50%);
+  transform-origin: bottom center;
+}
+
+.disc-seed {
+  position: absolute;
+  left: 50%;
+  bottom: 0.15rem;
+  width: 0.55rem;
+  height: 0.4rem;
+  margin-left: -0.28rem;
+  border-radius: 50% 50% 45% 45%;
+  background: linear-gradient(180deg, #6b4a28, #3d2814);
+  opacity: 1;
+  transition: opacity 0.35s;
+}
+
+.disc-stem {
+  position: absolute;
+  left: 50%;
+  bottom: 0.2rem;
+  width: 0.28rem;
+  margin-left: -0.14rem;
+  height: calc(0.15rem + var(--grow, 0) * 5.2rem);
+  border-radius: 2px;
+  background: linear-gradient(180deg, #5a8f3a, #3d6b28);
+  transform-origin: bottom center;
+  transition: height 0.45s ease;
+  opacity: 0;
+}
+
+/* Leaves attached to the stem (bottom = soil + fraction of stem height) */
+.disc-leaf {
+  position: absolute;
+  left: 50%;
+  width: 1.35rem;
+  height: 0.62rem;
+  margin-left: -0.12rem;
+  background:
+    radial-gradient(ellipse 70% 90% at 22% 50%, #7bb84a 0%, #4a8a30 55%, #356422 100%);
+  border-radius: 5% 90% 60% 80%;
+  box-shadow: inset 0 0 0 1px rgba(30, 50, 15, 0.12);
+  opacity: 0;
+  transform-origin: 0% 50%;
+  transition: opacity 0.4s ease, bottom 0.45s ease, transform 0.4s ease;
+}
+
+.disc-leaf::after {
+  content: "";
+  position: absolute;
+  left: 8%;
+  top: 48%;
+  width: 70%;
+  height: 1px;
+  background: linear-gradient(90deg, rgba(40, 70, 20, 0.45), transparent);
+}
+
+.disc-leaf.leaf-l {
+  bottom: calc(0.35rem + var(--grow, 0) * 1.35rem);
+  transform: rotate(-38deg) scaleX(1);
+}
+
+.disc-leaf.leaf-r {
+  bottom: calc(0.55rem + var(--grow, 0) * 1.7rem);
+  transform: rotate(38deg) scaleX(-1);
+  margin-left: 0.12rem;
+}
+
+.disc-leaf.leaf-l2 {
+  bottom: calc(0.45rem + var(--grow, 0) * 2.85rem);
+  width: 1.5rem;
+  transform: rotate(-48deg);
+}
+
+.disc-leaf.leaf-r2 {
+  bottom: calc(0.65rem + var(--grow, 0) * 3.25rem);
+  width: 1.5rem;
+  transform: rotate(48deg) scaleX(-1);
+  margin-left: 0.12rem;
+}
+
+.disc-leaf.leaf-l3 {
+  bottom: calc(0.55rem + var(--grow, 0) * 4.15rem);
+  width: 1.2rem;
+  height: 0.5rem;
+  transform: rotate(-42deg);
+}
+
+.disc-leaf.leaf-r3 {
+  bottom: calc(0.7rem + var(--grow, 0) * 4.55rem);
+  width: 1.2rem;
+  height: 0.5rem;
+  transform: rotate(42deg) scaleX(-1);
+  margin-left: 0.12rem;
+}
+
+.disc-bud {
+  position: absolute;
+  left: 50%;
+  bottom: calc(0.35rem + var(--grow, 0) * 5.2rem);
+  width: 0.85rem;
+  height: 1rem;
+  margin-left: -0.42rem;
+  border-radius: 50% 50% 40% 40%;
+  background: linear-gradient(180deg, #7a9a40, #4a7028);
+  opacity: 0;
+  transition: opacity 0.35s, bottom 0.45s ease;
+}
+
+.disc-bloom {
+  position: absolute;
+  left: 50%;
+  bottom: calc(0.15rem + var(--grow, 0) * 5.2rem);
+  width: 2.6rem;
+  height: 2.6rem;
+  margin-left: -1.3rem;
+  opacity: 0;
+  transform: scale(0.35);
+  transition: opacity 0.4s, transform 0.45s ease, bottom 0.45s ease;
+}
+
+.disc-petals {
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background:
+    radial-gradient(circle at 50% 50%, transparent 28%, #f0c84a 29% 42%, transparent 43%),
+    conic-gradient(
+      from 0deg,
+      #f0d060 0 12deg,
+      transparent 12deg 18deg,
+      #e8b840 18deg 30deg,
+      transparent 30deg 36deg,
+      #f0d060 36deg 48deg,
+      transparent 48deg 54deg,
+      #e8b840 54deg 66deg,
+      transparent 66deg 72deg,
+      #f0d060 72deg 84deg,
+      transparent 84deg 90deg,
+      #e8b840 90deg 102deg,
+      transparent 102deg 108deg,
+      #f0d060 108deg 120deg,
+      transparent 120deg 126deg,
+      #e8b840 126deg 138deg,
+      transparent 138deg 144deg,
+      #f0d060 144deg 156deg,
+      transparent 156deg 162deg,
+      #e8b840 162deg 174deg,
+      transparent 174deg 180deg,
+      #f0d060 180deg 192deg,
+      transparent 192deg 198deg,
+      #e8b840 198deg 210deg,
+      transparent 210deg 216deg,
+      #f0d060 216deg 228deg,
+      transparent 228deg 234deg,
+      #e8b840 234deg 246deg,
+      transparent 246deg 252deg,
+      #f0d060 252deg 264deg,
+      transparent 264deg 270deg,
+      #e8b840 270deg 282deg,
+      transparent 282deg 288deg,
+      #f0d060 288deg 300deg,
+      transparent 300deg 306deg,
+      #e8b840 306deg 318deg,
+      transparent 318deg 324deg,
+      #f0d060 324deg 336deg,
+      transparent 336deg 342deg,
+      #e8b840 342deg 354deg,
+      transparent 354deg 360deg
+    );
+  box-shadow: 0 0 0 1px rgba(120, 80, 20, 0.15);
+}
+
+.disc-center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 1.05rem;
+  height: 1.05rem;
+  margin: -0.52rem 0 0 -0.52rem;
+  border-radius: 50%;
+  background:
+    radial-gradient(circle at 35% 30%, #6b4a22, #3d2810 70%);
+  border: 1px solid rgba(40, 25, 10, 0.35);
+}
+
+/* Stage visibility */
+.discovery-garden.stage-seed .disc-seed {
+  opacity: 1;
+}
+.discovery-garden.stage-sprout .disc-seed,
+.discovery-garden.stage-seedling .disc-seed,
+.discovery-garden.stage-growing .disc-seed,
+.discovery-garden.stage-bud .disc-seed,
+.discovery-garden.stage-bloom .disc-seed {
+  opacity: 0;
+}
+
+.discovery-garden.stage-sprout .disc-stem,
+.discovery-garden.stage-seedling .disc-stem,
+.discovery-garden.stage-growing .disc-stem,
+.discovery-garden.stage-bud .disc-stem,
+.discovery-garden.stage-bloom .disc-stem {
+  opacity: 1;
+}
+
+/* Lower pair of leaves from seedling */
+.discovery-garden.stage-seedling .disc-leaf.leaf-l,
+.discovery-garden.stage-seedling .disc-leaf.leaf-r,
+.discovery-garden.stage-growing .disc-leaf.leaf-l,
+.discovery-garden.stage-growing .disc-leaf.leaf-r,
+.discovery-garden.stage-bud .disc-leaf.leaf-l,
+.discovery-garden.stage-bud .disc-leaf.leaf-r,
+.discovery-garden.stage-bloom .disc-leaf.leaf-l,
+.discovery-garden.stage-bloom .disc-leaf.leaf-r {
+  opacity: 1;
+}
+
+/* Mid pair from growing */
+.discovery-garden.stage-growing .disc-leaf.leaf-l2,
+.discovery-garden.stage-growing .disc-leaf.leaf-r2,
+.discovery-garden.stage-bud .disc-leaf.leaf-l2,
+.discovery-garden.stage-bud .disc-leaf.leaf-r2,
+.discovery-garden.stage-bloom .disc-leaf.leaf-l2,
+.discovery-garden.stage-bloom .disc-leaf.leaf-r2 {
+  opacity: 1;
+}
+
+/* Upper pair near bud/bloom */
+.discovery-garden.stage-bud .disc-leaf.leaf-l3,
+.discovery-garden.stage-bud .disc-leaf.leaf-r3,
+.discovery-garden.stage-bloom .disc-leaf.leaf-l3,
+.discovery-garden.stage-bloom .disc-leaf.leaf-r3 {
+  opacity: 1;
+}
+
+.discovery-garden.stage-bud .disc-bud {
+  opacity: 1;
+}
+
+.discovery-garden.stage-bloom .disc-bud {
+  opacity: 0;
+}
+
+.discovery-garden.stage-bloom .disc-bloom {
+  opacity: 1;
+  transform: scale(1);
+}
+
+/* Stage height hints via --grow overrides when class-only */
+.discovery-garden.stage-sprout {
+  --grow: 0.12;
+}
+.discovery-garden.stage-seedling {
+  --grow: 0.32;
+}
+.discovery-garden.stage-growing {
+  --grow: 0.55;
+}
+.discovery-garden.stage-bud {
+  --grow: 0.78;
+}
+.discovery-garden.stage-bloom {
+  --grow: 1;
+}
+
+.discovery-pot {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 4.4rem;
+  height: 2.5rem;
+  margin-left: -2.2rem;
+}
+
+.pot-rim {
+  position: absolute;
+  top: 0;
+  left: 8%;
+  right: 8%;
+  height: 0.38rem;
+  border-radius: 3px;
+  background: linear-gradient(180deg, #c47848, #8a4a28);
+  border: 1px solid #4a2410;
+  z-index: 2;
+}
+
+.pot-body {
+  position: absolute;
+  top: 0.28rem;
+  left: 12%;
+  right: 12%;
+  bottom: 0;
+  background: linear-gradient(180deg, #b86838 0%, #8b4528 55%, #6a3218 100%);
+  border: 1px solid #3d1c0c;
+  border-radius: 0 0 18% 18% / 0 0 28% 28%;
+  clip-path: polygon(0 0, 100% 0, 88% 100%, 12% 100%);
+}
+
+.pot-soil {
+  position: absolute;
+  top: 0.35rem;
+  left: 18%;
+  right: 18%;
+  height: 0.55rem;
+  background: radial-gradient(ellipse at 50% 0%, #4a3220, #2a1a10);
+  border-radius: 50%;
+  z-index: 1;
+}
+
+/* Fertilizer bag */
+.discovery-fertilizer,
+.discovery-can {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.2rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font: inherit;
+  color: var(--ink-soft);
+  align-self: end;
+  margin-bottom: 0.35rem;
+}
+
+.discovery-fertilizer:disabled,
+.discovery-can:disabled {
+  opacity: 0.45;
+  cursor: default;
+}
+
+.fert-bag {
+  width: 2.1rem;
+  height: 2.5rem;
+  position: relative;
+  background: linear-gradient(160deg, #9a958c 0%, #6e6a62 50%, #524e48 100%);
+  border: 1px solid #3a3834;
+  border-radius: 4px 4px 6px 6px;
+  box-shadow: 1px 2px 0 rgba(0, 0, 0, 0.15);
+  transform-origin: bottom center;
+  transition: transform 0.25s;
+}
+
+.fert-bag::before {
+  content: "";
+  position: absolute;
+  top: -0.2rem;
+  left: 12%;
+  right: 12%;
+  height: 0.35rem;
+  background: #7a766e;
+  border: 1px solid #3a3834;
+  border-radius: 2px;
+}
+
+.fert-bag::after {
+  content: "N·P·K";
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  font-family: var(--font-display);
+  font-size: 0.42rem;
+  letter-spacing: 0.04em;
+  color: rgba(40, 35, 28, 0.55);
+}
+
+/* Pour then return upright — bag always resets */
+.discovery-fertilizer.is-pouring .fert-bag {
+  animation: fert-pour 0.85s ease forwards;
+}
+
+.discovery-fertilizer.is-pouring .fert-granules {
+  opacity: 1;
+  animation: fert-granules 0.85s ease forwards;
+}
+
+.fert-granules {
+  position: absolute;
+  top: 1.1rem;
+  left: 55%;
+  width: 1.2rem;
+  height: 1.6rem;
+  pointer-events: none;
+  opacity: 0;
+  background:
+    radial-gradient(circle at 30% 20%, #6b4a28 0 0.12rem, transparent 0.13rem),
+    radial-gradient(circle at 55% 45%, #8a6238 0 0.1rem, transparent 0.11rem),
+    radial-gradient(circle at 40% 70%, #5a3a1c 0 0.11rem, transparent 0.12rem),
+    radial-gradient(circle at 65% 85%, #7a5430 0 0.09rem, transparent 0.1rem);
+}
+
+@keyframes fert-pour {
+  0% {
+    transform: rotate(0) translate(0, 0);
+  }
+  35% {
+    transform: rotate(-48deg) translate(6px, 8px);
+  }
+  70% {
+    transform: rotate(-40deg) translate(4px, 6px);
+  }
+  100% {
+    transform: rotate(0) translate(0, 0);
+  }
+}
+
+@keyframes fert-granules {
+  0% {
+    opacity: 0;
+    transform: translate(0, 0);
+  }
+  30% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translate(10px, 28px);
+  }
+}
+
+/* Subtle ready cue after fertilizing (bag stays upright) */
+.discovery-fertilizer.is-ready .fert-bag {
+  box-shadow: 0 0 0 1px rgba(120, 90, 40, 0.2);
+}
+
+.fert-label,
+.can-label {
+  font-size: 0.62rem !important;
+  font-style: normal !important;
+  max-width: 4.2rem !important;
+  line-height: 1.15 !important;
+  opacity: 0.75;
+}
+
+/* Watering can */
+.can-body {
+  width: 2.5rem;
+  height: 2rem;
+  position: relative;
+  background: linear-gradient(160deg, #d0cbc0 0%, #9a968c 45%, #6e6a64 100%);
+  border: 1px solid #3a3834;
+  border-radius: 7px 12px 9px 7px;
+  box-shadow:
+    1px 2px 0 rgba(0, 0, 0, 0.12),
+    inset 0 1px 0 rgba(255, 255, 255, 0.25);
+  transform-origin: 15% 85%;
+  transition: transform 0.3s;
+}
+
+/* Spout */
+.can-body::before {
+  content: "";
+  position: absolute;
+  right: -1.05rem;
+  top: 0.28rem;
+  width: 1.15rem;
+  height: 0.32rem;
+  background: linear-gradient(90deg, #8a867c, #6a6660);
+  border: 1px solid #3a3834;
+  border-radius: 2px 6px 6px 2px;
+  transform: rotate(-22deg);
+  transform-origin: left center;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15);
+}
+
+/* Handle */
+.can-body::after {
+  content: "";
+  position: absolute;
+  left: 0.28rem;
+  top: -0.5rem;
+  width: 1rem;
+  height: 0.62rem;
+  border: 2.5px solid #6a6660;
+  border-bottom: none;
+  border-radius: 55% 55% 0 0;
+}
+
+/* Stream from spout during pour */
+.can-stream {
+  position: absolute;
+  right: -1.35rem;
+  top: 0.55rem;
+  width: 0.22rem;
+  height: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(110, 175, 220, 0.85),
+    rgba(90, 150, 200, 0.35)
+  );
+  border-radius: 0 0 40% 40%;
+  opacity: 0;
+  transform: rotate(-18deg);
+  transform-origin: top center;
+  pointer-events: none;
+}
+
+.discovery-can.is-pouring .can-body {
+  animation: can-pour 1.05s ease forwards;
+}
+
+.discovery-can.is-pouring .can-stream {
+  animation: can-stream 1.05s ease forwards;
+}
+
+@keyframes can-pour {
+  0% {
+    transform: rotate(0) translate(0, 0);
+  }
+  18% {
+    transform: rotate(12deg) translate(1px, -2px);
+  }
+  40% {
+    transform: rotate(52deg) translate(4px, -6px);
+  }
+  72% {
+    transform: rotate(48deg) translate(3px, -5px);
+  }
+  100% {
+    transform: rotate(0) translate(0, 0);
+  }
+}
+
+@keyframes can-stream {
+  0%,
+  15% {
+    height: 0;
+    opacity: 0;
+  }
+  35% {
+    height: 1.8rem;
+    opacity: 0.95;
+  }
+  70% {
+    height: 2.1rem;
+    opacity: 0.75;
+  }
+  100% {
+    height: 0;
+    opacity: 0;
+  }
+}
+
+.discovery-can.is-nudge,
+.discovery-fertilizer.is-nudge {
+  animation: can-nudge 0.4s ease;
+}
+
+@keyframes can-nudge {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  30% {
+    transform: translateX(-3px);
+  }
+  60% {
+    transform: translateX(3px);
+  }
+}
+
+/* Water drops over pot */
+.discovery-water-layer {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.discovery-water-layer.is-active::before,
+.discovery-water-layer.is-active::after {
+  content: "";
+  position: absolute;
+  width: 0.26rem;
+  height: 0.42rem;
+  border-radius: 45% 45% 55% 55%;
+  background: linear-gradient(180deg, rgba(120, 180, 230, 0.9), rgba(70, 130, 190, 0.55));
+  animation: water-drop 0.55s ease-in infinite;
+}
+
+.discovery-water-layer.is-active::before {
+  right: 14%;
+  top: 14%;
+  animation-delay: 0s;
+}
+
+.discovery-water-layer.is-active::after {
+  right: 24%;
+  top: 10%;
+  animation-delay: 0.12s;
+  opacity: 0.75;
+  width: 0.2rem;
+  height: 0.34rem;
+}
+
+/* Extra drops via box-shadow on active layer children if present */
+.discovery-water-layer.is-active i {
+  position: absolute;
+  width: 0.22rem;
+  height: 0.36rem;
+  border-radius: 45% 45% 55% 55%;
+  background: rgba(90, 155, 210, 0.7);
+  animation: water-drop 0.6s ease-in infinite;
+}
+
+@keyframes water-drop {
+  0% {
+    transform: translateY(0) scale(1);
+    opacity: 0.95;
+  }
+  100% {
+    transform: translateY(3.4rem) scale(0.55);
+    opacity: 0;
+  }
+}
+
+/* Unobtrusive reset — no border, no box */
+.discovery-reset {
+  display: block;
+  margin: 0.35rem auto 0;
+  padding: 0;
+  border: none;
+  background: none;
+  box-shadow: none;
+  font: inherit;
+  font-size: 0.68rem !important;
+  font-style: italic !important;
+  letter-spacing: 0.04em;
+  color: rgba(90, 61, 40, 0.38);
+  cursor: pointer;
+  max-width: none !important;
+}
+
+.discovery-reset:hover,
+.discovery-reset:focus-visible {
+  color: rgba(90, 61, 40, 0.7);
+  outline: none;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.discovery-count {
+  margin: 0.4rem 0 0.1rem !important;
+  font-family: var(--font-display) !important;
+  font-size: 0.78rem !important;
+  font-style: normal !important;
+  letter-spacing: 0.12em;
+  color: rgba(90, 61, 40, 0.45) !important;
+  max-width: none !important;
+}
+
+.discovery-caption {
+  margin: 0 !important;
+  font-size: 0.78rem !important;
+  opacity: 0.55;
+  max-width: 15rem !important;
+}
+
+.discovery-hint {
+  margin: 0.25rem 0 0 !important;
+  font-size: 0.75rem !important;
+  color: #8b4a32 !important;
+  font-style: italic !important;
+  max-width: 15rem !important;
+}
+
+.discovery-congrats {
+  margin-top: 0.55rem;
+  padding: 0.55rem 0.65rem;
+  background: linear-gradient(180deg, rgba(240, 215, 138, 0.35), rgba(232, 200, 100, 0.2));
+  border: 1px solid rgba(166, 124, 46, 0.45);
+  color: var(--ink-soft);
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.discovery-congrats[hidden] {
+  display: none !important;
+}
+
+.discovery-congrats strong {
+  font-family: var(--font-display);
+  font-size: 0.85rem;
+  letter-spacing: 0.08em;
+  color: #5a3d18;
+}
+
+.discovery-congrats span {
+  font-size: 0.88rem;
+  font-style: italic;
+  line-height: 1.35;
+}
+
+/* Confetti */
+.discovery-confetti {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.discovery-confetti.is-active i {
+  position: absolute;
+  top: -8%;
+  width: 0.35rem;
+  height: 0.45rem;
+  border-radius: 1px;
+  animation: confetti-fall 1.6s linear forwards;
+  opacity: 0.9;
+}
+
+@keyframes confetti-fall {
+  0% {
+    transform: translateY(0) rotate(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(12rem) rotate(420deg);
+    opacity: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .disc-stem,
+  .disc-bloom,
+  .disc-bud,
+  .disc-leaf,
+  .discovery-fertilizer.is-pouring .fert-bag,
+  .discovery-fertilizer.is-pouring .fert-granules,
+  .discovery-can.is-pouring .can-body,
+  .discovery-can.is-pouring .can-stream,
+  .discovery-water-layer.is-active::before,
+  .discovery-water-layer.is-active::after,
+  .discovery-water-layer.is-active i,
+  .discovery-confetti.is-active i {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+
 /* Empty / no results */
 .empty-state {
   text-align: center;

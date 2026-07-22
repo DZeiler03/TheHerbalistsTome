@@ -489,6 +489,278 @@
   border-radius: 2px;
 }
 
+/* Side motif band (changes per continent) */
+.page-filigree .pg-motif {
+  position: absolute;
+  top: 22%;
+  bottom: 22%;
+  width: 36px;
+  opacity: 0.1;
+  pointer-events: none;
+  background-repeat: repeat-y;
+  background-size: 36px auto;
+}
+
+.page-left .page-filigree .pg-motif {
+  left: 6px;
+}
+
+.page-right .page-filigree .pg-motif {
+  right: 6px;
+  transform: scaleX(-1);
+}
+
+/* ─── Continent parchment themes ───────────────────────── */
+.page.theme-atlas {
+  --theme-ink: 138, 100, 40;
+  --theme-wash: 201, 166, 107;
+}
+
+.page.theme-europe {
+  --theme-ink: 90, 70, 40;
+  --theme-wash: 120, 100, 55;
+  background:
+    linear-gradient(90deg, rgba(120, 90, 40, 0.16) 0%, transparent 12%),
+    radial-gradient(ellipse 60% 40% at 85% 15%, rgba(90, 110, 70, 0.08) 0%, transparent 55%),
+    linear-gradient(180deg, #f1e6c4 0%, #ebe0b8 40%, #e0d0a0 100%);
+}
+
+.page.theme-asia {
+  --theme-ink: 130, 55, 40;
+  --theme-wash: 180, 90, 55;
+  background:
+    linear-gradient(90deg, rgba(150, 60, 40, 0.12) 0%, transparent 12%),
+    radial-gradient(ellipse 55% 45% at 15% 85%, rgba(180, 80, 40, 0.09) 0%, transparent 55%),
+    linear-gradient(180deg, #f4e4c2 0%, #efd8b0 45%, #e5c89a 100%);
+}
+
+.page.theme-north-america {
+  --theme-ink: 70, 90, 50;
+  --theme-wash: 100, 130, 70;
+  background:
+    linear-gradient(90deg, rgba(70, 100, 50, 0.12) 0%, transparent 12%),
+    radial-gradient(ellipse 50% 40% at 90% 80%, rgba(80, 110, 60, 0.1) 0%, transparent 55%),
+    linear-gradient(180deg, #eef0d4 0%, #e6e8c4 42%, #d8dcb0 100%);
+}
+
+.page.theme-south-america {
+  --theme-ink: 40, 100, 70;
+  --theme-wash: 60, 140, 90;
+  background:
+    linear-gradient(90deg, rgba(40, 110, 70, 0.13) 0%, transparent 12%),
+    radial-gradient(ellipse 55% 45% at 20% 20%, rgba(50, 130, 80, 0.1) 0%, transparent 55%),
+    linear-gradient(180deg, #e8f0d8 0%, #dce8c8 45%, #c8dcb0 100%);
+}
+
+.page.theme-africa {
+  --theme-ink: 150, 90, 35;
+  --theme-wash: 200, 130, 50;
+  background:
+    linear-gradient(90deg, rgba(160, 100, 35, 0.14) 0%, transparent 12%),
+    radial-gradient(ellipse 60% 40% at 80% 30%, rgba(200, 130, 40, 0.1) 0%, transparent 55%),
+    linear-gradient(180deg, #f6e6bc 0%, #efd4a0 42%, #e4c288 100%);
+}
+
+.page.theme-oceania {
+  --theme-ink: 40, 90, 110;
+  --theme-wash: 70, 130, 145;
+  background:
+    linear-gradient(90deg, rgba(50, 100, 120, 0.12) 0%, transparent 12%),
+    radial-gradient(ellipse 55% 40% at 75% 75%, rgba(60, 130, 140, 0.1) 0%, transparent 55%),
+    linear-gradient(180deg, #e6eef0 0%, #dce8e6 42%, #c8dcd4 100%);
+}
+
+/* Frame tint follows theme */
+.page-filigree.theme-europe::after,
+.page-filigree.theme-asia::after,
+.page-filigree.theme-north-america::after,
+.page-filigree.theme-south-america::after,
+.page-filigree.theme-africa::after,
+.page-filigree.theme-oceania::after {
+  border-color: rgba(var(--theme-ink), 0.14);
+  box-shadow: inset 0 0 0 4px rgba(var(--theme-wash), 0.07);
+}
+
+/* Continent-specific lattice */
+.page-filigree.theme-europe::before {
+  opacity: 0.05;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewBox='0 0 40 40'%3E%3Cpath d='M20 2 L38 20 L20 38 L2 20 Z' fill='none' stroke='%235a4628' stroke-width='0.55'/%3E%3Cpath d='M20 10 L30 20 L20 30 L10 20 Z' fill='none' stroke='%235a4628' stroke-width='0.35' opacity='.6'/%3E%3C/svg%3E");
+  background-size: 40px 40px;
+}
+
+.page-filigree.theme-asia::before {
+  opacity: 0.055;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='36' height='36' viewBox='0 0 36 36'%3E%3Ccircle cx='18' cy='18' r='10' fill='none' stroke='%23823828' stroke-width='0.5'/%3E%3Cpath d='M18 6 L18 30 M6 18 L30 18' stroke='%23823828' stroke-width='0.35' opacity='.7'/%3E%3Cpath d='M10 10 L26 26 M26 10 L10 26' stroke='%23823828' stroke-width='0.3' opacity='.45'/%3E%3C/svg%3E");
+  background-size: 36px 36px;
+}
+
+.page-filigree.theme-north-america::before {
+  opacity: 0.05;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='44' height='44' viewBox='0 0 44 44'%3E%3Cpath d='M22 4c6 8 10 14 10 18s-4 10-10 14c-6-4-10-10-10-14s4-10 10-18z' fill='none' stroke='%23465a32' stroke-width='0.55'/%3E%3C/svg%3E");
+  background-size: 44px 44px;
+}
+
+.page-filigree.theme-south-america::before {
+  opacity: 0.055;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='42' height='42' viewBox='0 0 42 42'%3E%3Cpath d='M8 34c6-14 10-22 13-28 3 6 7 14 13 28-8-4-12-4-26 0z' fill='none' stroke='%23286446' stroke-width='0.55'/%3E%3Cpath d='M14 28c4-2 10-2 14 0' stroke='%23286446' stroke-width='0.35' opacity='.6'/%3E%3C/svg%3E");
+  background-size: 42px 42px;
+}
+
+.page-filigree.theme-africa::before {
+  opacity: 0.055;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewBox='0 0 40 40'%3E%3Ccircle cx='20' cy='20' r='7' fill='none' stroke='%23965a23' stroke-width='0.55'/%3E%3Cg stroke='%23965a23' stroke-width='0.4' opacity='.7'%3E%3Cpath d='M20 4v5M20 31v5M4 20h5M31 20h5M8 8l3.5 3.5M28.5 28.5L32 32M32 8l-3.5 3.5M8 32l3.5-3.5'/%3E%3C/g%3E%3C/svg%3E");
+  background-size: 40px 40px;
+}
+
+.page-filigree.theme-oceania::before {
+  opacity: 0.055;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='48' height='28' viewBox='0 0 48 28'%3E%3Cpath d='M2 18c6-8 12-8 18 0s12 8 18 0 8-6 10-2' fill='none' stroke='%23285a6e' stroke-width='0.7'/%3E%3Cpath d='M2 22c6-6 12-6 18 0s12 6 18 0' fill='none' stroke='%23285a6e' stroke-width='0.45' opacity='.55'/%3E%3C/svg%3E");
+  background-size: 48px 28px;
+}
+
+/* Continent medallions */
+.page-filigree.theme-europe .pg-medallion {
+  opacity: 0.08;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 120' fill='none'%3E%3Ccircle cx='60' cy='60' r='44' stroke='%235a4628' stroke-width='1.1'/%3E%3Cpath d='M60 30c8 12 14 22 14 30s-6 16-14 24c-8-8-14-16-14-24s6-18 14-30z' stroke='%235a4628' stroke-width='1'/%3E%3Cpath d='M46 58h28M60 46v28' stroke='%237a6238' stroke-width='.8' opacity='.7'/%3E%3C/svg%3E");
+}
+
+.page-filigree.theme-asia .pg-medallion {
+  opacity: 0.085;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 120' fill='none'%3E%3Ccircle cx='60' cy='60' r='44' stroke='%23823828' stroke-width='1.1'/%3E%3Cpath d='M60 28c14 8 24 20 28 32-10-4-18-4-28 4-10-8-18-8-28-4 4-12 14-24 28-32z' stroke='%23823828' stroke-width='1'/%3E%3Ccircle cx='60' cy='58' r='8' stroke='%23a04830' stroke-width='.8'/%3E%3Cpath d='M60 66c-6 10-4 18 0 26 4-8 6-16 0-26z' fill='%23a04830' opacity='.3'/%3E%3C/svg%3E");
+}
+
+.page-filigree.theme-north-america .pg-medallion {
+  opacity: 0.08;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 120' fill='none'%3E%3Ccircle cx='60' cy='60' r='44' stroke='%23465a32' stroke-width='1.1'/%3E%3Cpath d='M60 26c10 14 18 26 18 36 0 12-8 22-18 32-10-10-18-20-18-32 0-10 8-22 18-36z' stroke='%23465a32' stroke-width='1'/%3E%3Cpath d='M48 70c8 4 16 4 24 0' stroke='%235a7040' stroke-width='.8'/%3E%3C/svg%3E");
+}
+
+.page-filigree.theme-south-america .pg-medallion {
+  opacity: 0.085;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 120' fill='none'%3E%3Ccircle cx='60' cy='60' r='44' stroke='%23286446' stroke-width='1.1'/%3E%3Cpath d='M40 86c12-28 16-44 20-62 4 18 8 34 20 62-14-8-20-8-40 0z' stroke='%23286446' stroke-width='1'/%3E%3Cpath d='M50 70c6-3 14-3 20 0M48 78c8-3 16-3 24 0' stroke='%233a8058' stroke-width='.7' opacity='.75'/%3E%3C/svg%3E");
+}
+
+.page-filigree.theme-africa .pg-medallion {
+  opacity: 0.085;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 120' fill='none'%3E%3Ccircle cx='60' cy='60' r='44' stroke='%23965a23' stroke-width='1.1'/%3E%3Ccircle cx='60' cy='60' r='16' stroke='%23965a23' stroke-width='1'/%3E%3Cg stroke='%23b87830' stroke-width='.9'%3E%3Cpath d='M60 22v12M60 86v12M22 60h12M86 60h12M34 34l8 8M78 78l8 8M86 34l-8 8M34 86l8-8'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+.page-filigree.theme-oceania .pg-medallion {
+  opacity: 0.085;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 120' fill='none'%3E%3Ccircle cx='60' cy='60' r='44' stroke='%23285a6e' stroke-width='1.1'/%3E%3Cpath d='M28 64c12-16 24-16 32 0s20 14 32-2' stroke='%23285a6e' stroke-width='1.1'/%3E%3Cpath d='M32 74c10-12 22-12 28 0s18 10 28-2' stroke='%233a7890' stroke-width='.8' opacity='.75'/%3E%3Cpath d='M60 38c6 4 10 10 12 16-4-1-8-1-12 2-4-3-8-3-12-2 2-6 6-12 12-16z' fill='%23285a6e' opacity='.25'/%3E%3C/svg%3E");
+}
+
+/* Side motifs per continent */
+.page-filigree.theme-europe .pg-motif {
+  opacity: 0.11;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='36' height='80' viewBox='0 0 36 80'%3E%3Cpath d='M18 4c4 8 8 14 8 20s-4 12-8 18c-4-6-8-12-8-18s4-12 8-20z' fill='none' stroke='%235a4628' stroke-width='1'/%3E%3Cpath d='M18 44c4 8 8 14 8 20s-4 10-8 14c-4-4-8-8-8-14s4-12 8-20z' fill='none' stroke='%235a4628' stroke-width='1'/%3E%3C/svg%3E");
+}
+
+.page-filigree.theme-asia .pg-motif {
+  opacity: 0.12;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='36' height='72' viewBox='0 0 36 72'%3E%3Cpath d='M18 6c8 6 12 14 12 22S24 48 18 54C12 48 6 36 6 28S10 12 18 6z' fill='none' stroke='%23823828' stroke-width='1'/%3E%3Cpath d='M18 54c0 6 0 10 0 14' stroke='%23823828' stroke-width='1'/%3E%3Cpath d='M12 24c4 2 8 2 12 0M11 34c5 2 9 2 14 0' stroke='%23a04830' stroke-width='.7' opacity='.7'/%3E%3C/svg%3E");
+}
+
+.page-filigree.theme-north-america .pg-motif {
+  opacity: 0.11;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='36' height='72' viewBox='0 0 36 72'%3E%3Cpath d='M18 8c6 10 10 18 10 26S22 52 18 64C14 52 8 42 8 34S12 18 18 8z' fill='none' stroke='%23465a32' stroke-width='1'/%3E%3Cpath d='M12 36h12M14 46h8' stroke='%23465a32' stroke-width='.7' opacity='.65'/%3E%3C/svg%3E");
+}
+
+.page-filigree.theme-south-america .pg-motif {
+  opacity: 0.12;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='36' height='80' viewBox='0 0 36 80'%3E%3Cpath d='M10 72c6-20 8-36 8-56 0 20 2 36 8 56-6-4-10-4-16 0z' fill='none' stroke='%23286446' stroke-width='1'/%3E%3Cpath d='M12 50c4-2 8-2 12 0M11 60c5-2 9-2 14 0' stroke='%23286446' stroke-width='.7' opacity='.7'/%3E%3C/svg%3E");
+}
+
+.page-filigree.theme-africa .pg-motif {
+  opacity: 0.12;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='36' height='72' viewBox='0 0 36 72'%3E%3Ccircle cx='18' cy='22' r='10' fill='none' stroke='%23965a23' stroke-width='1'/%3E%3Cpath d='M18 34v30M12 48h12M14 58h8' stroke='%23965a23' stroke-width='.9'/%3E%3Cg stroke='%23b87830' stroke-width='.7'%3E%3Cpath d='M18 6v4M8 14l3 3M28 14l-3 3'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+.page-filigree.theme-oceania .pg-motif {
+  opacity: 0.12;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='36' height='72' viewBox='0 0 36 72'%3E%3Cpath d='M4 20c8-10 16-10 28 0' fill='none' stroke='%23285a6e' stroke-width='1'/%3E%3Cpath d='M4 32c8-8 16-8 28 0' fill='none' stroke='%23285a6e' stroke-width='.85' opacity='.8'/%3E%3Cpath d='M4 44c8-8 16-8 28 0' fill='none' stroke='%23285a6e' stroke-width='.75' opacity='.65'/%3E%3Cpath d='M4 56c8-6 16-6 28 0' fill='none' stroke='%23285a6e' stroke-width='.65' opacity='.5'/%3E%3C/svg%3E");
+}
+
+/* Corner flourish tint per continent (via CSS filter hue shifts) */
+.page-filigree.theme-asia .pg-corner {
+  filter: hue-rotate(-18deg) saturate(1.15);
+  opacity: 0.24;
+}
+.page-filigree.theme-north-america .pg-corner {
+  filter: hue-rotate(55deg) saturate(0.95);
+  opacity: 0.22;
+}
+.page-filigree.theme-south-america .pg-corner {
+  filter: hue-rotate(85deg) saturate(1.05);
+  opacity: 0.24;
+}
+.page-filigree.theme-africa .pg-corner {
+  filter: hue-rotate(-8deg) saturate(1.2) brightness(1.05);
+  opacity: 0.24;
+}
+.page-filigree.theme-oceania .pg-corner {
+  filter: hue-rotate(150deg) saturate(0.9);
+  opacity: 0.23;
+}
+.page-filigree.theme-europe .pg-corner {
+  filter: hue-rotate(8deg) saturate(0.95);
+  opacity: 0.22;
+}
+
+/* Vine band tints */
+.page-filigree.theme-asia .pg-vine {
+  filter: hue-rotate(-20deg);
+  opacity: 0.16;
+}
+.page-filigree.theme-north-america .pg-vine {
+  filter: hue-rotate(50deg);
+  opacity: 0.15;
+}
+.page-filigree.theme-south-america .pg-vine {
+  filter: hue-rotate(80deg);
+  opacity: 0.16;
+}
+.page-filigree.theme-africa .pg-vine {
+  filter: hue-rotate(-12deg) saturate(1.15);
+  opacity: 0.16;
+}
+.page-filigree.theme-oceania .pg-vine {
+  filter: hue-rotate(145deg);
+  opacity: 0.15;
+}
+
+/* Country variants — subtle secondary shifts so each land feels distinct */
+.page-filigree.theme-var-1 .pg-medallion {
+  transform: translate(-50%, -50%) rotate(18deg);
+  opacity: 0.09;
+}
+.page-filigree.theme-var-2 .pg-medallion {
+  transform: translate(-50%, -50%) scale(1.12);
+  opacity: 0.075;
+}
+.page-filigree.theme-var-3 .pg-vine.top {
+  opacity: 0.2;
+}
+.page-filigree.theme-var-3 .pg-vine.bottom {
+  opacity: 0.08;
+}
+.page-filigree.theme-var-4 .pg-corner {
+  opacity: 0.3;
+}
+.page-filigree.theme-var-4 .pg-motif {
+  opacity: 0.16;
+}
+.page-filigree.theme-var-5 .pg-medallion {
+  transform: translate(-50%, -50%) rotate(-22deg) scale(0.9);
+}
+.page-filigree.theme-var-5::before {
+  opacity: 0.07;
+}
+
+/* Country pages get a slightly stronger motif than continent overview */
+.page[class*="theme-country-"] .pg-motif {
+  opacity: 0.14;
+}
+
 .page-content {
   position: relative;
   z-index: 1;

@@ -10,6 +10,20 @@ import { escapeAttr } from "./lib/dom";
 import { renderLeftPage } from "./lib/pages-left";
 import { renderRightPage } from "./lib/pages-right";
 import { toggleFavorite } from "./lib/favorites";
+import { pageThemeClass, pageThemeForView } from "./lib/page-theme";
+import {
+  advanceBoostStage,
+  allGrowthStages,
+  getBoostStageIndex,
+  getDiscoveryProgress,
+  growFromIndex,
+  isFertilized,
+  isSunflowerBloomed,
+  markDiscovered,
+  resetGardenRitual,
+  setFertilized,
+  visualStageIndex,
+} from "./lib/discovery";
 
 let data: AppData = {
   continents: [],
@@ -52,11 +66,16 @@ function onPlantKeyNav(ev: KeyboardEvent): void {
 }
 window.addEventListener("keydown", onPlantKeyNav);
 
+function recordPlantDiscovery(next: View): void {
+  if (next.type === "plant") markDiscovered(next.plantId);
+}
+
 function navigate(next: View, pushHistory = true): void {
   if (isTurning) return;
   if (view.type === "start" && next.type !== "start") {
     // Opening flourish
     isTurning = true;
+    recordPlantDiscovery(next);
     view = next;
     render();
     const book = document.querySelector(".book");
@@ -77,6 +96,7 @@ function navigate(next: View, pushHistory = true): void {
   document.querySelector(".book")?.classList.add("turning");
   document.querySelector(".page-flip")?.classList.add("flipping");
   window.setTimeout(() => {
+    recordPlantDiscovery(next);
     view = next;
     isTurning = false;
     render();
@@ -186,6 +206,8 @@ function render(): void {
   }
 
   const canBack = historyStack.length > 0 || view.type !== "continents";
+  const theme = pageThemeForView(data, view);
+  const themeCls = pageThemeClass(theme);
 
   app.innerHTML = `
     <div class="mobile-gate extreme"><h1>${L.mobileTitle}</h1><p>${L.mobileBody}</p></div>
@@ -231,21 +253,23 @@ function render(): void {
           <span class="corner-wear bl" aria-hidden="true"></span>
           <span class="corner-wear br" aria-hidden="true"></span>
           <div class="book-inner">
-            <div class="page page-left">
-              <div class="page-filigree" aria-hidden="true">
+            <div class="page page-left ${themeCls}">
+              <div class="page-filigree ${themeCls}" aria-hidden="true">
                 <span class="pg-corner tl"></span><span class="pg-corner tr"></span>
                 <span class="pg-corner bl"></span><span class="pg-corner br"></span>
                 <span class="pg-vine top"></span><span class="pg-vine bottom"></span>
                 <span class="pg-medallion"></span>
+                <span class="pg-motif"></span>
               </div>
               <div class="page-content" id="page-left-root">${renderLeftPage(data, view, lang, L, { activeCategoryIds })}</div>
             </div>
-            <div class="page page-right">
-              <div class="page-filigree" aria-hidden="true">
+            <div class="page page-right ${themeCls}">
+              <div class="page-filigree ${themeCls}" aria-hidden="true">
                 <span class="pg-corner tl"></span><span class="pg-corner tr"></span>
                 <span class="pg-corner bl"></span><span class="pg-corner br"></span>
                 <span class="pg-vine top"></span><span class="pg-vine bottom"></span>
                 <span class="pg-medallion"></span>
+                <span class="pg-motif"></span>
               </div>
               <div class="page-content">${renderRightPage(data, view, lang, L)}</div>
             </div>
@@ -432,6 +456,159 @@ function bindEvents(): void {
       }
     })
   );
+
+  bindDiscoveryGarden();
+}
+
+/** Continents-page sunflower: fert → water per stage until bloom. */
+let discoveryAnimating = false;
+
+function bindDiscoveryGarden(): void {
+  if (view.type !== "continents") return;
+  const garden = app.querySelector<HTMLElement>(".discovery-garden");
+  if (!garden) return;
+
+  const L = labels(lang);
+  const fertBtn = garden.querySelector<HTMLButtonElement>("[data-discovery-fert]");
+  const waterBtn = garden.querySelector<HTMLButtonElement>("[data-discovery-water]");
+  const resetBtn = garden.querySelector<HTMLButtonElement>("[data-discovery-reset]");
+  const hint = garden.querySelector<HTMLElement>("[data-discovery-hint]");
+  const waterLayer = garden.querySelector<HTMLElement>("[data-discovery-water-layer]");
+  const confetti = garden.querySelector<HTMLElement>("[data-discovery-confetti]");
+  const congrats = garden.querySelector<HTMLElement>("[data-discovery-congrats]");
+
+  const stages = allGrowthStages();
+
+  const showHint = (msg: string): void => {
+    if (!hint) return;
+    hint.textContent = msg;
+    hint.hidden = false;
+    window.setTimeout(() => {
+      if (hint.textContent === msg) hint.hidden = true;
+    }, 2800);
+  };
+
+  const applyStageVisual = (stage: string, index: number): void => {
+    for (const s of stages) garden.classList.remove(`stage-${s}`);
+    garden.classList.add(`stage-${stage}`);
+    garden.dataset.stage = stage;
+    garden.dataset.stageIndex = String(index);
+    garden.style.setProperty("--grow", String(growFromIndex(index)));
+  };
+
+  const spawnWaterDrops = (): void => {
+    if (!waterLayer) return;
+    waterLayer.querySelectorAll("i").forEach((n) => n.remove());
+    for (let n = 0; n < 5; n++) {
+      const drop = document.createElement("i");
+      drop.style.right = `${12 + n * 7 + Math.random() * 4}%`;
+      drop.style.top = `${8 + Math.random() * 10}%`;
+      drop.style.animationDelay = `${n * 0.08}s`;
+      waterLayer.appendChild(drop);
+    }
+  };
+
+  fertBtn?.addEventListener("click", () => {
+    if (discoveryAnimating || isSunflowerBloomed()) return;
+    if (isFertilized()) {
+      // Already fertilized this stage — nudge toward watering can.
+      waterBtn?.classList.add("is-nudge");
+      window.setTimeout(() => waterBtn?.classList.remove("is-nudge"), 450);
+      return;
+    }
+    discoveryAnimating = true;
+    fertBtn.classList.add("is-pouring");
+    fertBtn.classList.remove("is-ready");
+    window.setTimeout(() => {
+      fertBtn.classList.remove("is-pouring");
+      fertBtn.classList.add("is-ready");
+      setFertilized(true);
+      garden.classList.add("is-fertilized");
+      discoveryAnimating = false;
+    }, 850);
+  });
+
+  waterBtn?.addEventListener("click", () => {
+    if (discoveryAnimating) return;
+    if (isSunflowerBloomed()) {
+      showHint(L.discoveryAlreadyBloomed);
+      return;
+    }
+    if (!isFertilized()) {
+      showHint(L.discoveryNeedFertilizer);
+      fertBtn?.classList.add("is-nudge");
+      waterBtn.classList.add("is-nudge");
+      window.setTimeout(() => {
+        fertBtn?.classList.remove("is-nudge");
+        waterBtn.classList.remove("is-nudge");
+      }, 450);
+      return;
+    }
+
+    discoveryAnimating = true;
+    if (hint) hint.hidden = true;
+
+    waterBtn.classList.add("is-pouring");
+    waterLayer?.classList.add("is-active");
+    spawnWaterDrops();
+
+    // One stage per fert→water cycle
+    window.setTimeout(() => {
+      const ratio = getDiscoveryProgress(
+        data.plants.length,
+        data.plants.map((p) => p.id)
+      ).ratio;
+      const newStage = advanceBoostStage(ratio);
+      const idx = visualStageIndex(
+        ratio,
+        getBoostStageIndex(),
+        isSunflowerBloomed()
+      );
+      applyStageVisual(newStage, idx);
+
+      fertBtn?.classList.remove("is-ready");
+      garden.classList.remove("is-fertilized");
+      waterBtn.classList.remove("is-pouring");
+      waterLayer?.classList.remove("is-active");
+      waterLayer?.querySelectorAll("i").forEach((n) => n.remove());
+
+      if (isSunflowerBloomed() || newStage === "bloom") {
+        garden.classList.add("is-bloomed");
+        if (fertBtn) fertBtn.disabled = true;
+        waterBtn.disabled = true;
+        burstConfetti(confetti);
+        if (congrats) congrats.hidden = false;
+      }
+
+      discoveryAnimating = false;
+    }, 1050);
+  });
+
+  resetBtn?.addEventListener("click", () => {
+    if (discoveryAnimating) return;
+    resetGardenRitual();
+    discoveryAnimating = false;
+    render();
+  });
+}
+
+function burstConfetti(layer: HTMLElement | null): void {
+  if (!layer) return;
+  layer.innerHTML = "";
+  layer.classList.add("is-active");
+  const colors = ["#e8b840", "#f0d060", "#7aaa44", "#c47848", "#d06060", "#6a9ad0"];
+  for (let n = 0; n < 28; n++) {
+    const bit = document.createElement("i");
+    bit.style.left = `${8 + Math.random() * 84}%`;
+    bit.style.background = colors[n % colors.length]!;
+    bit.style.animationDelay = `${Math.random() * 0.45}s`;
+    bit.style.transform = `rotate(${Math.random() * 360}deg)`;
+    layer.appendChild(bit);
+  }
+  window.setTimeout(() => {
+    layer.classList.remove("is-active");
+    layer.innerHTML = "";
+  }, 2200);
 }
 
 async function boot(): Promise<void> {
