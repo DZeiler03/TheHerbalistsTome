@@ -1,0 +1,39 @@
+{
+  "id": "blue-enzian",
+  "nameEn": "Blue Gentian",
+  "nameDe": "Blauer Enzian",
+  "scientificName": "Gentiana acaulis",
+  "family": "Gentianaceae",
+  "kind": "herb",
+  "countryIds": [
+    "at",
+    "ch",
+    "de",
+    "it",
+    "fr"
+  ],
+  "partsUsed": "Flowers (ornamental/protected); related gentian roots historically medicinal",
+  "partsUsedDe": "Blüten (Zier/geschützt); verwandte Enzianwurzeln historisch heilkundlich",
+  "habitat": "Alpine and subalpine meadows of the European Alps and nearby ranges.",
+  "habitatDe": "Alpine und subalpine Wiesen der Alpen und angrenzender Gebirge.",
+  "traditionalUsesEn": "Iconic alpine wildflower of mountain meadows; related yellow gentian root is the classical bitter tonic (G. acaulis itself is mainly cultural/ornamental and often protected).",
+  "traditionalUsesDe": "Ikonische Alpenblume der Bergwiesen; der verwandte gelbe Enzian liefert die klassische Bitterwurzel (G. acaulis selbst vor allem kulturell/Zier und oft geschützt).",
+  "activeCompounds": "Secoiridoid bitters (related gentian species); pigments in corolla",
+  "activeCompoundsDe": "Secoiridoid-Bitterstoffe (verwandte Enzianarten); Blütenfarbstoffe",
+  "preparation": "Not for casual wild harvest. Admire in the field; use cultivated ornamental plants only.",
+  "preparationDe": "Nicht zur unbedachten Wildsammlung. Im Gelände bewundern; nur kultivierte Zierpflanzen verwenden.",
+  "cautions": "Protected in many Alpine regions — do not pick wild plants. Not a household tea herb.",
+  "cautionsDe": "In vielen Alpenregionen geschützt — wild nicht pflücken. Kein Haushalts-Teekraut.",
+  "floweringSeason": "May–July",
+  "floweringSeasonDe": "Mai–Juli",
+  "historicalNotes": "Deep-blue trumpet of the Alps in folklore, hiking culture, and regional emblems.",
+  "historicalNotesDe": "Tiefblaue Trompetenblüte der Alpen in Folklore, Wanderkultur und regionalen Symbolen.",
+  "useCategoryIds": [
+    "aromatic",
+    "digestive"
+  ],
+  "bloomSeasons": [
+    "spring",
+    "summer"
+  ]
+}
