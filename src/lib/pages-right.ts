@@ -49,6 +49,7 @@ export function renderRightPage(
         <h2 class="page-title">${L.further}</h2>
       </header>
       <div class="fact-grid print-facts">
+        ${fact(L.compounds, plantText(plant, "activeCompounds", lang, L.unknown), L.unknown)}
         ${fact(L.preparation, plantText(plant, "preparation", lang, L.unknown), L.unknown)}
         ${fact(L.cautions, plantText(plant, "cautions", lang, L.unknown), L.unknown)}
         ${fact(L.flowering, plantText(plant, "floweringSeason", lang, L.unknown), L.unknown)}

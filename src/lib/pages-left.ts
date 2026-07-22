@@ -89,12 +89,12 @@ function categoryChips(
     })
     .join("");
   const clear = active.length
-    ? `<button type="button" class="chip chip-link category-clear active" data-category-clear="1">${escapeHtml(L.clearFilter)}</button>`
+    ? `<button type="button" class="category-clear-btn" data-category-clear="1" title="${escapeHtml(L.clearFilter)}"><span class="category-clear-icon" aria-hidden="true">✕</span><span class="category-clear-label">${escapeHtml(L.clearFilter)}</span></button>`
     : "";
   const status = active.length
     ? `<span class="filter-status">${escapeHtml(L.filterActive)} · ${active.length}</span>`
     : "";
-  return `<div class="category-filter${active.length ? " has-active" : ""}"><div class="category-filter-head"><span class="category-filter-label">${escapeHtml(L.categoryFilter)}</span>${status}</div><div class="plant-flags">${chips}${clear}</div></div>`;
+  return `<div class="category-filter${active.length ? " has-active" : ""}"><div class="category-filter-head"><span class="category-filter-label">${escapeHtml(L.categoryFilter)}</span>${status}</div><div class="plant-flags">${chips}</div>${clear ? `<div class="category-clear-row">${clear}</div>` : ""}</div>`;
 }
 
 const CONTINENT_EMOJI: Record<string, string> = {
@@ -334,7 +334,6 @@ export function renderLeftPage(
           ${fact(L.partsUsed, plantText(plant, "partsUsed", lang, L.unknown), L.unknown)}
           ${fact(L.habitat, plantText(plant, "habitat", lang, L.unknown), L.unknown)}
           ${fact(L.uses, plantUses(plant, lang), L.unknown)}
-          ${fact(L.compounds, plantText(plant, "activeCompounds", lang, L.unknown), L.unknown)}
         </div>
       </article>
     `;
