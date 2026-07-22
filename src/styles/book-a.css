@@ -652,9 +652,54 @@
   color: #fffdf5 !important;
 }
 
+/* Clear filter — compact chip, slight highlight only */
+.category-clear-row {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 0.45rem;
+}
+
+.category-clear-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.3rem;
+  padding: 0.35rem 0.7rem;
+  font-family: inherit;
+  font-size: 0.95rem;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  text-transform: none;
+  color: #6b3a28;
+  cursor: pointer;
+  background: rgba(255, 250, 235, 0.7);
+  border: 1px solid rgba(139, 80, 50, 0.35);
+  border-left: 3px solid rgba(139, 80, 50, 0.65);
+  border-radius: 0;
+  box-shadow: 1px 1px 0 rgba(90, 61, 40, 0.08);
+  transition: background 0.12s, border-color 0.12s, color 0.12s;
+}
+
+.category-clear-btn:hover {
+  background: rgba(255, 248, 230, 0.95);
+  border-color: rgba(139, 80, 50, 0.5);
+  color: #5a2e1c;
+}
+
+.category-clear-icon {
+  font-size: 0.72rem;
+  line-height: 1;
+  opacity: 0.85;
+}
+
+.category-clear-label {
+  white-space: nowrap;
+}
+
+/* Legacy chip-style clear (if any remain) */
 .category-clear.active {
-  background: rgba(139, 60, 40, 0.15);
-  border-color: rgba(139, 60, 40, 0.4);
+  background: rgba(139, 60, 40, 0.12);
+  border-color: rgba(139, 60, 40, 0.35);
   color: #6b2e1a;
 }
 
