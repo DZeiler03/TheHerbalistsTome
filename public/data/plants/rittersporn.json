@@ -1,0 +1,40 @@
+{
+  "id": "rittersporn",
+  "nameEn": "Larkspur / Forking Larkspur",
+  "nameDe": "Rittersporn",
+  "scientificName": "Consolida regalis",
+  "family": "Ranunculaceae",
+  "kind": "herb",
+  "countryIds": [
+    "de",
+    "at",
+    "ch",
+    "fr",
+    "pl",
+    "hu",
+    "cz",
+    "it"
+  ],
+  "partsUsed": "Flowering herb historically (toxic — not for casual use)",
+  "partsUsedDe": "Blühendes Kraut historisch (giftig — nicht für den ungezielten Gebrauch)",
+  "habitat": "Cornfields, field margins and dry meadows of Europe.",
+  "habitatDe": "Getreidefelder, Feldraine und trockene Wiesen Europas.",
+  "traditionalUsesEn": "Historic European dye and ornamental wildflower; traditional external folklore only — toxic alkaloids make internal use unsafe.",
+  "traditionalUsesDe": "Historische europäische Färber- und Zierwildblume; traditionell nur äußerliche Volksanwendung — giftige Alkaloide machen innerliche Nutzung unsicher.",
+  "activeCompounds": "Diterpenoid alkaloids (delphinine-type), anthocyanins in flowers",
+  "activeCompoundsDe": "Diterpen-Alkaloide (Delphinin-Typ), Anthocyane in den Blüten",
+  "preparation": "Not for home internal use. Ornamental and historical reference only.",
+  "preparationDe": "Nicht zur innerlichen Hausanwendung. Nur Zier- und historische Referenz.",
+  "cautions": "Toxic if ingested. Seeds and herb poisonous. Keep away from children and pets. Not a culinary herb.",
+  "cautionsDe": "Giftig bei Einnahme. Samen und Kraut giftig. Von Kindern und Haustieren fernhalten. Kein Küchenkraut.",
+  "floweringSeason": "June–August",
+  "floweringSeasonDe": "Juni–August",
+  "historicalNotes": "Acker-Rittersporn of European field flora; garden delphiniums are related showy relatives.",
+  "historicalNotesDe": "Acker-Rittersporn der europäischen Ackerflora; Garten-Delphinien sind verwandte Zierformen.",
+  "useCategoryIds": [
+    "aromatic"
+  ],
+  "bloomSeasons": [
+    "summer"
+  ]
+}
