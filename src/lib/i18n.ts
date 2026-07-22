@@ -24,7 +24,7 @@ export function labels(lang: Lang) {
         folio: "Handbüchlein der Kräuterkundler",
         rightTitle: "Blättere behutsam",
         rightBody:
-          "Wähle einen Kontinent, ein Land und entdecke Heilpflanzen mit gesicherten Angaben. Unsicheres Wissen steht als „Unbekannt“.",
+          "Wähle einen Kontinent, ein Land und entdecke Heilpflanzen mit gesicherten Angaben.",
         partsUsed: "Verwendete Teile",
         habitat: "Lebensraum",
         uses: "Traditionelle Anwendungen",
@@ -85,6 +85,18 @@ export function labels(lang: Lang) {
         seasonYearRound: "Ganzjährig",
         seasonalIntro: "Blühende Pflanzen nach Kontinent – wähle eine Jahreszeit.",
         favoritesIntro: "Deine gespeicherten Pflanzen",
+        discoveryLabel: "Entdeckungen",
+        discoveryHint: "Pflanzenseiten, die du geöffnet hast",
+        discoveryCount: (visited: number, total: number) =>
+          `${visited} / ${total}`,
+        discoveryFertilizer: "Dünger einstreuen",
+        discoveryWater: "Gießkanne",
+        discoveryNeedFertilizer: "Zuerst den Dünger verwenden.",
+        discoveryCongratsTitle: "Glückwunsch!",
+        discoveryCongratsBody:
+          "Deine Sonnenblume blüht in voller Pracht. Weiter so, Kräuterkundler!",
+        discoveryAlreadyBloomed: "Die Sonnenblume blüht bereits.",
+        discoveryReset: "Zurücksetzen",
       }
     : {
         continents: "Continents",
@@ -108,7 +120,7 @@ export function labels(lang: Lang) {
         folio: "Handbook of the Herbalists",
         rightTitle: "Turn the leaves",
         rightBody:
-          "Choose a continent, a country, and discover medicinal plants with verified facts. Uncertain knowledge is marked “Unknown”.",
+          "Choose a continent, a country, and discover medicinal plants with verified facts.",
         partsUsed: "Parts used",
         habitat: "Habitat",
         uses: "Traditional uses",
@@ -168,6 +180,18 @@ export function labels(lang: Lang) {
         seasonYearRound: "Year-round",
         seasonalIntro: "Blooming plants by continent — pick a season.",
         favoritesIntro: "Your saved plants",
+        discoveryLabel: "Discoveries",
+        discoveryHint: "Plant pages you have opened",
+        discoveryCount: (visited: number, total: number) =>
+          `${visited} / ${total}`,
+        discoveryFertilizer: "Apply fertilizer",
+        discoveryWater: "Watering can",
+        discoveryNeedFertilizer: "Use the fertilizer first.",
+        discoveryCongratsTitle: "Congratulations!",
+        discoveryCongratsBody:
+          "Your sunflower is in full bloom. Keep exploring, herbalist!",
+        discoveryAlreadyBloomed: "The sunflower is already in bloom.",
+        discoveryReset: "Reset",
       };
 }
 
