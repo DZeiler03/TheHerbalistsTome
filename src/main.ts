@@ -222,15 +222,33 @@ function render(): void {
       </div>
       <div class="book">
         <div class="book-cover">
-          <span class="corner-stud tl"></span><span class="corner-stud tr"></span>
-          <span class="corner-stud bl"></span><span class="corner-stud br"></span>
+          <span class="corner-stud tl" aria-hidden="true"></span>
+          <span class="corner-stud tr" aria-hidden="true"></span>
+          <span class="corner-stud bl" aria-hidden="true"></span>
+          <span class="corner-stud br" aria-hidden="true"></span>
           <span class="corner-wear tl" aria-hidden="true"></span>
           <span class="corner-wear tr" aria-hidden="true"></span>
           <span class="corner-wear bl" aria-hidden="true"></span>
           <span class="corner-wear br" aria-hidden="true"></span>
           <div class="book-inner">
-            <div class="page page-left"><div class="page-content" id="page-left-root">${renderLeftPage(data, view, lang, L, { activeCategoryIds })}</div></div>
-            <div class="page page-right"><div class="page-content">${renderRightPage(data, view, lang, L)}</div></div>
+            <div class="page page-left">
+              <div class="page-filigree" aria-hidden="true">
+                <span class="pg-corner tl"></span><span class="pg-corner tr"></span>
+                <span class="pg-corner bl"></span><span class="pg-corner br"></span>
+                <span class="pg-vine top"></span><span class="pg-vine bottom"></span>
+                <span class="pg-medallion"></span>
+              </div>
+              <div class="page-content" id="page-left-root">${renderLeftPage(data, view, lang, L, { activeCategoryIds })}</div>
+            </div>
+            <div class="page page-right">
+              <div class="page-filigree" aria-hidden="true">
+                <span class="pg-corner tl"></span><span class="pg-corner tr"></span>
+                <span class="pg-corner bl"></span><span class="pg-corner br"></span>
+                <span class="pg-vine top"></span><span class="pg-vine bottom"></span>
+                <span class="pg-medallion"></span>
+              </div>
+              <div class="page-content">${renderRightPage(data, view, lang, L)}</div>
+            </div>
             <div class="page-flip" aria-hidden="true"></div>
           </div>
         </div>

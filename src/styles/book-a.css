@@ -325,7 +325,7 @@
   min-width: 0;
 }
 
-/* Pages — aged parchment */
+/* Pages — aged parchment + filigree underlay */
 .page {
   flex: 1;
   position: relative;
@@ -362,8 +362,9 @@
   content: "";
   position: absolute;
   inset: 0;
-  opacity: 0.42;
+  opacity: 0.38;
   pointer-events: none;
+  z-index: 0;
   background-image:
     radial-gradient(circle at 12% 88%, rgba(140, 90, 40, 0.18) 0 2%, transparent 8%),
     radial-gradient(circle at 88% 12%, rgba(120, 70, 30, 0.14) 0 1.5%, transparent 7%),
@@ -372,24 +373,127 @@
   mix-blend-mode: multiply;
 }
 
+/* Soft edge vignette */
 .page::after {
   content: "";
   position: absolute;
   inset: 0;
   pointer-events: none;
+  z-index: 0;
   background:
     linear-gradient(180deg, rgba(90, 60, 30, 0.06) 0%, transparent 8%),
     linear-gradient(0deg, rgba(90, 60, 30, 0.08) 0%, transparent 10%),
     linear-gradient(90deg, rgba(60, 40, 15, 0.05) 0%, transparent 6%),
     linear-gradient(270deg, rgba(60, 40, 15, 0.05) 0%, transparent 6%);
+}
+
+/* ─── Filigree ornaments on parchment (old herbal manuscript style) ─── */
+.page-filigree {
+  position: absolute;
+  inset: 0;
   z-index: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+/* Corner vine flourishes */
+.page-filigree .pg-corner {
+  position: absolute;
+  width: 72px;
+  height: 72px;
+  opacity: 0.22;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 80 80' fill='none'%3E%3Cpath d='M8 8h36c0 8-4 14-10 18 8 2 14 8 16 16-8-4-14-4-20 0 2-8-2-16-10-20 6-2 10-8 10-14H8V8z' stroke='%238a6420' stroke-width='1.4'/%3E%3Cpath d='M12 12c10 2 18 8 22 18-6-2-12-2-18 2 2-6 0-12-4-16z' stroke='%23a67c2e' stroke-width='1' opacity='.9'/%3E%3Cpath d='M20 20c6 4 10 10 12 16' stroke='%23c9a66b' stroke-width='.9' opacity='.85'/%3E%3Ccircle cx='18' cy='18' r='2' fill='%23a67c2e' opacity='.55'/%3E%3Cpath d='M28 14c4 0 8 3 9 7-3-1-6-1-9 0v-7z' fill='%23c9a66b' opacity='.35'/%3E%3Cpath d='M14 28c0 4 3 8 7 9-1-3-1-6 0-9h-7z' fill='%23c9a66b' opacity='.35'/%3E%3Cpath d='M36 36c-6-2-10-6-12-12' stroke='%238a6420' stroke-width='.8' opacity='.5'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.page-filigree .pg-corner.tl {
+  top: 10px;
+  left: 10px;
+}
+
+.page-filigree .pg-corner.tr {
+  top: 10px;
+  right: 10px;
+  transform: scaleX(-1);
+}
+
+.page-filigree .pg-corner.bl {
+  bottom: 10px;
+  left: 10px;
+  transform: scaleY(-1);
+}
+
+.page-filigree .pg-corner.br {
+  bottom: 10px;
+  right: 10px;
+  transform: scale(-1);
+}
+
+/* Horizontal herbal vine bands */
+.page-filigree .pg-vine {
+  position: absolute;
+  left: 14%;
+  right: 14%;
+  height: 28px;
+  opacity: 0.14;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 40' preserveAspectRatio='none' fill='none'%3E%3Cpath d='M0 22c40-14 70 10 110 0s70-16 110 2 70 8 110-4 50-6 70 2' stroke='%238a6420' stroke-width='1.2'/%3E%3Cpath d='M20 20c8-10 18-10 22 0-6 2-12 2-22 0zm60 2c8-10 18-10 22 0-6 2-12 2-22 0zm70-4c8-10 18-10 22 0-6 2-12 2-22 0zm70 6c8-10 18-10 22 0-6 2-12 2-22 0zm70-2c8-10 18-10 22 0-6 2-12 2-22 0z' fill='%23a67c2e' opacity='.55'/%3E%3Cpath d='M0 26c45-8 80 6 120 0s75-10 115 2 70 6 100-2 50-4 65 2' stroke='%23c9a66b' stroke-width='.7' opacity='.8'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.page-filigree .pg-vine.top {
+  top: 18px;
+}
+
+.page-filigree .pg-vine.bottom {
+  bottom: 16px;
+  transform: scaleY(-1);
+  opacity: 0.12;
+}
+
+/* Center watermark medallion (herb seal) */
+.page-filigree .pg-medallion {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: min(200px, 58%);
+  height: min(200px, 42%);
+  transform: translate(-50%, -50%);
+  opacity: 0.07;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 120' fill='none'%3E%3Ccircle cx='60' cy='60' r='46' stroke='%238a6420' stroke-width='1.2'/%3E%3Ccircle cx='60' cy='60' r='40' stroke='%23a67c2e' stroke-width='.7' stroke-dasharray='2 3'/%3E%3Cpath d='M60 28c2 10 2 18 0 28-8-4-14-10-18-18 8 2 14 2 18-10zm0 64c-2-10-2-18 0-28 8 4 14 10 18 18-8-2-14-2-18 10zM28 60c10-2 18-2 28 0-4 8-10 14-18 18 2-8 2-14-10-18zm64 0c-10 2-18 2-28 0 4-8 10-14 18-18-2 8-2 14 10 18z' stroke='%238a6420' stroke-width='1'/%3E%3Cpath d='M60 44c8 6 12 12 14 20-6-2-10-2-14 2-4-4-8-4-14-2 2-8 6-14 14-20z' fill='%23a67c2e' opacity='.35'/%3E%3Ccircle cx='60' cy='60' r='4' fill='%238a6420' opacity='.4'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+/* Faint repeating diamond lattice in mid-page (manuscript ruling feel) */
+.page-filigree::before {
+  content: "";
+  position: absolute;
+  inset: 48px 28px 48px 28px;
+  opacity: 0.045;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='48' height='48' viewBox='0 0 48 48'%3E%3Cpath d='M24 2 L46 24 L24 46 L2 24 Z' fill='none' stroke='%238a6420' stroke-width='0.6'/%3E%3C/svg%3E");
+  background-size: 48px 48px;
+  pointer-events: none;
+}
+
+/* Inner hairline frame */
+.page-filigree::after {
+  content: "";
+  position: absolute;
+  inset: 12px 14px 14px 14px;
+  border: 1px solid rgba(138, 100, 40, 0.12);
+  box-shadow: inset 0 0 0 4px rgba(201, 166, 107, 0.06);
+  pointer-events: none;
+  border-radius: 2px;
 }
 
 .page-content {
   position: relative;
   z-index: 1;
   height: 100%;
-  padding: 1.75rem 1.75rem 2.5rem;
+  padding: 1.9rem 1.85rem 2.6rem;
   overflow-y: auto;
   scrollbar-width: thin;
   scrollbar-color: var(--parchment-edge) transparent;
