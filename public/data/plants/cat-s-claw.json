@@ -13,7 +13,7 @@
   "habitat": "Amazonian rainforest vines of Peru and neighboring countries.",
   "traditionalUsesEn": "Traditional Asháninka and Amazonian use for inflammatory complaints; modern bark extracts.",
   "traditionalUsesDe": "Traditionelles Stärkungs- und Entzündungsmittel der Amazonas-Kulturen.",
-  "activeCompounds": "Oxindole alkaloids, triterpenes, polyphenols",
+  "activeCompounds": "Oxindole alkaloids, triterpenes, polyphenols.",
   "preparation": "Bark decoctions and standardized extracts.",
   "cautions": "May stimulate immune activity—caution with autoimmune disease and before surgery. Professional advice.",
   "floweringSeason": "Unknown",
@@ -21,10 +21,10 @@
   "kind": "vine",
   "partsUsedDe": "Rinde, Wurzelrinde",
   "habitatDe": "Amazonas-Regenwälder Südamerikas.",
-  "activeCompoundsDe": "Oxindol-Alkaloide, Triterpene, Polyphenole",
+  "activeCompoundsDe": "Oxindol-Alkaloide, Triterpene, Polyphenole.",
   "preparationDe": "Rindendekokte und standardisierte Extrakte.",
   "cautionsDe": "Kann die Immunaktivität anregen – Vorsicht bei Autoimmunerkrankungen und vor Operationen. Fachlichen Rat einholen.",
-  "floweringSeasonDe": "Regionabhängig in den Tropen",
+  "floweringSeasonDe": "Regionabhängig in den Tropen.",
   "historicalNotesDe": "Amazonisches Heilkraut der indigenen Medizin; moderne Extraktindustrie.",
   "useCategoryIds": [
     "anti-inflammatory"
