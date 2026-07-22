@@ -12,6 +12,15 @@ import { escapeAttr, escapeHtml, FLAG_URL, tName } from "./dom";
 import { plantText } from "./plant-text";
 import { getFavoriteIds } from "./favorites";
 import { continentMapHtml } from "./continent-maps";
+import {
+  getBoostStageIndex,
+  getDiscoveryProgress,
+  growFromIndex,
+  isFertilized,
+  isSunflowerBloomed,
+  visualStage,
+  visualStageIndex,
+} from "./discovery";
 
 function fact(title: string, body: string, unknown: string): string {
   return `
@@ -60,12 +69,92 @@ export function renderRightPage(
   }
 
   if (view.type === "continents") {
+    const validIds = data.plants.map((p) => p.id);
+    const progress = getDiscoveryProgress(data.plants.length, validIds);
+    const bloomed = isSunflowerBloomed();
+    const fert = isFertilized();
+    const boost = getBoostStageIndex();
+    const stageIdx = visualStageIndex(progress.ratio, boost, bloomed);
+    const stage = visualStage(progress.ratio, boost, bloomed);
+    const grow = growFromIndex(stageIdx);
     return `
       <div class="page-ornament continent-right">
         <div class="tome-seal" aria-hidden="true">❧</div>
-        <div class="big-leaf">🌿</div>
         <h3>${escapeHtml(L.rightTitle)}</h3>
         <p>${escapeHtml(L.rightBody)}</p>
+        <section
+          class="discovery-garden stage-${stage}${bloomed ? " is-bloomed" : ""}${fert ? " is-fertilized" : ""}"
+          style="--grow: ${grow.toFixed(3)}"
+          data-stage="${stage}"
+          data-stage-index="${stageIdx}"
+          aria-label="${escapeAttr(L.discoveryLabel)}"
+        >
+          <p class="discovery-label">${escapeHtml(L.discoveryLabel)}</p>
+          <div class="discovery-scene">
+            <button
+              type="button"
+              class="discovery-fertilizer${fert ? " is-ready" : ""}"
+              data-discovery-fert="1"
+              title="${escapeAttr(L.discoveryFertilizer)}"
+              aria-label="${escapeAttr(L.discoveryFertilizer)}"
+              ${bloomed ? "disabled" : ""}
+            >
+              <span class="fert-bag" aria-hidden="true"></span>
+              <span class="fert-granules" aria-hidden="true"></span>
+              <span class="fert-label">${escapeHtml(L.discoveryFertilizer)}</span>
+            </button>
+            <div class="discovery-plant-wrap" aria-hidden="true">
+              <div class="discovery-plant">
+                <div class="disc-seed"></div>
+                <div class="disc-stem"></div>
+                <div class="disc-leaf leaf-l"></div>
+                <div class="disc-leaf leaf-r"></div>
+                <div class="disc-leaf leaf-l2"></div>
+                <div class="disc-leaf leaf-r2"></div>
+                <div class="disc-leaf leaf-l3"></div>
+                <div class="disc-leaf leaf-r3"></div>
+                <div class="disc-bud"></div>
+                <div class="disc-bloom">
+                  <div class="disc-petals"></div>
+                  <div class="disc-center"></div>
+                </div>
+              </div>
+              <div class="discovery-pot">
+                <div class="pot-rim"></div>
+                <div class="pot-body"></div>
+                <div class="pot-soil"></div>
+              </div>
+              <div class="discovery-water-layer" data-discovery-water-layer aria-hidden="true"></div>
+            </div>
+            <button
+              type="button"
+              class="discovery-can"
+              data-discovery-water="1"
+              title="${escapeAttr(L.discoveryWater)}"
+              aria-label="${escapeAttr(L.discoveryWater)}"
+              ${bloomed ? "disabled" : ""}
+            >
+              <span class="can-body" aria-hidden="true">
+                <span class="can-stream" aria-hidden="true"></span>
+              </span>
+              <span class="can-label">${escapeHtml(L.discoveryWater)}</span>
+            </button>
+            <div class="discovery-confetti" data-discovery-confetti aria-hidden="true"></div>
+          </div>
+          <p class="discovery-count">${escapeHtml(L.discoveryCount(progress.visited, progress.total))}</p>
+          <p class="discovery-caption">${escapeHtml(L.discoveryHint)}</p>
+          <button
+            type="button"
+            class="discovery-reset"
+            data-discovery-reset="1"
+            title="${escapeAttr(L.discoveryReset)}"
+          >${escapeHtml(L.discoveryReset)}</button>
+          <p class="discovery-hint" data-discovery-hint hidden></p>
+          <div class="discovery-congrats" data-discovery-congrats ${bloomed ? "" : "hidden"}>
+            <strong>${escapeHtml(L.discoveryCongratsTitle)}</strong>
+            <span>${escapeHtml(L.discoveryCongratsBody)}</span>
+          </div>
+        </section>
         <div class="tome-counter tome-counter-right" role="status">
           <span class="tome-counter-num">${data.plants.length}</span>
           <span class="tome-counter-label">${escapeHtml(L.tomeCountLabel)}</span>
