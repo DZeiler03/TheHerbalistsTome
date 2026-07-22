@@ -9,7 +9,7 @@
   ],
   "nameEn": "Coffee",
   "nameDe": "Kaffee",
-  "scientificName": "Coffea arabica / C. canephora",
+  "scientificName": "Coffea arabica / C. canephora.",
   "family": "Rubiaceae",
   "partsUsed": "Roasted seeds (beans)",
   "habitat": "Ethiopian highlands origin (arabica); tropical cultivation belt worldwide.",
@@ -26,7 +26,7 @@
   "activeCompoundsDe": "Koffein, Chlorogensäuren, Diterpene (Cafestol, Kahweol)",
   "preparationDe": "Geröstete und gebrühte Bohnen; Espresso und Filtermethoden.",
   "cautionsDe": "Koffein kann Schlaf, Herz und Magen belasten. Schwangerschaft: Aufnahme begrenzen.",
-  "floweringSeasonDe": "Regionabhängig in den Tropen",
+  "floweringSeasonDe": "Regionabhängig in den Tropen.",
   "historicalNotesDe": "Von äthiopischen Wäldern zur globalen Ware, die die moderne Arbeitskultur prägte.",
   "useCategoryIds": [
     "aromatic"
